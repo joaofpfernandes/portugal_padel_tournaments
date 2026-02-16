@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendário Padel 2026 - FPP</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  :root {
+    --gold: #D4AF37;
+    --gold-bg: #FFF8E1;
+    --silver: #8C92AC;
+    --silver-bg: #F0F0F5;
+    --bronze: #CD7F32;
+    --bronze-bg: #FFF3E0;
+    --promises: #7B1FA2;
+    --promises-bg: #F3E5F5;
+    --national: #C62828;
+    --national-bg: #FFEBEE;
+    --regional: #E65100;
+    --regional-bg: #FFF3E0;
+    --c10k: #1565C0;
+    --c10k-bg: #E3F2FD;
+    --c5k: #2E7D32;
+    --c5k-bg: #E8F5E9;
+    --c2k: #00838F;
+    --c2k-bg: #E0F7FA;
+    --veterans: #4E342E;
+    --veterans-bg: #EFEBE9;
+    --masters: #F57F17;
+    --masters-bg: #FFFDE7;
+    --international: #AD1457;
+    --international-bg: #FCE4EC;
+    --club: #37474F;
+    --club-bg: #ECEFF1;
+    --bg: #f5f6fa;
+    --card-bg: #ffffff;
+    --text: #1a1a2e;
+    --text-light: #6b7280;
+    --border: #e5e7eb;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: white;
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, transparent 60%);
+    animation: pulse 8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    position: relative;
+    margin-bottom: 0.3rem;
+  }
+  .header h1 span { color: var(--gold); }
+  .header p {
+    font-size: 1rem;
+    opacity: 0.7;
+    font-weight: 300;
+    position: relative;
+  }
+
+  .stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background: white;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .stat { text-align: center; }
+  .stat-num { font-size: 1.5rem; font-weight: 700; color: #1565C0; }
+  .stat-label { font-size: 0.75rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
+  .filters-section {
+    background: white;
+    border-radius: 16px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    border: 1px solid var(--border);
+  }
+  .filters-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-light);
+    margin-bottom: 0.75rem;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .filter-btn {
+    padding: 0.4rem 0.9rem;
+    border-radius: 100px;
+    border: 2px solid var(--border);
+    background: white;
+    color: var(--text);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .filter-btn:hover { border-color: #aaa; transform: translateY(-1px); }
+  .filter-btn.active { color: white; border-color: transparent; transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+  .filter-btn[data-level="all"].active { background: #1a1a2e; }
+  .filter-btn[data-level="fip-gold"].active { background: var(--gold); color: #333; }
+  .filter-btn[data-level="fip-silver"].active { background: var(--silver); }
+  .filter-btn[data-level="fip-bronze"].active { background: var(--bronze); }
+  .filter-btn[data-level="fip-promises"].active { background: var(--promises); }
+  .filter-btn[data-level="national"].active { background: var(--national); }
+  .filter-btn[data-level="regional"].active { background: var(--regional); }
+  .filter-btn[data-level="c10k"].active { background: var(--c10k); }
+  .filter-btn[data-level="c5k"].active { background: var(--c5k); }
+  .filter-btn[data-level="c2k"].active { background: var(--c2k); }
+  .filter-btn[data-level="veterans"].active { background: var(--veterans); }
+  .filter-btn[data-level="masters"].active { background: var(--masters); color: #333; }
+  .filter-btn[data-level="international"].active { background: var(--international); }
+  .filter-btn[data-level="club"].active { background: var(--club); }
+
+  .count-badge {
+    display: inline-block;
+    background: rgba(0,0,0,0.08);
+    border-radius: 100px;
+    padding: 0 0.4rem;
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+    font-weight: 600;
+  }
+  .filter-btn.active .count-badge { background: rgba(255,255,255,0.25); }
+
+  .month-section { margin-bottom: 2rem; }
+  .month-header {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #1a1a2e;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .month-header .month-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: #1a1a2e;
+    color: white;
+    padding: 0.15rem 0.6rem;
+    border-radius: 100px;
+  }
+  .month-section.hidden { display: none; }
+
+  .tournament-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.1rem;
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px;
+    height: 100%;
+  }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }
+  .card.hidden { display: none; }
+
+  .card[data-level="fip-gold"]::before { background: var(--gold); }
+  .card[data-level="fip-silver"]::before { background: var(--silver); }
+  .card[data-level="fip-bronze"]::before { background: var(--bronze); }
+  .card[data-level="fip-promises"]::before { background: var(--promises); }
+  .card[data-level="national"]::before { background: var(--national); }
+  .card[data-level="regional"]::before { background: var(--regional); }
+  .card[data-level="c10k"]::before { background: var(--c10k); }
+  .card[data-level="c5k"]::before { background: var(--c5k); }
+  .card[data-level="c2k"]::before { background: var(--c2k); }
+  .card[data-level="veterans"]::before { background: var(--veterans); }
+  .card[data-level="masters"]::before { background: var(--masters); }
+  .card[data-level="international"]::before { background: var(--international); }
+  .card[data-level="club"]::before { background: var(--club); }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; gap: 0.5rem; }
+  .card-name { font-weight: 700; font-size: 0.95rem; line-height: 1.3; flex: 1; }
+
+  .badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 6px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .badge-fip-gold { background: var(--gold-bg); color: #8B7000; }
+  .badge-fip-silver { background: var(--silver-bg); color: #4A4E69; }
+  .badge-fip-bronze { background: var(--bronze-bg); color: #8B5E20; }
+  .badge-fip-promises { background: var(--promises-bg); color: var(--promises); }
+  .badge-national { background: var(--national-bg); color: var(--national); }
+  .badge-regional { background: var(--regional-bg); color: var(--regional); }
+  .badge-c10k { background: var(--c10k-bg); color: var(--c10k); }
+  .badge-c5k { background: var(--c5k-bg); color: var(--c5k); }
+  .badge-c2k { background: var(--c2k-bg); color: var(--c2k); }
+  .badge-veterans { background: var(--veterans-bg); color: var(--veterans); }
+  .badge-masters { background: var(--masters-bg); color: #9E6D00; }
+  .badge-international { background: var(--international-bg); color: var(--international); }
+  .badge-club { background: var(--club-bg); color: var(--club); }
+
+  .card-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-light);
+  }
+  .card-detail { display: flex; align-items: center; gap: 0.3rem; }
+  .card-detail svg { width: 14px; height: 14px; flex-shrink: 0; opacity: 0.6; }
+
+  .prize {
+    display: inline-block;
+    background: #ECFDF5;
+    color: #047857;
+    padding: 0.1rem 0.45rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.78rem;
+  }
+
+  .card-cats {
+    margin-top: 0.5rem;
+    font-size: 0.72rem;
+    color: var(--text-light);
+    background: #f9fafb;
+    padding: 0.35rem 0.55rem;
+    border-radius: 6px;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-light);
+    font-size: 1.1rem;
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-light);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.5rem; }
+    .tournament-grid { grid-template-columns: 1fr; }
+    .stats-bar { gap: 1rem; }
+    .container { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Calendário <span>Padel</span> 2026</h1>
+  <p>Federação Portuguesa de Padel &mdash; Calendário Provisório</p>
+</div>
+
+<div class="stats-bar" id="statsBar">
+  <div class="stat"><div class="stat-num" id="totalCount">0</div><div class="stat-label">Torneios</div></div>
+  <div class="stat"><div class="stat-num" id="fipCount">0</div><div class="stat-label">Provas FIP</div></div>
+  <div class="stat"><div class="stat-num" id="monthsCount">11</div><div class="stat-label">Meses</div></div>
+  <div class="stat"><div class="stat-num" id="visibleCount">0</div><div class="stat-label">A mostrar</div></div>
+</div>
+
+<div class="container">
+  <div class="filters-section">
+    <div class="filters-title">Filtrar por nível</div>
+    <div class="filters" id="filterContainer"></div>
+  </div>
+
+  <div id="noResults" class="no-results">Nenhum torneio encontrado para este filtro.</div>
+  <div id="tournamentsContainer"></div>
+</div>
+
+<div class="footer">
+  Fonte: Calendário de Actividades Provisório 2026 &mdash; Federação Portuguesa de Padel
+</div>
+
+<script>
+const tournaments = [
+  // FEVEREIRO
+  {month:"Fevereiro",date:"4 a 8 Fev",name:"FIP Bronze Madeira",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Madeira",org:"Quinta do Padel"},
+  {month:"Fevereiro",date:"6 a 8 Fev",name:"II Open Jovens Dezporvinte",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Santarém",org:"Dezporvinte"},
+  {month:"Fevereiro",date:"13 a 15 Fev",name:"FIP Promises Aveiro",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Aveiro",org:"Aveiro Padel"},
+  {month:"Fevereiro",date:"20 a 22 Fev",name:"V Open Smartpath",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Cacém",org:"Padel Factory"},
+  {month:"Fevereiro",date:"20 a 22 Fev",name:"I Open Jovem Carcavelos Ténis e Padel",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Carcavelos",org:"Carcavelos Ténis e Padel"},
+
+  // MARÇO
+  {month:"Março",date:"27 Fev a 1 Mar",name:"FIP Promises Paredes",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Paredes",org:"Padel Clube IdealKorpus"},
+  {month:"Março",date:"2 a 8 Mar",name:"FIP Gold Açores",level:"fip-gold",cats:"FIP M&F",prize:"50.000€",location:"Açores - São Miguel",org:"Azores Padel Club"},
+  {month:"Março",date:"2 a 8 Mar",name:"FIP Promises Trofa",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Trofa",org:"Urban Padel Trofa"},
+  {month:"Março",date:"13 a 15 Mar",name:"Open Algarve",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Vila Real de Sto. António",org:"Salvapadel"},
+  {month:"Março",date:"13 a 15 Mar",name:"Portimão Jovem Open",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Portimão",org:"Clube Ténis e Padel de Portimão"},
+  {month:"Março",date:"13 a 15 Mar",name:"Gentlemen's & Ladies Crew by Axians",level:"veterans",cats:"VET M&F +35 a +60",prize:"3.000€",location:"Lisboa",org:"Padel Factory"},
+  {month:"Março",date:"20 a 22 Mar",name:"Urban Padel Open",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Trofa",org:"Urban Padel Trofa"},
+  {month:"Março",date:"20 a 22 Mar",name:"XII Torneio My Padel Center",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Mafra",org:"My Padel Center"},
+  {month:"Março",date:"20 a 22 Mar",name:"Masters Series Jovens",level:"masters",cats:"M&F: S12, S14, S16, S18",prize:"10.000",location:"A definir",org:"A definir"},
+  {month:"Março",date:"25 a 29 Mar",name:"FIP Silver Viseu",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Viseu",org:"New Padel Chão da Fonte"},
+  {month:"Março",date:"27 a 29 Mar",name:"Open Lemonfit Olaias",level:"c2k",cats:"",prize:"2.000",location:"Lisboa",org:"Lemonfit Olaias"},
+  {month:"Março",date:"27 a 29 Mar",name:"FIP Promises Elvas",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Elvas",org:"Europadel"},
+
+  // ABRIL
+  {month:"Abril",date:"3 a 5 Abr",name:"FIP Promises Setúbal",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Setúbal",org:"Dream Padel Center"},
+  {month:"Abril",date:"10 a 12 Abr",name:"Camp. Regional Veteranos (8 regiões)",level:"regional",cats:"VET M&F +35 a +60",prize:"10.000",location:"Várias regiões",org:"FPP"},
+  {month:"Abril",date:"10 a 12 Abr",name:"FIP Promises Oeiras",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Oeiras",org:"Oeiras Padel Academy"},
+  {month:"Abril",date:"10 a 12 Abr",name:"IX Open Rackets Pro EUL",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Lisboa",org:"Rackets Pro EUL"},
+  {month:"Abril",date:"17 a 19 Abr",name:"Camp. Regional Absolutos (8 regiões)",level:"regional",cats:"F1-F6; M1-M6",prize:"10.000",location:"Várias regiões",org:"FPP"},
+  {month:"Abril",date:"17 a 19 Abr",name:"Camp. Regional Jovens (4 regiões)",level:"regional",cats:"JOV M&F S12 a S18",prize:"10.000",location:"Várias regiões",org:"FPP"},
+  {month:"Abril",date:"21 a 26 Abr",name:"FIP Bronze Setúbal",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Setúbal",org:"Dream Padel Center"},
+  {month:"Abril",date:"24 a 26 Abr",name:"Open Top-padel Fluvial",level:"c2k",cats:"",prize:"2.000",location:"Porto",org:"Top-padel Fluvial"},
+  {month:"Abril",date:"24 a 26 Abr",name:"2º Torneio Jovens Empower Talent Launch",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Albufeira",org:"Padel4move"},
+  {month:"Abril",date:"24 a 26 Abr",name:"VIII Torneio Veteranos My Padel Center",level:"veterans",cats:"VET M&F +35 a +60",prize:"3.000€",location:"Mafra",org:"My Padel Center"},
+
+  // MAIO
+  {month:"Maio",date:"29 Abr a 3 Mai",name:"FIP Silver Leiria",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"25.000€",location:"Leiria",org:"Padel XXL"},
+  {month:"Maio",date:"4 a 10 Mai",name:"FIP Silver VRSA",level:"fip-silver",cats:"FIP M&F",prize:"18.000€",location:"Vila Real de Sto. António",org:"Padel Clube VRSA"},
+  {month:"Maio",date:"8 a 10 Mai",name:"Open Carcavelos Ténis e Padel 2026",level:"c2k",cats:"",prize:"2.000",location:"Carcavelos",org:"Carcavelos Ténis e Padel"},
+  {month:"Maio",date:"8 a 10 Mai",name:"Masters Series Jovens",level:"masters",cats:"M&F: S12, S14, S16, S18",prize:"10.000",location:"A definir",org:"A definir"},
+  {month:"Maio",date:"8 a 10 Mai",name:"Portimão Padel Veteranos",level:"veterans",cats:"VET M&F +35 a +60",prize:"7.500€",location:"Portimão",org:"Clube Ténis e Padel de Portimão"},
+  {month:"Maio",date:"15 a 17 Mai",name:"Open Indoor Padel Center",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Lisboa",org:"Indoor Padel Center"},
+  {month:"Maio",date:"15 a 17 Mai",name:"Open Altano",level:"c2k",cats:"",prize:"2.000",location:"Porto",org:"Top-padel Quinta do Fojo"},
+  {month:"Maio",date:"15 a 17 Mai",name:"FIP Promises Albufeira",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Albufeira",org:"Padel4move"},
+  {month:"Maio",date:"19 a 24 Mai",name:"FIP Silver Oeiras",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Oeiras",org:"Oeiras Padel Academy"},
+  {month:"Maio",date:"22 a 24 Mai",name:"FIP Promises Viseu",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Viseu",org:"New Padel Chão da Fonte"},
+  {month:"Maio",date:"29 a 31 Mai",name:"Camp. Nacional de Clubes Absolutos",level:"national",cats:"M&F",prize:"",location:"Lisboa",org:"FPP"},
+
+  // JUNHO
+  {month:"Junho",date:"3 a 7 Jun",name:"FIP Bronze Porto",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Porto",org:"Quinta de Monserrate"},
+  {month:"Junho",date:"5 a 7 Jun",name:"Masters Series Jovens",level:"masters",cats:"M&F: S12, S14, S16, S18",prize:"10.000",location:"A definir",org:"A definir"},
+  {month:"Junho",date:"12 a 14 Jun",name:"Open Warrior Padel Arena",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Guimarães",org:"Warrior Padel Arena"},
+  {month:"Junho",date:"12 a 14 Jun",name:"7º Open Carlsberg W Padel Country Club",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Lisboa",org:"W Padel Country Club"},
+  {month:"Junho",date:"12 a 14 Jun",name:"Camp. Nacional de Pares Mistos",level:"national",cats:"Mx1 a Mx6",prize:"",location:"Lisboa",org:"FPP"},
+  {month:"Junho",date:"12 a 14 Jun",name:"Camp. Nacional de Padel Adaptado",level:"national",cats:"",prize:"",location:"Lisboa",org:"FPP"},
+  {month:"Junho",date:"15 a 21 Jun",name:"Campeonato Europeu de Jovens",level:"international",cats:"M&F",prize:"",location:"A definir",org:"FIP"},
+  {month:"Junho",date:"16 a 21 Jun",name:"FIP Bronze São João da Madeira",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"São João da Madeira",org:"OPA São João da Madeira"},
+  {month:"Junho",date:"19 a 21 Jun",name:"I Open Padel Factory Carregado",level:"c2k",cats:"",prize:"2.000",location:"Carregado",org:"Padel Factory Carregado"},
+  {month:"Junho",date:"19 a 21 Jun",name:"Gentlemen's & Ladies Crew Vilamoura",level:"veterans",cats:"VET M&F +35 a +60",prize:"3.000€",location:"Vilamoura",org:"Vilamoura Tennis & Padel Academy"},
+  {month:"Junho",date:"26 a 28 Jun",name:"Qualifying Camp. Nacional Absoluto",level:"national",cats:"F1-F6; M1-M6",prize:"50.000",location:"Norte",org:"FPP"},
+
+  // JULHO
+  {month:"Julho",date:"1 a 5 Jul",name:"Campeonato Nacional Absoluto",level:"national",cats:"F1-F6; M1-M6",prize:"50.000",location:"Norte",org:"FPP"},
+  {month:"Julho",date:"8 a 12 Jul",name:"FIP Bronze Ericeira",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Ericeira",org:"OPA Ericeira"},
+  {month:"Julho",date:"10 a 12 Jul",name:"2º Open Clube de Padel da Paiã",level:"c2k",cats:"",prize:"2.000",location:"Paiã",org:"Clube de Padel da Paiã"},
+  {month:"Julho",date:"10 a 12 Jul",name:"Masters Series Jovens",level:"masters",cats:"M&F: S12, S14, S16, S18",prize:"10.000",location:"A definir",org:"A definir"},
+  {month:"Julho",date:"17 a 19 Jul",name:"XI Open Qta da Marinha - Rackets Pro",level:"c2k",cats:"",prize:"2.000",location:"Quinta da Marinha",org:"Rackets Pro Quinta da Marinha"},
+  {month:"Julho",date:"24 a 26 Jul",name:"FIP Silver Porto",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"25.000€",location:"Porto",org:"Top-padel"},
+  {month:"Julho",date:"24 a 26 Jul",name:"Open AP Victoria Sports & Beach",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Albufeira",org:"Padel4move / Victoria Sports & Beach"},
+  {month:"Julho",date:"24 a 26 Jul",name:"FIP Promises Lisboa",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Lisboa",org:"Padel Expo"},
+
+  // AGOSTO
+  {month:"Agosto",date:"31 Jul a 2 Ago",name:"4º Open Famalicão",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Famalicão",org:"A-Z Padel Famalicão"},
+  {month:"Agosto",date:"31 Jul a 2 Ago",name:"XVII Torneio Int. Padel - Open Eurodolar",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Vila Real de Sto. António",org:"Padel Clube VRSA"},
+  {month:"Agosto",date:"31 Jul a 2 Ago",name:"FIP Promises Carcavelos",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Carcavelos",org:"Quinta dos Lombos"},
+  {month:"Agosto",date:"5 a 9 Ago",name:"FIP Bronze Portimão",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Portimão",org:"Clube Ténis e Padel de Portimão"},
+  {month:"Agosto",date:"14 a 16 Ago",name:"Vilamoura Summer Cup",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Vilamoura",org:"Vilamoura Tennis & Padel Academy"},
+  {month:"Agosto",date:"21 a 23 Ago",name:"4º Open Padel4move",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Albufeira",org:"Padel4move"},
+  {month:"Agosto",date:"28 a 30 Ago",name:"Fase Final Regional Liga Clubes Absolutos",level:"club",cats:"M2-M6; F2-F6 (8 zonas)",prize:"",location:"Várias regiões",org:"FPP"},
+
+  // SETEMBRO
+  {month:"Setembro",date:"1 a 6 Set",name:"FIP Silver Oeiras",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Oeiras",org:"Oeiras Padel Academy"},
+  {month:"Setembro",date:"4 a 6 Set",name:"Open Empizinhos 2026",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Matosinhos",org:"PadeLovers Matosinhos"},
+  {month:"Setembro",date:"4 a 6 Set",name:"Fase Final Regional Liga Clubes Veteranos",level:"club",cats:"VET / JOV (8 zonas)",prize:"",location:"Várias regiões",org:"FPP"},
+  {month:"Setembro",date:"4 a 6 Set",name:"Masters Series Jovens",level:"masters",cats:"M&F: S12, S14, S16, S18",prize:"10.000",location:"A definir",org:"A definir"},
+  {month:"Setembro",date:"7 a 13 Set",name:"FIP Silver Caldas",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Caldas da Rainha",org:"Clube de Padel das Caldas"},
+  {month:"Setembro",date:"11 a 13 Set",name:"V Torneio Jovem My Padel Center",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"2.000",location:"Mafra",org:"My Padel Center"},
+  {month:"Setembro",date:"11 a 13 Set",name:"IX Torneio Veteranos My Padel Center",level:"veterans",cats:"VET M&F +35 a +60",prize:"2.000",location:"Mafra",org:"My Padel Center"},
+  {month:"Setembro",date:"14 a 20 Set",name:"Campeonato do Mundo de Veteranos",level:"international",cats:"M&F",prize:"",location:"A definir",org:"FIP"},
+  {month:"Setembro",date:"14 a 20 Set",name:"FIP Silver Guimarães",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Guimarães",org:"Lifepadel"},
+  {month:"Setembro",date:"18 a 20 Set",name:"FIP Promises Lisboa",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Lisboa",org:"Padel Clube Idealkorpus"},
+  {month:"Setembro",date:"25 a 27 Set",name:"FIP Silver São João da Madeira",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"São João da Madeira",org:"OPA São João da Madeira"},
+  {month:"Setembro",date:"25 a 27 Set",name:"Camp. Nacional Clubes Jovem",level:"national",cats:"M&F",prize:"",location:"Sul",org:"FPP"},
+  {month:"Setembro",date:"25 a 27 Set",name:"Camp. Nacional Clubes Veterano",level:"national",cats:"M&F",prize:"",location:"Sul",org:"FPP"},
+
+  // OUTUBRO
+  {month:"Outubro",date:"2 a 4 Out",name:"FIP Bronze Almeirim",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Almeirim",org:"AlmeirINN Padel"},
+  {month:"Outubro",date:"2 a 4 Out",name:"II Open Santo Tirso",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Santo Tirso",org:"A-Z Padel Santo Tirso"},
+  {month:"Outubro",date:"2 a 4 Out",name:"FIP Promises Caldas da Rainha",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Caldas da Rainha",org:"Clube de Padel das Caldas"},
+  {month:"Outubro",date:"9 a 11 Out",name:"Open D'Ouro Padel",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Porto",org:"D'Ouro Padel"},
+  {month:"Outubro",date:"9 a 11 Out",name:"Campeonato Nacional Jovem",level:"national",cats:"M&F: S12, S14, S16, S18",prize:"30.000",location:"Centro",org:"FPP"},
+  {month:"Outubro",date:"13 a 18 Out",name:"FIP Bronze Oeiras",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Oeiras",org:"Oeiras Padel Academy"},
+  {month:"Outubro",date:"16 a 18 Out",name:"II Open Jovem Carcavelos Ténis e Padel",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Carcavelos",org:"Carcavelos Ténis e Padel"},
+  {month:"Outubro",date:"16 a 18 Out",name:"Campeonato Nacional Veterano",level:"national",cats:"M&F: +35, +40, +45, +50, +55, +60",prize:"",location:"Lisboa",org:"FPP"},
+  {month:"Outubro",date:"23 a 25 Out",name:"5º Open Padcenter",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Odivelas",org:"Padcenter Odivelas"},
+  {month:"Outubro",date:"23 a 25 Out",name:"Guimarães Open",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Guimarães",org:"Top-padel Guimarães"},
+
+  // NOVEMBRO
+  {month:"Novembro",date:"30 Out a 1 Nov",name:"Open Your Top-padel",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Porto",org:"Your Top-padel Industrial"},
+  {month:"Novembro",date:"30 Out a 1 Nov",name:"III Open W Padel & Ténis Parque",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Barreiro",org:"W Padel Ténis & Parque"},
+  {month:"Novembro",date:"1 a 7 Nov",name:"Campeonato do Mundo de Absolutos",level:"international",cats:"M&F",prize:"",location:"A definir",org:"FIP"},
+  {month:"Novembro",date:"6 a 8 Nov",name:"II Open Dezporvinte",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Santarém",org:"Dezporvinte"},
+  {month:"Novembro",date:"6 a 8 Nov",name:"Open Caetano Auto",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Vila Nova de Gaia",org:"Quinta de Monserrate Gaia"},
+  {month:"Novembro",date:"9 a 15 Nov",name:"FIP Silver Porto",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Porto",org:"PAC - Padel Athletic Club"},
+  {month:"Novembro",date:"12 a 15 Nov",name:"Final Liga Clubes Veteranos e Jovens",level:"club",cats:"M&F",prize:"",location:"Norte",org:"FPP"},
+  {month:"Novembro",date:"19 a 22 Nov",name:"Final Liga Clubes Absolutos",level:"club",cats:"M&F",prize:"",location:"Lisboa",org:"FPP"},
+  {month:"Novembro",date:"27 a 29 Nov",name:"Masters Final Jovens",level:"masters",cats:"Jovens",prize:"",location:"Norte",org:"FPP"},
+  {month:"Novembro",date:"27 a 29 Nov",name:"Masters Final Veteranos",level:"masters",cats:"Veteranos",prize:"",location:"Lisboa",org:"FPP"},
+
+  // DEZEMBRO
+  {month:"Dezembro",date:"27 a 29 Nov",name:"Masters Final Absoluto",level:"masters",cats:"Absoluto",prize:"",location:"Norte",org:"FPP"},
+  {month:"Dezembro",date:"5 Dez",name:"Best Padel Awards 2026",level:"national",cats:"",prize:"",location:"A definir",org:"FPP"},
+];
+
+const levelLabels = {
+  "all":"Todos",
+  "fip-gold":"FIP Gold",
+  "fip-silver":"FIP Silver",
+  "fip-bronze":"FIP Bronze",
+  "fip-promises":"FIP Promises / Jovens",
+  "national":"Camp. Nacional",
+  "regional":"Camp. Regional",
+  "c10k":"Circuito 10.000",
+  "c5k":"Circuito 5.000",
+  "c2k":"Circuito 2.000",
+  "veterans":"Veteranos",
+  "masters":"Masters",
+  "international":"Internacional",
+  "club":"Liga de Clubes"
+};
+
+const badgeClass = {
+  "fip-gold":"badge-fip-gold","fip-silver":"badge-fip-silver","fip-bronze":"badge-fip-bronze",
+  "fip-promises":"badge-fip-promises","national":"badge-national","regional":"badge-regional",
+  "c10k":"badge-c10k","c5k":"badge-c5k","c2k":"badge-c2k","veterans":"badge-veterans",
+  "masters":"badge-masters","international":"badge-international","club":"badge-club"
+};
+
+const months = ["Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+
+// Count per level
+const counts = {};
+tournaments.forEach(t => { counts[t.level] = (counts[t.level] || 0) + 1; });
+
+// Build filter buttons
+const fc = document.getElementById('filterContainer');
+let allBtn = document.createElement('button');
+allBtn.className = 'filter-btn active';
+allBtn.dataset.level = 'all';
+allBtn.innerHTML = `Todos<span class="count-badge">${tournaments.length}</span>`;
+fc.appendChild(allBtn);
+
+Object.keys(levelLabels).forEach(lev => {
+  if (lev === 'all') return;
+  if (!counts[lev]) return;
+  let btn = document.createElement('button');
+  btn.className = 'filter-btn';
+  btn.dataset.level = lev;
+  btn.innerHTML = `${levelLabels[lev]}<span class="count-badge">${counts[lev]}</span>`;
+  fc.appendChild(btn);
+});
+
+// Build tournament cards
+const tc = document.getElementById('tournamentsContainer');
+const svgCalendar = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`;
+const svgPin = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
+const svgOrg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`;
+
+months.forEach(month => {
+  const monthTournaments = tournaments.filter(t => t.month === month);
+  if (!monthTournaments.length) return;
+
+  const section = document.createElement('div');
+  section.className = 'month-section';
+  section.dataset.month = month;
+  section.innerHTML = `<div class="month-header">${month}<span class="month-count">${monthTournaments.length}</span></div>`;
+
+  const grid = document.createElement('div');
+  grid.className = 'tournament-grid';
+
+  monthTournaments.forEach(t => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.level = t.level;
+    card.dataset.month = month;
+
+    let prizeHtml = t.prize ? `<span class="prize">${t.prize}</span>` : '';
+
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="card-name">${t.name}</div>
+        <span class="badge ${badgeClass[t.level]}">${levelLabels[t.level]}</span>
+      </div>
+      <div class="card-details">
+        <div class="card-detail">${svgCalendar}<span>${t.date}</span></div>
+        <div class="card-detail">${svgPin}<span>${t.location}</span></div>
+        ${prizeHtml ? `<div class="card-detail">${prizeHtml}</div>` : ''}
+      </div>
+      ${t.cats ? `<div class="card-cats"><strong>Categorias:</strong> ${t.cats}</div>` : ''}
+      ${t.org ? `<div class="card-details" style="margin-top:0.4rem"><div class="card-detail">${svgOrg}<span style="font-size:0.75rem">${t.org}</span></div></div>` : ''}
+    `;
+    grid.appendChild(card);
+  });
+
+  section.appendChild(grid);
+  tc.appendChild(section);
+});
+
+// Stats
+document.getElementById('totalCount').textContent = tournaments.length;
+document.getElementById('fipCount').textContent = tournaments.filter(t => t.level.startsWith('fip-')).length;
+document.getElementById('visibleCount').textContent = tournaments.length;
+
+// Filter logic
+let activeFilter = 'all';
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.level;
+
+    let visibleCount = 0;
+    document.querySelectorAll('.card').forEach(card => {
+      const show = activeFilter === 'all' || card.dataset.level === activeFilter;
+      card.classList.toggle('hidden', !show);
+      if (show) visibleCount++;
+    });
+
+    document.querySelectorAll('.month-section').forEach(section => {
+      const hasVisible = section.querySelectorAll('.card:not(.hidden)').length > 0;
+      section.classList.toggle('hidden', !hasVisible);
+      const countBadge = section.querySelector('.month-count');
+      if (countBadge) countBadge.textContent = section.querySelectorAll('.card:not(.hidden)').length;
+    });
+
+    document.getElementById('visibleCount').textContent = visibleCount;
+    document.getElementById('noResults').style.display = visibleCount === 0 ? 'block' : 'none';
+  });
+});
+</script>
+</body>
+</html>
