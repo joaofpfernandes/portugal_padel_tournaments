@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Calendário Padel 2026 - FPP</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
@@ -61,10 +63,8 @@
   .header::before {
     content: '';
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
     background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, transparent 60%);
     animation: pulse 8s ease-in-out infinite;
   }
@@ -73,28 +73,16 @@
     50% { transform: scale(1.1); }
   }
   .header h1 {
-    font-size: 2.2rem;
-    font-weight: 800;
-    letter-spacing: -0.5px;
-    position: relative;
-    margin-bottom: 0.3rem;
+    font-size: 2.2rem; font-weight: 800;
+    letter-spacing: -0.5px; position: relative; margin-bottom: 0.3rem;
   }
   .header h1 span { color: var(--gold); }
-  .header p {
-    font-size: 1rem;
-    opacity: 0.7;
-    font-weight: 300;
-    position: relative;
-  }
+  .header p { font-size: 1rem; opacity: 0.7; font-weight: 300; position: relative; }
 
   .stats-bar {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding: 1rem 2rem;
-    background: white;
-    border-bottom: 1px solid var(--border);
-    flex-wrap: wrap;
+    display: flex; justify-content: center; gap: 2rem;
+    padding: 1rem 2rem; background: white;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
   }
   .stat { text-align: center; }
   .stat-num { font-size: 1.5rem; font-weight: 700; color: #1565C0; }
@@ -102,42 +90,66 @@
 
   .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
 
-  .filters-section {
+  /* --- Map --- */
+  .map-section {
     background: white;
     border-radius: 16px;
-    padding: 1.25rem;
     margin-bottom: 1.5rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.06);
     border: 1px solid var(--border);
+    overflow: hidden;
   }
+  .map-section-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); cursor: pointer;
+    user-select: none;
+  }
+  .map-section-header:hover { background: #fafafa; }
+  .map-section-title {
+    font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 1px; color: var(--text-light);
+  }
+  .map-toggle-icon { font-size: 1.2rem; color: var(--text-light); transition: transform 0.3s; }
+  .map-toggle-icon.collapsed { transform: rotate(180deg); }
+  #mapContainer { height: 480px; transition: height 0.3s; }
+  #mapContainer.collapsed { height: 0; }
+
+  /* --- Filters --- */
+  .filters-section {
+    background: white; border-radius: 16px;
+    padding: 1.25rem; margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    border: 1px solid var(--border);
+  }
+  .filters-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
   .filters-title {
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: var(--text-light);
-    margin-bottom: 0.75rem;
+    font-size: 0.75rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 1px; color: var(--text-light);
   }
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+  .filters-clear {
+    font-size: 0.75rem; color: #1565C0; cursor: pointer;
+    font-weight: 500; border: none; background: none;
+    font-family: inherit; display: none; padding: 0.2rem 0.5rem;
+    border-radius: 4px;
   }
+  .filters-clear:hover { background: var(--c10k-bg); }
+  .filters-clear.visible { display: inline-block; }
+  .filters-hint {
+    font-size: 0.7rem; color: var(--text-light); margin-bottom: 0.6rem;
+    font-style: italic; opacity: 0.7;
+  }
+  .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .filter-btn {
-    padding: 0.4rem 0.9rem;
-    border-radius: 100px;
-    border: 2px solid var(--border);
-    background: white;
-    color: var(--text);
-    font-size: 0.8rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-family: inherit;
-    white-space: nowrap;
+    padding: 0.4rem 0.9rem; border-radius: 100px;
+    border: 2px solid var(--border); background: white;
+    color: var(--text); font-size: 0.8rem; font-weight: 500;
+    cursor: pointer; transition: all 0.2s; font-family: inherit; white-space: nowrap;
   }
   .filter-btn:hover { border-color: #aaa; transform: translateY(-1px); }
-  .filter-btn.active { color: white; border-color: transparent; transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+  .filter-btn.active {
+    color: white; border-color: transparent;
+    transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
   .filter-btn[data-level="all"].active { background: #1a1a2e; }
   .filter-btn[data-level="fip-gold"].active { background: var(--gold); color: #333; }
   .filter-btn[data-level="fip-silver"].active { background: var(--silver); }
@@ -154,34 +166,23 @@
   .filter-btn[data-level="club"].active { background: var(--club); }
 
   .count-badge {
-    display: inline-block;
-    background: rgba(0,0,0,0.08);
-    border-radius: 100px;
-    padding: 0 0.4rem;
-    font-size: 0.7rem;
-    margin-left: 0.3rem;
-    font-weight: 600;
+    display: inline-block; background: rgba(0,0,0,0.08);
+    border-radius: 100px; padding: 0 0.4rem;
+    font-size: 0.7rem; margin-left: 0.3rem; font-weight: 600;
   }
   .filter-btn.active .count-badge { background: rgba(255,255,255,0.25); }
 
+  /* --- Tournaments --- */
   .month-section { margin-bottom: 2rem; }
   .month-header {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid #1a1a2e;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;
+    padding-bottom: 0.5rem; border-bottom: 3px solid #1a1a2e;
+    display: flex; align-items: center; gap: 0.5rem;
   }
   .month-header .month-count {
-    font-size: 0.75rem;
-    font-weight: 600;
-    background: #1a1a2e;
-    color: white;
-    padding: 0.15rem 0.6rem;
-    border-radius: 100px;
+    font-size: 0.75rem; font-weight: 600;
+    background: #1a1a2e; color: white;
+    padding: 0.15rem 0.6rem; border-radius: 100px;
   }
   .month-section.hidden { display: none; }
 
@@ -192,20 +193,13 @@
   }
 
   .card {
-    background: var(--card-bg);
-    border-radius: 12px;
-    padding: 1.1rem;
-    border: 1px solid var(--border);
-    transition: all 0.2s;
-    position: relative;
-    overflow: hidden;
+    background: var(--card-bg); border-radius: 12px;
+    padding: 1.1rem; border: 1px solid var(--border);
+    transition: all 0.2s; position: relative; overflow: hidden;
   }
   .card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0;
-    width: 4px;
-    height: 100%;
+    content: ''; position: absolute;
+    top: 0; left: 0; width: 4px; height: 100%;
   }
   .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }
   .card.hidden { display: none; }
@@ -228,15 +222,10 @@
   .card-name { font-weight: 700; font-size: 0.95rem; line-height: 1.3; flex: 1; }
 
   .badge {
-    display: inline-block;
-    padding: 0.15rem 0.55rem;
-    border-radius: 6px;
-    font-size: 0.65rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-    flex-shrink: 0;
+    display: inline-block; padding: 0.15rem 0.55rem;
+    border-radius: 6px; font-size: 0.65rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    white-space: nowrap; flex-shrink: 0;
   }
   .badge-fip-gold { background: var(--gold-bg); color: #8B7000; }
   .badge-fip-silver { background: var(--silver-bg); color: #4A4E69; }
@@ -252,57 +241,50 @@
   .badge-international { background: var(--international-bg); color: var(--international); }
   .badge-club { background: var(--club-bg); color: var(--club); }
 
-  .card-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    font-size: 0.8rem;
-    color: var(--text-light);
-  }
+  .card-details { display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.8rem; color: var(--text-light); }
   .card-detail { display: flex; align-items: center; gap: 0.3rem; }
   .card-detail svg { width: 14px; height: 14px; flex-shrink: 0; opacity: 0.6; }
 
   .prize {
-    display: inline-block;
-    background: #ECFDF5;
-    color: #047857;
-    padding: 0.1rem 0.45rem;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 0.78rem;
+    display: inline-block; background: #ECFDF5; color: #047857;
+    padding: 0.1rem 0.45rem; border-radius: 4px;
+    font-weight: 600; font-size: 0.78rem;
   }
-
   .card-cats {
-    margin-top: 0.5rem;
-    font-size: 0.72rem;
-    color: var(--text-light);
-    background: #f9fafb;
-    padding: 0.35rem 0.55rem;
-    border-radius: 6px;
+    margin-top: 0.5rem; font-size: 0.72rem; color: var(--text-light);
+    background: #f9fafb; padding: 0.35rem 0.55rem; border-radius: 6px;
   }
 
   .no-results {
-    text-align: center;
-    padding: 3rem;
-    color: var(--text-light);
-    font-size: 1.1rem;
-    display: none;
+    text-align: center; padding: 3rem;
+    color: var(--text-light); font-size: 1.1rem; display: none;
   }
 
   .footer {
-    text-align: center;
-    padding: 2rem;
-    color: var(--text-light);
-    font-size: 0.8rem;
-    border-top: 1px solid var(--border);
-    margin-top: 2rem;
+    text-align: center; padding: 2rem; color: var(--text-light);
+    font-size: 0.8rem; border-top: 1px solid var(--border); margin-top: 2rem;
   }
+
+  /* --- Leaflet popup --- */
+  .popup-tournament { margin-bottom: 0.6rem; padding-bottom: 0.6rem; border-bottom: 1px solid #eee; }
+  .popup-tournament:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+  .popup-name { font-weight: 700; font-size: 0.85rem; margin-bottom: 0.2rem; color: #1a1a2e; }
+  .popup-badge {
+    display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px;
+    font-size: 0.6rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.3px; margin-bottom: 0.25rem;
+  }
+  .popup-detail { font-size: 0.75rem; color: #6b7280; line-height: 1.4; }
+  .popup-prize { color: #047857; font-weight: 600; }
+  .popup-scroll { max-height: 280px; overflow-y: auto; }
+  .leaflet-popup-content { min-width: 240px; max-width: 300px; }
 
   @media (max-width: 600px) {
     .header h1 { font-size: 1.5rem; }
     .tournament-grid { grid-template-columns: 1fr; }
     .stats-bar { gap: 1rem; }
     .container { padding: 1rem; }
+    #mapContainer { height: 350px; }
   }
 </style>
 </head>
@@ -322,8 +304,20 @@
 
 <div class="container">
   <div class="filters-section">
-    <div class="filters-title">Filtrar por nível</div>
+    <div class="filters-header">
+      <div class="filters-title">Filtrar por nível</div>
+      <button class="filters-clear" id="clearFilters">Limpar filtros</button>
+    </div>
+    <div class="filters-hint">Clica em vários filtros para combinar</div>
     <div class="filters" id="filterContainer"></div>
+  </div>
+
+  <div class="map-section">
+    <div class="map-section-header" id="mapToggle">
+      <span class="map-section-title">Mapa de Torneios</span>
+      <span class="map-toggle-icon" id="mapToggleIcon">&#9650;</span>
+    </div>
+    <div id="mapContainer"></div>
   </div>
 
   <div id="noResults" class="no-results">Nenhum torneio encontrado para este filtro.</div>
@@ -335,6 +329,54 @@
 </div>
 
 <script>
+// --- Coordinates lookup ---
+const coords = {
+  "Madeira":[32.6669,-16.9241],
+  "Santarém":[39.2369,-8.6868],
+  "Aveiro":[40.6405,-8.6538],
+  "Cacém":[38.7668,-9.2416],
+  "Carcavelos":[38.6831,-9.3356],
+  "Paredes":[41.2053,-8.3314],
+  "Açores - São Miguel":[37.7833,-25.5833],
+  "Trofa":[41.3389,-8.5597],
+  "Vila Real de Sto. António":[37.1944,-7.4147],
+  "Portimão":[37.1367,-8.5376],
+  "Lisboa":[38.7223,-9.1393],
+  "Mafra":[38.9378,-9.3265],
+  "Viseu":[40.6610,-7.9097],
+  "Elvas":[38.8810,-7.1629],
+  "Setúbal":[38.5244,-8.8882],
+  "Oeiras":[38.6969,-9.3147],
+  "Porto":[41.1579,-8.6291],
+  "Albufeira":[37.0889,-8.2500],
+  "Leiria":[39.7437,-8.8071],
+  "Guimarães":[41.4425,-8.2918],
+  "Carregado":[39.0225,-8.9608],
+  "Vilamoura":[37.0769,-8.1137],
+  "Ericeira":[38.9625,-9.4156],
+  "Paiã":[38.7833,-9.2167],
+  "Quinta da Marinha":[38.6989,-9.4547],
+  "Famalicão":[41.4089,-8.5197],
+  "Matosinhos":[41.1844,-8.6947],
+  "Caldas da Rainha":[39.4036,-9.1372],
+  "São João da Madeira":[40.9007,-8.4907],
+  "Almeirim":[39.2106,-8.6272],
+  "Santo Tirso":[41.3437,-8.4775],
+  "Odivelas":[38.7939,-9.1853],
+  "Vila Nova de Gaia":[41.1239,-8.6118],
+  "Barreiro":[38.6634,-9.0726],
+  "Norte":[41.15,-8.63],
+  "Centro":[40.2033,-8.4103],
+  "Sul":[37.02,-7.93],
+};
+
+const levelColors = {
+  "fip-gold":"#D4AF37","fip-silver":"#8C92AC","fip-bronze":"#CD7F32",
+  "fip-promises":"#7B1FA2","national":"#C62828","regional":"#E65100",
+  "c10k":"#1565C0","c5k":"#2E7D32","c2k":"#00838F","veterans":"#4E342E",
+  "masters":"#F57F17","international":"#AD1457","club":"#37474F"
+};
+
 const tournaments = [
   // FEVEREIRO
   {month:"Fevereiro",date:"4 a 8 Fev",name:"FIP Bronze Madeira",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Madeira",org:"Quinta do Padel"},
@@ -342,7 +384,6 @@ const tournaments = [
   {month:"Fevereiro",date:"13 a 15 Fev",name:"FIP Promises Aveiro",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Aveiro",org:"Aveiro Padel"},
   {month:"Fevereiro",date:"20 a 22 Fev",name:"V Open Smartpath",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Cacém",org:"Padel Factory"},
   {month:"Fevereiro",date:"20 a 22 Fev",name:"I Open Jovem Carcavelos Ténis e Padel",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Carcavelos",org:"Carcavelos Ténis e Padel"},
-
   // MARÇO
   {month:"Março",date:"27 Fev a 1 Mar",name:"FIP Promises Paredes",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Paredes",org:"Padel Clube IdealKorpus"},
   {month:"Março",date:"2 a 8 Mar",name:"FIP Gold Açores",level:"fip-gold",cats:"FIP M&F",prize:"50.000€",location:"Açores - São Miguel",org:"Azores Padel Club"},
@@ -356,7 +397,6 @@ const tournaments = [
   {month:"Março",date:"25 a 29 Mar",name:"FIP Silver Viseu",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Viseu",org:"New Padel Chão da Fonte"},
   {month:"Março",date:"27 a 29 Mar",name:"Open Lemonfit Olaias",level:"c2k",cats:"",prize:"2.000",location:"Lisboa",org:"Lemonfit Olaias"},
   {month:"Março",date:"27 a 29 Mar",name:"FIP Promises Elvas",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Elvas",org:"Europadel"},
-
   // ABRIL
   {month:"Abril",date:"3 a 5 Abr",name:"FIP Promises Setúbal",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Setúbal",org:"Dream Padel Center"},
   {month:"Abril",date:"10 a 12 Abr",name:"Camp. Regional Veteranos (8 regiões)",level:"regional",cats:"VET M&F +35 a +60",prize:"10.000",location:"Várias regiões",org:"FPP"},
@@ -368,7 +408,6 @@ const tournaments = [
   {month:"Abril",date:"24 a 26 Abr",name:"Open Top-padel Fluvial",level:"c2k",cats:"",prize:"2.000",location:"Porto",org:"Top-padel Fluvial"},
   {month:"Abril",date:"24 a 26 Abr",name:"2º Torneio Jovens Empower Talent Launch",level:"fip-promises",cats:"M&F: S12, S14, S16, S18",prize:"5.000",location:"Albufeira",org:"Padel4move"},
   {month:"Abril",date:"24 a 26 Abr",name:"VIII Torneio Veteranos My Padel Center",level:"veterans",cats:"VET M&F +35 a +60",prize:"3.000€",location:"Mafra",org:"My Padel Center"},
-
   // MAIO
   {month:"Maio",date:"29 Abr a 3 Mai",name:"FIP Silver Leiria",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"25.000€",location:"Leiria",org:"Padel XXL"},
   {month:"Maio",date:"4 a 10 Mai",name:"FIP Silver VRSA",level:"fip-silver",cats:"FIP M&F",prize:"18.000€",location:"Vila Real de Sto. António",org:"Padel Clube VRSA"},
@@ -381,7 +420,6 @@ const tournaments = [
   {month:"Maio",date:"19 a 24 Mai",name:"FIP Silver Oeiras",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Oeiras",org:"Oeiras Padel Academy"},
   {month:"Maio",date:"22 a 24 Mai",name:"FIP Promises Viseu",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Viseu",org:"New Padel Chão da Fonte"},
   {month:"Maio",date:"29 a 31 Mai",name:"Camp. Nacional de Clubes Absolutos",level:"national",cats:"M&F",prize:"",location:"Lisboa",org:"FPP"},
-
   // JUNHO
   {month:"Junho",date:"3 a 7 Jun",name:"FIP Bronze Porto",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Porto",org:"Quinta de Monserrate"},
   {month:"Junho",date:"5 a 7 Jun",name:"Masters Series Jovens",level:"masters",cats:"M&F: S12, S14, S16, S18",prize:"10.000",location:"A definir",org:"A definir"},
@@ -394,7 +432,6 @@ const tournaments = [
   {month:"Junho",date:"19 a 21 Jun",name:"I Open Padel Factory Carregado",level:"c2k",cats:"",prize:"2.000",location:"Carregado",org:"Padel Factory Carregado"},
   {month:"Junho",date:"19 a 21 Jun",name:"Gentlemen's & Ladies Crew Vilamoura",level:"veterans",cats:"VET M&F +35 a +60",prize:"3.000€",location:"Vilamoura",org:"Vilamoura Tennis & Padel Academy"},
   {month:"Junho",date:"26 a 28 Jun",name:"Qualifying Camp. Nacional Absoluto",level:"national",cats:"F1-F6; M1-M6",prize:"50.000",location:"Norte",org:"FPP"},
-
   // JULHO
   {month:"Julho",date:"1 a 5 Jul",name:"Campeonato Nacional Absoluto",level:"national",cats:"F1-F6; M1-M6",prize:"50.000",location:"Norte",org:"FPP"},
   {month:"Julho",date:"8 a 12 Jul",name:"FIP Bronze Ericeira",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Ericeira",org:"OPA Ericeira"},
@@ -404,7 +441,6 @@ const tournaments = [
   {month:"Julho",date:"24 a 26 Jul",name:"FIP Silver Porto",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"25.000€",location:"Porto",org:"Top-padel"},
   {month:"Julho",date:"24 a 26 Jul",name:"Open AP Victoria Sports & Beach",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Albufeira",org:"Padel4move / Victoria Sports & Beach"},
   {month:"Julho",date:"24 a 26 Jul",name:"FIP Promises Lisboa",level:"fip-promises",cats:"M&F Continental",prize:"",location:"Lisboa",org:"Padel Expo"},
-
   // AGOSTO
   {month:"Agosto",date:"31 Jul a 2 Ago",name:"4º Open Famalicão",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Famalicão",org:"A-Z Padel Famalicão"},
   {month:"Agosto",date:"31 Jul a 2 Ago",name:"XVII Torneio Int. Padel - Open Eurodolar",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Vila Real de Sto. António",org:"Padel Clube VRSA"},
@@ -413,7 +449,6 @@ const tournaments = [
   {month:"Agosto",date:"14 a 16 Ago",name:"Vilamoura Summer Cup",level:"c10k",cats:"F1-F6; M1-M6",prize:"10.000€",location:"Vilamoura",org:"Vilamoura Tennis & Padel Academy"},
   {month:"Agosto",date:"21 a 23 Ago",name:"4º Open Padel4move",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Albufeira",org:"Padel4move"},
   {month:"Agosto",date:"28 a 30 Ago",name:"Fase Final Regional Liga Clubes Absolutos",level:"club",cats:"M2-M6; F2-F6 (8 zonas)",prize:"",location:"Várias regiões",org:"FPP"},
-
   // SETEMBRO
   {month:"Setembro",date:"1 a 6 Set",name:"FIP Silver Oeiras",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"Oeiras",org:"Oeiras Padel Academy"},
   {month:"Setembro",date:"4 a 6 Set",name:"Open Empizinhos 2026",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Matosinhos",org:"PadeLovers Matosinhos"},
@@ -428,7 +463,6 @@ const tournaments = [
   {month:"Setembro",date:"25 a 27 Set",name:"FIP Silver São João da Madeira",level:"fip-silver",cats:"F2-F6; M2-M6 / FIP M&F",prize:"18.000€",location:"São João da Madeira",org:"OPA São João da Madeira"},
   {month:"Setembro",date:"25 a 27 Set",name:"Camp. Nacional Clubes Jovem",level:"national",cats:"M&F",prize:"",location:"Sul",org:"FPP"},
   {month:"Setembro",date:"25 a 27 Set",name:"Camp. Nacional Clubes Veterano",level:"national",cats:"M&F",prize:"",location:"Sul",org:"FPP"},
-
   // OUTUBRO
   {month:"Outubro",date:"2 a 4 Out",name:"FIP Bronze Almeirim",level:"fip-bronze",cats:"F2-F6; M2-M6 / FIP M&F",prize:"10.000€",location:"Almeirim",org:"AlmeirINN Padel"},
   {month:"Outubro",date:"2 a 4 Out",name:"II Open Santo Tirso",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Santo Tirso",org:"A-Z Padel Santo Tirso"},
@@ -440,7 +474,6 @@ const tournaments = [
   {month:"Outubro",date:"16 a 18 Out",name:"Campeonato Nacional Veterano",level:"national",cats:"M&F: +35, +40, +45, +50, +55, +60",prize:"",location:"Lisboa",org:"FPP"},
   {month:"Outubro",date:"23 a 25 Out",name:"5º Open Padcenter",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Odivelas",org:"Padcenter Odivelas"},
   {month:"Outubro",date:"23 a 25 Out",name:"Guimarães Open",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Guimarães",org:"Top-padel Guimarães"},
-
   // NOVEMBRO
   {month:"Novembro",date:"30 Out a 1 Nov",name:"Open Your Top-padel",level:"c5k",cats:"F1-F6; M1-M6",prize:"5.000€",location:"Porto",org:"Your Top-padel Industrial"},
   {month:"Novembro",date:"30 Out a 1 Nov",name:"III Open W Padel & Ténis Parque",level:"c2k",cats:"F1-F6; M1-M6",prize:"2.000",location:"Barreiro",org:"W Padel Ténis & Parque"},
@@ -452,86 +485,69 @@ const tournaments = [
   {month:"Novembro",date:"19 a 22 Nov",name:"Final Liga Clubes Absolutos",level:"club",cats:"M&F",prize:"",location:"Lisboa",org:"FPP"},
   {month:"Novembro",date:"27 a 29 Nov",name:"Masters Final Jovens",level:"masters",cats:"Jovens",prize:"",location:"Norte",org:"FPP"},
   {month:"Novembro",date:"27 a 29 Nov",name:"Masters Final Veteranos",level:"masters",cats:"Veteranos",prize:"",location:"Lisboa",org:"FPP"},
-
   // DEZEMBRO
   {month:"Dezembro",date:"27 a 29 Nov",name:"Masters Final Absoluto",level:"masters",cats:"Absoluto",prize:"",location:"Norte",org:"FPP"},
   {month:"Dezembro",date:"5 Dez",name:"Best Padel Awards 2026",level:"national",cats:"",prize:"",location:"A definir",org:"FPP"},
 ];
 
 const levelLabels = {
-  "all":"Todos",
-  "fip-gold":"FIP Gold",
-  "fip-silver":"FIP Silver",
-  "fip-bronze":"FIP Bronze",
-  "fip-promises":"FIP Promises / Jovens",
-  "national":"Camp. Nacional",
-  "regional":"Camp. Regional",
-  "c10k":"Circuito 10.000",
-  "c5k":"Circuito 5.000",
-  "c2k":"Circuito 2.000",
-  "veterans":"Veteranos",
-  "masters":"Masters",
-  "international":"Internacional",
-  "club":"Liga de Clubes"
+  "all":"Todos","fip-gold":"FIP Gold","fip-silver":"FIP Silver","fip-bronze":"FIP Bronze",
+  "fip-promises":"FIP Promises / Jovens","national":"Camp. Nacional","regional":"Camp. Regional",
+  "c10k":"Circuito 10.000","c5k":"Circuito 5.000","c2k":"Circuito 2.000",
+  "veterans":"Veteranos","masters":"Masters","international":"Internacional","club":"Liga de Clubes"
 };
-
 const badgeClass = {
   "fip-gold":"badge-fip-gold","fip-silver":"badge-fip-silver","fip-bronze":"badge-fip-bronze",
   "fip-promises":"badge-fip-promises","national":"badge-national","regional":"badge-regional",
   "c10k":"badge-c10k","c5k":"badge-c5k","c2k":"badge-c2k","veterans":"badge-veterans",
   "masters":"badge-masters","international":"badge-international","club":"badge-club"
 };
-
 const months = ["Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
 
-// Count per level
+// --- Count per level ---
 const counts = {};
 tournaments.forEach(t => { counts[t.level] = (counts[t.level] || 0) + 1; });
 
-// Build filter buttons
+// --- Build filter buttons ---
 const fc = document.getElementById('filterContainer');
-let allBtn = document.createElement('button');
+const allBtn = document.createElement('button');
 allBtn.className = 'filter-btn active';
 allBtn.dataset.level = 'all';
 allBtn.innerHTML = `Todos<span class="count-badge">${tournaments.length}</span>`;
 fc.appendChild(allBtn);
 
 Object.keys(levelLabels).forEach(lev => {
-  if (lev === 'all') return;
-  if (!counts[lev]) return;
-  let btn = document.createElement('button');
+  if (lev === 'all' || !counts[lev]) return;
+  const btn = document.createElement('button');
   btn.className = 'filter-btn';
   btn.dataset.level = lev;
   btn.innerHTML = `${levelLabels[lev]}<span class="count-badge">${counts[lev]}</span>`;
   fc.appendChild(btn);
 });
 
-// Build tournament cards
-const tc = document.getElementById('tournamentsContainer');
+// --- SVGs ---
 const svgCalendar = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`;
 const svgPin = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
 const svgOrg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`;
 
+// --- Build tournament cards ---
+const tc = document.getElementById('tournamentsContainer');
 months.forEach(month => {
-  const monthTournaments = tournaments.filter(t => t.month === month);
-  if (!monthTournaments.length) return;
-
+  const mt = tournaments.filter(t => t.month === month);
+  if (!mt.length) return;
   const section = document.createElement('div');
   section.className = 'month-section';
   section.dataset.month = month;
-  section.innerHTML = `<div class="month-header">${month}<span class="month-count">${monthTournaments.length}</span></div>`;
-
+  section.innerHTML = `<div class="month-header">${month}<span class="month-count">${mt.length}</span></div>`;
   const grid = document.createElement('div');
   grid.className = 'tournament-grid';
 
-  monthTournaments.forEach(t => {
+  mt.forEach(t => {
     const card = document.createElement('div');
     card.className = 'card';
     card.dataset.level = t.level;
     card.dataset.month = month;
-
-    let prizeHtml = t.prize ? `<span class="prize">${t.prize}</span>` : '';
-
+    const prizeHtml = t.prize ? `<span class="prize">${t.prize}</span>` : '';
     card.innerHTML = `
       <div class="card-top">
         <div class="card-name">${t.name}</div>
@@ -547,41 +563,163 @@ months.forEach(month => {
     `;
     grid.appendChild(card);
   });
-
   section.appendChild(grid);
   tc.appendChild(section);
 });
 
-// Stats
+// --- Stats ---
 document.getElementById('totalCount').textContent = tournaments.length;
 document.getElementById('fipCount').textContent = tournaments.filter(t => t.level.startsWith('fip-')).length;
 document.getElementById('visibleCount').textContent = tournaments.length;
 
-// Filter logic
-let activeFilter = 'all';
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    activeFilter = btn.dataset.level;
+// ==========================================
+//  MAP (Leaflet + OpenStreetMap)
+// ==========================================
+const map = L.map('mapContainer', { scrollWheelZoom: true }).setView([39.5, -8.0], 7);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors',
+  maxZoom: 18
+}).addTo(map);
 
-    let visibleCount = 0;
-    document.querySelectorAll('.card').forEach(card => {
-      const show = activeFilter === 'all' || card.dataset.level === activeFilter;
-      card.classList.toggle('hidden', !show);
-      if (show) visibleCount++;
-    });
-
-    document.querySelectorAll('.month-section').forEach(section => {
-      const hasVisible = section.querySelectorAll('.card:not(.hidden)').length > 0;
-      section.classList.toggle('hidden', !hasVisible);
-      const countBadge = section.querySelector('.month-count');
-      if (countBadge) countBadge.textContent = section.querySelectorAll('.card:not(.hidden)').length;
-    });
-
-    document.getElementById('visibleCount').textContent = visibleCount;
-    document.getElementById('noResults').style.display = visibleCount === 0 ? 'block' : 'none';
+// Custom colored marker using SVG
+function createMarkerIcon(color) {
+  return L.divIcon({
+    className: '',
+    html: `<svg width="28" height="40" viewBox="0 0 28 40" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 0C6.268 0 0 6.268 0 14c0 10.5 14 26 14 26s14-15.5 14-26C28 6.268 21.732 0 14 0z" fill="${color}" stroke="#fff" stroke-width="2"/>
+      <circle cx="14" cy="14" r="6" fill="#fff" opacity="0.9"/>
+    </svg>`,
+    iconSize: [28, 40],
+    iconAnchor: [14, 40],
+    popupAnchor: [0, -36]
   });
+}
+
+// Group tournaments by location
+const locationGroups = {};
+tournaments.forEach(t => {
+  const c = coords[t.location];
+  if (!c) return;
+  const key = t.location;
+  if (!locationGroups[key]) locationGroups[key] = { coords: c, tournaments: [] };
+  locationGroups[key].tournaments.push(t);
+});
+
+// Create markers
+const allMarkers = [];
+Object.entries(locationGroups).forEach(([locName, group]) => {
+  // Determine the "top" level color for this location (highest tier tournament)
+  const tierOrder = ["fip-gold","fip-silver","fip-bronze","international","national","regional","c10k","c5k","c2k","veterans","masters","fip-promises","club"];
+  let bestTier = "club";
+  group.tournaments.forEach(t => {
+    if (tierOrder.indexOf(t.level) < tierOrder.indexOf(bestTier)) bestTier = t.level;
+  });
+  const color = levelColors[bestTier] || '#1565C0';
+
+  const marker = L.marker(group.coords, { icon: createMarkerIcon(color) });
+
+  // Build popup
+  let popupHtml = `<div style="font-family:Inter,-apple-system,sans-serif"><strong style="font-size:1rem;display:block;margin-bottom:0.5rem;color:#1a1a2e">${locName}</strong><div class="popup-scroll">`;
+  group.tournaments.forEach(t => {
+    const bc = badgeClass[t.level];
+    const bgMap = {"badge-fip-gold":"#FFF8E1","badge-fip-silver":"#F0F0F5","badge-fip-bronze":"#FFF3E0","badge-fip-promises":"#F3E5F5","badge-national":"#FFEBEE","badge-regional":"#FFF3E0","badge-c10k":"#E3F2FD","badge-c5k":"#E8F5E9","badge-c2k":"#E0F7FA","badge-veterans":"#EFEBE9","badge-masters":"#FFFDE7","badge-international":"#FCE4EC","badge-club":"#ECEFF1"};
+    const colMap = {"badge-fip-gold":"#8B7000","badge-fip-silver":"#4A4E69","badge-fip-bronze":"#8B5E20","badge-fip-promises":"#7B1FA2","badge-national":"#C62828","badge-regional":"#E65100","badge-c10k":"#1565C0","badge-c5k":"#2E7D32","badge-c2k":"#00838F","badge-veterans":"#4E342E","badge-masters":"#9E6D00","badge-international":"#AD1457","badge-club":"#37474F"};
+    popupHtml += `<div class="popup-tournament">
+      <div class="popup-name">${t.name}</div>
+      <span class="popup-badge" style="background:${bgMap[bc]};color:${colMap[bc]}">${levelLabels[t.level]}</span>
+      <div class="popup-detail">${t.date}${t.prize ? ` &mdash; <span class="popup-prize">${t.prize}</span>` : ''}</div>
+      ${t.cats ? `<div class="popup-detail" style="font-size:0.68rem;opacity:0.8">${t.cats}</div>` : ''}
+      ${t.org ? `<div class="popup-detail" style="font-size:0.68rem;opacity:0.8">${t.org}</div>` : ''}
+    </div>`;
+  });
+  popupHtml += '</div></div>';
+
+  marker.bindPopup(popupHtml, { maxWidth: 300, maxHeight: 320 });
+  marker._tournamentLevels = group.tournaments.map(t => t.level);
+  marker._locationName = locName;
+  marker.addTo(map);
+  allMarkers.push(marker);
+});
+
+// --- Map toggle ---
+const mapContainer = document.getElementById('mapContainer');
+const mapToggleIcon = document.getElementById('mapToggleIcon');
+document.getElementById('mapToggle').addEventListener('click', () => {
+  mapContainer.classList.toggle('collapsed');
+  mapToggleIcon.classList.toggle('collapsed');
+  setTimeout(() => map.invalidateSize(), 350);
+});
+
+// ==========================================
+//  MULTI-SELECT FILTER LOGIC
+// ==========================================
+let activeFilters = new Set();
+const clearBtn = document.getElementById('clearFilters');
+
+function applyFilters() {
+  const isAll = activeFilters.size === 0;
+
+  // Update button states
+  allBtn.classList.toggle('active', isAll);
+  document.querySelectorAll('.filter-btn:not([data-level="all"])').forEach(btn => {
+    btn.classList.toggle('active', activeFilters.has(btn.dataset.level));
+  });
+  clearBtn.classList.toggle('visible', !isAll);
+
+  // Filter cards
+  let visibleCount = 0;
+  document.querySelectorAll('.card').forEach(card => {
+    const show = isAll || activeFilters.has(card.dataset.level);
+    card.classList.toggle('hidden', !show);
+    if (show) visibleCount++;
+  });
+
+  // Update month sections
+  document.querySelectorAll('.month-section').forEach(section => {
+    const visible = section.querySelectorAll('.card:not(.hidden)').length;
+    section.classList.toggle('hidden', visible === 0);
+    const badge = section.querySelector('.month-count');
+    if (badge) badge.textContent = visible;
+  });
+
+  document.getElementById('visibleCount').textContent = visibleCount;
+  document.getElementById('noResults').style.display = visibleCount === 0 ? 'block' : 'none';
+
+  // Update map markers
+  allMarkers.forEach(marker => {
+    if (isAll) {
+      if (!map.hasLayer(marker)) marker.addTo(map);
+    } else {
+      const hasMatch = marker._tournamentLevels.some(lev => activeFilters.has(lev));
+      if (hasMatch && !map.hasLayer(marker)) marker.addTo(map);
+      if (!hasMatch && map.hasLayer(marker)) map.removeLayer(marker);
+    }
+  });
+}
+
+// "Todos" button
+allBtn.addEventListener('click', () => {
+  activeFilters.clear();
+  applyFilters();
+});
+
+// Level buttons - toggle on/off
+document.querySelectorAll('.filter-btn:not([data-level="all"])').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const level = btn.dataset.level;
+    if (activeFilters.has(level)) {
+      activeFilters.delete(level);
+    } else {
+      activeFilters.add(level);
+    }
+    applyFilters();
+  });
+});
+
+// Clear button
+clearBtn.addEventListener('click', () => {
+  activeFilters.clear();
+  applyFilters();
 });
 </script>
 </body>
