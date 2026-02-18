@@ -151,6 +151,9 @@
     transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   }
   .filter-btn[data-level="all"].active { background: #1a1a2e; }
+  .filter-btn[data-level="absolutos"].active { background: #1565C0; }
+  .filter-btn[data-level="veteranos"].active { background: #4E342E; }
+  .filter-btn[data-level="jovens"].active { background: #7B1FA2; }
   .filter-btn[data-level="fip-gold"].active { background: var(--gold); color: #333; }
   .filter-btn[data-level="fip-silver"].active { background: var(--silver); }
   .filter-btn[data-level="fip-bronze"].active { background: var(--bronze); }
@@ -569,6 +572,29 @@ allBtn.dataset.level = 'all';
 allBtn.innerHTML = `Todos<span class="count-badge">${tournaments.length}</span>`;
 fc.appendChild(allBtn);
 
+// Add category filters
+const absolutosCount = tournaments.filter(t => /M[1-6]|F[1-6]/i.test(t.cats)).length;
+const veteranosCount = tournaments.filter(t => /VET/i.test(t.cats)).length;
+const jovensCount = tournaments.filter(t => /S12|S14|S16|S18/.test(t.cats)).length;
+
+const absolutosBtn = document.createElement('button');
+absolutosBtn.className = 'filter-btn';
+absolutosBtn.dataset.level = 'absolutos';
+absolutosBtn.innerHTML = `Absolutos<span class="count-badge">${absolutosCount}</span>`;
+fc.appendChild(absolutosBtn);
+
+const veteranosBtn = document.createElement('button');
+veteranosBtn.className = 'filter-btn';
+veteranosBtn.dataset.level = 'veteranos';
+veteranosBtn.innerHTML = `Veteranos<span class="count-badge">${veteranosCount}</span>`;
+fc.appendChild(veteranosBtn);
+
+const jovensBtn = document.createElement('button');
+jovensBtn.className = 'filter-btn';
+jovensBtn.dataset.level = 'jovens';
+jovensBtn.innerHTML = `Jovens<span class="count-badge">${jovensCount}</span>`;
+fc.appendChild(jovensBtn);
+
 Object.keys(levelLabels).forEach(lev => {
   if (lev === 'all' || !counts[lev]) return;
   const btn = document.createElement('button');
@@ -722,7 +748,30 @@ function applyFilters() {
   // Filter cards
   let visibleCount = 0;
   document.querySelectorAll('.card').forEach(card => {
-    const show = isAll || activeFilters.has(card.dataset.level);
+    let show = isAll || activeFilters.has(card.dataset.level);
+    
+    // Check category filters
+    if (!show && activeFilters.size > 0) {
+      const cardIndex = Array.from(document.querySelectorAll('.card')).indexOf(card);
+      const tournament = tournaments.find((t, i) => {
+        let idx = 0;
+        for (let m of months) {
+          const mt = tournaments.filter(x => x.month === m);
+          if (idx + mt.length > cardIndex) {
+            return mt[cardIndex - idx] === t;
+          }
+          idx += mt.length;
+        }
+        return false;
+      });
+      
+      if (tournament) {
+        if (activeFilters.has('absolutos') && /M[1-6]|F[1-6]/i.test(tournament.cats)) show = true;
+        if (activeFilters.has('veteranos') && /VET/i.test(tournament.cats)) show = true;
+        if (activeFilters.has('jovens') && /S12|S14|S16|S18/.test(tournament.cats)) show = true;
+      }
+    }
+    
     card.classList.toggle('hidden', !show);
     if (show) visibleCount++;
   });
@@ -743,7 +792,18 @@ function applyFilters() {
     if (isAll) {
       if (!map.hasLayer(marker)) marker.addTo(map);
     } else {
-      const hasMatch = marker._tournamentLevels.some(lev => activeFilters.has(lev));
+      let hasMatch = marker._tournamentLevels.some(lev => activeFilters.has(lev));
+      
+      // Check category filters
+      if (!hasMatch && activeFilters.size > 0) {
+        const locTournaments = tournaments.filter(t => t.location === marker._locationName);
+        for (const t of locTournaments) {
+          if (activeFilters.has('absolutos') && /M[1-6]|F[1-6]/i.test(t.cats)) { hasMatch = true; break; }
+          if (activeFilters.has('veteranos') && /VET/i.test(t.cats)) { hasMatch = true; break; }
+          if (activeFilters.has('jovens') && /S12|S14|S16|S18/.test(t.cats)) { hasMatch = true; break; }
+        }
+      }
+      
       if (hasMatch && !map.hasLayer(marker)) marker.addTo(map);
       if (!hasMatch && map.hasLayer(marker)) map.removeLayer(marker);
     }
