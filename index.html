@@ -41,9 +41,51 @@
         --club-bg: #eceff1;
         --bg: #f5f6fa;
         --card-bg: #ffffff;
+        --card-cats-bg: #f9fafb;
         --text: #1a1a2e;
         --text-light: #6b7280;
         --border: #e5e7eb;
+        --section-hover: #fafafa;
+        --filter: none;
+      }
+
+      [data-theme="dark"] {
+        --gold-bg: #3d3520;
+        --silver-bg: #2d2f3a;
+        --bronze-bg: #3d2f20;
+        --promises-bg: #2d1a3a;
+        --national-bg: #3a1a1a;
+        --regional-bg: #3d2a10;
+        --c10k-bg: #1a2d3d;
+        --c5k-bg: #1a2d1a;
+        --c2k-bg: #1a2d2f;
+        --veterans-bg: #2a1f1a;
+        --masters-bg: #3d3510;
+        --international-bg: #3a1a2a;
+        --club-bg: #1f2428;
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --card-cats-bg: #0f172a;
+        --text: #f1f5f9;
+        --text-light: #cbd5e1;
+        --border: #475569;
+        --section-hover: #1e293b;
+        --filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+      }
+
+      .leaflet-layer,
+      .leaflet-control-zoom-in,
+      .leaflet-control-zoom-out,
+      .leaflet-control-attribution {
+        filter: var(--filter);
+      }
+
+      .leaflet-popup-content-wrapper {
+        background: var(--card-bg);
+      }
+
+      .leaflet-popup-content-wrapper *:not(.popup-badge) {
+        color: var(--text) !important;
       }
 
       * {
@@ -77,7 +119,11 @@
         right: 0;
         width: 500px;
         height: 500px;
-        background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+        background: radial-gradient(
+          circle,
+          rgba(212, 175, 55, 0.15) 0%,
+          transparent 70%
+        );
         border-radius: 50%;
         transform: translate(30%, -30%);
       }
@@ -122,7 +168,7 @@
         justify-content: center;
         gap: 2rem;
         padding: 1rem 2rem;
-        background: white;
+        background: var(--card-bg);
         border-bottom: 1px solid var(--border);
         flex-wrap: wrap;
       }
@@ -163,7 +209,7 @@
 
       /* --- Map --- */
       .map-section {
-        background: white;
+        background: var(--card-bg);
         border-radius: 16px;
         margin-bottom: 1.5rem;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
@@ -180,7 +226,7 @@
         user-select: none;
       }
       .map-section-header:hover {
-        background: #fafafa;
+        background: var(--section-hover);
       }
       .map-section-title {
         font-size: 0.75rem;
@@ -207,7 +253,7 @@
 
       /* --- Filters --- */
       .filters-section {
-        background: white;
+        background: var(--card-bg);
         border-radius: 16px;
         padding: 1.25rem;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
@@ -245,6 +291,8 @@
         display: inline-block;
       }
       .search-input {
+        background: var(--card-bg);
+        color: var(--text);
         width: 100%;
         padding: 0.6rem 0.9rem;
         border-radius: 8px;
@@ -273,7 +321,7 @@
         padding: 0.4rem 0.9rem;
         border-radius: 100px;
         border: 2px solid var(--border);
-        background: white;
+        background: var(--card-bg);
         color: var(--text);
         font-size: 0.8rem;
         font-weight: 500;
@@ -368,7 +416,7 @@
         font-weight: 700;
         margin-bottom: 1rem;
         padding-bottom: 0.5rem;
-        border-bottom: 3px solid #1a1a2e;
+        border-bottom: 3px solid var(--text);
         display: flex;
         align-items: center;
         gap: 0.5rem;
@@ -376,7 +424,7 @@
       .month-header .month-count {
         font-size: 0.75rem;
         font-weight: 600;
-        background: #1a1a2e;
+        background: var(--card-bg);
         color: white;
         padding: 0.15rem 0.6rem;
         border-radius: 100px;
@@ -562,11 +610,12 @@
         font-weight: 600;
         font-size: 0.78rem;
       }
+
       .card-cats {
         margin-top: 0.5rem;
         font-size: 0.72rem;
         color: var(--text-light);
-        background: #f9fafb;
+        background: var(--card-cats-bg);
         padding: 0.35rem 0.55rem;
         border-radius: 6px;
       }
@@ -633,6 +682,33 @@
         max-width: 300px;
       }
 
+      .theme-toggle {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: var(--card-bg);
+        border: 2px solid var(--border);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s;
+        z-index: 1000;
+      }
+      .theme-toggle:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      }
+      .theme-toggle svg {
+        width: 24px;
+        height: 24px;
+        fill: var(--text);
+      }
+
       @media (max-width: 600px) {
         .header h1 {
           font-size: 2rem;
@@ -660,6 +736,12 @@
         #mapContainer {
           height: 350px;
         }
+        .theme-toggle {
+          bottom: 1rem;
+          right: 1rem;
+          width: 48px;
+          height: 48px;
+        }
       }
     </style>
   </head>
@@ -668,7 +750,9 @@
       <div class="header-content">
         <div class="header-text">
           <h1>Calendário Padel Portugal</h1>
-          <div class="header-subtitle">Federação Portuguesa de Padel · Calendário Provisório 2026</div>
+          <div class="header-subtitle">
+            Federação Portuguesa de Padel · Calendário Provisório 2026
+          </div>
         </div>
         <div class="header-year">2026</div>
       </div>
@@ -731,17 +815,18 @@
               class="search-input"
               style="width: auto; flex: 1; min-width: 120px"
             >
-              <option value="0">Fevereiro</option>
-              <option value="1">Março</option>
-              <option value="2">Abril</option>
-              <option value="3">Maio</option>
-              <option value="4">Junho</option>
-              <option value="5">Julho</option>
-              <option value="6">Agosto</option>
-              <option value="7">Setembro</option>
-              <option value="8">Outubro</option>
-              <option value="9">Novembro</option>
-              <option value="10">Dezembro</option>
+              <option value="0">Janeiro</option>
+              <option value="1">Fevereiro</option>
+              <option value="2">Março</option>
+              <option value="3">Abril</option>
+              <option value="4">Maio</option>
+              <option value="5">Junho</option>
+              <option value="6">Julho</option>
+              <option value="7">Agosto</option>
+              <option value="8">Setembro</option>
+              <option value="9">Outubro</option>
+              <option value="10">Novembro</option>
+              <option value="11">Dezembro</option>
             </select>
             <span style="color: var(--text-light); font-size: 0.8rem">até</span>
             <select
@@ -786,7 +871,125 @@
       Portuguesa de Padel
     </div>
 
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg id="sunIcon" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="12" cy="12" r="5" />
+        <line
+          x1="12"
+          y1="1"
+          x2="12"
+          y2="3"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="12"
+          y1="21"
+          x2="12"
+          y2="23"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="4.22"
+          y1="4.22"
+          x2="5.64"
+          y2="5.64"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="18.36"
+          y1="18.36"
+          x2="19.78"
+          y2="19.78"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="1"
+          y1="12"
+          x2="3"
+          y2="12"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="21"
+          y1="12"
+          x2="23"
+          y2="12"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="4.22"
+          y1="19.78"
+          x2="5.64"
+          y2="18.36"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="18.36"
+          y1="5.64"
+          x2="19.78"
+          y2="4.22"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+      <svg
+        id="moonIcon"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        style="display: none"
+      >
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+
     <script>
+      // --- Theme Toggle ---
+      const themeToggle = document.getElementById("themeToggle");
+      const sunIcon = document.getElementById("sunIcon");
+      const moonIcon = document.getElementById("moonIcon");
+      const html = document.documentElement;
+
+      const savedTheme = localStorage.getItem("theme") || "light";
+      html.setAttribute("data-theme", savedTheme);
+      if (savedTheme === "dark") {
+        sunIcon.style.display = "none";
+        moonIcon.style.display = "block";
+      }
+
+      themeToggle.addEventListener("click", () => {
+        const current = html.getAttribute("data-theme");
+        const newTheme = current === "dark" ? "light" : "dark";
+        html.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+
+        if (newTheme === "dark") {
+          sunIcon.style.display = "none";
+          moonIcon.style.display = "block";
+        } else {
+          sunIcon.style.display = "block";
+          moonIcon.style.display = "none";
+        }
+      });
+
+      // --- Set current month ---
+      const currentMonth = new Date().getMonth();
+      document.getElementById("monthFrom").value = currentMonth;
+
       // --- Coordinates lookup ---
       const coords = {
         Madeira: [32.6669, -16.9241],
@@ -2322,7 +2525,7 @@
       // ==========================================
       const map = L.map("mapContainer", { scrollWheelZoom: true }).setView(
         [39.5, -8.0],
-        7,
+        6,
       );
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: "&copy; OpenStreetMap contributors",
@@ -2384,39 +2587,44 @@
         });
 
         // Build popup
+        const styles = getComputedStyle(document.documentElement);
+        const bgMap = {
+          "badge-fip-gold": styles.getPropertyValue("--gold-bg").trim(),
+          "badge-fip-silver": styles.getPropertyValue("--silver-bg").trim(),
+          "badge-fip-bronze": styles.getPropertyValue("--bronze-bg").trim(),
+          "badge-fip-promises": styles.getPropertyValue("--promises-bg").trim(),
+          "badge-national": styles.getPropertyValue("--national-bg").trim(),
+          "badge-regional": styles.getPropertyValue("--regional-bg").trim(),
+          "badge-c10k": styles.getPropertyValue("--c10k-bg").trim(),
+          "badge-c5k": styles.getPropertyValue("--c5k-bg").trim(),
+          "badge-c2k": styles.getPropertyValue("--c2k-bg").trim(),
+          "badge-veterans": styles.getPropertyValue("--veterans-bg").trim(),
+          "badge-masters": styles.getPropertyValue("--masters-bg").trim(),
+          "badge-international": styles
+            .getPropertyValue("--international-bg")
+            .trim(),
+          "badge-club": styles.getPropertyValue("--club-bg").trim(),
+        };
+        const colMap = {
+          "badge-fip-gold": "#8B7000",
+          "badge-fip-silver": "#4A4E69",
+          "badge-fip-bronze": "#8B5E20",
+          "badge-fip-promises": styles.getPropertyValue("--promises").trim(),
+          "badge-national": styles.getPropertyValue("--national").trim(),
+          "badge-regional": styles.getPropertyValue("--regional").trim(),
+          "badge-c10k": styles.getPropertyValue("--c10k").trim(),
+          "badge-c5k": styles.getPropertyValue("--c5k").trim(),
+          "badge-c2k": styles.getPropertyValue("--c2k").trim(),
+          "badge-veterans": styles.getPropertyValue("--veterans").trim(),
+          "badge-masters": "#9E6D00",
+          "badge-international": styles
+            .getPropertyValue("--international")
+            .trim(),
+          "badge-club": styles.getPropertyValue("--club").trim(),
+        };
         let popupHtml = `<div style="font-family:Inter,-apple-system,sans-serif"><strong style="font-size:1rem;display:block;margin-bottom:0.5rem;color:#1a1a2e">${locName}</strong><div class="popup-scroll">`;
         group.tournaments.forEach((t) => {
           const bc = badgeClass[t.level];
-          const bgMap = {
-            "badge-fip-gold": "#FFF8E1",
-            "badge-fip-silver": "#F0F0F5",
-            "badge-fip-bronze": "#FFF3E0",
-            "badge-fip-promises": "#F3E5F5",
-            "badge-national": "#FFEBEE",
-            "badge-regional": "#FFF3E0",
-            "badge-c10k": "#E3F2FD",
-            "badge-c5k": "#E8F5E9",
-            "badge-c2k": "#E0F7FA",
-            "badge-veterans": "#EFEBE9",
-            "badge-masters": "#FFFDE7",
-            "badge-international": "#FCE4EC",
-            "badge-club": "#ECEFF1",
-          };
-          const colMap = {
-            "badge-fip-gold": "#8B7000",
-            "badge-fip-silver": "#4A4E69",
-            "badge-fip-bronze": "#8B5E20",
-            "badge-fip-promises": "#7B1FA2",
-            "badge-national": "#C62828",
-            "badge-regional": "#E65100",
-            "badge-c10k": "#1565C0",
-            "badge-c5k": "#2E7D32",
-            "badge-c2k": "#00838F",
-            "badge-veterans": "#4E342E",
-            "badge-masters": "#9E6D00",
-            "badge-international": "#AD1457",
-            "badge-club": "#37474F",
-          };
           popupHtml += `<div class="popup-tournament">
       <div class="popup-name">${t.name}</div>
       <span class="popup-badge" style="background:${bgMap[bc]};color:${colMap[bc]}">${levelLabels[t.level]}</span>
@@ -2453,6 +2661,7 @@
       const monthFrom = document.getElementById("monthFrom");
       const monthTo = document.getElementById("monthTo");
       const displayMonths = [
+        "Janeiro",
         "Fevereiro",
         "Março",
         "Abril",
