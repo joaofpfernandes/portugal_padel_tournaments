@@ -394,6 +394,29 @@
         background: var(--club);
       }
 
+      select {
+        appearance: none; /* Disable the default arrow */
+        -webkit-appearance: none; /* For WebKit-based browsers */
+        -moz-appearance: none; /* For Firefox */
+        width: 100% !important;
+        padding: 10px 35px 10px 10px !important;
+        border: 1px solid var(--border) !important;
+        border-radius: 4px !important;
+        background-color: var(--card-bg) !important;
+        color: var(--text) !important;
+        background-repeat: no-repeat !important;
+        background-position: right 10px center !important;
+        background-size: 20px !important;
+        cursor: pointer !important;
+      }
+
+      [data-theme="light"] select {
+        background-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="%231a1a2e"/></svg>') !important;
+      }
+      [data-theme="dark"] select {
+        background-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="%23f1f5f9"/></svg>') !important;
+      }
+
       .count-badge {
         display: inline-block;
         background: rgba(0, 0, 0, 0.08);
@@ -834,17 +857,18 @@
               class="search-input"
               style="width: auto; flex: 1; min-width: 120px"
             >
-              <option value="0">Fevereiro</option>
-              <option value="1">Março</option>
-              <option value="2">Abril</option>
-              <option value="3">Maio</option>
-              <option value="4">Junho</option>
-              <option value="5">Julho</option>
-              <option value="6">Agosto</option>
-              <option value="7">Setembro</option>
-              <option value="8">Outubro</option>
-              <option value="9">Novembro</option>
-              <option value="10" selected>Dezembro</option>
+              <option value="0">Janeiro</option>
+              <option value="1">Fevereiro</option>
+              <option value="2">Março</option>
+              <option value="3">Abril</option>
+              <option value="4">Maio</option>
+              <option value="5">Junho</option>
+              <option value="6">Julho</option>
+              <option value="7">Agosto</option>
+              <option value="8">Setembro</option>
+              <option value="9">Outubro</option>
+              <option value="10">Novembro</option>
+              <option value="11">Dezembro</option>
             </select>
           </div>
         </div>
@@ -989,6 +1013,7 @@
       // --- Set current month ---
       const currentMonth = new Date().getMonth();
       document.getElementById("monthFrom").value = currentMonth;
+      document.getElementById("monthTo").value = 11;
 
       // --- Coordinates lookup ---
       const coords = {
@@ -2862,8 +2887,18 @@
       });
 
       // Month range filters
-      monthFrom.addEventListener("change", applyFilters);
-      monthTo.addEventListener("change", applyFilters);
+      monthFrom.addEventListener("change", () => {
+        if (parseInt(monthTo.value) < parseInt(monthFrom.value)) {
+          monthTo.value = monthFrom.value;
+        }
+        applyFilters();
+      });
+      monthTo.addEventListener("change", () => {
+        if (parseInt(monthTo.value) < parseInt(monthFrom.value)) {
+          monthFrom.value = monthTo.value;
+        }
+        applyFilters();
+      });
     </script>
   </body>
 </html>
