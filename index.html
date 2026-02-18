@@ -143,6 +143,20 @@
         max-width: 1200px;
         margin: 0 auto;
         padding: 1.5rem;
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 1.5rem;
+        align-items: start;
+      }
+      .filters-wrapper {
+        position: sticky;
+        top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .content-wrapper {
+        min-width: 0;
       }
 
       /* --- Map --- */
@@ -194,7 +208,6 @@
         background: white;
         border-radius: 16px;
         padding: 1.25rem;
-        margin-bottom: 1.5rem;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
         border: 1px solid var(--border);
       }
@@ -630,6 +643,10 @@
         }
         .container {
           padding: 1rem;
+          grid-template-columns: 1fr;
+        }
+        .filters-wrapper {
+          position: static;
         }
         #mapContainer {
           height: 350px;
@@ -659,41 +676,95 @@
     </div>
 
     <div class="container">
-      <div class="filters-section">
-        <div class="filters-header">
-          <div class="filters-title">Pesquisar</div>
+      <div class="filters-wrapper">
+        <div class="filters-section">
+          <div class="filters-header">
+            <div class="filters-title">Pesquisar</div>
+          </div>
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Pesquisar por nome do torneio..."
+          />
         </div>
-        <input
-          type="text"
-          id="searchInput"
-          class="search-input"
-          placeholder="Pesquisar por nome do torneio..."
-        />
+
+        <div class="filters-section">
+          <div class="filters-header">
+            <div class="filters-title">Filtrar por nível</div>
+            <button class="filters-clear" id="clearFilters">
+              Limpar filtros
+            </button>
+          </div>
+          <div class="filters-hint">Clica em vários filtros para combinar</div>
+          <div class="filters" id="filterContainer"></div>
+        </div>
+
+        <div class="filters-section">
+          <div class="filters-header">
+            <div class="filters-title">Período</div>
+          </div>
+          <div
+            style="
+              display: flex;
+              gap: 0.5rem;
+              align-items: center;
+              flex-wrap: wrap;
+            "
+          >
+            <select
+              id="monthFrom"
+              class="search-input"
+              style="width: auto; flex: 1; min-width: 120px"
+            >
+              <option value="0">Fevereiro</option>
+              <option value="1">Março</option>
+              <option value="2">Abril</option>
+              <option value="3">Maio</option>
+              <option value="4">Junho</option>
+              <option value="5">Julho</option>
+              <option value="6">Agosto</option>
+              <option value="7">Setembro</option>
+              <option value="8">Outubro</option>
+              <option value="9">Novembro</option>
+              <option value="10">Dezembro</option>
+            </select>
+            <span style="color: var(--text-light); font-size: 0.8rem">até</span>
+            <select
+              id="monthTo"
+              class="search-input"
+              style="width: auto; flex: 1; min-width: 120px"
+            >
+              <option value="0">Fevereiro</option>
+              <option value="1">Março</option>
+              <option value="2">Abril</option>
+              <option value="3">Maio</option>
+              <option value="4">Junho</option>
+              <option value="5">Julho</option>
+              <option value="6">Agosto</option>
+              <option value="7">Setembro</option>
+              <option value="8">Outubro</option>
+              <option value="9">Novembro</option>
+              <option value="10" selected>Dezembro</option>
+            </select>
+          </div>
+        </div>
       </div>
 
-      <div class="filters-section">
-        <div class="filters-header">
-          <div class="filters-title">Filtrar por nível</div>
-          <button class="filters-clear" id="clearFilters">
-            Limpar filtros
-          </button>
+      <div class="content-wrapper">
+        <div class="map-section">
+          <div class="map-section-header" id="mapToggle">
+            <span class="map-section-title">Mapa de Torneios</span>
+            <span class="map-toggle-icon" id="mapToggleIcon">&#9650;</span>
+          </div>
+          <div id="mapContainer"></div>
         </div>
-        <div class="filters-hint">Clica em vários filtros para combinar</div>
-        <div class="filters" id="filterContainer"></div>
-      </div>
 
-      <div class="map-section">
-        <div class="map-section-header" id="mapToggle">
-          <span class="map-section-title">Mapa de Torneios</span>
-          <span class="map-toggle-icon" id="mapToggleIcon">&#9650;</span>
+        <div id="noResults" class="no-results">
+          Nenhum torneio encontrado para este filtro.
         </div>
-        <div id="mapContainer"></div>
+        <div id="tournamentsContainer"></div>
       </div>
-
-      <div id="noResults" class="no-results">
-        Nenhum torneio encontrado para este filtro.
-      </div>
-      <div id="tournamentsContainer"></div>
     </div>
 
     <div class="footer">
@@ -2365,6 +2436,21 @@
       let searchQuery = "";
       const clearBtn = document.getElementById("clearFilters");
       const searchInput = document.getElementById("searchInput");
+      const monthFrom = document.getElementById("monthFrom");
+      const monthTo = document.getElementById("monthTo");
+      const displayMonths = [
+        "Fevereiro",
+        "Março",
+        "Abril",
+        "Maio",
+        "Junho",
+        "Julho",
+        "Agosto",
+        "Setembro",
+        "Outubro",
+        "Novembro",
+        "Dezembro",
+      ];
 
       function applyFilters() {
         const isAll = activeFilters.size === 0;
@@ -2430,6 +2516,14 @@
             show = cardName.includes(searchQuery.toLowerCase());
           }
 
+          // Apply month range filter
+          if (show) {
+            const monthIdx = displayMonths.indexOf(card.dataset.month);
+            const from = parseInt(monthFrom.value);
+            const to = parseInt(monthTo.value);
+            show = monthIdx >= from && monthIdx <= to;
+          }
+
           card.classList.toggle("hidden", !show);
           if (show) visibleCount++;
         });
@@ -2492,6 +2586,19 @@
               );
             }
 
+            // Apply month range filter to markers
+            if (hasMatch) {
+              const from = parseInt(monthFrom.value);
+              const to = parseInt(monthTo.value);
+              const locTournaments = tournaments.filter(
+                (t) => t.location === marker._locationName,
+              );
+              hasMatch = locTournaments.some((t) => {
+                const monthIdx = displayMonths.indexOf(t.month);
+                return monthIdx >= from && monthIdx <= to;
+              });
+            }
+
             if (hasMatch && !map.hasLayer(marker)) marker.addTo(map);
             if (!hasMatch && map.hasLayer(marker)) map.removeLayer(marker);
           }
@@ -2530,6 +2637,10 @@
         searchQuery = e.target.value.trim();
         applyFilters();
       });
+
+      // Month range filters
+      monthFrom.addEventListener("change", applyFilters);
+      monthTo.addEventListener("change", applyFilters);
     </script>
   </body>
 </html>
