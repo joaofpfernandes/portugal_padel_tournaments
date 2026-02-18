@@ -134,6 +134,14 @@
   }
   .filters-clear:hover { background: var(--c10k-bg); }
   .filters-clear.visible { display: inline-block; }
+  .search-input {
+    width: 100%; padding: 0.6rem 0.9rem; border-radius: 8px;
+    border: 2px solid var(--border); font-size: 0.9rem;
+    font-family: inherit; transition: border-color 0.2s;
+  }
+  .search-input:focus {
+    outline: none; border-color: #1565C0;
+  }
   .filters-hint {
     font-size: 0.7rem; color: var(--text-light); margin-bottom: 0.6rem;
     font-style: italic; opacity: 0.7;
@@ -306,6 +314,13 @@
 </div>
 
 <div class="container">
+  <div class="filters-section">
+    <div class="filters-header">
+      <div class="filters-title">Pesquisar</div>
+    </div>
+    <input type="text" id="searchInput" class="search-input" placeholder="Pesquisar por nome do torneio...">
+  </div>
+
   <div class="filters-section">
     <div class="filters-header">
       <div class="filters-title">Filtrar por nível</div>
@@ -733,7 +748,9 @@ document.getElementById('mapToggle').addEventListener('click', () => {
 //  MULTI-SELECT FILTER LOGIC
 // ==========================================
 let activeFilters = new Set();
+let searchQuery = '';
 const clearBtn = document.getElementById('clearFilters');
+const searchInput = document.getElementById('searchInput');
 
 function applyFilters() {
   const isAll = activeFilters.size === 0;
@@ -772,6 +789,12 @@ function applyFilters() {
       }
     }
     
+    // Apply search filter
+    if (show && searchQuery) {
+      const cardName = card.querySelector('.card-name').textContent.toLowerCase();
+      show = cardName.includes(searchQuery.toLowerCase());
+    }
+    
     card.classList.toggle('hidden', !show);
     if (show) visibleCount++;
   });
@@ -789,10 +812,10 @@ function applyFilters() {
 
   // Update map markers
   allMarkers.forEach(marker => {
-    if (isAll) {
+    if (isAll && !searchQuery) {
       if (!map.hasLayer(marker)) marker.addTo(map);
     } else {
-      let hasMatch = marker._tournamentLevels.some(lev => activeFilters.has(lev));
+      let hasMatch = isAll || marker._tournamentLevels.some(lev => activeFilters.has(lev));
       
       // Check category filters
       if (!hasMatch && activeFilters.size > 0) {
@@ -802,6 +825,12 @@ function applyFilters() {
           if (activeFilters.has('veteranos') && /VET/i.test(t.cats)) { hasMatch = true; break; }
           if (activeFilters.has('jovens') && /S12|S14|S16|S18/.test(t.cats)) { hasMatch = true; break; }
         }
+      }
+      
+      // Apply search filter to markers
+      if (hasMatch && searchQuery) {
+        const locTournaments = tournaments.filter(t => t.location === marker._locationName);
+        hasMatch = locTournaments.some(t => t.name.toLowerCase().includes(searchQuery.toLowerCase()));
       }
       
       if (hasMatch && !map.hasLayer(marker)) marker.addTo(map);
@@ -832,6 +861,12 @@ document.querySelectorAll('.filter-btn:not([data-level="all"])').forEach(btn => 
 // Clear button
 clearBtn.addEventListener('click', () => {
   activeFilters.clear();
+  applyFilters();
+});
+
+// Search input
+searchInput.addEventListener('input', (e) => {
+  searchQuery = e.target.value.trim();
   applyFilters();
 });
 </script>
