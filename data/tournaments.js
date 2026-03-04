@@ -325,7 +325,7 @@
         "start_date": "2026-03-27",
         "end_date": "2026-03-29",
         "organization": "Europadel",
-        "age_group": "ABS",
+        "age_group": "JOV",
         "fip_data": {
             "level": "fip-promises",
             "categories": "M & F",
