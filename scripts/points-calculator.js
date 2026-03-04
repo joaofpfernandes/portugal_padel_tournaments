@@ -46,7 +46,11 @@ const multipliersByColumn = {
   m6: 0.00525,
 };
 
-const formatValue = (value) => value.toFixed(2);
+const formatValue = (value) => {
+  const rounded = Math.round(value * 100) / 100;
+  if (Number.isInteger(rounded)) return String(rounded);
+  return rounded.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
+};
 
 const refreshPointsTable = () => {
   if (!tournamentLevel) return;
