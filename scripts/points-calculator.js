@@ -1,0 +1,76 @@
+const themeToggle = document.getElementById("themeToggle");
+const sunIcon = document.getElementById("sunIcon");
+const moonIcon = document.getElementById("moonIcon");
+const html = document.documentElement;
+
+const savedTheme = localStorage.getItem("theme") || "light";
+html.setAttribute("data-theme", savedTheme);
+if (savedTheme === "dark") {
+  sunIcon.style.display = "none";
+  moonIcon.style.display = "block";
+}
+
+themeToggle.addEventListener("click", () => {
+  const current = html.getAttribute("data-theme");
+  const nextTheme = current === "dark" ? "light" : "dark";
+  html.setAttribute("data-theme", nextTheme);
+  localStorage.setItem("theme", nextTheme);
+
+  if (nextTheme === "dark") {
+    sunIcon.style.display = "none";
+    moonIcon.style.display = "block";
+  } else {
+    sunIcon.style.display = "block";
+    moonIcon.style.display = "none";
+  }
+});
+
+const tournamentLevel = document.getElementById("tournamentLevel");
+
+const baseM1ByPhase = {
+  Vencedor: 10000,
+  Finalista: 7000,
+  Meias: 5500,
+  Quartos: 4250,
+  Oitavos: 3250,
+  "16Avos / 3º Lugar Grupo": 2250,
+  "4º Lugar Grupo": 1000,
+};
+
+const multipliersByColumn = {
+  m1: 1,
+  m2: 0.35,
+  m3: 0.1225,
+  m4: 0.042875,
+  m5: 0.015,
+  m6: 0.00525,
+};
+
+const formatValue = (value) => value.toFixed(2);
+
+const refreshPointsTable = () => {
+  if (!tournamentLevel) return;
+  const selectedLevelPoints = Number(tournamentLevel.value);
+  if (!Number.isFinite(selectedLevelPoints) || selectedLevelPoints <= 0) return;
+
+  const levelFactor = selectedLevelPoints / 10000;
+
+  document.querySelectorAll("tr[data-phase]").forEach((row) => {
+    const phaseKey = row.dataset.phase;
+    const baseM1 = baseM1ByPhase[phaseKey];
+    if (!Number.isFinite(baseM1)) return;
+
+    Object.entries(multipliersByColumn).forEach(([column, multiplier]) => {
+      const cell = row.querySelector(`[data-col="${column}"]`);
+      if (!cell) return;
+      const value = baseM1 * levelFactor * multiplier;
+      cell.textContent = formatValue(value);
+    });
+  });
+};
+
+if (tournamentLevel) {
+  tournamentLevel.addEventListener("input", refreshPointsTable);
+  tournamentLevel.addEventListener("change", refreshPointsTable);
+  refreshPointsTable();
+}

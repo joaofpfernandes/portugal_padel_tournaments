@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Pontos - Padel Portugal</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <div class="header-text">
+          <h1>Calculadora de Pontos</h1>
+          <div class="header-subtitle">
+            Tabela de pontos por fase e classe (M6 a M1)
+          </div>
+          <nav class="header-menu" aria-label="Menu principal">
+            <a class="header-menu-link" href="../index.html">Calendário 2026</a>
+          </nav>
+        </div>
+        <div class="header-year">2026</div>
+      </div>
+    </div>
+
+    <main class="calc-layout">
+      <section class="calc-card">
+        <div class="calc-grid" style="margin-bottom: 1rem">
+          <div class="calc-field">
+            <label class="calc-label" for="tournamentLevel">Nível do torneio</label>
+            <select id="tournamentLevel" class="search-input">
+              <option value="2000">2000</option>
+              <option value="5000">5000</option>
+              <option value="10000" selected>10000</option>
+              <option value="25000">25000</option>
+              <option value="50000">50000</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="calc-table-wrapper">
+          <table class="calc-table">
+            <thead>
+              <tr>
+                <th>Fase</th>
+                <th>M6</th>
+                <th>M5</th>
+                <th>M4</th>
+                <th>M3</th>
+                <th>M2</th>
+                <th>M1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-phase="Vencedor">
+                <td>Vencedor</td>
+                <td data-col="m6">52.50</td><td data-col="m5">150.00</td><td data-col="m4">428.75</td><td data-col="m3">1225.00</td><td data-col="m2">3500.00</td><td data-col="m1">10000.00</td>
+              </tr>
+              <tr data-phase="Finalista">
+                <td>Finalista</td>
+                <td data-col="m6">36.75</td><td data-col="m5">105.00</td><td data-col="m4">300.13</td><td data-col="m3">857.50</td><td data-col="m2">2450.00</td><td data-col="m1">7000.00</td>
+              </tr>
+              <tr data-phase="Meias">
+                <td>Meias</td>
+                <td data-col="m6">28.88</td><td data-col="m5">82.50</td><td data-col="m4">235.81</td><td data-col="m3">673.75</td><td data-col="m2">1925.00</td><td data-col="m1">5500.00</td>
+              </tr>
+              <tr data-phase="Quartos">
+                <td>Quartos</td>
+                <td data-col="m6">22.31</td><td data-col="m5">63.75</td><td data-col="m4">182.22</td><td data-col="m3">520.63</td><td data-col="m2">1487.50</td><td data-col="m1">4250.00</td>
+              </tr>
+              <tr data-phase="Oitavos">
+                <td>Oitavos</td>
+                <td data-col="m6">17.06</td><td data-col="m5">48.75</td><td data-col="m4">139.34</td><td data-col="m3">398.13</td><td data-col="m2">1137.50</td><td data-col="m1">3250.00</td>
+              </tr>
+              <tr data-phase="16Avos / 3º Lugar Grupo">
+                <td>16Avos / 3º Lugar Grupo</td>
+                <td data-col="m6">11.81</td><td data-col="m5">33.75</td><td data-col="m4">96.47</td><td data-col="m3">275.63</td><td data-col="m2">787.50</td><td data-col="m1">2250.00</td>
+              </tr>
+              <tr data-phase="4º Lugar Grupo">
+                <td>4º Lugar Grupo</td>
+                <td data-col="m6">5.25</td><td data-col="m5">15.00</td><td data-col="m4">42.88</td><td data-col="m3">122.50</td><td data-col="m2">350.00</td><td data-col="m1">1000.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg id="sunIcon" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="12" cy="12" r="5" />
+        <line
+          x1="12"
+          y1="1"
+          x2="12"
+          y2="3"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="12"
+          y1="21"
+          x2="12"
+          y2="23"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="4.22"
+          y1="4.22"
+          x2="5.64"
+          y2="5.64"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="18.36"
+          y1="18.36"
+          x2="19.78"
+          y2="19.78"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="1"
+          y1="12"
+          x2="3"
+          y2="12"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="21"
+          y1="12"
+          x2="23"
+          y2="12"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="4.22"
+          y1="19.78"
+          x2="5.64"
+          y2="18.36"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <line
+          x1="18.36"
+          y1="5.64"
+          x2="19.78"
+          y2="4.22"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+      <svg
+        id="moonIcon"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        style="display: none"
+      >
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+
+    <script src="../scripts/points-calculator.js"></script>
+  </body>
+</html>

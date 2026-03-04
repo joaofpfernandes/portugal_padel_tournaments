@@ -98,15 +98,16 @@ const tournaments = Array.isArray(window.tournamentsData)
 
 const levelLabels = {
   all: "Todos",
+  "fip-platinum": "FIP Platinum",
   "fip-gold": "FIP Gold",
   "fip-silver": "FIP Silver",
   "fip-bronze": "FIP Bronze",
   "fip-promises": "FIP Promises / Jovens",
   national: "Camp. Nacional",
   regional: "Camp. Regional",
-  c10k: "Circuito 10.000",
-  c5k: "Circuito 5.000",
-  c2k: "Circuito 2.000",
+  c10k: "FPP 10.000",
+  c5k: "FPP 5.000",
+  c2k: "FPP 2.000",
   masters: "Masters",
   international: "Internacional",
   veterans: "Veteranos",
@@ -114,6 +115,7 @@ const levelLabels = {
 };
 const badgeClass = {
   "fip-only": "badge-fip-gold",
+  "fip-platinum": "badge-fip-silver",
   "fip-gold": "badge-fip-gold",
   "fip-silver": "badge-fip-silver",
   "fip-bronze": "badge-fip-bronze",
@@ -165,6 +167,20 @@ const parseIsoDate = (value) => {
   return new Date(year, month - 1, day);
 };
 
+const normalizePotentialMojibake = (value) => {
+  if (typeof value !== "string") return "";
+  const trimmed = value.trim();
+  if (!trimmed) return "";
+  try {
+    return decodeURIComponent(escape(trimmed));
+  } catch {
+    return trimmed;
+  }
+};
+
+const getTournamentLocation = (tournament) =>
+  normalizePotentialMojibake(String(tournament?.location || ""));
+
 const getTournamentMonth = (tournament) => {
   const start = parseIsoDate(tournament.start_date);
   return start ? months[start.getMonth()] : "";
@@ -214,8 +230,8 @@ const getTournamentLevel = (tournament) => {
   const fipLevel = String(tournament?.fip_data?.level || "").trim();
   if (fipLevel) return fipLevel;
 
-  const fppLevel = String(tournament?.fpp_data?.level || "").trim();
-  if (fppLevel) return fppLevel;
+  // const fppLevel = String(tournament?.fpp_data?.level || "").trim();
+  // if (fppLevel) return fppLevel;
 
   return "";
 };
@@ -229,11 +245,59 @@ const hasValue = (value) => {
   return true;
 };
 
+const hasAnySourceData = (sourceData) => {
+  if (!sourceData || typeof sourceData !== "object") return false;
+  return ["level", "points", "prize_money", "categories", "link"]
+    .some((key) => hasValue(sourceData[key]));
+};
+
+const getTournamentBadgePointsPrefix = (tournament) => {
+  const pointsValue = tournament?.fpp_data?.points ?? tournament?.points ?? tournament?.fipPoints;
+  if (typeof pointsValue !== "number" || pointsValue <= 0) return "";
+  return ` · ${pointsValue.toLocaleString("pt-PT")}`;
+};
+
+const getNoLevelAbsolutosBadgeClass = (tournament) => {
+  const pointsValue = tournament?.fpp_data?.points ?? tournament?.points ?? tournament?.fipPoints;
+  if (typeof pointsValue !== "number" || pointsValue <= 0) return "badge-club";
+  if (pointsValue >= 10000) return "badge-c10k";
+  if (pointsValue >= 5000) return "badge-c5k";
+  if (pointsValue >= 2000) return "badge-c2k";
+  return "badge-club";
+};
+
+const getCardNoLevelBadge = (tournament) => {
+  const ageGroup = getTournamentAgeGroup(tournament);
+  const pointsPrefix = getTournamentBadgePointsPrefix(tournament);
+
+  if (ageGroup === "vet") {
+    return { label: `Veteranos${pointsPrefix}`, badgeClass: "badge-veterans" };
+  }
+
+  if (ageGroup === "jov") {
+    const hasFppData = hasAnySourceData(tournament?.fpp_data);
+    const hasFipData = hasAnySourceData(tournament?.fip_data);
+    if (hasFppData && !hasFipData) {
+      return { label: `Jovens${pointsPrefix}`, badgeClass: "badge-fip-promises" };
+    }
+  }
+
+  if (ageGroup === "abs") {
+    return {
+      label: `Absolutos${pointsPrefix}`,
+      badgeClass: getNoLevelAbsolutosBadgeClass(tournament),
+    };
+  }
+
+  return { label: "Sem nível", badgeClass: "badge-club" };
+};
+
 const buildSourceInfo = (sourceLabel, sourceData) => {
   if (!sourceData || typeof sourceData !== "object") return "";
 
   const parts = [];
-  if (hasValue(sourceData.level)) {
+  const shouldShowLevel = sourceLabel !== "FPP";
+  if (shouldShowLevel && hasValue(sourceData.level)) {
     const levelKey = String(sourceData.level).trim();
     parts.push(`Nível: ${getLevelLabel(levelKey)}`);
   }
@@ -258,6 +322,81 @@ const buildSourceInfo = (sourceLabel, sourceData) => {
     : "";
 
   return `<div class="card-cats">${mainInfoHtml}${linkHtml}</div>`;
+};
+
+const getTournamentPointsAndPrize = (tournament, level) => {
+  let pointsNum = null;
+  let prizeMoney = null;
+  const levelPts = { c2k: 2000, c5k: 5000, c10k: 10000 };
+
+  if (tournament.fipPoints) {
+    pointsNum = tournament.fipPoints;
+    if (tournament.prize) prizeMoney = tournament.prize;
+  } else {
+    const fppPoints = tournament?.fpp_data?.points;
+    const legacyPoints = tournament?.points;
+    if (fppPoints != null || legacyPoints != null) {
+      pointsNum = fppPoints ?? legacyPoints;
+      prizeMoney = tournament.prizeMoney || tournament.prize_money || (tournament.prize && tournament.prize.includes("\u20AC") ? tournament.prize : null);
+    } else if (tournament.prize) {
+      if (tournament.prize.includes("\u20AC")) {
+        prizeMoney = tournament.prize;
+        if (levelPts[level]) pointsNum = levelPts[level];
+      } else {
+        const value = parseInt(tournament.prize.replace(/\./g, "").replace(/[^\d]/g, ""));
+        if (!isNaN(value) && value > 0) pointsNum = value;
+      }
+    }
+  }
+
+  return { pointsNum, prizeMoney };
+};
+
+const buildTournamentCardContent = (tournament) => {
+  const level = getTournamentLevel(tournament);
+  const badgeMeta = level
+    ? { label: getLevelLabel(level), badgeClass: getLevelBadgeClass(level) }
+    : getCardNoLevelBadge(tournament);
+  const timeStatus = getTournamentTimeStatus(tournament);
+  const { pointsNum, prizeMoney } = getTournamentPointsAndPrize(tournament, level);
+
+  const prizeHtml = prizeMoney
+    ? `<span class="prize">${prizeMoney}</span>`
+    : "";
+  const statusLabel = timeStatus === "live" ? "A decorrer" : "Finalizado";
+  const statusBarHtml = timeStatus
+    ? `<div class="card-status-bar card-status-${timeStatus}">${statusLabel}</div>`
+    : "";
+  const org = getTournamentOrg(tournament);
+  const cardFooterHtml = `
+<div class="card-footer-details">
+  ${org ? `<div class="card-detail">${svgOrg}<span style="font-size:0.75rem">${org}</span></div>` : ""}
+</div>`;
+
+  const pointsHtml = pointsNum
+    ? `<span class="fip-points">${pointsNum.toLocaleString("pt-PT")} pts</span>`
+    : "";
+
+  return {
+    level,
+    month: getTournamentMonth(tournament),
+    ageGroup: getTournamentAgeGroup(tournament),
+    html: `
+<div class="card-top">
+  <div class="card-name">${tournament.name}</div>
+  <span class="badge ${badgeMeta.badgeClass}">${badgeMeta.label}</span>
+</div>
+<div class="card-details">
+  <div class="card-detail">${svgCalendar}<span>${getTournamentDate(tournament)}</span></div>
+  <div class="card-detail">${svgPin}<span>${getTournamentLocation(tournament)}</span></div>
+  ${prizeHtml ? `<div class="card-detail">${prizeHtml}</div>` : ""}
+</div>
+${buildSourceInfo("FIP", tournament.fip_data)}
+${buildSourceInfo("FPP", tournament.fpp_data)}
+${cardFooterHtml}
+${statusBarHtml}
+    `,
+  };
 };
 
 const filterMatchesByCats = (tournament, filterKey) => {
@@ -344,65 +483,13 @@ months.forEach((month) => {
   grid.className = "tournament-grid";
 
   mt.forEach((t) => {
-    const level = getTournamentLevel(t);
-    const timeStatus = getTournamentTimeStatus(t);
+    const cardContent = buildTournamentCardContent(t);
     const card = document.createElement("div");
     card.className = "card";
-    card.dataset.level = level;
-    card.dataset.month = getTournamentMonth(t);
-    card.dataset.ageGroup = getTournamentAgeGroup(t);
-
-    // Determine points (CLASSE) and prize money separately
-    let pointsNum = null;
-    let prizeMoney = null;
-    const levelPts = { c2k: 2000, c5k: 5000, c10k: 10000 };
-
-    if (t.fipPoints) {
-      pointsNum = t.fipPoints;
-      if (t.prize) prizeMoney = t.prize;
-    } else if (t.points != null) {
-      pointsNum = t.points;
-      prizeMoney = t.prizeMoney || (t.prize && t.prize.includes("\u20AC") ? t.prize : null);
-    } else if (t.prize) {
-      if (t.prize.includes("\u20AC")) {
-        prizeMoney = t.prize;
-        if (levelPts[level]) pointsNum = levelPts[level];
-      } else {
-        const v = parseInt(t.prize.replace(/\./g, "").replace(/[^\d]/g, ""));
-        if (!isNaN(v) && v > 0) pointsNum = v;
-      }
-    }
-
-    const pointsHtml = pointsNum
-      ? `<span class="fip-points">${pointsNum.toLocaleString("pt-PT")} pts</span>`
-      : "";
-    const prizeHtml = prizeMoney
-      ? `<span class="prize">${prizeMoney}</span>`
-      : "";
-    const statusLabel = timeStatus === "live" ? "A decorrer" : "Finalizado";
-    const statusBarHtml = timeStatus
-      ? `<div class="card-status-bar card-status-${timeStatus}">${statusLabel}</div>`
-      : "";
-    const org = getTournamentOrg(t);
-    const cardFooterHtml = `
-<div class="card-footer-details">
-  ${org ? `<div class="card-detail">${svgOrg}<span style="font-size:0.75rem">${org}</span></div>` : ""}
-</div>`;
-
-    card.innerHTML = `
-<div class="card-top">
-  <div class="card-name">${t.name}</div>
-  <span class="badge ${getLevelBadgeClass(level)}">${getLevelLabel(level)}</span>
-</div>
-<div class="card-details">
-  <div class="card-detail">${svgCalendar}<span>${getTournamentDate(t)}</span></div>
-  <div class="card-detail">${svgPin}<span>${t.location}</span></div>
-  ${prizeHtml ? `<div class="card-detail">${prizeHtml}</div>` : ""}</div>
-${buildSourceInfo("FIP", t.fip_data)}
-${buildSourceInfo("FPP", t.fpp_data)}
-${cardFooterHtml}
-${statusBarHtml}
-    `;
+    card.dataset.level = cardContent.level;
+    card.dataset.month = cardContent.month;
+    card.dataset.ageGroup = cardContent.ageGroup;
+    card.innerHTML = cardContent.html;
     grid.appendChild(card);
   });
   section.appendChild(grid);
@@ -445,9 +532,10 @@ function createMarkerIcon(color) {
 // Group tournaments by location
 const locationGroups = {};
 tournaments.forEach((t) => {
-  const c = coords[t.location];
+  const locationKey = getTournamentLocation(t);
+  const c = coords[locationKey];
   if (!c) return;
-  const key = t.location;
+  const key = locationKey;
   if (!locationGroups[key])
     locationGroups[key] = { coords: c, tournaments: [] };
   locationGroups[key].tournaments.push(t);
@@ -455,6 +543,18 @@ tournaments.forEach((t) => {
 
 // Create markers
 const allMarkers = [];
+
+const buildMarkerPopupHtml = (tournamentsAtLocation) => {
+  const popupCardsHtml = tournamentsAtLocation
+    .map((t) => {
+      const cardContent = buildTournamentCardContent(t);
+      return `<div class="card popup-card" data-level="${cardContent.level}" data-month="${cardContent.month}" data-age-group="${cardContent.ageGroup}">${cardContent.html}</div>`;
+    })
+    .join("");
+
+  return `<div class="popup-scroll popup-cards">${popupCardsHtml}</div>`;
+};
+
 Object.entries(locationGroups).forEach(([locName, group]) => {
   // Determine the "top" level color for this location (highest tier tournament)
   const tierOrder = [
@@ -483,67 +583,18 @@ Object.entries(locationGroups).forEach(([locName, group]) => {
     icon: createMarkerIcon(color),
   });
 
-  // Build popup
-  const styles = getComputedStyle(document.documentElement);
-  const bgMap = {
-    "badge-fip-gold": styles.getPropertyValue("--gold-bg").trim(),
-    "badge-fip-silver": styles.getPropertyValue("--silver-bg").trim(),
-    "badge-fip-bronze": styles.getPropertyValue("--bronze-bg").trim(),
-    "badge-fip-promises": styles.getPropertyValue("--promises-bg").trim(),
-    "badge-national": styles.getPropertyValue("--national-bg").trim(),
-    "badge-regional": styles.getPropertyValue("--regional-bg").trim(),
-    "badge-c10k": styles.getPropertyValue("--c10k-bg").trim(),
-    "badge-c5k": styles.getPropertyValue("--c5k-bg").trim(),
-    "badge-c2k": styles.getPropertyValue("--c2k-bg").trim(),
-    "badge-veterans": styles.getPropertyValue("--veterans-bg").trim(),
-    "badge-masters": styles.getPropertyValue("--masters-bg").trim(),
-    "badge-international": styles
-      .getPropertyValue("--international-bg")
-      .trim(),
-    "badge-club": styles.getPropertyValue("--club-bg").trim(),
-  };
-  const colMap = {
-    "badge-fip-gold": "#8B7000",
-    "badge-fip-silver": "#4A4E69",
-    "badge-fip-bronze": "#8B5E20",
-    "badge-fip-promises": styles.getPropertyValue("--promises").trim(),
-    "badge-national": styles.getPropertyValue("--national").trim(),
-    "badge-regional": styles.getPropertyValue("--regional").trim(),
-    "badge-c10k": styles.getPropertyValue("--c10k").trim(),
-    "badge-c5k": styles.getPropertyValue("--c5k").trim(),
-    "badge-c2k": styles.getPropertyValue("--c2k").trim(),
-    "badge-veterans": styles.getPropertyValue("--veterans").trim(),
-    "badge-masters": "#9E6D00",
-    "badge-international": styles
-      .getPropertyValue("--international")
-      .trim(),
-    "badge-club": styles.getPropertyValue("--club").trim(),
-  };
-  let popupHtml = `<div style="font-family:Inter,-apple-system,sans-serif"><strong style="font-size:1rem;display:block;margin-bottom:0.5rem;color:#1a1a2e">${locName}</strong><div class="popup-scroll">`;
-  const popupLevelPts = { c2k: 2000, c5k: 5000, c10k: 10000 };
-  group.tournaments.forEach((t) => {
-    const level = getTournamentLevel(t);
-    const bc = getLevelBadgeClass(level);
-    let pPts = null, pPrize = null;
-    if (t.fipPoints) { pPts = t.fipPoints; if (t.prize) pPrize = t.prize; }
-    else if (t.points != null) { pPts = t.points; pPrize = t.prizeMoney || (t.prize && t.prize.includes("\u20AC") ? t.prize : null); }
-    else if (t.prize) {
-      if (t.prize.includes("\u20AC")) { pPrize = t.prize; if (popupLevelPts[level]) pPts = popupLevelPts[level]; }
-      else { const v = parseInt(t.prize.replace(/\./g, "").replace(/[^\d]/g, "")); if (!isNaN(v) && v > 0) pPts = v; }
-    }
-    const pPtsStr = pPts ? ` &mdash; <strong>${pPts.toLocaleString("pt-PT")} pts</strong>` : "";
-    const pPrizeStr = pPrize ? ` &mdash; <span class="popup-prize">${pPrize}</span>` : "";
-    popupHtml += `<div class="popup-tournament">
-<div class="popup-name">${t.name}</div>
-    <span class="popup-badge" style="background:${bgMap[bc]};color:${colMap[bc]}">${getLevelLabel(level)}</span>
-<div class="popup-detail">${getTournamentDate(t)}${pPtsStr}${pPrizeStr}</div>
-${t.cats ? `<div class="popup-detail" style="font-size:0.68rem;opacity:0.8">${t.cats}</div>` : ""}
-${getTournamentOrg(t) ? `<div class="popup-detail" style="font-size:0.68rem;opacity:0.8">${getTournamentOrg(t)}</div>` : ""}
-    </div>`;
+  const popupTournaments = [...group.tournaments].sort((a, b) => {
+    const dateA = parseIsoDate(a.start_date);
+    const dateB = parseIsoDate(b.start_date);
+    if (!dateA && !dateB) return 0;
+    if (!dateA) return 1;
+    if (!dateB) return -1;
+    return dateA - dateB;
   });
-  popupHtml += "</div></div>";
 
-  marker.bindPopup(popupHtml, { maxWidth: 300, maxHeight: 320 });
+  const popupHtml = buildMarkerPopupHtml(popupTournaments);
+
+  marker.bindPopup(popupHtml, { maxWidth: 420 });
   marker._tournamentLevels = group.tournaments.map((t) => getTournamentLevel(t));
   marker._locationName = locName;
   marker._tournaments = group.tournaments;
@@ -655,11 +706,10 @@ function applyFilters() {
       return monthIdx >= from && monthIdx <= to;
     });
 
-    let hasMatch = locTournamentsInRange.length > 0;
+    let visibleTournaments = locTournamentsInRange;
 
-    // Apply level/category filters
-    if (hasMatch && !isAll) {
-      hasMatch = locTournamentsInRange.some((t) => {
+    if (!isAll) {
+      visibleTournaments = visibleTournaments.filter((t) => {
         if (activeFilters.has(getTournamentLevel(t))) return true;
         if (activeFilters.has("absolutos") && filterMatchesByCats(t, "absolutos")) return true;
         if (activeFilters.has("veteranos") && filterMatchesByCats(t, "veteranos")) return true;
@@ -669,11 +719,25 @@ function applyFilters() {
       });
     }
 
-    // Apply search filter to markers
-    if (hasMatch && searchQuery) {
-      hasMatch = locTournamentsInRange.some((t) =>
-        t.name.toLowerCase().includes(searchQuery.toLowerCase()),
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      visibleTournaments = visibleTournaments.filter((t) =>
+        t.name.toLowerCase().includes(q),
       );
+    }
+
+    const hasMatch = visibleTournaments.length > 0;
+
+    if (hasMatch) {
+      const sortedVisible = [...visibleTournaments].sort((a, b) => {
+        const dateA = parseIsoDate(a.start_date);
+        const dateB = parseIsoDate(b.start_date);
+        if (!dateA && !dateB) return 0;
+        if (!dateA) return 1;
+        if (!dateB) return -1;
+        return dateA - dateB;
+      });
+      marker.setPopupContent(buildMarkerPopupHtml(sortedVisible));
     }
 
     if (hasMatch && !map.hasLayer(marker)) marker.addTo(map);
