@@ -260,8 +260,7 @@
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
-            "link": "",
-            "level": "c5k"
+            "link": "https://fpp.tiepadel.com/Tournaments/XIIOpenMyPadelCenter/Overview",
         }
     },
     {
