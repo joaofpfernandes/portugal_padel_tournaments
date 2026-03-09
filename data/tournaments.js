@@ -20,7 +20,7 @@
     },
     {
         "name": "II Open Jovens Dezporvinte",
-        "location": "SantarÃ©m",
+        "location": "Santarém",
         "start_date": "2026-02-06",
         "end_date": "2026-02-08",
         "organization": "Dezporvinte",
@@ -47,7 +47,7 @@
     {
         "name": "V Open Smartpath",
         "prize": "2.000€",
-        "location": "CacÃ©m",
+        "location": "Cacém",
         "start_date": "2026-02-20",
         "end_date": "2026-02-22",
         "organization": "Padel Factory",
@@ -60,11 +60,11 @@
         }
     },
     {
-        "name": "I Open Jovem Carcavelos TÃ©nis e Padel",
+        "name": "I Open Jovem Carcavelos Ténis e Padel",
         "location": "Carcavelos",
         "start_date": "2026-02-20",
         "end_date": "2026-02-22",
-        "organization": "Carcavelos TÃ©nis e Padel",
+        "organization": "Carcavelos Ténis e Padel",
         "age_group": "JOV",
         "fpp_data": {
             "points": 5000,
@@ -89,7 +89,7 @@
 
     },
     {
-        "name": "4Âº Open Blue Padel Kourts",
+        "name": "4º Open Blue Padel Kourts",
         "prize": "5.000€",
         "location": "Sintra",
         "start_date": "2026-02-26",
@@ -182,7 +182,7 @@
     },
     {
         "name": "Open Algarve",
-        "location": "Vila Real de Sto. AntÃ³nio",
+        "location": "Vila Real de Sto. António",
         "start_date": "2026-03-13",
         "end_date": "2026-03-15",
         "organization": "Salvapadel",
@@ -198,7 +198,7 @@
         "location": "Portimão",
         "start_date": "2026-03-13",
         "end_date": "2026-03-15",
-        "organization": "Clube TÃ©nis e Padel de Portimão",
+        "organization": "Clube Ténis e Padel de Portimão",
         "age_group": "JOV",
         "fpp_data": {
             "points": 5000,
@@ -231,7 +231,7 @@
         "fpp_data": {
             "points": 10000,
             "categories": "VET M&F +35 a +60",
-            "link": "",
+            "link": "https://fpp.tiepadel.com/tournaments/TheGentlemenseLadiesCrewbyAxians",
             "level": "veterans"
         }
     },
@@ -260,7 +260,7 @@
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
-            "link": "https://fpp.tiepadel.com/Tournaments/XIIOpenMyPadelCenter/Overview",
+            "link": "https://fpp.tiepadel.com/Tournaments/XIIOpenMyPadelCenter",
         }
     },
     {
@@ -274,7 +274,7 @@
         "fpp_data": {
             "points": null,
             "categories": "M&F: S12, S14, S16, S18",
-            "link": "",
+            "link": "https://fpp.tiepadel.com/tournaments/MastersSeriesLisboaLRC",
             "level": "masters"
         }
     },
@@ -332,8 +332,8 @@
         },
     },
     {
-        "name": "FIP Promises SetÃºbal",
-        "location": "SetÃºbal",
+        "name": "FIP Promises Setúbal",
+        "location": "Setúbal",
         "start_date": "2026-04-03",
         "end_date": "2026-04-05",
         "organization": "Dream Padel Center",
@@ -361,8 +361,8 @@
         }
     },
     {
-        "name": "Camp. Regional Veteranos (8 regiÃµes)",
-        "location": "VÃ¡rias regiÃµes",
+        "name": "Camp. Regional Veteranos (8 regiões)",
+        "location": "Várias regiões",
         "start_date": "2026-04-10",
         "end_date": "2026-04-12",
         "organization": "FPP",
@@ -408,9 +408,9 @@
         }
     },
     {
-        "name": "Camp. Regional Absolutos (8 regiÃµes)",
+        "name": "Camp. Regional Absolutos (8 regiões)",
         "prize": "10.000",
-        "location": "VÃ¡rias regiÃµes",
+        "location": "Várias regiões",
         "start_date": "2026-04-17",
         "end_date": "2026-04-19",
         "organization": "FPP",
@@ -428,9 +428,9 @@
         }
     },
     {
-        "name": "Camp. Regional Jovens (4 regiÃµes)",
+        "name": "Camp. Regional Jovens (4 regiões)",
         "prize": "10.000",
-        "location": "VÃ¡rias regiÃµes",
+        "location": "Várias regiões",
         "start_date": "2026-04-17",
         "end_date": "2026-04-19",
         "organization": "FPP",
@@ -448,10 +448,9 @@
         }
     },
     {
-        "name": "FIP Bronze SetÃºbal",
-        "fipPoints": 10000,
+        "name": "FIP Bronze Setúbal",
         "prize": "10.000€",
-        "location": "SetÃºbal",
+        "location": "Setúbal",
         "start_date": "2026-04-21",
         "end_date": "2026-04-26",
         "organization": "Dream Padel Center",
@@ -469,22 +468,17 @@
     },
     {
         "name": "Open Top-padel Fluvial",
-        "prize": "2.000",
+        "prize": "5.000€",
         "location": "Porto",
         "start_date": "2026-04-24",
         "end_date": "2026-04-26",
         "organization": "Top-padel Fluvial",
         "age_group": "ABS",
-        "fip_data": {
-            "level": "",
-            "categories": "",
-            "link": ""
-        },
         "fpp_data": {
-            "points": 2000,
+            "points": 5000,
             "categories": "F1-F6; M1-M6",
             "link": "",
-            "level": "c2k"
+            "level": "c5k"
         }
     },
     {
@@ -508,7 +502,7 @@
         }
     },
     {
-        "name": "2Âº Torneio Jovens Empower Talent Launch",
+        "name": "2º Torneio Jovens Empower Talent Launch",
         "prize": "5.000",
         "location": "Albufeira",
         "start_date": "2026-04-24",
@@ -593,7 +587,7 @@
         "location": "Portimão",
         "start_date": "2026-05-01",
         "end_date": "2026-05-03",
-        "organization": "Clube de TÃ©nis e Padel de Portimão",
+        "organization": "Clube de Ténis e Padel de Portimão",
         "age_group": "VET",
         "fip_data": {
             "level": "",
@@ -609,9 +603,8 @@
     },
     {
         "name": "FIP Silver VRSA",
-        "fipPoints": 10000,
         "prize": "18.000€",
-        "location": "Vila Real de Sto. AntÃ³nio",
+        "location": "Vila Real de Sto. António",
         "start_date": "2026-05-04",
         "end_date": "2026-05-10",
         "organization": "Padel Clube VRSA",
@@ -622,18 +615,16 @@
             "link": "https://www.padelfip.com/events/vila-real-de-santo-antonio-2026/"
         },
         "fpp_data": {
-            "points": 10000,
-            "categories": "FIP M&F",
-            "link": ""
+
         }
     },
     {
-        "name": "Open Carcavelos TÃ©nis e Padel 2026",
+        "name": "Open Carcavelos Ténis e Padel 2026",
         "prize": "2.000",
         "location": "Carcavelos",
         "start_date": "2026-05-08",
         "end_date": "2026-05-10",
-        "organization": "Carcavelos TÃ©nis e Padel",
+        "organization": "Carcavelos Ténis e Padel",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -650,16 +641,11 @@
     {
         "name": "Masters Series Jovens",
         "prize": "15.000",
-        "location": "A definir",
+        "location": "Porto",
         "start_date": "2026-05-08",
         "end_date": "2026-05-10",
-        "organization": "A definir",
+        "organization": "D'Ouro Padel",
         "age_group": "JOV",
-        "fip_data": {
-            "level": "",
-            "categories": "",
-            "link": ""
-        },
         "fpp_data": {
             "points": null,
             "categories": "M&F: S12, S14, S16, S18",
@@ -802,12 +788,12 @@
         }
     },
     {
-        "name": "I Open Jovens JosÃ© Fonseca",
+        "name": "I Open Jovens José Fonseca",
         "prize": "2.000",
         "location": "Lagos",
         "start_date": "2026-05-22",
         "end_date": "2026-05-24",
-        "organization": "Clube de TÃ©nis de Lagos",
+        "organization": "Clube de Ténis de Lagos",
         "age_group": "JOV",
         "fip_data": {
             "level": "",
@@ -824,10 +810,10 @@
     {
         "name": "Camp. Nacional de Clubes Absolutos",
         "prize": "",
-        "location": "Lisboa",
+        "location": "Porto",
         "start_date": "2026-05-29",
         "end_date": "2026-05-31",
-        "organization": "FPP",
+        "organization": "PAC & D'Ouro Padel",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -862,7 +848,7 @@
         }
     },
     {
-        "name": "6Âº Open Padel Freguesia de Alfragide",
+        "name": "6º Open Padel Freguesia de Alfragide",
         "prize": "2.000",
         "location": "Alfragide",
         "start_date": "2026-06-05",
@@ -884,10 +870,10 @@
     {
         "name": "Masters Series Jovens",
         "prize": "15.000",
-        "location": "A definir",
+        "location": "Aveiro",
         "start_date": "2026-06-05",
         "end_date": "2026-06-07",
-        "organization": "A definir",
+        "organization": "Aveiro Padel Clube dos Galitos",
         "age_group": "JOV",
         "fip_data": {
             "level": "",
@@ -902,12 +888,12 @@
         }
     },
     {
-        "name": "IV Open Clube TÃ©nis Lagos",
+        "name": "IV Open Clube Ténis Lagos",
         "prize": "5.000€",
         "location": "Lagos",
         "start_date": "2026-06-05",
         "end_date": "2026-06-07",
-        "organization": "Clube TÃ©nis Lagos",
+        "organization": "Clube Ténis Lagos",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -963,7 +949,7 @@
         }
     },
     {
-        "name": "7Âº Open Carlsberg W Padel Country Club",
+        "name": "7º Open Carlsberg W Padel Country Club",
         "prize": "5.000€",
         "location": "Lisboa",
         "start_date": "2026-06-12",
@@ -1027,7 +1013,7 @@
         "location": "Lisboa",
         "start_date": "2026-06-12",
         "end_date": "2026-06-14",
-        "organization": "FPP",
+        "organization": "Padel Factory",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -1047,7 +1033,7 @@
         "location": "Lisboa",
         "start_date": "2026-06-12",
         "end_date": "2026-06-14",
-        "organization": "FPP",
+        "organization": "Padel Factory",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -1163,10 +1149,10 @@
     {
         "name": "Qualifying Camp. Nacional Absoluto",
         "prize": "50.000",
-        "location": "Norte",
+        "location": "São João da Madeira",
         "start_date": "2026-06-26",
         "end_date": "2026-06-28",
-        "organization": "FPP",
+        "organization": "OPA São João da Madeira",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -1183,10 +1169,10 @@
     {
         "name": "Campeonato Nacional Absoluto",
         "prize": "50.000",
-        "location": "Norte",
+        "location": "São João da Madeira",
         "start_date": "2026-07-01",
         "end_date": "2026-07-05",
-        "organization": "FPP",
+        "organization": "OPA São João da Madeira",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -1261,7 +1247,7 @@
         }
     },
     {
-        "name": "2Âº Open Clube de Padel da Paiã",
+        "name": "2º Open Clube de Padel da Paiã",
         "prize": "2.000",
         "location": "Paiã",
         "start_date": "2026-07-10",
@@ -1301,7 +1287,7 @@
         }
     },
     {
-        "name": "9Âº Open Star Padel Coimbra",
+        "name": "9º Open Star Padel Coimbra",
         "prize": "2.000",
         "location": "Coimbra",
         "start_date": "2026-07-10",
@@ -1321,7 +1307,7 @@
         }
     },
     {
-        "name": "2Âº Feel Padel Open",
+        "name": "2º Feel Padel Open",
         "prize": "5.000€",
         "location": "Guimarães",
         "start_date": "2026-07-17",
@@ -1361,7 +1347,7 @@
         }
     },
     {
-        "name": "2Âº Open Absolutos by Monsaraz Padel Club",
+        "name": "2º Open Absolutos by Monsaraz Padel Club",
         "prize": "5.000€",
         "location": "Reguengos de Monsaraz",
         "start_date": "2026-07-17",
@@ -1386,7 +1372,7 @@
         "location": "Lagos",
         "start_date": "2026-07-17",
         "end_date": "2026-07-19",
-        "organization": "Clube de TÃ©nis de Lagos",
+        "organization": "Clube de Ténis de Lagos",
         "age_group": "JOV",
         "fip_data": {
             "level": "",
@@ -1463,7 +1449,7 @@
         "name": "Gentlemen's & Ladies Crew by Dezporvinte",
         "points": 10000,
         "prize": "3.000€",
-        "location": "SantarÃ©m",
+        "location": "Santarém",
         "start_date": "2026-07-24",
         "end_date": "2026-07-26",
         "organization": "Dezporvinte",
@@ -1481,7 +1467,7 @@
         }
     },
     {
-        "name": "4Âº Open Famalicão",
+        "name": "4º Open Famalicão",
         "prize": "10.000€",
         "location": "Famalicão",
         "start_date": "2026-07-31",
@@ -1503,7 +1489,7 @@
     {
         "name": "XVII Torneio Internacional de Padel - Open Eurodolar Capital",
         "prize": "5.000€",
-        "location": "Vila Real de Sto. AntÃ³nio",
+        "location": "Vila Real de Sto. António",
         "start_date": "2026-07-31",
         "end_date": "2026-08-02",
         "organization": "Padel Clube VRSA",
@@ -1566,7 +1552,7 @@
         "location": "Portimão",
         "start_date": "2026-08-05",
         "end_date": "2026-08-09",
-        "organization": "Clube TÃ©nis e Padel de Portimão",
+        "organization": "Clube Ténis e Padel de Portimão",
         "age_group": "ABS",
         "fip_data": {
             "level": "fip-bronze",
@@ -1600,7 +1586,7 @@
         }
     },
     {
-        "name": "4Âº Open Padel4move",
+        "name": "4º Open Padel4move",
         "prize": "5.000€",
         "location": "Albufeira",
         "start_date": "2026-08-21",
@@ -1726,7 +1712,7 @@
         "location": "Lagos",
         "start_date": "2026-09-04",
         "end_date": "2026-09-06",
-        "organization": "Clube TÃ©nis Lagos",
+        "organization": "Clube Ténis Lagos",
         "age_group": "VET",
         "fip_data": {
             "level": "",
@@ -2117,12 +2103,12 @@
         }
     },
     {
-        "name": "II Open Jovem Carcavelos TÃ©nis e Padel",
+        "name": "II Open Jovem Carcavelos Ténis e Padel",
         "prize": "5.000",
         "location": "Carcavelos",
         "start_date": "2026-10-16",
         "end_date": "2026-10-18",
-        "organization": "Carcavelos TÃ©nis e Padel",
+        "organization": "Carcavelos Ténis e Padel",
         "age_group": "JOV",
         "fip_data": {
             "level": "fip-promises",
@@ -2156,7 +2142,7 @@
         }
     },
     {
-        "name": "5Âº Open Padcenter",
+        "name": "5º Open Padcenter",
         "prize": "2.000",
         "location": "Odivelas",
         "start_date": "2026-10-23",
@@ -2196,9 +2182,9 @@
         }
     },
     {
-        "name": "FIP Promises SantarÃ©m",
+        "name": "FIP Promises Santarém",
         "prize": "10.000",
-        "location": "SantarÃ©m",
+        "location": "Santarém",
         "start_date": "2026-10-30",
         "end_date": "2026-11-01",
         "organization": "Dezporvinte",
@@ -2235,12 +2221,12 @@
         }
     },
     {
-        "name": "III Open W Padel & TÃ©nis Parque",
+        "name": "III Open W Padel & Ténis Parque",
         "prize": "2.000",
         "location": "Barreiro",
         "start_date": "2026-10-30",
         "end_date": "2026-11-01",
-        "organization": "W Padel TÃ©nis & Parque",
+        "organization": "W Padel Ténis & Parque",
         "age_group": "ABS",
         "fip_data": {
             "level": "",
@@ -2277,7 +2263,7 @@
     {
         "name": "II Open Dezporvinte",
         "prize": "10.000€",
-        "location": "SantarÃ©m",
+        "location": "Santarém",
         "start_date": "2026-11-06",
         "end_date": "2026-11-08",
         "organization": "Dezporvinte",
