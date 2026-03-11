@@ -945,6 +945,15 @@ select {
   white-space: nowrap;
 }
 
+.rankings-table th:first-child,
+.rankings-table td:first-child {
+  min-width: 6ch;
+  width: 6ch;
+  max-width: 6ch;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
 .rankings-table th:nth-child(3),
 .rankings-table td:nth-child(3),
 .rankings-table th:nth-child(5),
@@ -977,9 +986,18 @@ select {
 
 .rankings-filters {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  grid-template-columns: minmax(280px, 1.6fr) repeat(3, minmax(160px, 1fr));
   gap: 0.6rem;
   margin-bottom: 0.9rem;
+}
+
+.rankings-filters #rankingsSource {
+  grid-column: 1 / -1;
+  max-width: 360px;
+}
+
+.rankings-filters > :not(#rankingsSource) {
+  min-width: 0;
 }
 
 @media (max-width: 600px) {
