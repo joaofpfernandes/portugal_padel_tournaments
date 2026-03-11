@@ -213,7 +213,7 @@ const applyFilters = () => {
   renderCurrentPage();
 
   const config = getSourceConfig();
-  const baseText = `Fonte: FPP ${config.label} (${formatFileDate(config.newestFile)})`;
+  const baseText = `Fonte: FPP (${formatFileDate(config.newestFile)})`;
   if (meta) {
     meta.textContent = `${baseText} · ${filteredRows.length} / ${sortedRows.length} atletas`;
   }
