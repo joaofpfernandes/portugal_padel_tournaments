@@ -1,4 +1,3 @@
-﻿window.MALE_RANKINGS_EMBED = { file: '2026-03-10.json', data: 
 [
   {
     "Ranking": "1",
@@ -118801,4 +118800,3 @@
     "PlayerID": "42653"
   }
 ]
-};

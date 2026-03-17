@@ -1,5 +1,4 @@
-window.FEMALE_RANKINGS_EMBED = { file: "2026-03-10.json", data: [
-  
+[
   {
     "Ranking": "1",
     "RankingChange": "-",
@@ -53472,4 +53471,4 @@ window.FEMALE_RANKINGS_EMBED = { file: "2026-03-10.json", data: [
     "NumberOfValidTournaments": "1",
     "PlayerID": "403767"
   }
-] };
+]
