@@ -366,6 +366,21 @@
 
     },
     {
+        "name": "2º LX Clash Stars Open by Carlsberg ",
+        "location": "Lisboa",
+        "start_date": "2026-04-02",
+        "end_date": "2026-04-05",
+        "organization": "LX Indoor Padel",
+        "age_group": "ABS",
+        "fpp_data": {
+            "points": 5000,
+            "categories": "F1-F6; M1-M6",
+            "link": "https://fpp.tiepadel.com/Tournaments/2LXclashStarsByCarlsberg2026/Overview",
+            "level": "c5k"
+        }
+
+    },
+    {
         "name": "Open Villae Verdasca",
         "prize": "5.000€",
         "location": "Braga",
