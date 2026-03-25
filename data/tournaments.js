@@ -391,7 +391,22 @@
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
-            "link": "",
+            "link": "https://fpp.tiepadel.com/tournaments/OpenVillaeVerdasca",
+            "level": "c5k"
+        }
+    },
+        {
+        "name": "XI Open Rackets Pro EUL",
+        "prize": "5.000€",
+        "location": "Lisboa",
+        "start_date": "2026-04-08",
+        "end_date": "2026-04-12",
+        "organization": "Rackets Pro EUL",
+        "age_group": "ABS",
+        "fpp_data": {
+            "points": 5000,
+            "categories": "F1-F6; M1-M6",
+            "link": "https://fpp.tiepadel.com/tournaments/XIOpenRacketsProEUL",
             "level": "c5k"
         }
     },
@@ -405,7 +420,7 @@
         "fpp_data": {
             "points": 10000,
             "categories": "VET M&F +35 a +60",
-            "link": "",
+            "link": "https://tour.tiesports.com/fpp/calendar_(tournaments)",
             "level": "regional"
         }
     },
@@ -421,26 +436,6 @@
             "categories": "M & F",
             "link": "https://www.padelfip.com/events/fip-promises-oeiras-2026/"
         }     
-    },
-    {
-        "name": "IX Open Rackets Pro EUL",
-        "prize": "5.000€",
-        "location": "Lisboa",
-        "start_date": "2026-04-10",
-        "end_date": "2026-04-12",
-        "organization": "Rackets Pro EUL",
-        "age_group": "ABS",
-        "fip_data": {
-            "level": "",
-            "categories": "",
-            "link": ""
-        },
-        "fpp_data": {
-            "points": 5000,
-            "categories": "F1-F6; M1-M6",
-            "link": "",
-            "level": "c5k"
-        }
     },
     {
         "name": "Camp. Regional Absolutos (8 regiões)",
