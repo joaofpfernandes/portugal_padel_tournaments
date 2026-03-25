@@ -1,5 +1,5 @@
 (() => {
-  const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+  const GA_MEASUREMENT_ID = "G-EP6YKEGNPL";
 
   const PAGE_META = {
     calendar: {
@@ -66,7 +66,7 @@
   };
 
   const applyAnalytics = () => {
-    const isPlaceholderId = GA_MEASUREMENT_ID === "G-EP6YKEGNPL";
+    const isPlaceholderId = GA_MEASUREMENT_ID === "G-XXXXXXXXXX";
     if (!GA_MEASUREMENT_ID || isPlaceholderId || typeof window.gtag === "function") {
       return;
     }
