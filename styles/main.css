@@ -908,11 +908,12 @@ select {
 }
 .calc-table-wrapper {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .calc-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px;
+  min-width: 560px;
 }
 .calc-table th,
 .calc-table td {
@@ -925,11 +926,20 @@ select {
 .calc-table td:first-child {
   text-align: left;
   font-weight: 600;
-  min-width: 220px;
+  min-width: 150px;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--card-bg);
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.06);
 }
 .calc-table thead th {
   background: var(--card-cats-bg);
   color: var(--text);
+}
+.calc-table thead th:first-child {
+  background: var(--card-cats-bg);
+  z-index: 2;
 }
 
 .rankings-layout {
