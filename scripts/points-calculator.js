@@ -6,8 +6,10 @@ const baseM1ByPhase = {
   Meias: 5500,
   Quartos: 4250,
   Oitavos: 3250,
-  "16Avos / 3º Lugar Grupo": 2250,
+  "16Avos": 2250,
+  "3º Lugar Grupo": 2250,
   "4º Lugar Grupo": 1000,
+  "5º Lugar Grupo": 0,
 };
 
 const multipliersByColumn = {
