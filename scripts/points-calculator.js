@@ -9,7 +9,7 @@ const baseM1ByPhase = {
   "16Avos": 2250,
   "3º Lugar Grupo": 2250,
   "4º Lugar Grupo": 1000,
-  "5º Lugar Grupo": 0,
+  "5º Lugar Grupo": 500,
 };
 
 const multipliersByColumn = {
