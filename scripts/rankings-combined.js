@@ -1,5 +1,6 @@
 const CACHE_TTL_MS = 60 * 60 * 1000;
 const ROWS_PER_PAGE = 100;
+const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings";
 
 const tbody = document.getElementById("rankingsBody");
 const meta = document.getElementById("rankingsMeta");
@@ -15,6 +16,7 @@ const clubFilter = document.getElementById("rankingsFilterClub");
 let currentPage = 1;
 let sortedRows = [];
 let filteredRows = [];
+let currentDate = "";
 
 const escapeHtml = (value) => String(value ?? "")
   .replaceAll("&", "&amp;")
@@ -115,19 +117,10 @@ const fillSelectOptions = (selectElement, values, allLabel) => {
 
 const getSourceConfig = () => {
   const source = sourceSelect?.value === "female" ? "female" : "male";
-  const embed = source === "female"
-    ? window.FEMALE_RANKINGS_EMBED
-    : window.MALE_RANKINGS_EMBED;
-  const embedKey = source === "female"
-    ? "FEMALE_RANKINGS_EMBED"
-    : "MALE_RANKINGS_EMBED";
 
   return {
     source,
-    embed,
-    embedKey,
     cacheKey: `${source}-rankings-cache-v1`,
-    newestFile: String(embed?.file || "latest.json"),
     label: source === "female" ? "Feminino" : "Masculino",
   };
 };
@@ -144,19 +137,18 @@ const readCache = (config) => {
     const raw = localStorage.getItem(config.cacheKey);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
-    if (!parsed || parsed.file !== config.newestFile) return null;
-    if (!Array.isArray(parsed.data)) return null;
+    if (!parsed || !Array.isArray(parsed.data)) return null;
     if (Date.now() - Number(parsed.timestamp || 0) > CACHE_TTL_MS) return null;
-    return parsed.data;
+    return { date: parsed.date || "", data: parsed.data };
   } catch {
     return null;
   }
 };
 
-const writeCache = (config, data) => {
+const writeCache = (config, date, data) => {
   try {
     localStorage.setItem(config.cacheKey, JSON.stringify({
-      file: config.newestFile,
+      date,
       timestamp: Date.now(),
       data,
     }));
@@ -238,8 +230,7 @@ const applyFilters = () => {
   currentPage = 1;
   renderCurrentPage();
 
-  const config = getSourceConfig();
-  const baseText = `Fonte: FPP (${formatFileDate(config.newestFile)})`;
+  const baseText = `Fonte: FPP (${formatFileDate(currentDate)})`;
   if (meta) {
     meta.textContent = `${baseText} · ${filteredRows.length} / ${sortedRows.length} atletas`;
   }
@@ -274,36 +265,24 @@ if (clubFilter) clubFilter.addEventListener("change", applyFilters);
 const loadRankings = async () => {
   const config = getSourceConfig();
 
-  if (config.embed && Array.isArray(config.embed.data) && config.embed.file === config.newestFile) {
-    writeCache(config, config.embed.data);
-    renderRows(config.embed.data);
-    return;
-  }
-
   const cached = readCache(config);
   if (cached) {
-    renderRows(cached);
-    return;
-  }
-
-  if (window.location.protocol === "file:") {
-    if (meta) {
-      meta.textContent = `Sem dados carregados: verifica se ../data/rankings/${config.source}/latest.js existe e define window.${config.embedKey}.`;
-    }
-    if (tbody) {
-      tbody.innerHTML = '<tr><td colspan="10">Modo estático ativo. Não foi encontrado dataset embebido.</td></tr>';
-    }
+    currentDate = cached.date;
+    renderRows(cached.data);
     return;
   }
 
   try {
-    const response = await fetch(`../data/rankings/${config.source}/${config.newestFile}`, {
+    const response = await fetch(`${CDN_BASE}/${config.source}/latest.json`, {
       cache: "no-cache",
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
+    const json = await response.json();
+    const date = String(json?.date || "");
+    const data = json?.rankings;
     if (!Array.isArray(data)) throw new Error("Invalid rankings format");
-    writeCache(config, data);
+    currentDate = date;
+    writeCache(config, date, data);
     renderRows(data);
   } catch {
     if (meta) meta.textContent = "Não foi possível carregar o ranking.";

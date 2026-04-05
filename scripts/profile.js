@@ -1,4 +1,4 @@
-(() => {
+(async () => {
   /* ── DOM refs ── */
   const sourceSelect = document.getElementById("profileSource");
   const searchInput = document.getElementById("profileSearch");
@@ -19,6 +19,11 @@
   /* ── Constants ── */
   const STORAGE_KEY = "padel-profile-v1";
   const MAX_RESULTS = 50;
+  const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings";
+  const RANKINGS_CACHE_TTL_MS = 60 * 60 * 1000;
+
+  /* ── Rankings data store ── */
+  const rankingsStore = { male: [], female: [] };
 
   /* ── Helpers ── */
   const escapeHtml = (value) =>
@@ -56,12 +61,45 @@
   };
 
   /* ── Data access ── */
+  const fetchRankingsForSource = async (source) => {
+    const cacheKey = `${source}-rankings-cache-v1`;
+    try {
+      const raw = localStorage.getItem(cacheKey);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed.data) && Date.now() - Number(parsed.timestamp || 0) <= RANKINGS_CACHE_TTL_MS) {
+          return parsed.data;
+        }
+      }
+    } catch { /* ignore */ }
+
+    const response = await fetch(`${CDN_BASE}/${source}/latest.json`, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const json = await response.json();
+    const data = Array.isArray(json?.rankings) ? json.rankings : [];
+
+    try {
+      localStorage.setItem(cacheKey, JSON.stringify({
+        date: String(json?.date || ""),
+        timestamp: Date.now(),
+        data,
+      }));
+    } catch { /* quota exceeded */ }
+
+    return data;
+  };
+
+  const loadAllRankings = async () => {
+    const [male, female] = await Promise.all([
+      fetchRankingsForSource("male").catch(() => []),
+      fetchRankingsForSource("female").catch(() => []),
+    ]);
+    rankingsStore.male = male;
+    rankingsStore.female = female;
+  };
+
   const getRankings = (source) => {
-    const embed =
-      source === "female"
-        ? window.FEMALE_RANKINGS_EMBED
-        : window.MALE_RANKINGS_EMBED;
-    return Array.isArray(embed?.data) ? embed.data : [];
+    return source === "female" ? rankingsStore.female : rankingsStore.male;
   };
 
   const getThresholds = (source) => {
@@ -540,6 +578,7 @@
   };
 
   setShareVisible(false);
+  await loadAllRankings();
   if (!restoreFromQuery()) {
     restoreSaved();
   }
