@@ -579,6 +579,17 @@
 
   setShareVisible(false);
   await loadAllRankings();
+
+  if (!rankingsStore.male.length && !rankingsStore.female.length) {
+    const wrapper = searchInput?.closest(".profile-search-wrapper");
+    if (wrapper) {
+      wrapper.insertAdjacentHTML(
+        "beforebegin",
+        '<div class="profile-load-error" style="color:var(--danger,#c00);margin-bottom:0.5rem">Não foi possível carregar os dados de ranking.</div>',
+      );
+    }
+  }
+
   if (!restoreFromQuery()) {
     restoreSaved();
   }
