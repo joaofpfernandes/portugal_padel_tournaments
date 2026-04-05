@@ -17,6 +17,11 @@
       description:
         "Consulta os rankings absolutos masculino e feminino de padel em Portugal com pesquisa e filtros por nível, escalão e clube.",
     },
+    profile: {
+      title: "Perfil do Jogador - Padel Portugal",
+      description:
+        "Consulta o teu perfil de padel, verifica os pontos e nível atual, e descobre os níveis em que podes jogar com o teu par.",
+    },
   };
 
   const FALLBACK_META = {
@@ -33,6 +38,7 @@
     const path = normalizePath();
     if (path.includes("/content/rankings.html")) return "rankings";
     if (path.includes("/content/points-calculator.html")) return "points-calculator";
+    if (path.includes("/content/profile.html")) return "profile";
     if (path.endsWith("/index.html") || path === "/" || path === "") return "calendar";
 
     return null;
