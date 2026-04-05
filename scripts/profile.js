@@ -300,7 +300,8 @@
         return (
           `<tr class="${isCurrentOrAbove ? "profile-level-row-reached" : ""}">`+
           `<td>${escapeHtml(t.label)}</td>`+
-          `<td>${formatPoints(t.minPoints)}${t.maxPosition != null ? ` (Pos. ${t.maxPosition})` : ""}</td>`+
+          `<td>${escapeHtml(t.maxPosition)}</td>`+
+          `<td>${formatPoints(t.minPoints)}</td>`+
           `<td>${diffText}</td>`+
           `</tr>`
         );
@@ -319,6 +320,8 @@
       player.Points || "-";
     document.getElementById(`${prefix}Level`).textContent =
       player.Level || "-";
+    document.getElementById(`${prefix}Ranking`).textContent =
+      player.Ranking || "-";
   };
 
   /* ── Playable levels logic ── */
