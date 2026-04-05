@@ -328,7 +328,7 @@ const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main
 const DEFAULT_TOURNAMENT_IMAGE = `${CDN_BASE}/default.jpg`;
 
 const getTournamentImageUrl = (tournament) => {
-  if (!tournament.image) return DEFAULT_TOURNAMENT_IMAGE;
+  if (!tournament.image || !tournament.start_date) return DEFAULT_TOURNAMENT_IMAGE;
   const year = tournament.start_date.slice(0, 4);
   return `${CDN_BASE}/${year}/${tournament.image}`;
 };
