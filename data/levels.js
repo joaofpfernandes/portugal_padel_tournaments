@@ -1,28 +1,31 @@
 /**
- * Level point thresholds for male and female padel players.
+ * Level position cutoffs for male and female padel players.
  *
- * Each array entry represents the minimum number of points required
- * to reach that level. Levels are ordered from highest (Nível 1) to
- * lowest (Nível 6). The values are placeholders and can be adjusted
- * as official thresholds change.
+ * Each entry defines the maximum ranking position that qualifies
+ * for that level. The actual point thresholds are calculated at
+ * runtime from the rankings data by looking up the points of the
+ * player at the cutoff position.
  *
- * Format: { level: <number>, label: <string>, minPoints: <number> }
+ * Format: { level: <number>, label: <string>, maxPosition: <number> }
+ *
+ * Level 6 has no position cap – it includes everyone not covered
+ * by the levels above.
  */
 
-window.MALE_LEVEL_THRESHOLDS = [
-  { level: 1, label: "Nível 1", minPoints: 39000 },
-  { level: 2, label: "Nível 2", minPoints: 10500 },
-  { level: 3, label: "Nível 3", minPoints: 4250 },
-  { level: 4, label: "Nível 4", minPoints: 2120 },
-  { level: 5, label: "Nível 5", minPoints: 1150 },
-  { level: 6, label: "Nível 6", minPoints: 0 },
+window.MALE_LEVEL_POSITIONS = [
+  { level: 1, label: "Nível 1", maxPosition: 64 },
+  { level: 2, label: "Nível 2", maxPosition: 250 },
+  { level: 3, label: "Nível 3", maxPosition: 500 },
+  { level: 4, label: "Nível 4", maxPosition: 750 },
+  { level: 5, label: "Nível 5", maxPosition: 1000 },
+  { level: 6, label: "Nível 6", maxPosition: null },
 ];
 
-window.FEMALE_LEVEL_THRESHOLDS = [
-  { level: 1, label: "Nível 1", minPoints: 30650 },
-  { level: 2, label: "Nível 2", minPoints: 10900 },
-  { level: 3, label: "Nível 3", minPoints: 4280 },
-  { level: 4, label: "Nível 4", minPoints: 1995 },
-  { level: 5, label: "Nível 5", minPoints: 1080 },
-  { level: 6, label: "Nível 6", minPoints: 0 },
+window.FEMALE_LEVEL_POSITIONS = [
+  { level: 1, label: "Nível 1", maxPosition: 64 },
+  { level: 2, label: "Nível 2", maxPosition: 150 },
+  { level: 3, label: "Nível 3", maxPosition: 300 },
+  { level: 4, label: "Nível 4", maxPosition: 450 },
+  { level: 5, label: "Nível 5", maxPosition: 600 },
+  { level: 6, label: "Nível 6", maxPosition: null },
 ];

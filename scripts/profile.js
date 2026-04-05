@@ -63,10 +63,30 @@
     return Array.isArray(embed?.data) ? embed.data : [];
   };
 
-  const getThresholds = (source) =>
-    source === "female"
-      ? window.FEMALE_LEVEL_THRESHOLDS
-      : window.MALE_LEVEL_THRESHOLDS;
+  const getThresholds = (source) => {
+    const positions =
+      source === "female"
+        ? window.FEMALE_LEVEL_POSITIONS
+        : window.MALE_LEVEL_POSITIONS;
+    const rankings = getRankings(source);
+
+    // Sort by ranking position ascending so index matches position
+    const sorted = [...rankings].sort(
+      (a, b) =>
+        (Number(a.Ranking) || Number.MAX_SAFE_INTEGER) -
+        (Number(b.Ranking) || Number.MAX_SAFE_INTEGER),
+    );
+
+    return positions.map((pos) => {
+      let minPoints = 0;
+      if (pos.maxPosition != null && sorted.length > 0) {
+        // The player at the cutoff position (1-based) sets the threshold
+        const idx = Math.min(pos.maxPosition, sorted.length) - 1;
+        minPoints = parsePoints(sorted[idx]?.Points);
+      }
+      return { level: pos.level, label: pos.label, minPoints };
+    });
+  };
 
   /* ── Persistence ── */
   const loadSaved = () => {
