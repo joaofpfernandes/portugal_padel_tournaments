@@ -445,6 +445,7 @@
         "end_date": "2026-04-19",
         "organization": "FPP",
         "age_group": "ABS",
+        "image": "regional-abs.jpg",
         "fpp_data": {
             "points": null,
             "categories": "F1-F6; M1-M6",

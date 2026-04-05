@@ -25,7 +25,7 @@
   --masters-bg: #fffde7;
   --international: #ad1457;
   --international-bg: #fce4ec;
-  --club: #37474f;
+  --club: #99a6ad;
   --club-bg: #eceff1;
   --bg: #f5f6fa;
   --card-bg: #ffffff;
@@ -537,7 +537,7 @@ select {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.12;
+  opacity: 0.3;
   pointer-events: none;
   z-index: 0;
 }
@@ -557,7 +557,7 @@ select {
   z-index: 1;
 }
 [data-theme="dark"] .card-bg-image {
-  opacity: 0.08;
+  opacity: 0.3;
 }
 .card::before {
   content: "";
@@ -699,7 +699,7 @@ select {
   flex-wrap: wrap;
   gap: 0.75rem;
   font-size: 0.8rem;
-  color: var(--text-light);
+  color: var(--text);
 }
 .card-detail {
   display: flex;

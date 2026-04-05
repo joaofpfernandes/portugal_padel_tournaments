@@ -498,6 +498,8 @@ const map = L.map("mapContainer", { scrollWheelZoom: true }).setView(
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
   maxZoom: 18,
+  // OSM tile policy expects identifiable requests (Referer on web usage).
+  referrerPolicy: "strict-origin-when-cross-origin",
 }).addTo(map);
 
 // Custom colored marker using SVG
