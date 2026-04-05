@@ -13,7 +13,21 @@
 
     <main class="calc-layout profile-layout">
       <section class="calc-card profile-card">
-        <h2 class="profile-section-title">O meu perfil</h2>
+        <div class="profile-section-heading-row">
+          <h2 class="profile-section-title">O meu perfil</h2>
+          <button
+            id="profileShare"
+            class="profile-share-btn"
+            type="button"
+            aria-label="Partilhar perfil"
+            title="Partilhar perfil"
+            hidden
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M18 16a2.99 2.99 0 0 0-2.24 1.02L8.91 13.7a3.07 3.07 0 0 0 0-3.4l6.85-3.32A3 3 0 1 0 15 5a3.03 3.03 0 0 0 .09.7L8.24 9.02a3 3 0 1 0 0 5.96l6.85 3.32A3 3 0 1 0 18 16z"></path>
+            </svg>
+          </button>
+        </div>
 
         <div class="profile-source-row">
           <select id="profileSource" class="search-input">
@@ -124,7 +138,7 @@
               <span class="profile-value profile-highlight" id="pairTotalPoints">-</span>
             </div>
           </div>
-          <h3 class="profile-subtitle profile-subtitle--spaced">Níveis em que podem jogar</h3>
+          <h3 class="profile-subtitle profile-subtitle--spaced">Níveis em que podem jogar (Não tem em consideração se algum dos jogadores tiver alcançado nível 2 ou 1 nos últimos 5 anos)</h3>
           <div id="pairPlayableLevels" class="profile-playable-levels"></div>
         </div>
       </section>

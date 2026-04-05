@@ -1075,10 +1075,48 @@ select {
   margin-bottom: 1.5rem;
 }
 
+.profile-section-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
+}
+
 .profile-section-title {
   font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.profile-share-btn {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card-bg);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.2s, color 0.2s;
+}
+
+.profile-share-btn:hover {
+  border-color: var(--c10k);
+  transform: translateY(-1px);
+}
+
+.profile-share-btn svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+.profile-share-btn.copied {
+  border-color: var(--c5k);
+  color: var(--c5k);
 }
 
 .profile-subtitle {

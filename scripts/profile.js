@@ -7,6 +7,7 @@
   const levelsSection = document.getElementById("profileLevels");
   const levelsBody = document.getElementById("profileLevelsBody");
   const clearBtn = document.getElementById("profileClear");
+  const shareBtn = document.getElementById("profileShare");
 
   const pairSection = document.getElementById("pairSection");
   const pairSearch = document.getElementById("pairSearch");
@@ -174,6 +175,79 @@
     listEl.hidden = true;
   };
 
+  const setShareVisible = (isVisible) => {
+    if (!shareBtn) return;
+    shareBtn.hidden = !isVisible;
+  };
+
+  const updateQueryFromSelection = () => {
+    if (!selectedPlayer) return;
+    const licence = String(selectedPlayer.LicenceNumber || "").trim();
+    if (!licence) return;
+
+    const url = new URL(window.location.href);
+    url.searchParams.set("licenceid", licence);
+    url.searchParams.set("source", currentSource);
+    window.history.replaceState({}, "", url.toString());
+  };
+
+  const clearQuerySelection = () => {
+    const url = new URL(window.location.href);
+    url.searchParams.delete("licenceid");
+    url.searchParams.delete("source");
+    window.history.replaceState({}, "", url.toString());
+  };
+
+  const buildShareUrl = () => {
+    if (!selectedPlayer) return "";
+    const licence = String(selectedPlayer.LicenceNumber || "").trim();
+    if (!licence) return "";
+
+    const url = new URL(window.location.href);
+    url.searchParams.set("licenceid", licence);
+    url.searchParams.set("source", currentSource);
+    return url.toString();
+  };
+
+  const pulseShareState = (titleText) => {
+    if (!shareBtn) return;
+    const originalTitle = shareBtn.title;
+    shareBtn.classList.add("copied");
+    shareBtn.title = titleText;
+
+    window.setTimeout(() => {
+      shareBtn.classList.remove("copied");
+      shareBtn.title = originalTitle;
+    }, 1400);
+  };
+
+  const handleShare = async () => {
+    const shareUrl = buildShareUrl();
+    if (!shareUrl) return;
+
+    const shareData = {
+      title: "Perfil do Jogador - Padel Portugal",
+      text: `Vê este perfil: ${selectedPlayer?.Name || "Jogador"}`,
+      url: shareUrl,
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch {
+        // User may cancel native share sheet.
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      pulseShareState("Link copiado");
+    } catch {
+      window.prompt("Copia este link:", shareUrl);
+    }
+  };
+
   /* ── Level table ── */
   const renderLevelsTable = (playerPoints, source) => {
     const thresholds = getThresholds(source);
@@ -279,7 +353,9 @@
   let selectedPair = null;
 
   /* ── Main player selection ── */
-  const selectPlayer = (player) => {
+  const selectPlayer = (player, options = {}) => {
+    const shouldSyncUrl = options.syncUrl !== false;
+
     selectedPlayer = player;
     selectedPair = null;
 
@@ -303,6 +379,12 @@
     // Lock source selector
     sourceSelect.disabled = true;
 
+    setShareVisible(true);
+
+    if (shouldSyncUrl) {
+      updateQueryFromSelection();
+    }
+
     // Save
     saveCurrent({
       source: currentSource,
@@ -310,7 +392,9 @@
     });
   };
 
-  const clearPlayer = () => {
+  const clearPlayer = (options = {}) => {
+    const shouldSyncUrl = options.syncUrl !== false;
+
     selectedPlayer = null;
     selectedPair = null;
     infoSection.hidden = true;
@@ -321,6 +405,12 @@
     searchInput.value = "";
     searchInput.closest(".profile-search-wrapper").hidden = false;
     sourceSelect.disabled = false;
+    setShareVisible(false);
+
+    if (shouldSyncUrl) {
+      clearQuerySelection();
+    }
+
     clearSaved();
   };
 
@@ -383,6 +473,11 @@
 
   clearBtn.addEventListener("click", clearPlayer);
   pairClearBtn.addEventListener("click", clearPair);
+  if (shareBtn) {
+    shareBtn.addEventListener("click", () => {
+      handleShare();
+    });
+  }
 
   // Close dropdowns when clicking outside
   document.addEventListener("click", (e) => {
@@ -393,6 +488,41 @@
   });
 
   /* ── Restore saved state ── */
+  const selectPlayerByLicence = (licenceId, sourceHint) => {
+    const licence = String(licenceId || "").trim();
+    if (!licence) return false;
+
+    const sourceOrder = [];
+    if (sourceHint === "male" || sourceHint === "female") sourceOrder.push(sourceHint);
+    if (!sourceOrder.includes(currentSource)) sourceOrder.push(currentSource);
+    if (!sourceOrder.includes("male")) sourceOrder.push("male");
+    if (!sourceOrder.includes("female")) sourceOrder.push("female");
+
+    for (const source of sourceOrder) {
+      const rankings = getRankings(source);
+      const player = rankings.find(
+        (p) => String(p.LicenceNumber || "").trim() === licence,
+      );
+      if (!player) continue;
+
+      currentSource = source;
+      sourceSelect.value = source;
+      selectPlayer(player, { syncUrl: false });
+      return true;
+    }
+
+    return false;
+  };
+
+  const restoreFromQuery = () => {
+    const params = new URLSearchParams(window.location.search);
+    const licenceId = String(params.get("licenceid") || "").trim();
+    const sourceHint = String(params.get("source") || "").trim();
+    if (!licenceId) return false;
+
+    return selectPlayerByLicence(licenceId, sourceHint);
+  };
+
   const restoreSaved = () => {
     const saved = loadSaved();
     if (!saved?.source || !saved?.playerId) return;
@@ -403,11 +533,14 @@
     const rankings = getRankings(currentSource);
     const player = rankings.find((p) => p.PlayerID === saved.playerId);
     if (player) {
-      selectPlayer(player);
+      selectPlayer(player, { syncUrl: false });
     } else {
       clearSaved();
     }
   };
 
-  restoreSaved();
+  setShareVisible(false);
+  if (!restoreFromQuery()) {
+    restoreSaved();
+  }
 })();
