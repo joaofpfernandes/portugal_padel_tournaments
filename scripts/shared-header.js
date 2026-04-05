@@ -18,6 +18,11 @@
           label: "Rankings",
           href: "./rankings.html",
         },
+        {
+          key: "profile",
+          label: "Perfil",
+          href: "./profile.html",
+        },
       ]
     : [
         { key: "calendar", label: "Calendário", href: "./index.html" },
@@ -31,6 +36,11 @@
           label: "Rankings",
           href: "./content/rankings.html",
         },
+        {
+          key: "profile",
+          label: "Perfil",
+          href: "./content/profile.html",
+        },
       ];
 
   const subtitles = {
@@ -39,6 +49,7 @@
     rankings: "Rankings Absolutos",
     "male-abs-rankings": "Ranking Absoluto Masculino",
     "female-abs-rankings": "Ranking Absoluto Feminino",
+    profile: "Perfil do Jogador",
   };
 
   const menuHtml = links

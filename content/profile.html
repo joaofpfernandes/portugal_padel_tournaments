@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil do Jogador - Padel Portugal</title>
+    <script src="../scripts/shared-social-meta.js"></script>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body data-page="profile">
+    <div id="sharedHeader"></div>
+
+    <main class="calc-layout profile-layout">
+      <section class="calc-card profile-card">
+        <h2 class="profile-section-title">O meu perfil</h2>
+
+        <div class="profile-source-row">
+          <select id="profileSource" class="search-input">
+            <option value="male" selected>Masculino</option>
+            <option value="female">Feminino</option>
+          </select>
+        </div>
+
+        <div class="profile-search-wrapper">
+          <input
+            id="profileSearch"
+            class="search-input"
+            type="text"
+            placeholder="Pesquisar por nome, licença ou clube..."
+            autocomplete="off"
+          />
+          <ul id="profileResults" class="profile-results" hidden></ul>
+        </div>
+
+        <div id="profileInfo" class="profile-info" hidden>
+          <div class="profile-detail-grid">
+            <div class="profile-detail">
+              <span class="profile-label">Nome</span>
+              <span class="profile-value" id="profileName">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Licença</span>
+              <span class="profile-value" id="profileLicence">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Clube</span>
+              <span class="profile-value" id="profileClub">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Pontos</span>
+              <span class="profile-value profile-highlight" id="profilePoints">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Nível</span>
+              <span class="profile-value profile-highlight" id="profileLevel">-</span>
+            </div>
+          </div>
+          <button class="filter-btn profile-clear-btn" id="profileClear">Alterar jogador</button>
+        </div>
+
+        <div id="profileLevels" class="profile-levels" hidden>
+          <h3 class="profile-subtitle">Pontos por nível</h3>
+          <div class="profile-levels-table-wrapper">
+            <table class="calc-table profile-levels-table" id="profileLevelsTable">
+              <thead>
+                <tr>
+                  <th>Nível</th>
+                  <th>Mínimo</th>
+                  <th>Diferença</th>
+                </tr>
+              </thead>
+              <tbody id="profileLevelsBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="calc-card profile-card" id="pairSection" hidden>
+        <h2 class="profile-section-title">Par</h2>
+
+        <div class="profile-search-wrapper">
+          <input
+            id="pairSearch"
+            class="search-input"
+            type="text"
+            placeholder="Pesquisar par por nome, licença ou clube..."
+            autocomplete="off"
+          />
+          <ul id="pairResults" class="profile-results" hidden></ul>
+        </div>
+
+        <div id="pairInfo" class="profile-info" hidden>
+          <div class="profile-detail-grid">
+            <div class="profile-detail">
+              <span class="profile-label">Nome</span>
+              <span class="profile-value" id="pairName">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Licença</span>
+              <span class="profile-value" id="pairLicence">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Clube</span>
+              <span class="profile-value" id="pairClub">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Pontos</span>
+              <span class="profile-value profile-highlight" id="pairPoints">-</span>
+            </div>
+            <div class="profile-detail">
+              <span class="profile-label">Nível</span>
+              <span class="profile-value profile-highlight" id="pairLevel">-</span>
+            </div>
+          </div>
+          <button class="filter-btn profile-clear-btn" id="pairClear">Alterar par</button>
+        </div>
+
+        <div id="pairSummary" class="profile-summary" hidden>
+          <h3 class="profile-subtitle">Resumo do par</h3>
+          <div class="profile-detail-grid">
+            <div class="profile-detail">
+              <span class="profile-label">Total de pontos</span>
+              <span class="profile-value profile-highlight" id="pairTotalPoints">-</span>
+            </div>
+          </div>
+          <h3 class="profile-subtitle" style="margin-top: 1rem">Níveis em que podem jogar</h3>
+          <div id="pairPlayableLevels" class="profile-playable-levels"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../scripts/shared-header.js"></script>
+    <script src="../scripts/shared-theme.js"></script>
+    <script src="../data/levels.js"></script>
+    <script src="../data/rankings/male/latest.js"></script>
+    <script src="../data/rankings/female/latest.js"></script>
+    <script src="../scripts/profile.js"></script>
+  </body>
+</html>
