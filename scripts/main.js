@@ -324,6 +324,15 @@ const getTournamentPointsAndPrize = (tournament, level) => {
   return { pointsNum, prizeMoney };
 };
 
+const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/assets/tournament-images";
+const DEFAULT_TOURNAMENT_IMAGE = `${CDN_BASE}/default.jpg`;
+
+const getTournamentImageUrl = (tournament) => {
+  if (!tournament.image || !tournament.start_date) return DEFAULT_TOURNAMENT_IMAGE;
+  const year = tournament.start_date.slice(0, 4);
+  return `${CDN_BASE}/${year}/${tournament.image}`;
+};
+
 const buildTournamentCardContent = (tournament) => {
   const level = getTournamentLevel(tournament);
   const badgeMeta = level
@@ -349,11 +358,15 @@ const buildTournamentCardContent = (tournament) => {
     ? `<span class="fip-points">${pointsNum.toLocaleString("pt-PT")} pts</span>`
     : "";
 
+  const imageUrl = getTournamentImageUrl(tournament);
+
   return {
     level,
     month: getTournamentMonth(tournament),
     ageGroup: getTournamentAgeGroup(tournament),
     html: `
+<div class="card-bg-image" style="background-image:url('${imageUrl}')"></div>
+<div class="card-bg-overlay"></div>
 <div class="card-top">
   <div class="card-name">${tournament.name}</div>
   <span class="badge ${badgeMeta.badgeClass}">${badgeMeta.label}</span>
