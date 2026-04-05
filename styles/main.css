@@ -1088,6 +1088,10 @@ select {
   margin-bottom: 0.6rem;
 }
 
+.profile-subtitle--spaced {
+  margin-top: 1rem;
+}
+
 .profile-source-row {
   margin-bottom: 0.8rem;
   max-width: 280px;

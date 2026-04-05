@@ -243,11 +243,9 @@
       container.innerHTML =
         '<div class="profile-playable-none">Sem níveis disponíveis.</div>';
     } else {
-      const thresholds = getThresholds(source);
       container.innerHTML = playable
         .map((lvl) => {
-          const t = thresholds.find((th) => th.level === lvl);
-          return `<span class="profile-playable-badge">Nível ${lvl}${t ? "" : ""}</span>`;
+          return `<span class="profile-playable-badge">Nível ${lvl}</span>`;
         })
         .join("");
     }
