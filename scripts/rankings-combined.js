@@ -76,7 +76,7 @@ const renderProfileCell = (player) => {
   if (!licenceNumber) return "-";
 
   const { source } = getSourceConfig();
-  const url = `./content/profile.html?licenceid=${encodeURIComponent(licenceNumber)}&source=${encodeURIComponent(source)}`;
+  const url = `~/content/profile.html?licenceid=${encodeURIComponent(licenceNumber)}&source=${encodeURIComponent(source)}`;
   return `<a href="${escapeHtml(url)}">Ver perfil</a>`;
 };
 
