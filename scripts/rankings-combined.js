@@ -71,6 +71,15 @@ const renderLicenceCell = (player) => {
   return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(licenceNumber)}</a>`;
 };
 
+const renderProfileCell = (player) => {
+  const licenceNumber = String(player?.LicenceNumber ?? "").trim();
+  if (!licenceNumber) return "-";
+
+  const { source } = getSourceConfig();
+  const url = `/content/profile.html?licenceid=${encodeURIComponent(licenceNumber)}&source=${encodeURIComponent(source)}`;
+  return `<a href="${escapeHtml(url)}">Ver perfil</a>`;
+};
+
 const isYouthAgeType = (value) => {
   const normalized = normalizeSearchText(value).replaceAll(" ", "");
   return normalized.startsWith("sub") || normalized.startsWith("jov");
@@ -159,7 +168,7 @@ const writeCache = (config, date, data) => {
 
 const renderCurrentPage = () => {
   if (!filteredRows.length) {
-    tbody.innerHTML = '<tr><td colspan="10">Sem dados disponíveis de momento.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
     if (pageInfo) pageInfo.textContent = "Página 0 de 0";
     if (prevPageBtn) prevPageBtn.disabled = true;
     if (nextPageBtn) nextPageBtn.disabled = true;
@@ -179,6 +188,7 @@ const renderCurrentPage = () => {
       <td>${escapeHtml(formatRankingChange(player.RankingChange))}</td>
       <td>${renderLicenceCell(player)}</td>
       <td>${escapeHtml(player.Name)}</td>
+      <td>${renderProfileCell(player)}</td>
       <td>${escapeHtml(player.Points)}</td>
       <td>${escapeHtml(player.Club || "-")}</td>
       <td>${escapeHtml(player.Level)}</td>
@@ -287,7 +297,7 @@ const loadRankings = async () => {
   } catch {
     if (meta) meta.textContent = "Não foi possível carregar o ranking.";
     if (tbody) {
-      tbody.innerHTML = '<tr><td colspan="10">Sem dados disponíveis de momento.</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
     }
   }
 };
