@@ -5,57 +5,79 @@
   const page = document.body?.dataset?.page || "calendar";
   const isContentPage = /\/content\//i.test(window.location.pathname);
 
-  const links = isContentPage
+  const menuSections = isContentPage
     ? [
-        { key: "calendar", label: "Calendário", href: "../index.html" },
         {
-          key: "points-calculator",
-          label: "Calculadora de Pontos",
-          href: "./points-calculator.html",
+          title: "Torneios",
+          links: [
+            { key: "calendar", label: "Calendário", href: "../index.html" },
+            {
+              key: "points-calculator",
+              label: "Calculadora de Pontos",
+              href: "./points-calculator.html",
+            },
+          ],
         },
         {
-          key: "rankings",
-          label: "Rankings",
-          href: "./rankings.html",
-        },
-        {
-          key: "profile",
-          label: "Perfil",
-          href: "./profile.html",
+          title: "Jogador",
+          links: [
+            {
+              key: "profile",
+              label: "Perfil",
+              href: "./profile.html",
+            },
+            {
+              key: "rankings",
+              label: "Rankings",
+              href: "./rankings.html",
+            },
+          ],
         },
       ]
     : [
-        { key: "calendar", label: "Calendário", href: "./index.html" },
         {
-          key: "points-calculator",
-          label: "Calculadora de Pontos",
-          href: "./content/points-calculator.html",
+          title: "Torneios",
+          links: [
+            { key: "calendar", label: "Calendário", href: "./index.html" },
+            {
+              key: "points-calculator",
+              label: "Calculadora de Pontos",
+              href: "./content/points-calculator.html",
+            },
+          ],
         },
         {
-          key: "rankings",
-          label: "Rankings",
-          href: "./content/rankings.html",
-        },
-        {
-          key: "profile",
-          label: "Perfil",
-          href: "./content/profile.html",
+          title: "Jogador",
+          links: [
+            {
+              key: "profile",
+              label: "Perfil",
+              href: "./content/profile.html",
+            },
+            {
+              key: "rankings",
+              label: "Rankings",
+              href: "./content/rankings.html",
+            },
+          ],
         },
       ];
 
-  const subtitles = {
-    calendar: "Calendário",
-    "points-calculator": "Calculadora de Pontos",
-    rankings: "Rankings Absolutos",
-    "male-abs-rankings": "Ranking Absoluto Masculino",
-    "female-abs-rankings": "Ranking Absoluto Feminino",
-    profile: "Perfil do Jogador",
-  };
+  const menuHtml = menuSections
+    .map((section) => {
+      const linksHtml = section.links
+        .map((item) => {
+          const isActive = item.key === page;
+          return `<a class="header-menu-link${isActive ? " active" : ""}" href="${item.href}" ${isActive ? 'aria-current="page"' : ""}>${item.label}</a>`;
+        })
+        .join("");
 
-  const menuHtml = links
-    .map((item) => {
-      const isActive = item.key === page;
-      return `<a class="header-menu-link${isActive ? " active" : ""}" href="${item.href}" ${isActive ? 'aria-current="page"' : ""}>${item.label}</a>`;
+      return `
+        <div class="header-menu-section">
+          <span class="header-menu-section-title">${section.title}</span>
+          <div class="header-menu-section-links">${linksHtml}</div>
+        </div>
+      `;
     })
     .join("");
 
@@ -64,7 +86,6 @@
       <div class="header-content">
         <div class="header-text">
           <h1>Padel Portugal</h1>
-          <div class="header-subtitle">${subtitles[page] || ""}</div>
           <nav class="header-menu" aria-label="Menu principal">${menuHtml}</nav>
         </div>
         <div class="header-year">2026</div>
