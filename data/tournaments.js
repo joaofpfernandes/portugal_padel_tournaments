@@ -445,15 +445,10 @@
         "end_date": "2026-04-19",
         "organization": "FPP",
         "age_group": "ABS",
-        "fip_data": {
-            "level": "",
-            "categories": "",
-            "link": ""
-        },
         "fpp_data": {
             "points": null,
             "categories": "F1-F6; M1-M6",
-            "link": "",
+            "link": "https://tour.tiesports.com/fpp/calendar_(tournaments)",
             "level": "regional"
         }
     },
@@ -465,15 +460,10 @@
         "end_date": "2026-04-19",
         "organization": "FPP",
         "age_group": "JOV",
-        "fip_data": {
-            "level": "",
-            "categories": "",
-            "link": ""
-        },
         "fpp_data": {
             "points": null,
             "categories": "JOV M&F S12 a S18",
-            "link": "",
+            "link": "https://tour.tiesports.com/fpp/calendar_(tournaments)",
             "level": "regional"
         }
     },
@@ -497,17 +487,17 @@
         }
     },
     {
-        "name": "Open Top-padel Fluvial",
+        "name": "Open A-Z Padel Fluvial",
         "prize": "5.000€",
         "location": "Porto",
-        "start_date": "2026-04-24",
+        "start_date": "2026-04-23",
         "end_date": "2026-04-26",
-        "organization": "Top-padel Fluvial",
+        "organization": "A-Z Padel Fluvial",
         "age_group": "ABS",
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
-            "link": "",
+            "link": "https://fpp.tiepadel.com/tournaments/OpenAZPadelFluvial26",
             "level": "c5k"
         }
     },
