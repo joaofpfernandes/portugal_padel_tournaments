@@ -108,12 +108,10 @@ Features:
   - fpp_data (points, categories, link, level)
 
 ### Rankings datasets
-- Male embed file: `data/rankings/male/latest.js`
-- Female embed file: `data/rankings/female/latest.js`
-- Expose:
-  - `window.MALE_RANKINGS_EMBED`
-  - `window.FEMALE_RANKINGS_EMBED`
-- Include source filename metadata (for date display) and data arrays.
+- CDN source (male): `https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings/male/latest.json`
+- CDN source (female): `https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings/female/latest.json`
+- Fetched at runtime and cached in localStorage (1-hour TTL).
+- Include source date metadata and rankings arrays.
 
 ## Tech Stack
 
@@ -137,7 +135,7 @@ Features:
 - `scripts/shared-social-meta.js` - Dynamic social metadata
 - `styles/main.css` - Global styles
 - `data/tournaments.js` - Tournament data
-- `data/rankings/...` - Rankings data
+- `data/levels.js` - Level position cutoff definitions
 
 ## Running Locally
 
@@ -156,4 +154,4 @@ Then open:
 
 - The published site is hosted via GitHub Pages at:
   https://ricardowth.github.io/portugal_padel_tournaments/
-- Rankings logic supports embedded JS datasets and falls back to JSON fetch/cache behavior when applicable.
+- Rankings logic fetches data from the jsDelivr CDN and caches it in localStorage with a 1-hour TTL.
