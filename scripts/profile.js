@@ -123,7 +123,7 @@
         const idx = Math.min(pos.maxPosition, sorted.length) - 1;
         minPoints = parsePoints(sorted[idx]?.Points);
       }
-      return { level: pos.level, label: pos.label, minPoints };
+      return { level: pos.level, label: pos.label, minPoints, maxPosition: pos.maxPosition };
     });
   };
 
@@ -300,7 +300,7 @@
         return (
           `<tr class="${isCurrentOrAbove ? "profile-level-row-reached" : ""}">`+
           `<td>${escapeHtml(t.label)}</td>`+
-          `<td>${formatPoints(t.minPoints)}</td>`+
+          `<td>${formatPoints(t.minPoints)}${t.maxPosition != null ? ` (Pos. ${t.maxPosition})` : ""}</td>`+
           `<td>${diffText}</td>`+
           `</tr>`
         );
