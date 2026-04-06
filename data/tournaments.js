@@ -1638,7 +1638,7 @@
     {
         "name": "Fase Final Regional Liga Clubes Absolutos",
         "prize": "",
-        "location": "VÃ¡rias regiÃµes",
+        "location": "Várias regiões",
         "start_date": "2026-08-28",
         "end_date": "2026-08-30",
         "organization": "FPP",
@@ -1698,7 +1698,7 @@
     {
         "name": "Fase Final Regional Liga Clubes Veteranos",
         "prize": "",
-        "location": "VÃ¡rias regiÃµes",
+        "location": "Várias regiões",
         "start_date": "2026-09-04",
         "end_date": "2026-09-06",
         "organization": "FPP",
@@ -1956,7 +1956,7 @@
     {
         "name": "IV Open Dream Padel By Mahou",
         "prize": "5.000",
-        "location": "SetÃºbal",
+        "location": "Setúbal",
         "start_date": "2026-09-25",
         "end_date": "2026-09-27",
         "organization": "Dream Padel Center",
