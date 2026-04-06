@@ -1,3 +1,5 @@
+/* globals escapeHtml, normalizeSearchText, readCache, writeCache */
+
 const CACHE_TTL_MS = 60 * 60 * 1000;
 const ROWS_PER_PAGE = 100;
 const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings";
@@ -18,22 +20,10 @@ let sortedRows = [];
 let filteredRows = [];
 let currentDate = "";
 
-const escapeHtml = (value) => String(value ?? "")
-  .replaceAll("&", "&amp;")
-  .replaceAll("<", "&lt;")
-  .replaceAll(">", "&gt;")
-  .replaceAll('"', "&quot;")
-  .replaceAll("'", "&#039;");
-
 const parseRankingNumber = (value) => {
   const asNumber = Number(String(value ?? "").replace(/[^\d.-]/g, ""));
   return Number.isFinite(asNumber) ? asNumber : Number.MAX_SAFE_INTEGER;
 };
-
-const normalizeSearchText = (value) => String(value ?? "")
-  .normalize("NFD")
-  .replace(/[\u0300-\u036f]/g, "")
-  .toLowerCase();
 
 const formatRankingChange = (value) => {
   const raw = String(value ?? "").trim();
@@ -139,31 +129,6 @@ const formatFileDate = (fileName) => {
   if (!match) return fileName;
   const [, y, m, d] = match;
   return `${d}/${m}/${y}`;
-};
-
-const readCache = (config) => {
-  try {
-    const raw = localStorage.getItem(config.cacheKey);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    if (!parsed || !Array.isArray(parsed.data)) return null;
-    if (Date.now() - Number(parsed.timestamp || 0) > CACHE_TTL_MS) return null;
-    return { date: parsed.date || "", data: parsed.data };
-  } catch {
-    return null;
-  }
-};
-
-const writeCache = (config, date, data) => {
-  try {
-    localStorage.setItem(config.cacheKey, JSON.stringify({
-      date,
-      timestamp: Date.now(),
-      data,
-    }));
-  } catch {
-    return;
-  }
 };
 
 const renderCurrentPage = () => {
@@ -275,7 +240,7 @@ if (clubFilter) clubFilter.addEventListener("change", applyFilters);
 const loadRankings = async () => {
   const config = getSourceConfig();
 
-  const cached = readCache(config);
+  const cached = readCache(config.cacheKey, CACHE_TTL_MS);
   if (cached) {
     currentDate = cached.date;
     renderRows(cached.data);
@@ -292,7 +257,7 @@ const loadRankings = async () => {
     const data = json?.rankings;
     if (!Array.isArray(data)) throw new Error("Invalid rankings format");
     currentDate = date;
-    writeCache(config, date, data);
+    writeCache(config.cacheKey, date, data);
     renderRows(data);
   } catch {
     if (meta) meta.textContent = "Não foi possível carregar o ranking.";
