@@ -538,15 +538,11 @@
         "end_date": "2026-04-26",
         "organization": "Padel4move",
         "age_group": "JOV",
-        "fip_data": {
-            "level": "fip-promises",
-            "categories": "M & F",
-            "link": ""
-        },
+        "image" : "torneios-jovens-empower.jpg",
         "fpp_data": {
-            "points": null,
+            "points": 5000,
             "categories": "M&F: S12, S14, S16, S18",
-            "link": ""
+            "link": "https://fpp.tiepadel.com/tournaments/EmpowerTalentLaunch"
         }
     },
     {
