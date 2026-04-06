@@ -1,4 +1,6 @@
 (async () => {
+  /* globals escapeHtml, normalizeSearchText, parsePoints, formatPoints, readCache, writeCache */
+
   /* ── DOM refs ── */
   const sourceSelect = document.getElementById("profileSource");
   const searchInput = document.getElementById("profileSearch");
@@ -19,6 +21,7 @@
   /* ── Constants ── */
   const STORAGE_KEY = "padel-profile-v1";
   const MAX_RESULTS = 50;
+  const SEARCH_DEBOUNCE_MS = 150;
   const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings";
   const RANKINGS_CACHE_TTL_MS = 60 * 60 * 1000;
 
@@ -26,35 +29,6 @@
   const rankingsStore = { male: [], female: [] };
 
   /* ── Helpers ── */
-  const escapeHtml = (value) =>
-    String(value ?? "")
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-
-  const normalizeSearch = (value) =>
-    String(value ?? "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase();
-
-  const parsePoints = (value) => {
-    const cleaned = String(value ?? "")
-      .replace(/\./g, "")
-      .replace(",", ".");
-    const num = Number(cleaned);
-    return Number.isFinite(num) ? num : 0;
-  };
-
-  const formatPoints = (value) => {
-    const rounded = Math.round(value * 100) / 100;
-    const parts = rounded.toFixed(2).split(".");
-    const integerPart = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-    return `${integerPart},${parts[1]}`;
-  };
-
   const extractLevelNumber = (levelStr) => {
     const match = String(levelStr ?? "").match(/(\d+)/);
     return match ? Number(match[1]) : 6;
@@ -63,29 +37,15 @@
   /* ── Data access ── */
   const fetchRankingsForSource = async (source) => {
     const cacheKey = `${source}-rankings-cache-v1`;
-    try {
-      const raw = localStorage.getItem(cacheKey);
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        if (Array.isArray(parsed.data) && Date.now() - Number(parsed.timestamp || 0) <= RANKINGS_CACHE_TTL_MS) {
-          return parsed.data;
-        }
-      }
-    } catch { /* ignore */ }
+    const cached = readCache(cacheKey, RANKINGS_CACHE_TTL_MS);
+    if (cached) return cached.data;
 
     const response = await fetch(`${CDN_BASE}/${source}/latest.json`, { cache: "no-cache" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const json = await response.json();
     const data = Array.isArray(json?.rankings) ? json.rankings : [];
 
-    try {
-      localStorage.setItem(cacheKey, JSON.stringify({
-        date: String(json?.date || ""),
-        timestamp: Date.now(),
-        data,
-      }));
-    } catch { /* quota exceeded */ }
-
+    writeCache(cacheKey, String(json?.date || ""), data);
     return data;
   };
 
@@ -159,16 +119,16 @@
     const rankings = getRankings(source);
     const terms = query
       .split(",")
-      .map((t) => normalizeSearch(t.trim()))
+      .map((t) => normalizeSearchText(t.trim()))
       .filter(Boolean);
     if (!terms.length) return [];
 
     const matches = [];
     for (const player of rankings) {
       if (excludeId && player.PlayerID === excludeId) continue;
-      const name = normalizeSearch(player.Name);
-      const licence = normalizeSearch(player.LicenceNumber);
-      const club = normalizeSearch(player.Club);
+      const name = normalizeSearchText(player.Name);
+      const licence = normalizeSearchText(player.LicenceNumber);
+      const club = normalizeSearchText(player.Club);
       const match = terms.some(
         (t) => name.includes(t) || licence.includes(t) || club.includes(t),
       );

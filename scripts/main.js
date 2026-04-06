@@ -201,10 +201,6 @@ const getTournamentAgeGroup = (tournament) =>
 const getTournamentLevel = (tournament) => {
   const fipLevel = String(tournament?.fip_data?.level || "").trim();
   if (fipLevel) return fipLevel;
-
-  // const fppLevel = String(tournament?.fpp_data?.level || "").trim();
-  // if (fppLevel) return fppLevel;
-
   return "";
 };
 
@@ -384,70 +380,36 @@ ${statusBarHtml}
   };
 };
 
-const filterMatchesByCats = (tournament, filterKey) => {
-  const age = getTournamentAgeGroup(tournament);
-
-  if (filterKey === "absolutos") {
-    return age === "abs";
-  }
-  if (filterKey === "jovens") {
-    return age === "jov";
-  }
-  if (filterKey === "veteranos") {
-    return age === "vet";
-  }
-  if (filterKey === "fip-only") {
-    return age === "none";
-  }
-
-  return false;
+const CATEGORY_AGE_MAP = {
+  absolutos: "abs",
+  jovens: "jov",
+  veteranos: "vet",
+  "fip-only": "none",
 };
+
+const filterMatchesByCats = (tournament, filterKey) =>
+  getTournamentAgeGroup(tournament) === CATEGORY_AGE_MAP[filterKey];
 
 // --- Build filter buttons ---
 const fc = document.getElementById("filterContainer");
-const allBtn = document.createElement("button");
-allBtn.className = "filter-btn active";
-allBtn.dataset.level = "all";
-allBtn.innerHTML = `Todos<span class="count-badge">${tournaments.length}</span>`;
-fc.appendChild(allBtn);
 
-// Add category filters
-const absolutosCount = tournaments.filter((t) =>
-  filterMatchesByCats(t, "absolutos"),
-).length;
-const veteranosCount = tournaments.filter((t) =>
-  filterMatchesByCats(t, "veteranos"),
-).length;
-const jovensCount = tournaments.filter((t) =>
-  filterMatchesByCats(t, "jovens"),
-).length;
-const onlyFIPCount = tournaments.filter((t) =>
-  filterMatchesByCats(t, "fip-only"),
-).length;
+const createFilterButton = (level, label, count, isActive = false) => {
+  const btn = document.createElement("button");
+  btn.className = `filter-btn${isActive ? " active" : ""}`;
+  btn.dataset.level = level;
+  btn.innerHTML = `${label}<span class="count-badge">${count}</span>`;
+  fc.appendChild(btn);
+  return btn;
+};
 
-const absolutosBtn = document.createElement("button");
-absolutosBtn.className = "filter-btn";
-absolutosBtn.dataset.level = "absolutos";
-absolutosBtn.innerHTML = `Absolutos<span class="count-badge">${absolutosCount}</span>`;
-fc.appendChild(absolutosBtn);
+const countByFilter = (filterKey) =>
+  tournaments.filter((t) => filterMatchesByCats(t, filterKey)).length;
 
-const veteranosBtn = document.createElement("button");
-veteranosBtn.className = "filter-btn";
-veteranosBtn.dataset.level = "veteranos";
-veteranosBtn.innerHTML = `Veteranos<span class="count-badge">${veteranosCount}</span>`;
-fc.appendChild(veteranosBtn);
-
-const jovensBtn = document.createElement("button");
-jovensBtn.className = "filter-btn";
-jovensBtn.dataset.level = "jovens";
-jovensBtn.innerHTML = `Jovens<span class="count-badge">${jovensCount}</span>`;
-fc.appendChild(jovensBtn);
-
-const onlyFIPBtn = document.createElement("button");
-onlyFIPBtn.className = "filter-btn";
-onlyFIPBtn.dataset.level = "fip-only";
-onlyFIPBtn.innerHTML = `Apenas FIP<span class="count-badge">${onlyFIPCount}</span>`;
-fc.appendChild(onlyFIPBtn);
+const allBtn = createFilterButton("all", "Todos", tournaments.length, true);
+createFilterButton("absolutos", "Absolutos", countByFilter("absolutos"));
+createFilterButton("veteranos", "Veteranos", countByFilter("veteranos"));
+createFilterButton("jovens", "Jovens", countByFilter("jovens"));
+createFilterButton("fip-only", "Apenas FIP", countByFilter("fip-only"));
 
 
 // --- SVGs ---
@@ -570,14 +532,7 @@ Object.entries(locationGroups).forEach(([locName, group]) => {
     icon: createMarkerIcon(color),
   });
 
-  const popupTournaments = [...group.tournaments].sort((a, b) => {
-    const dateA = parseIsoDate(a.start_date);
-    const dateB = parseIsoDate(b.start_date);
-    if (!dateA && !dateB) return 0;
-    if (!dateA) return 1;
-    if (!dateB) return -1;
-    return dateA - dateB;
-  });
+  const popupTournaments = sortTournamentsByDate(group.tournaments);
 
   const popupHtml = buildMarkerPopupHtml(popupTournaments);
 
@@ -609,122 +564,123 @@ const clearBtn = document.getElementById("clearFilters");
 const searchInput = document.getElementById("searchInput");
 const monthFrom = document.getElementById("monthFrom");
 const monthTo = document.getElementById("monthTo");
-const displayMonths = [
-  "Janeiro",
-  "Fevereiro",
-  "Março",
-  "Abril",
-  "Maio",
-  "Junho",
-  "Julho",
-  "Agosto",
-  "Setembro",
-  "Outubro",
-  "Novembro",
-  "Dezembro",
-];
 
 function applyFilters() {
   const isAll = activeFilters.size === 0;
   const from = parseInt(monthFrom.value);
   const to = parseInt(monthTo.value);
+  const lowerQuery = searchQuery ? searchQuery.toLowerCase() : "";
 
   // Update button states
+  updateFilterButtonStates(isAll);
+
+  // Filter cards and count visible
+  const visibleCount = filterCards(isAll, from, to, lowerQuery);
+
+  // Update month section visibility and badge counts
+  updateMonthSections();
+
+  // Update stats
+  document.getElementById("visibleCount").textContent = visibleCount;
+  document.getElementById("noResults").style.display =
+    visibleCount === 0 ? "block" : "none";
+
+  // Update map markers
+  updateMapMarkers(isAll, from, to, lowerQuery);
+}
+
+function updateFilterButtonStates(isAll) {
   allBtn.classList.toggle("active", isAll);
   document
     .querySelectorAll('.filter-btn:not([data-level="all"])')
     .forEach((btn) => {
-      btn.classList.toggle(
-        "active",
-        activeFilters.has(btn.dataset.level),
-      );
+      btn.classList.toggle("active", activeFilters.has(btn.dataset.level));
     });
   clearBtn.classList.toggle("visible", !isAll);
+}
 
-  // Filter cards
+function matchesActiveFilters(level, ageGroup) {
+  if (activeFilters.has(level)) return true;
+  if (activeFilters.has("absolutos") && ageGroup === "abs") return true;
+  if (activeFilters.has("veteranos") && ageGroup === "vet") return true;
+  if (activeFilters.has("jovens") && ageGroup === "jov") return true;
+  if (activeFilters.has("fip-only") && ageGroup === "none") return true;
+  return false;
+}
+
+function filterCards(isAll, from, to, lowerQuery) {
   let visibleCount = 0;
   document.querySelectorAll(".card").forEach((card) => {
-    const monthIdx = displayMonths.indexOf(card.dataset.month);
-    const isInMonthRange = monthIdx >= from && monthIdx <= to;
-    let show = isInMonthRange;
+    const monthIdx = months.indexOf(card.dataset.month);
+    let show = monthIdx >= from && monthIdx <= to;
 
-    // Apply level/category filters (always respecting month range)
     if (show && !isAll) {
-      const ageGroup = card.dataset.ageGroup;
-      const levelMatch = activeFilters.has(card.dataset.level);
-      const categoryMatch =
-        (activeFilters.has("absolutos") && ageGroup === "abs") ||
-        (activeFilters.has("veteranos") && ageGroup === "vet") ||
-        (activeFilters.has("jovens") && ageGroup === "jov") ||
-        (activeFilters.has("fip-only") && ageGroup === "none");
-
-      show = levelMatch || categoryMatch;
+      show = matchesActiveFilters(card.dataset.level, card.dataset.ageGroup);
     }
 
-    // Apply search filter
-    if (show && searchQuery) {
-      const cardName = card
-        .querySelector(".card-name")
-        .textContent.toLowerCase();
-      show = cardName.includes(searchQuery.toLowerCase());
+    if (show && lowerQuery) {
+      const cardName = card.querySelector(".card-name").textContent.toLowerCase();
+      show = cardName.includes(lowerQuery);
     }
 
     card.classList.toggle("hidden", !show);
     if (show) visibleCount++;
   });
+  return visibleCount;
+}
 
-  // Update month sections
+function updateMonthSections() {
   document.querySelectorAll(".month-section").forEach((section) => {
     const visible = section.querySelectorAll(".card:not(.hidden)").length;
     section.classList.toggle("hidden", visible === 0);
     const badge = section.querySelector(".month-count");
     if (badge) badge.textContent = visible;
   });
+}
 
-  document.getElementById("visibleCount").textContent = visibleCount;
-  document.getElementById("noResults").style.display =
-    visibleCount === 0 ? "block" : "none";
+function matchesTournamentFilters(tournament) {
+  if (activeFilters.has(getTournamentLevel(tournament))) return true;
+  if (activeFilters.has("absolutos") && filterMatchesByCats(tournament, "absolutos")) return true;
+  if (activeFilters.has("veteranos") && filterMatchesByCats(tournament, "veteranos")) return true;
+  if (activeFilters.has("jovens") && filterMatchesByCats(tournament, "jovens")) return true;
+  if (activeFilters.has("fip-only") && filterMatchesByCats(tournament, "fip-only")) return true;
+  return false;
+}
 
-  // Update map markers
+function sortTournamentsByDate(list) {
+  return [...list].sort((a, b) => {
+    const dateA = parseIsoDate(a.start_date);
+    const dateB = parseIsoDate(b.start_date);
+    if (!dateA && !dateB) return 0;
+    if (!dateA) return 1;
+    if (!dateB) return -1;
+    return dateA - dateB;
+  });
+}
+
+function updateMapMarkers(isAll, from, to, lowerQuery) {
   allMarkers.forEach((marker) => {
-    const locTournaments = marker._tournaments || [];
-    const locTournamentsInRange = locTournaments.filter((t) => {
-      const monthIdx = displayMonths.indexOf(getTournamentMonth(t));
+    let visibleTournaments = (marker._tournaments || []).filter((t) => {
+      const monthIdx = months.indexOf(getTournamentMonth(t));
       return monthIdx >= from && monthIdx <= to;
     });
 
-    let visibleTournaments = locTournamentsInRange;
-
     if (!isAll) {
-      visibleTournaments = visibleTournaments.filter((t) => {
-        if (activeFilters.has(getTournamentLevel(t))) return true;
-        if (activeFilters.has("absolutos") && filterMatchesByCats(t, "absolutos")) return true;
-        if (activeFilters.has("veteranos") && filterMatchesByCats(t, "veteranos")) return true;
-        if (activeFilters.has("jovens") && filterMatchesByCats(t, "jovens")) return true;
-        if (activeFilters.has("fip-only") && filterMatchesByCats(t, "fip-only")) return true;
-        return false;
-      });
+      visibleTournaments = visibleTournaments.filter(matchesTournamentFilters);
     }
 
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
+    if (lowerQuery) {
       visibleTournaments = visibleTournaments.filter((t) =>
-        t.name.toLowerCase().includes(q),
+        t.name.toLowerCase().includes(lowerQuery),
       );
     }
 
     const hasMatch = visibleTournaments.length > 0;
 
     if (hasMatch) {
-      const sortedVisible = [...visibleTournaments].sort((a, b) => {
-        const dateA = parseIsoDate(a.start_date);
-        const dateB = parseIsoDate(b.start_date);
-        if (!dateA && !dateB) return 0;
-        if (!dateA) return 1;
-        if (!dateB) return -1;
-        return dateA - dateB;
-      });
-      marker.setPopupContent(buildMarkerPopupHtml(sortedVisible));
+      marker.setPopupContent(
+        buildMarkerPopupHtml(sortTournamentsByDate(visibleTournaments)),
+      );
     }
 
     if (hasMatch && !map.hasLayer(marker)) marker.addTo(map);
