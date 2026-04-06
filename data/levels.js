@@ -13,19 +13,19 @@
  */
 
 window.MALE_LEVEL_POSITIONS = [
-  { level: 1, label: "Nível 1", maxPosition: 64 },
-  { level: 2, label: "Nível 2", maxPosition: 250 },
-  { level: 3, label: "Nível 3", maxPosition: 500 },
-  { level: 4, label: "Nível 4", maxPosition: 750 },
-  { level: 5, label: "Nível 5", maxPosition: 1000 },
-  { level: 6, label: "Nível 6", maxPosition: null },
+  { level: 1, label: "M1", maxPosition: 64 },
+  { level: 2, label: "M2", maxPosition: 250 },
+  { level: 3, label: "M3", maxPosition: 500 },
+  { level: 4, label: "M4", maxPosition: 750 },
+  { level: 5, label: "M5", maxPosition: 1000 },
+  { level: 6, label: "M6", maxPosition: null },
 ];
 
 window.FEMALE_LEVEL_POSITIONS = [
-  { level: 1, label: "Nível 1", maxPosition: 64 },
-  { level: 2, label: "Nível 2", maxPosition: 150 },
-  { level: 3, label: "Nível 3", maxPosition: 300 },
-  { level: 4, label: "Nível 4", maxPosition: 450 },
-  { level: 5, label: "Nível 5", maxPosition: 600 },
-  { level: 6, label: "Nível 6", maxPosition: null },
+  { level: 1, label: "F1", maxPosition: 64 },
+  { level: 2, label: "F2", maxPosition: 150 },
+  { level: 3, label: "F3", maxPosition: 300 },
+  { level: 4, label: "F4", maxPosition: 450 },
+  { level: 5, label: "F5", maxPosition: 600 },
+  { level: 6, label: "F6", maxPosition: null },
 ];
