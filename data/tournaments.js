@@ -357,6 +357,7 @@
         "start_date": "2026-04-03",
         "end_date": "2026-04-05",
         "organization": "Dream Padel Center",
+        "image": "fip-promises-setubal.jpg",
         "age_group": "ABS",
         "fip_data": {
             "level": "fip-promises",
@@ -371,6 +372,7 @@
         "start_date": "2026-04-02",
         "end_date": "2026-04-05",
         "organization": "LX Indoor Padel",
+        "image": "2LXclashStarsByCarlsberg2026.jpg",
         "age_group": "ABS",
         "fpp_data": {
             "points": 5000,
@@ -387,7 +389,8 @@
         "start_date": "2026-04-08",
         "end_date": "2026-04-12",
         "organization": "Villae Verdasca",
-        "age_group": "ABS",
+        "age_group": "ABS",     
+        "image": "verdasca.jpg",
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
@@ -403,6 +406,7 @@
         "end_date": "2026-04-12",
         "organization": "Rackets Pro EUL",
         "age_group": "ABS",
+        "image": "XIOpenRacketsProEUL.jpg",
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
@@ -417,6 +421,7 @@
         "end_date": "2026-04-12",
         "organization": "FPP",
         "age_group": "VET",
+        "image": "regional-vet.jpg",
         "fpp_data": {
             "points": 10000,
             "categories": "VET M&F +35 a +60",
@@ -431,6 +436,7 @@
         "end_date": "2026-04-12",
         "organization": "Oeiras Padel Academy",
         "age_group": "ABS",
+        "image": "fip-promises-oeiras.jpg",
         "fip_data": {
             "level": "fip-promises",
             "categories": "M & F",
@@ -461,6 +467,7 @@
         "end_date": "2026-04-19",
         "organization": "FPP",
         "age_group": "JOV",
+        "image": "regional-jov.jpg",
         "fpp_data": {
             "points": null,
             "categories": "JOV M&F S12 a S18",
@@ -495,6 +502,7 @@
         "end_date": "2026-04-26",
         "organization": "A-Z Padel Fluvial",
         "age_group": "ABS",
+        "image": "az-fluvial.jpg",
         "fpp_data": {
             "points": 5000,
             "categories": "F1-F6; M1-M6",
@@ -571,6 +579,7 @@
         "end_date": "2026-05-03",
         "organization": "Padel XXL",
         "age_group": "ABS",
+        "image": "fip-silver-leiria.jpg",
         "fip_data": {
             "level": "fip-silver",
             "categories": "M & F",
