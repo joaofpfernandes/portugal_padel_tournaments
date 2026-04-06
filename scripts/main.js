@@ -388,6 +388,7 @@ const CATEGORY_AGE_MAP = {
 };
 
 const filterMatchesByCats = (tournament, filterKey) =>
+  CATEGORY_AGE_MAP[filterKey] != null &&
   getTournamentAgeGroup(tournament) === CATEGORY_AGE_MAP[filterKey];
 
 // --- Build filter buttons ---
@@ -601,10 +602,9 @@ function updateFilterButtonStates(isAll) {
 
 function matchesActiveFilters(level, ageGroup) {
   if (activeFilters.has(level)) return true;
-  if (activeFilters.has("absolutos") && ageGroup === "abs") return true;
-  if (activeFilters.has("veteranos") && ageGroup === "vet") return true;
-  if (activeFilters.has("jovens") && ageGroup === "jov") return true;
-  if (activeFilters.has("fip-only") && ageGroup === "none") return true;
+  for (const [filterKey, ageValue] of Object.entries(CATEGORY_AGE_MAP)) {
+    if (activeFilters.has(filterKey) && ageGroup === ageValue) return true;
+  }
   return false;
 }
 
@@ -639,12 +639,10 @@ function updateMonthSections() {
 }
 
 function matchesTournamentFilters(tournament) {
-  if (activeFilters.has(getTournamentLevel(tournament))) return true;
-  if (activeFilters.has("absolutos") && filterMatchesByCats(tournament, "absolutos")) return true;
-  if (activeFilters.has("veteranos") && filterMatchesByCats(tournament, "veteranos")) return true;
-  if (activeFilters.has("jovens") && filterMatchesByCats(tournament, "jovens")) return true;
-  if (activeFilters.has("fip-only") && filterMatchesByCats(tournament, "fip-only")) return true;
-  return false;
+  return matchesActiveFilters(
+    getTournamentLevel(tournament),
+    getTournamentAgeGroup(tournament),
+  );
 }
 
 function sortTournamentsByDate(list) {
