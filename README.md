@@ -6,6 +6,7 @@ This project is a static website that centralizes Portugal Padel Competition inf
 It includes:
 - 2026 tournament calendar with filters and interactive map
 - Points calculator by tournament level and phase
+- Player profile with pair analysis and level breakdown
 - Absolute rankings browser (male and female) with search, filters, and pagination
 
 ## Main Functionalities
@@ -62,7 +63,28 @@ Features:
 - Uses a 10,000-point base matrix and level factor scaling
 - Values are normalized/formatted for clean display
 
-### 4) Rankings Browser
+### 4) Player Profile
+Path: `content/profile.html`
+
+Features:
+- Search for a player by name, license number, or club
+- Switch between Masculino and Feminino rankings
+- Display player details:
+  - Name, license, club
+  - Points, ranking position, and level
+- Points-per-level breakdown table showing:
+  - Required ranking position for each level
+  - Required points for each level
+  - Point difference to reach each level
+- Pair analysis:
+  - Search and select a second player (pair partner)
+  - Combined points total
+  - Playable levels for the pair (with caveat note about historical level restrictions)
+- Shareable profile via share button
+- Profile selection persisted in localStorage
+- Deep-link support via URL query parameters
+
+### 5) Rankings Browser
 Path: `content/rankings.html`
 
 Features:
@@ -83,10 +105,12 @@ Features:
 - Meta footer showing data source date and filtered/total athlete count
 - Graceful error and empty-data states
 
-### 5) Shared Site Features
+### 6) Shared Site Features
 
 - Reusable shared header with active page highlighting
-- Navigation across Calendar, Points Calculator, and Rankings
+- Navigation organized into two sections:
+  - **Torneios**: Calendar, Points Calculator
+  - **Jogador**: Profile, Rankings
 - Theme toggle (light/dark) with localStorage persistence
 - Dynamic social metadata per page:
   - Title
@@ -126,9 +150,11 @@ Features:
 
 - `index.html` - Tournament calendar page
 - `content/points-calculator.html` - Points calculator page
+- `content/profile.html` - Player profile page
 - `content/rankings.html` - Rankings page
 - `scripts/main.js` - Calendar + map + filtering logic
 - `scripts/points-calculator.js` - Calculator logic
+- `scripts/profile.js` - Player profile search, pair analysis, and level breakdown
 - `scripts/rankings-combined.js` - Rankings loading/filtering/pagination
 - `scripts/shared-header.js` - Shared top navigation/header
 - `scripts/shared-theme.js` - Light/dark theme logic
@@ -148,6 +174,7 @@ Example options:
 Then open:
 - `http://localhost:8000/` for the calendar
 - `http://localhost:8000/content/points-calculator.html`
+- `http://localhost:8000/content/profile.html`
 - `http://localhost:8000/content/rankings.html`
 
 ## Notes
