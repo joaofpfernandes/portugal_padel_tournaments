@@ -1,6 +1,6 @@
 # Padel Portugal - Tournament Calendar, Rankings, and Points Tools
 
-Live website: https://ricardowth.github.io/portugal_padel_tournaments/
+Live website: https://joaofpfernandes.github.io/portugal_padel_tournaments/
 
 This project is a static website that centralizes Portugal Padel Competition information in one place.
 It includes:
@@ -180,5 +180,5 @@ Then open:
 ## Notes
 
 - The published site is hosted via GitHub Pages at:
-  https://ricardowth.github.io/portugal_padel_tournaments/
+  https://joaofpfernandes.github.io/portugal_padel_tournaments/
 - Rankings logic fetches data from the jsDelivr CDN and caches it in localStorage with a 1-hour TTL.
