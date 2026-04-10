@@ -94,8 +94,14 @@ async function buildTournamentList() {
         <div class="t-name">${t.tournament}</div>
       </div>
       <div class="t-controls">
-        <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
-        <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+        <div class="t-control-group">
+          <label>Categoria</label>
+          <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
+        </div>
+        <div class="t-control-group">
+          <label>Tamanho do quadro</label>
+          <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+        </div>
         <button class="btn-gen" onclick="generate(${i})">Ver</button>
       </div>
     </div>`;

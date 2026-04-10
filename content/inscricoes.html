@@ -14,9 +14,11 @@
         border-radius: 10px; padding: 0.75rem 1rem; flex-wrap: wrap;
         margin-bottom: 0.5rem;
       }
-      .t-name { font-weight: 600; font-size: 0.9rem; flex: 1; min-width: 180px; }
+      .t-name { font-weight: 600; font-size: 0.9rem; width: 350px; min-width: 350px; }
       .t-meta { font-size: 0.75rem; color: var(--text-light); white-space: nowrap; }
-      .t-controls { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+      .t-controls { display: flex; gap: 0.5rem; align-items: flex-end; flex-wrap: wrap; }
+      .t-controls label { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.15rem; }
+      .t-controls .t-control-group { display: flex; flex-direction: column; }
       .t-controls select { width: auto; min-width: 140px; font-size: 0.8rem; padding: 0.35rem 2rem 0.35rem 0.6rem; }
       .btn-gen {
         padding: 0.4rem 1rem; border-radius: 8px; border: none;
