@@ -41,11 +41,11 @@ function parseLevel(str) {
 function getPlayerInfo(name, club, rankings) {
   const key = normName(name);
   const matches = rankings.filter((r) => normName(r.Name) === key);
-  if (!matches.length) return { points: 0, level: 6, license: '' };
-  if (matches.length === 1) return { points: parsePoints(matches[0].Points), level: parseLevel(matches[0].Level), license: matches[0].LicenceNumber || '' };
+  if (!matches.length) return { points: 0, level: 6, license: '', playerId: '' };
+  if (matches.length === 1) return { points: parsePoints(matches[0].Points), level: parseLevel(matches[0].Level), license: matches[0].LicenceNumber || '', playerId: matches[0].PlayerID || '' };
   const clubMatch = matches.find((r) => r.Club?.toLowerCase().trim() === club.toLowerCase().trim());
-  if (clubMatch) return { points: parsePoints(clubMatch.Points), level: parseLevel(clubMatch.Level), license: clubMatch.LicenceNumber || '' };
-  return { points: 0, level: 6, license: '' };
+  if (clubMatch) return { points: parsePoints(clubMatch.Points), level: parseLevel(clubMatch.Level), license: clubMatch.LicenceNumber || '', playerId: clubMatch.PlayerID || '' };
+  return { points: 0, level: 6, license: '', playerId: '' };
 }
 
 // FPP 10.4.5/10.4.6 priority — lower = higher priority
@@ -181,10 +181,10 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
       p1,
       p2,
       club: row.club,
-      lic1: info1.license,
+      lic1: info1.license, pid1: info1.playerId,
       pts1: info1.points,
       lvl1: info1.level,
-      lic2: info2.license,
+      lic2: info2.license, pid2: info2.playerId,
       pts2: info2.points,
       lvl2: info2.level,
       total: info1.points + info2.points,
@@ -198,8 +198,8 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
     arr.map((p, i) => ({
       pos: i + 1,
       draw: tag,
-      p1: p.p1, lic1: p.lic1,
-      p2: p.p2, lic2: p.lic2,
+      p1: p.p1, lic1: p.lic1, pid1: p.pid1,
+      p2: p.p2, lic2: p.lic2, pid2: p.pid2,
       club: p.club,
       pts1: p.pts1, lvl1: p.lvl1,
       pts2: p.pts2, lvl2: p.lvl2,

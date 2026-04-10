@@ -17,7 +17,7 @@ function openResultTab(data, selectedDrawSize) {
     <tr style="background:${colors[r.draw]}">
       <td>${r.pos}</td>
       <td><span style="background:${badge[r.draw]};color:#fff;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:700">${r.draw}</span></td>
-      <td>${r.lic1 ? `<a href="https://www.tiepadel.com/Dashboard.aspx?id=${r.lic1}" target="_blank">${r.p1}</a>` : r.p1} / ${r.lic2 ? `<a href="https://www.tiepadel.com/Dashboard.aspx?id=${r.lic2}" target="_blank">${r.p2}</a>` : r.p2}</td>
+      <td>${r.pid1 ? `<a href="https://www.tiepadel.com/Dashboard.aspx?id=${r.pid1}" target="_blank">${r.p1}</a>` : r.p1} / ${r.pid2 ? `<a href="https://www.tiepadel.com/Dashboard.aspx?id=${r.pid2}" target="_blank">${r.p2}</a>` : r.p2}</td>
       <td>${r.club}</td>
       <td style="text-align:right">${r.pts1.toFixed(2)} <span style="font-size:11px;color:#666">${prefix}${r.lvl1 === 99 ? 6 : r.lvl1}</span></td>
       <td style="text-align:right">${r.pts2.toFixed(2)} <span style="font-size:11px;color:#666">${prefix}${r.lvl2 === 99 ? 6 : r.lvl2}</span></td>
