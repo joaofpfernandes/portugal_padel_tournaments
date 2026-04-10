@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 1",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T17:14:30.695Z",
+  "generatedAt": "2026-04-10T21:39:52.831Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,23 @@
       "lvl2": 1,
       "total": 108987.5,
       "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Inês Barbosa",
+      "lic1": "2099",
+      "pid1": "25424",
+      "p2": "Maria Ferreira",
+      "lic2": "12576",
+      "pid2": "144708",
+      "club": "",
+      "pts1": 7625,
+      "lvl1": 3,
+      "pts2": 77625,
+      "lvl2": 1,
+      "total": 85250,
+      "note": "Seed 2"
     }
   ]
 }

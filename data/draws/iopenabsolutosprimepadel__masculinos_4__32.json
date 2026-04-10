@@ -3,7 +3,7 @@
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 4",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T17:14:51.084Z",
+  "generatedAt": "2026-04-10T21:40:11.363Z",
   "result": [
     {
       "pos": 1,
@@ -25,23 +25,6 @@
     {
       "pos": 2,
       "draw": "MAIN",
-      "p1": "Francisco Pires",
-      "lic1": "9930",
-      "pid1": "93302",
-      "p2": "Pedro Silva",
-      "lic2": "13145",
-      "pid2": "156160",
-      "club": "AssociacaoAcademicadeCoimbraSe",
-      "pts1": 47.16,
-      "lvl1": 6,
-      "pts2": 66.46,
-      "lvl2": 6,
-      "total": 113.61999999999999,
-      "note": "Seed 2"
-    },
-    {
-      "pos": 3,
-      "draw": "MAIN",
       "p1": "Tomás Girão",
       "lic1": "",
       "pid1": "",
@@ -54,7 +37,7 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 9.38,
-      "note": "Seed 3"
+      "note": "Seed 2"
     }
   ]
 }

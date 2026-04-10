@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 2",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T17:19:52.191Z",
+  "generatedAt": "2026-04-10T21:44:30.472Z",
   "result": [
     {
       "pos": 1,
@@ -246,6 +246,23 @@
     {
       "pos": 15,
       "draw": "MAIN",
+      "p1": "Marcos Salort",
+      "lic1": "21903",
+      "pid1": "247589",
+      "p2": "Tiago Pereira",
+      "lic2": "21754",
+      "pid2": "251314",
+      "club": "JF79SportsCenter",
+      "pts1": 16187.5,
+      "lvl1": 2,
+      "pts2": 13485.94,
+      "lvl2": 2,
+      "total": 29673.440000000002,
+      "note": ""
+    },
+    {
+      "pos": 16,
+      "draw": "MAIN",
       "p1": "Ricardo Azurara",
       "lic1": "4437",
       "pid1": "54234",
@@ -261,7 +278,7 @@
       "note": ""
     },
     {
-      "pos": 16,
+      "pos": 17,
       "draw": "MAIN",
       "p1": "Eduardo Costa",
       "lic1": "12317",
@@ -278,7 +295,7 @@
       "note": ""
     },
     {
-      "pos": 17,
+      "pos": 18,
       "draw": "MAIN",
       "p1": "João Fiúza",
       "lic1": "13289",
@@ -295,7 +312,7 @@
       "note": ""
     },
     {
-      "pos": 18,
+      "pos": 19,
       "draw": "MAIN",
       "p1": "Luís Carrasqueira",
       "lic1": "16844",
@@ -312,7 +329,7 @@
       "note": ""
     },
     {
-      "pos": 19,
+      "pos": 20,
       "draw": "MAIN",
       "p1": "Gabriel Machado",
       "lic1": "22635",
@@ -329,7 +346,7 @@
       "note": ""
     },
     {
-      "pos": 20,
+      "pos": 21,
       "draw": "MAIN",
       "p1": "Tiago Pratas",
       "lic1": "2963",
@@ -346,7 +363,7 @@
       "note": ""
     },
     {
-      "pos": 21,
+      "pos": 22,
       "draw": "MAIN",
       "p1": "Alexandre Moreira",
       "lic1": "5316",
@@ -363,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 22,
+      "pos": 23,
       "draw": "MAIN",
       "p1": "Paulo Paulos",
       "lic1": "17272",
@@ -380,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 23,
+      "pos": 24,
       "draw": "MAIN",
       "p1": "José Duarte",
       "lic1": "3477",
@@ -397,8 +414,8 @@
       "note": ""
     },
     {
-      "pos": 24,
-      "draw": "MAIN",
+      "pos": 1,
+      "draw": "QUALY",
       "p1": "Rodrigo Confraria",
       "lic1": "11730",
       "pid1": "138061",
@@ -414,7 +431,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 2,
       "draw": "QUALY",
       "p1": "Gonçalo Guerra",
       "lic1": "817",

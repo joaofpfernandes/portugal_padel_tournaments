@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 5",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T17:20:23.171Z",
+  "generatedAt": "2026-04-10T21:44:54.452Z",
   "result": [
     {
       "pos": 1,
@@ -161,6 +161,23 @@
     {
       "pos": 10,
       "draw": "MAIN",
+      "p1": "Rita Castelo",
+      "lic1": "17567",
+      "pid1": "189479",
+      "p2": "Raquel Esteves",
+      "lic2": "29216",
+      "pid2": "319357",
+      "club": "Dezporvinte",
+      "pts1": 992.19,
+      "lvl1": 6,
+      "pts2": 482,
+      "lvl2": 6,
+      "total": 1474.19,
+      "note": ""
+    },
+    {
+      "pos": 11,
+      "draw": "MAIN",
       "p1": "Joana Oliveira",
       "lic1": "24686",
       "pid1": "260576",
@@ -176,8 +193,25 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "MAIN",
+      "p1": "Filipa Ramos",
+      "lic1": "24511",
+      "pid1": "256218",
+      "p2": "Helga Portugal",
+      "lic2": "24605",
+      "pid2": "256733",
+      "club": "Lisboa Racket Centre",
+      "pts1": 722.83,
+      "lvl1": 6,
+      "pts2": 722.83,
+      "lvl2": 6,
+      "total": 1445.66,
+      "note": ""
+    },
+    {
+      "pos": 1,
+      "draw": "QUALY",
       "p1": "Ilia Silva",
       "lic1": "17256",
       "pid1": "210078",
@@ -193,8 +227,8 @@
       "note": ""
     },
     {
-      "pos": 12,
-      "draw": "MAIN",
+      "pos": 2,
+      "draw": "QUALY",
       "p1": "Paula Mendes",
       "lic1": "28586",
       "pid1": "308113",
@@ -210,7 +244,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 3,
       "draw": "QUALY",
       "p1": "Elena",
       "lic1": "15134",
@@ -227,7 +261,7 @@
       "note": ""
     },
     {
-      "pos": 2,
+      "pos": 4,
       "draw": "QUALY",
       "p1": "Carolina Correia",
       "lic1": "22294",
@@ -244,8 +278,8 @@
       "note": ""
     },
     {
-      "pos": 3,
-      "draw": "QUALY",
+      "pos": 1,
+      "draw": "OUT",
       "p1": "Vera Laurentino",
       "lic1": "22335",
       "pid1": "317447",
@@ -261,8 +295,8 @@
       "note": ""
     },
     {
-      "pos": 4,
-      "draw": "QUALY",
+      "pos": 2,
+      "draw": "OUT",
       "p1": "Marta Cabral",
       "lic1": "33600",
       "pid1": "325181",
@@ -278,7 +312,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 3,
       "draw": "OUT",
       "p1": "Mathilde Farnabe",
       "lic1": "19135",
@@ -295,7 +329,7 @@
       "note": ""
     },
     {
-      "pos": 2,
+      "pos": 4,
       "draw": "OUT",
       "p1": "Daniela Pinto",
       "lic1": "15214",
@@ -312,7 +346,7 @@
       "note": ""
     },
     {
-      "pos": 3,
+      "pos": 5,
       "draw": "OUT",
       "p1": "Carolina Marques",
       "lic1": "23667",
@@ -329,7 +363,7 @@
       "note": ""
     },
     {
-      "pos": 4,
+      "pos": 6,
       "draw": "OUT",
       "p1": "Inês Coelho",
       "lic1": "27047",
@@ -346,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 5,
+      "pos": 7,
       "draw": "OUT",
       "p1": "Francisca Vieira Lima",
       "lic1": "27726",
@@ -363,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 8,
       "draw": "OUT",
       "p1": "Cristina Thiran",
       "lic1": "22528",
@@ -380,7 +414,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 9,
       "draw": "OUT",
       "p1": "Ana Sofia Santos",
       "lic1": "19809",
@@ -397,7 +431,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 10,
       "draw": "OUT",
       "p1": "Catarina Urgueira",
       "lic1": "32311",
@@ -414,7 +448,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 11,
       "draw": "OUT",
       "p1": "Anita",
       "lic1": "19722",
@@ -431,7 +465,24 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 12,
+      "draw": "OUT",
+      "p1": "Ana Roxo",
+      "lic1": "20761",
+      "pid1": "12196",
+      "p2": "Nina Correia",
+      "lic2": "23501",
+      "pid2": "248655",
+      "club": "OeirasPadelAcademy",
+      "pts1": 7.81,
+      "lvl1": 6,
+      "pts2": 482.83,
+      "lvl2": 6,
+      "total": 490.64,
+      "note": ""
+    },
+    {
+      "pos": 13,
       "draw": "OUT",
       "p1": "Beatriz Cordeiro",
       "lic1": "28211",
@@ -448,7 +499,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 14,
       "draw": "OUT",
       "p1": "Denise Pieters",
       "lic1": "27724",
@@ -465,7 +516,7 @@
       "note": ""
     },
     {
-      "pos": 12,
+      "pos": 15,
       "draw": "OUT",
       "p1": "Andreia Patrício",
       "lic1": "16302",
@@ -482,7 +533,7 @@
       "note": ""
     },
     {
-      "pos": 13,
+      "pos": 16,
       "draw": "OUT",
       "p1": "Andreia Migueis",
       "lic1": "31080",
@@ -499,7 +550,7 @@
       "note": ""
     },
     {
-      "pos": 14,
+      "pos": 17,
       "draw": "OUT",
       "p1": "Sara Carpinteiro",
       "lic1": "13774",
@@ -516,7 +567,7 @@
       "note": ""
     },
     {
-      "pos": 15,
+      "pos": 18,
       "draw": "OUT",
       "p1": "Fabiana Jorge Seco",
       "lic1": "22849",
@@ -533,7 +584,7 @@
       "note": ""
     },
     {
-      "pos": 16,
+      "pos": 19,
       "draw": "OUT",
       "p1": "Matilde Casqueiro",
       "lic1": "36662",
@@ -550,7 +601,7 @@
       "note": ""
     },
     {
-      "pos": 17,
+      "pos": 20,
       "draw": "OUT",
       "p1": "Patricia Franquinho",
       "lic1": "",
@@ -567,7 +618,7 @@
       "note": ""
     },
     {
-      "pos": 18,
+      "pos": 21,
       "draw": "OUT",
       "p1": "Inês Alves",
       "lic1": "15130",
@@ -584,7 +635,7 @@
       "note": ""
     },
     {
-      "pos": 19,
+      "pos": 22,
       "draw": "OUT",
       "p1": "Daniela Santos",
       "lic1": "29831",

@@ -3,7 +3,7 @@
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T17:14:43.052Z",
+  "generatedAt": "2026-04-10T21:40:04.166Z",
   "result": [
     {
       "pos": 1,
@@ -76,6 +76,23 @@
     {
       "pos": 5,
       "draw": "MAIN",
+      "p1": "Francisco Pires",
+      "lic1": "9930",
+      "pid1": "93302",
+      "p2": "Pedro Silva",
+      "lic2": "13145",
+      "pid2": "156160",
+      "club": "AssociacaoAcademicadeCoimbraSe",
+      "pts1": 47.16,
+      "lvl1": 6,
+      "pts2": 66.46,
+      "lvl2": 6,
+      "total": 113.61999999999999,
+      "note": ""
+    },
+    {
+      "pos": 6,
+      "draw": "MAIN",
       "p1": "Bernardo Silva",
       "lic1": "37060",
       "pid1": "276702",
@@ -91,7 +108,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "MAIN",
       "p1": "Rodrigo Vaz",
       "lic1": "9929",
@@ -108,7 +125,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Rui Arnaud",
       "lic1": "8666",
@@ -125,7 +142,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Francisco Ferreira",
       "lic1": "35479",
@@ -142,7 +159,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Jorge Góis",
       "lic1": "30393",

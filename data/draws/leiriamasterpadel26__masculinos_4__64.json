@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 4",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T17:19:18.267Z",
+  "generatedAt": "2026-04-10T21:44:04.622Z",
   "result": [
     {
       "pos": 1,
@@ -76,6 +76,23 @@
     {
       "pos": 5,
       "draw": "MAIN",
+      "p1": "Diogo Cartaxo",
+      "lic1": "2585",
+      "pid1": "77357",
+      "p2": "Bruno Martins",
+      "lic2": "5179",
+      "pid2": "40783",
+      "club": "Lx Indoor Padel",
+      "pts1": 4086.64,
+      "lvl1": 4,
+      "pts2": 1211.88,
+      "lvl2": 5,
+      "total": 5298.52,
+      "note": "Seed 5"
+    },
+    {
+      "pos": 6,
+      "draw": "MAIN",
       "p1": "Samuel Felício",
       "lic1": "16293",
       "pid1": "184935",
@@ -88,10 +105,27 @@
       "pts2": 2539.08,
       "lvl2": 4,
       "total": 5288.4400000000005,
-      "note": "Seed 5"
+      "note": "Seed 6"
     },
     {
-      "pos": 6,
+      "pos": 7,
+      "draw": "MAIN",
+      "p1": "Maike Carmo",
+      "lic1": "6017",
+      "pid1": "64294",
+      "p2": "Bruno Damião",
+      "lic2": "11310",
+      "pid2": "138241",
+      "club": "SportingClubeFarense",
+      "pts1": 2628.16,
+      "lvl1": 4,
+      "pts2": 2595.17,
+      "lvl2": 4,
+      "total": 5223.33,
+      "note": "Seed 7"
+    },
+    {
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Raphaël GIOANNI",
       "lic1": "15703",
@@ -105,10 +139,10 @@
       "pts2": 4076.61,
       "lvl2": 4,
       "total": 4986.64,
-      "note": "Seed 6"
+      "note": "Seed 8"
     },
     {
-      "pos": 7,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Paulinho Gugo",
       "lic1": "18678",
@@ -122,10 +156,10 @@
       "pts2": 2778.78,
       "lvl2": 4,
       "total": 4915.1900000000005,
-      "note": "Seed 7"
+      "note": "Seed 9"
     },
     {
-      "pos": 8,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Renato Mello",
       "lic1": "22356",
@@ -139,10 +173,10 @@
       "pts2": 1869.8,
       "lvl2": 5,
       "total": 4872.81,
-      "note": "Seed 8"
+      "note": "Seed 10"
     },
     {
-      "pos": 9,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "Tomás Melro",
       "lic1": "10676",
@@ -156,10 +190,10 @@
       "pts2": 967.5,
       "lvl2": 6,
       "total": 4200.969999999999,
-      "note": "Seed 9"
+      "note": "Seed 11"
     },
     {
-      "pos": 10,
+      "pos": 12,
       "draw": "MAIN",
       "p1": "Daniel Teodoro",
       "lic1": "12016",
@@ -173,10 +207,10 @@
       "pts2": 1918.49,
       "lvl2": 5,
       "total": 4061.38,
-      "note": "Seed 10"
+      "note": "Seed 12"
     },
     {
-      "pos": 11,
+      "pos": 13,
       "draw": "MAIN",
       "p1": "Luis Oliveira",
       "lic1": "17677",
@@ -190,10 +224,27 @@
       "pts2": 3567.39,
       "lvl2": 4,
       "total": 4047.1099999999997,
-      "note": "Seed 11"
+      "note": "Seed 13"
     },
     {
-      "pos": 12,
+      "pos": 14,
+      "draw": "MAIN",
+      "p1": "Pedro Cândido",
+      "lic1": "12550",
+      "pid1": "144610",
+      "p2": "Pedro Figueiredo",
+      "lic2": "17983",
+      "pid2": "173126",
+      "club": "MrPadel",
+      "pts1": 1437.03,
+      "lvl1": 5,
+      "pts2": 2559.19,
+      "lvl2": 4,
+      "total": 3996.2200000000003,
+      "note": "Seed 14"
+    },
+    {
+      "pos": 15,
       "draw": "MAIN",
       "p1": "Luis Marto",
       "lic1": "12748",
@@ -207,10 +258,27 @@
       "pts2": 1048.23,
       "lvl2": 6,
       "total": 3953.26,
-      "note": "Seed 12"
+      "note": "Seed 15"
     },
     {
-      "pos": 13,
+      "pos": 16,
+      "draw": "MAIN",
+      "p1": "Tiago Gonçalves",
+      "lic1": "7183",
+      "pid1": "79331",
+      "p2": "Diogo Gonçalves",
+      "lic2": "7769",
+      "pid2": "81521",
+      "club": "",
+      "pts1": 3497.28,
+      "lvl1": 4,
+      "pts2": 427.72,
+      "lvl2": 6,
+      "total": 3925,
+      "note": "Seed 16"
+    },
+    {
+      "pos": 17,
       "draw": "MAIN",
       "p1": "Victor Morais",
       "lic1": "17688",
@@ -224,10 +292,10 @@
       "pts2": 3528.84,
       "lvl2": 4,
       "total": 3900.7200000000003,
-      "note": "Seed 13"
+      "note": ""
     },
     {
-      "pos": 14,
+      "pos": 18,
       "draw": "MAIN",
       "p1": "João Pereira",
       "lic1": "4331",
@@ -241,10 +309,10 @@
       "pts2": 498.98,
       "lvl2": 6,
       "total": 3828.51,
-      "note": "Seed 14"
+      "note": ""
     },
     {
-      "pos": 15,
+      "pos": 19,
       "draw": "MAIN",
       "p1": "Joao Facas",
       "lic1": "6233",
@@ -258,10 +326,10 @@
       "pts2": 950.97,
       "lvl2": 6,
       "total": 3803.5,
-      "note": "Seed 15"
+      "note": ""
     },
     {
-      "pos": 16,
+      "pos": 20,
       "draw": "MAIN",
       "p1": "Miguel Leitão Amaro",
       "lic1": "14024",
@@ -275,10 +343,10 @@
       "pts2": 1546.92,
       "lvl2": 5,
       "total": 3737.35,
-      "note": "Seed 16"
+      "note": ""
     },
     {
-      "pos": 17,
+      "pos": 21,
       "draw": "MAIN",
       "p1": "Raul Serra",
       "lic1": "6851",
@@ -295,7 +363,7 @@
       "note": ""
     },
     {
-      "pos": 18,
+      "pos": 22,
       "draw": "MAIN",
       "p1": "Renato Vale",
       "lic1": "17482",
@@ -312,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 19,
+      "pos": 23,
       "draw": "MAIN",
       "p1": "Filipe Franco Frazão",
       "lic1": "29720",
@@ -329,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 20,
+      "pos": 24,
       "draw": "MAIN",
       "p1": "João Queiroz",
       "lic1": "22913",
@@ -346,7 +414,7 @@
       "note": ""
     },
     {
-      "pos": 21,
+      "pos": 25,
       "draw": "MAIN",
       "p1": "António Afonso",
       "lic1": "10386",
@@ -363,7 +431,7 @@
       "note": ""
     },
     {
-      "pos": 22,
+      "pos": 26,
       "draw": "MAIN",
       "p1": "Bruno Emerenciano",
       "lic1": "18048",
@@ -380,7 +448,7 @@
       "note": ""
     },
     {
-      "pos": 23,
+      "pos": 27,
       "draw": "MAIN",
       "p1": "Joel Santos",
       "lic1": "25697",
@@ -397,7 +465,7 @@
       "note": ""
     },
     {
-      "pos": 24,
+      "pos": 28,
       "draw": "MAIN",
       "p1": "Rafael Abreu",
       "lic1": "10396",
@@ -414,7 +482,7 @@
       "note": ""
     },
     {
-      "pos": 25,
+      "pos": 29,
       "draw": "MAIN",
       "p1": "Diogo Gomes",
       "lic1": "17679",
