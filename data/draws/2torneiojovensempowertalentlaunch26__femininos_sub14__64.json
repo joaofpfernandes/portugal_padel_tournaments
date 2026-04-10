@@ -3,13 +3,15 @@
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Femininos SUB14",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T16:40:35.850Z",
+  "generatedAt": "2026-04-10T17:01:17.958Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Mafalda Santos",
+      "lic1": "17778",
       "p2": "Matilde Ferreira",
+      "lic2": "",
       "club": "GrandeIndoorPadel",
       "pts1": 330.4,
       "lvl1": 6,

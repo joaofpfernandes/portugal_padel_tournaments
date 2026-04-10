@@ -3,13 +3,15 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 1",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T16:39:09.040Z",
+  "generatedAt": "2026-04-10T16:59:53.183Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "MªJoão Fernandes",
+      "lic1": "1738",
       "p2": "Joana Soares",
+      "lic2": "13633",
       "club": "",
       "pts1": 23362.5,
       "lvl1": 2,

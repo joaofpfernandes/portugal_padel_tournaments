@@ -3,13 +3,15 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +50 Nível 2",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T16:41:25.214Z",
+  "generatedAt": "2026-04-10T17:02:04.399Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Pedro Campos",
+      "lic1": "9650",
       "p2": "João Pêgo",
+      "lic2": "10296",
       "club": "Lx Indoor Padel",
       "pts1": 263.15,
       "lvl1": 6,
