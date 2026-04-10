@@ -6,8 +6,9 @@ function levelPrefix(section) {
   return /feminino/i.test(section) ? 'F' : 'M';
 }
 
-function openResultTab(data) {
-  const { tournament, section, drawSize, result, generatedAt } = data;
+function openResultTab(data, selectedDrawSize) {
+  const { tournament, section, result, generatedAt } = data;
+  const drawSize = selectedDrawSize;
   const prefix = levelPrefix(section);
   const colors = { MAIN: '#d4edda', QUALY: '#fff3cd', OUT: '#f8d7da' };
   const badge  = { MAIN: '#28a745', QUALY: '#856404', OUT: '#721c24' };
@@ -122,7 +123,7 @@ window.generate = async function(i) {
   try {
     const filename = `${safeFilename(t.slug)}__${safeFilename(section)}__${drawSize}.json`;
     const data = await fetch(DRAWS_BASE + filename).then(r => r.json());
-    openResultTab(data);
+    openResultTab(data, parseInt(drawSize));
   } catch (e) {
     alert(`Erro ao carregar quadro: ${e.message}`);
   } finally {
