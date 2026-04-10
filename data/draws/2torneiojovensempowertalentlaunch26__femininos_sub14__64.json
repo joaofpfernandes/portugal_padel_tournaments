@@ -1,21 +1,21 @@
 {
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
-  "section": "Masculinos SUB18",
+  "section": "Femininos SUB14",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T16:40:26.604Z",
+  "generatedAt": "2026-04-10T16:40:35.850Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
-      "p1": "Jamie Calderbank",
-      "p2": "Nicholas Hoines",
-      "club": "Clube Ténis Lagos",
-      "pts1": 15.63,
+      "p1": "Mafalda Santos",
+      "p2": "Matilde Ferreira",
+      "club": "GrandeIndoorPadel",
+      "pts1": 330.4,
       "lvl1": 6,
-      "pts2": 1.56,
+      "pts2": 0,
       "lvl2": 6,
-      "total": 17.19,
+      "total": 330.4,
       "note": "Seed 1"
     }
   ]

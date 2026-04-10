@@ -1,21 +1,21 @@
 {
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
-  "section": "Femininos SUB12",
-  "drawSize": 32,
-  "generatedAt": "2026-04-10T16:40:31.210Z",
+  "section": "Femininos SUB14",
+  "drawSize": 16,
+  "generatedAt": "2026-04-10T16:40:35.843Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
-      "p1": "Lynn Meijers",
-      "p2": "Gabriela Para",
-      "club": "Padel4move",
-      "pts1": 0,
+      "p1": "Mafalda Santos",
+      "p2": "Matilde Ferreira",
+      "club": "GrandeIndoorPadel",
+      "pts1": 330.4,
       "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 0,
+      "total": 330.4,
       "note": "Seed 1"
     }
   ]
