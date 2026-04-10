@@ -1,0 +1,35 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Masculinos 1",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T15:57:33.734Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Leo Torres",
+      "p2": "Luciano Piñero",
+      "club": "",
+      "pts1": 57500,
+      "lvl1": 1,
+      "pts2": 27375,
+      "lvl2": 2,
+      "total": 84875,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Bernardo Gomes",
+      "p2": "Xavier Cardoso",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 31727.5,
+      "lvl1": 2,
+      "pts2": 31443.75,
+      "lvl2": 2,
+      "total": 63171.25,
+      "note": "Seed 2"
+    }
+  ]
+}

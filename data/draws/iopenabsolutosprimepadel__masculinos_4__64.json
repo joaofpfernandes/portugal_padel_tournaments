@@ -1,0 +1,48 @@
+{
+  "tournament": "I Open Absolutos Prime Padel",
+  "slug": "IOpenAbsolutosPrimePadel",
+  "section": "Masculinos 4",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T15:58:19.078Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Rui Paulo da Silva Machado",
+      "p2": "Tiago Antunes",
+      "club": "VCPadel",
+      "pts1": 7.81,
+      "lvl1": 6,
+      "pts2": 2340.84,
+      "lvl2": 4,
+      "total": 2348.65,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Francisco Pires",
+      "p2": "Pedro Silva",
+      "club": "AssociacaoAcademicadeCoimbraSe",
+      "pts1": 47.16,
+      "lvl1": 6,
+      "pts2": 66.46,
+      "lvl2": 6,
+      "total": 113.61999999999999,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Tomás Girão",
+      "p2": "José Miguel Monteiro",
+      "club": "AdhocClubCoimbra",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 9.38,
+      "note": "Seed 3"
+    }
+  ]
+}

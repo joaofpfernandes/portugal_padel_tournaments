@@ -1,0 +1,22 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Femininos 3",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T15:57:53.293Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Filipa Cruz",
+      "p2": "Maria João Correia",
+      "club": "88PadelHouse",
+      "pts1": 871.22,
+      "lvl1": 6,
+      "pts2": 5225.63,
+      "lvl2": 3,
+      "total": 6096.85,
+      "note": "Seed 1"
+    }
+  ]
+}

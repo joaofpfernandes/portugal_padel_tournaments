@@ -1,0 +1,35 @@
+{
+  "tournament": "2º Torneio Jovens Empower Talent Launch",
+  "slug": "2torneioJovensEmpowerTalentLaunch26",
+  "section": "Femininos SUB16",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T15:59:09.757Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Kiara Martins",
+      "p2": "Inês Gonçalves",
+      "club": "Clube Ténis Lagos",
+      "pts1": 7.81,
+      "lvl1": 6,
+      "pts2": 18.44,
+      "lvl2": 6,
+      "total": 26.25,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Carol Rodrigues",
+      "p2": "Bruna Reis Farinhas",
+      "club": "Lisboa Racket Centre",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 2"
+    }
+  ]
+}

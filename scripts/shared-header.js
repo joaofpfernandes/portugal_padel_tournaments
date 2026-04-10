@@ -16,6 +16,11 @@
               label: "Calculadora de Pontos",
               href: "./points-calculator.html",
             },
+            {
+              key: "inscricoes",
+              label: "Inscrições",
+              href: "./inscricoes.html",
+            },
           ],
         },
         {
@@ -43,6 +48,11 @@
               key: "points-calculator",
               label: "Calculadora de Pontos",
               href: "./content/points-calculator.html",
+            },
+            {
+              key: "inscricoes",
+              label: "Inscrições",
+              href: "./content/inscricoes.html",
             },
           ],
         },

@@ -1,0 +1,22 @@
+{
+  "tournament": "2º Torneio Jovens Empower Talent Launch",
+  "slug": "2torneioJovensEmpowerTalentLaunch26",
+  "section": "Femininos SUB12",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T15:59:03.404Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Lynn Meijers",
+      "p2": "Gabriela Para",
+      "club": "Padel4move",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 1"
+    }
+  ]
+}

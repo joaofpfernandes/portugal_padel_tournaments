@@ -1,0 +1,35 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +40 Nível 1",
+  "drawSize": 32,
+  "generatedAt": "2026-04-10T15:59:24.126Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "João Caiano",
+      "p2": "Duarte Costa",
+      "club": "FutebolClubedaFoz",
+      "pts1": 3850.35,
+      "lvl1": 4,
+      "pts2": 12011.56,
+      "lvl2": 2,
+      "total": 15861.91,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Luís Bento",
+      "p2": "Vasco Guimarães",
+      "club": "My Padel Center",
+      "pts1": 82.75,
+      "lvl1": 6,
+      "pts2": 2287.81,
+      "lvl2": 4,
+      "total": 2370.56,
+      "note": "Seed 2"
+    }
+  ]
+}

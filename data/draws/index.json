@@ -1,0 +1,247 @@
+[
+  {
+    "tournament": "2º Torneio Jovens Empower Talent Launch",
+    "slug": "2torneioJovensEmpowerTalentLaunch26",
+    "sections": {
+      "Femininos SUB12": [
+        16,
+        32,
+        64
+      ],
+      "Femininos SUB16": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos SUB12": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos SUB14": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos SUB16": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos SUB18": [
+        16,
+        32,
+        64
+      ]
+    }
+  },
+  {
+    "tournament": "I Open Absolutos Prime Padel",
+    "slug": "IOpenAbsolutosPrimePadel",
+    "sections": {
+      "Femininos 2": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 2": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 3": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 4": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 5": [
+        16,
+        32,
+        64
+      ]
+    }
+  },
+  {
+    "tournament": "FIP Silver Leiria",
+    "slug": "LeiriaMasterPadel26",
+    "sections": {
+      "Femininos 2": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 3": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 4": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 5": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 6": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 2": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 3": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 4": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 5": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 6": [
+        16,
+        32,
+        64
+      ]
+    }
+  },
+  {
+    "tournament": "Open A-Z Padel Fluvial",
+    "slug": "OpenAZPadelFluvial26",
+    "sections": {
+      "Femininos 1": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 2": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 3": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 4": [
+        16,
+        32,
+        64
+      ],
+      "Femininos 5": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 1": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 2": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 3": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 4": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 5": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos 6": [
+        16,
+        32,
+        64
+      ]
+    }
+  },
+  {
+    "tournament": "VIII Torneio Veteranos My Padel Center",
+    "slug": "VIIITorneioVeteranosMyPadelCenter",
+    "sections": {
+      "Femininos +35 Nível 2": [
+        16,
+        32,
+        64
+      ],
+      "Femininos +45 Nível 2": [
+        16,
+        32,
+        64
+      ],
+      "Femininos +50 Nível 1": [
+        16,
+        32,
+        64
+      ],
+      "Femininos +55 Nível 1": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +35 Nível 1": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +40 Nível 1": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +45 Nível 2": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +50 Nível 1": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +50 Nível 2": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +55 Nível 1": [
+        16,
+        32,
+        64
+      ],
+      "Masculinos +60 Nível 1": [
+        16,
+        32,
+        64
+      ]
+    }
+  }
+]

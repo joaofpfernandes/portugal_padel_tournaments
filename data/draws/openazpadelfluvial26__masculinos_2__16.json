@@ -1,0 +1,113 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Masculinos 2",
+  "drawSize": 16,
+  "generatedAt": "2026-04-10T15:57:27.197Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Afonso Matos",
+      "p2": "Antunes Gonçalves",
+      "club": "Mar Padel",
+      "pts1": 20218.75,
+      "lvl1": 2,
+      "pts2": 21706.25,
+      "lvl2": 2,
+      "total": 41925,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Joao Vieira",
+      "p2": "José Tinoco",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 24006.25,
+      "lvl1": 2,
+      "pts2": 13740.63,
+      "lvl2": 2,
+      "total": 37746.88,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Manú",
+      "p2": "Diogo Santiago",
+      "club": "Top-padel Quinta do Fojo",
+      "pts1": 5700,
+      "lvl1": 3,
+      "pts2": 25156.25,
+      "lvl2": 2,
+      "total": 30856.25,
+      "note": "Seed 3"
+    },
+    {
+      "pos": 4,
+      "draw": "MAIN",
+      "p1": "David Pinto",
+      "p2": "Diogo Pereira da Silva",
+      "club": "A-ZPadelSintra",
+      "pts1": 10419.94,
+      "lvl1": 3,
+      "pts2": 11692.81,
+      "lvl2": 2,
+      "total": 22112.75,
+      "note": "Seed 4"
+    },
+    {
+      "pos": 5,
+      "draw": "MAIN",
+      "p1": "Sílvio Cristino",
+      "p2": "Afonso Brito",
+      "club": "Flypadel",
+      "pts1": 10745,
+      "lvl1": 2,
+      "pts2": 11284.06,
+      "lvl2": 2,
+      "total": 22029.059999999998,
+      "note": ""
+    },
+    {
+      "pos": 6,
+      "draw": "MAIN",
+      "p1": "Francisco Vilaça",
+      "p2": "Rodrigo Esteves",
+      "club": "QM / SCP",
+      "pts1": 4081.25,
+      "lvl1": 4,
+      "pts2": 12150,
+      "lvl2": 2,
+      "total": 16231.25,
+      "note": ""
+    },
+    {
+      "pos": 7,
+      "draw": "MAIN",
+      "p1": "Duarte Durão",
+      "p2": "Afonso Pissarra",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 5674.69,
+      "lvl1": 3,
+      "pts2": 5522.19,
+      "lvl2": 3,
+      "total": 11196.88,
+      "note": ""
+    },
+    {
+      "pos": 8,
+      "draw": "MAIN",
+      "p1": "Guigas",
+      "p2": "Lucas Saraiva",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 2218.13,
+      "lvl1": 4,
+      "pts2": 3414.72,
+      "lvl2": 4,
+      "total": 5632.85,
+      "note": ""
+    }
+  ]
+}

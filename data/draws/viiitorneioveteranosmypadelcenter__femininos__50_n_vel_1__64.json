@@ -1,0 +1,22 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +50 Nível 1",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T16:00:15.901Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Alina Nogueira",
+      "p2": "Susana Pires",
+      "club": "Lisboa Racket Centre",
+      "pts1": 1010.78,
+      "lvl1": 6,
+      "pts2": 890.09,
+      "lvl2": 6,
+      "total": 1900.87,
+      "note": "Seed 1"
+    }
+  ]
+}

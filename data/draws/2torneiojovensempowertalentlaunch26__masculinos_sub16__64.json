@@ -1,0 +1,61 @@
+{
+  "tournament": "2º Torneio Jovens Empower Talent Launch",
+  "slug": "2torneioJovensEmpowerTalentLaunch26",
+  "section": "Masculinos SUB16",
+  "drawSize": 64,
+  "generatedAt": "2026-04-10T15:58:56.992Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Tiago Cristino",
+      "p2": "Martin Nielsen",
+      "club": "Clube Ténis Padel de Portimão",
+      "pts1": 6.25,
+      "lvl1": 6,
+      "pts2": 134.75,
+      "lvl2": 6,
+      "total": 141,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "António Bitoque Silva",
+      "p2": "Edu Oliveira",
+      "club": "Padel4move",
+      "pts1": 4.69,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 7.82,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Francisco Ramalho Machado",
+      "p2": "Rodrigo Cunha",
+      "club": "Lx Indoor Padel",
+      "pts1": 1.56,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 4.6899999999999995,
+      "note": "Seed 3"
+    },
+    {
+      "pos": 4,
+      "draw": "MAIN",
+      "p1": "Dominic Smook",
+      "p2": "Max Krone",
+      "club": "Padel4move",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 4"
+    }
+  ]
+}

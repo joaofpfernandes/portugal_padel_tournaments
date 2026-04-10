@@ -1,0 +1,35 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +60 Nível 1",
+  "drawSize": 16,
+  "generatedAt": "2026-04-10T15:59:50.816Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "João Nobre",
+      "p2": "Paulo Seiça Neves",
+      "club": "Padel Factory",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 144.13,
+      "lvl2": 6,
+      "total": 144.13,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Mike Jenkins",
+      "p2": "Darren Boner",
+      "club": "Vilamoura Tennis & Padel Acade",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 2"
+    }
+  ]
+}

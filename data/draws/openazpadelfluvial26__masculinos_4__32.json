@@ -1,0 +1,61 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Masculinos 4",
+  "drawSize": 32,
+  "generatedAt": "2026-04-10T15:57:10.226Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Rui Vieira",
+      "p2": "Fábio Ferreira",
+      "club": "TheHyveAcademy",
+      "pts1": 55.19,
+      "lvl1": 6,
+      "pts2": 1167.41,
+      "lvl2": 5,
+      "total": 1222.6000000000001,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Hélder Lopes",
+      "p2": "Filipe Costa",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 49.06,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 49.06,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Rodrigo Pinheiro",
+      "p2": "Kiko Cardoso",
+      "club": "VILLAEVERDASCA-TourismSport",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 9.38,
+      "note": "Seed 3"
+    },
+    {
+      "pos": 4,
+      "draw": "MAIN",
+      "p1": "Tiago Loureiro",
+      "p2": "Jaime Ribeiro",
+      "club": "Padel Beat",
+      "pts1": 3067.09,
+      "lvl1": 4,
+      "pts2": 612.5,
+      "lvl2": 6,
+      "total": 3679.59,
+      "note": "Seed 4"
+    }
+  ]
+}

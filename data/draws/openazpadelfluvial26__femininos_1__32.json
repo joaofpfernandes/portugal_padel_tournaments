@@ -1,0 +1,22 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Femininos 1",
+  "drawSize": 32,
+  "generatedAt": "2026-04-10T15:58:03.765Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "MªJoão Fernandes",
+      "p2": "Joana Soares",
+      "club": "",
+      "pts1": 23362.5,
+      "lvl1": 2,
+      "pts2": 85625,
+      "lvl2": 1,
+      "total": 108987.5,
+      "note": "Seed 1"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Femininos 4",
+  "drawSize": 32,
+  "generatedAt": "2026-04-10T15:57:48.109Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Sandra Leal",
+      "p2": "Sofia Lima",
+      "club": "BlackPadel",
+      "pts1": 1626.56,
+      "lvl1": 5,
+      "pts2": 1301.94,
+      "lvl2": 5,
+      "total": 2928.5,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Joana Casais",
+      "p2": "Leonor Pereira Leite",
+      "club": "QM / SCP",
+      "pts1": 1531.28,
+      "lvl1": 5,
+      "pts2": 188.47,
+      "lvl2": 6,
+      "total": 1719.75,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Luísa Salgueiro",
+      "p2": "Mafalda Cerquinho",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 533.13,
+      "lvl1": 6,
+      "pts2": 517.11,
+      "lvl2": 6,
+      "total": 1050.24,
+      "note": "Seed 3"
+    },
+    {
+      "pos": 4,
+      "draw": "MAIN",
+      "p1": "Francisca Bessa",
+      "p2": "Chabeli Ortega",
+      "club": "",
+      "pts1": 420.89,
+      "lvl1": 6,
+      "pts2": 351.23,
+      "lvl2": 6,
+      "total": 772.12,
+      "note": "Seed 4"
+    },
+    {
+      "pos": 5,
+      "draw": "MAIN",
+      "p1": "Catarina Lima",
+      "p2": "Alexandra Letra",
+      "club": "UrbanPadelTrofa",
+      "pts1": 3474.53,
+      "lvl1": 4,
+      "pts2": 12.5,
+      "lvl2": 6,
+      "total": 3487.03,
+      "note": "Seed 5"
+    }
+  ]
+}
