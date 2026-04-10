@@ -2,7 +2,7 @@
 
 const CACHE_TTL_MS = 60 * 60 * 1000;
 const ROWS_PER_PAGE = 100;
-const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings";
+const CDN_BASE = "https://raw.githubusercontent.com/ricardowth/portugal_padel_tournaments/refs/heads/main/data/rankings";
 
 const tbody = document.getElementById("rankingsBody");
 const meta = document.getElementById("rankingsMeta");
