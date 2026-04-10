@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 5",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T16:01:10.502Z",
+  "generatedAt": "2026-04-10T16:43:38.733Z",
   "result": [
     {
       "pos": 1,
@@ -723,6 +723,19 @@
     {
       "pos": 40,
       "draw": "OUT",
+      "p1": "Lucas Afonso",
+      "p2": "Miguel Pereira",
+      "club": "Padel nas Pirâmides",
+      "pts1": 26.09,
+      "lvl1": 6,
+      "pts2": 27.87,
+      "lvl2": 6,
+      "total": 53.96,
+      "note": ""
+    },
+    {
+      "pos": 41,
+      "draw": "OUT",
       "p1": "Michael Aparício",
       "p2": "Francisco Santos",
       "club": "New Padel - Chão da Fonte",
@@ -734,7 +747,7 @@
       "note": ""
     },
     {
-      "pos": 41,
+      "pos": 42,
       "draw": "OUT",
       "p1": "Paulo Luis",
       "p2": "Fábio Marques",
@@ -747,7 +760,7 @@
       "note": ""
     },
     {
-      "pos": 42,
+      "pos": 43,
       "draw": "OUT",
       "p1": "Pedro Serralheiro",
       "p2": "Rafael Nunes",
@@ -760,7 +773,7 @@
       "note": ""
     },
     {
-      "pos": 43,
+      "pos": 44,
       "draw": "OUT",
       "p1": "João Pinto",
       "p2": "Rui Martins",
