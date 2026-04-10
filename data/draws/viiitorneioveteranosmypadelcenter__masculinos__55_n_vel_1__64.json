@@ -3,15 +3,17 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +55 Nível 1",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T17:02:08.757Z",
+  "generatedAt": "2026-04-10T17:16:56.484Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Vitor Silva Marques",
       "lic1": "573",
+      "pid1": "46689",
       "p2": "Gonçalo Guerra",
       "lic2": "12596",
+      "pid2": "54213",
       "club": "Padel Factory",
       "pts1": 47.96,
       "lvl1": 6,

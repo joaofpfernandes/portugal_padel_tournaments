@@ -3,15 +3,17 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +55 Nível 1",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T17:03:02.042Z",
+  "generatedAt": "2026-04-10T17:17:50.641Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Margarida Oliveira",
       "lic1": "8086",
+      "pid1": "72998",
       "p2": "Andrea Schoonheim",
       "lic2": "16085",
+      "pid2": "145042",
       "club": "Padel Factory",
       "pts1": 178.5,
       "lvl1": 6,

@@ -3,15 +3,17 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +45 Nível 2",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T17:01:54.965Z",
+  "generatedAt": "2026-04-10T17:16:41.339Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Brasão",
       "lic1": "4021",
+      "pid1": "44634",
       "p2": "Semi",
       "lic2": "9675",
+      "pid2": "89216",
       "club": "Padel Factory",
       "pts1": 539.31,
       "lvl1": 6,

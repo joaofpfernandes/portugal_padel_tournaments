@@ -3,15 +3,17 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 3",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T16:59:38.689Z",
+  "generatedAt": "2026-04-10T17:14:15.174Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Filipa Cruz",
       "lic1": "21148",
+      "pid1": "187958",
       "p2": "Maria João Correia",
       "lic2": "22678",
+      "pid2": "319197",
       "club": "88PadelHouse",
       "pts1": 871.22,
       "lvl1": 6,
