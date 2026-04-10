@@ -3,13 +3,15 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +50 Nível 1",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T16:41:20.402Z",
+  "generatedAt": "2026-04-10T17:01:59.548Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Pedro Oliveira",
+      "lic1": "10059",
       "p2": "Luís Oliveira Lopes",
+      "lic2": "11447",
       "club": "Padel Estoril",
       "pts1": 109.86,
       "lvl1": 6,

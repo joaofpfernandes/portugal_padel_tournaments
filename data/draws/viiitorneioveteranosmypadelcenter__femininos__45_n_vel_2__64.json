@@ -3,13 +3,15 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +45 Nível 2",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T16:42:10.706Z",
+  "generatedAt": "2026-04-10T17:02:48.689Z",
   "result": [
     {
       "pos": 1,
       "draw": "MAIN",
       "p1": "Marisa C. André",
+      "lic1": "",
       "p2": "Joana Carneiro",
+      "lic2": "22246",
       "club": "OeirasPadelAcademy",
       "pts1": 0,
       "lvl1": 6,
