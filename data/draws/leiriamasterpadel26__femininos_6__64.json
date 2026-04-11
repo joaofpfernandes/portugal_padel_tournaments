@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 6",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T21:44:40.264Z",
+  "generatedAt": "2026-04-11T09:38:37.621Z",
   "result": [
     {
       "pos": 1,
@@ -127,6 +127,23 @@
     {
       "pos": 8,
       "draw": "MAIN",
+      "p1": "Eleonora Mendonça",
+      "lic1": "15082",
+      "pid1": "175712",
+      "p2": "Belinha",
+      "lic2": "16013",
+      "pid2": "180951",
+      "club": "Ultra Padel Club",
+      "pts1": 4.69,
+      "lvl1": 6,
+      "pts2": 192.27,
+      "lvl2": 6,
+      "total": 196.96,
+      "note": "Seed 8"
+    },
+    {
+      "pos": 9,
+      "draw": "MAIN",
       "p1": "Maria Caio",
       "lic1": "32363",
       "pid1": "213253",
@@ -139,10 +156,10 @@
       "pts2": 97.19,
       "lvl2": 6,
       "total": 184.38,
-      "note": "Seed 8"
+      "note": "Seed 9"
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Paula Martins",
       "lic1": "18530",
@@ -156,10 +173,10 @@
       "pts2": 32.91,
       "lvl2": 6,
       "total": 166.72,
-      "note": "Seed 9"
+      "note": "Seed 10"
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "Inês Costa",
       "lic1": "23198",
@@ -173,10 +190,10 @@
       "pts2": 95.34,
       "lvl2": 6,
       "total": 155.81,
-      "note": "Seed 10"
+      "note": "Seed 11"
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "MAIN",
       "p1": "Mariana Domingues",
       "lic1": "",
@@ -190,10 +207,10 @@
       "pts2": 154.05,
       "lvl2": 6,
       "total": 154.05,
-      "note": "Seed 11"
+      "note": "Seed 12"
     },
     {
-      "pos": 12,
+      "pos": 13,
       "draw": "MAIN",
       "p1": "Teresa Gomez",
       "lic1": "27532",
@@ -207,10 +224,10 @@
       "pts2": 85.41,
       "lvl2": 6,
       "total": 153.85,
-      "note": "Seed 12"
+      "note": "Seed 13"
     },
     {
-      "pos": 13,
+      "pos": 14,
       "draw": "MAIN",
       "p1": "Ana Luísa Marques",
       "lic1": "29548",
@@ -224,10 +241,10 @@
       "pts2": 7.81,
       "lvl2": 6,
       "total": 149.95,
-      "note": "Seed 13"
+      "note": "Seed 14"
     },
     {
-      "pos": 14,
+      "pos": 15,
       "draw": "MAIN",
       "p1": "Marisa Lopes",
       "lic1": "27455",
@@ -241,10 +258,10 @@
       "pts2": 40.94,
       "lvl2": 6,
       "total": 96.82,
-      "note": "Seed 14"
+      "note": "Seed 15"
     },
     {
-      "pos": 15,
+      "pos": 16,
       "draw": "MAIN",
       "p1": "Carina Fragoso",
       "lic1": "27457",
@@ -258,10 +275,10 @@
       "pts2": 16.5,
       "lvl2": 6,
       "total": 73.03,
-      "note": "Seed 15"
+      "note": "Seed 16"
     },
     {
-      "pos": 16,
+      "pos": 17,
       "draw": "MAIN",
       "p1": "Carla Neves",
       "lic1": "31885",
@@ -275,10 +292,10 @@
       "pts2": 26.09,
       "lvl2": 6,
       "total": 48.120000000000005,
-      "note": "Seed 16"
+      "note": ""
     },
     {
-      "pos": 17,
+      "pos": 18,
       "draw": "MAIN",
       "p1": "Joana Ferreira Costa",
       "lic1": "19849",
@@ -295,7 +312,7 @@
       "note": ""
     },
     {
-      "pos": 18,
+      "pos": 19,
       "draw": "MAIN",
       "p1": "Ana marques(nita)",
       "lic1": "32076",
@@ -312,7 +329,7 @@
       "note": ""
     },
     {
-      "pos": 19,
+      "pos": 20,
       "draw": "MAIN",
       "p1": "Patricia Castilho",
       "lic1": "34291",
@@ -329,7 +346,7 @@
       "note": ""
     },
     {
-      "pos": 20,
+      "pos": 21,
       "draw": "MAIN",
       "p1": "Catarina Caneira",
       "lic1": "34203",
@@ -346,7 +363,24 @@
       "note": ""
     },
     {
-      "pos": 21,
+      "pos": 22,
+      "draw": "MAIN",
+      "p1": "Jamila Portilha",
+      "lic1": "31712",
+      "pid1": "215040",
+      "p2": "Carolina Brito",
+      "lic2": "36221",
+      "pid2": "408297",
+      "club": "3PADELLDA",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 12.510000000000002,
+      "note": ""
+    },
+    {
+      "pos": 23,
       "draw": "MAIN",
       "p1": "Joana Pedro",
       "lic1": "33579",
@@ -363,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 22,
+      "pos": 24,
       "draw": "MAIN",
       "p1": "Natasha Costa",
       "lic1": "33316",

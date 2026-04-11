@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 5",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T21:38:39.789Z",
+  "generatedAt": "2026-04-11T09:31:53.970Z",
   "result": [
     {
       "pos": 1,
@@ -212,6 +212,23 @@
     {
       "pos": 13,
       "draw": "MAIN",
+      "p1": "Afonso Ribeiro",
+      "lic1": "30230",
+      "pid1": "369555",
+      "p2": "Tiago Ribeiro",
+      "lic2": "29724",
+      "pid2": "414208",
+      "club": "TheHyveAcademy",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 62.81,
+      "lvl2": 6,
+      "total": 72.19,
+      "note": "Seed 13"
+    },
+    {
+      "pos": 14,
+      "draw": "MAIN",
       "p1": "João Santos",
       "lic1": "30641",
       "pid1": "416099",
@@ -224,10 +241,10 @@
       "pts2": 7.81,
       "lvl2": 6,
       "total": 67.09,
-      "note": "Seed 13"
+      "note": "Seed 14"
     },
     {
-      "pos": 14,
+      "pos": 15,
       "draw": "MAIN",
       "p1": "Adriano Lopes",
       "lic1": "24360",
@@ -241,7 +258,7 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 23.439999999999998,
-      "note": "Seed 14"
+      "note": "Seed 15"
     }
   ]
 }

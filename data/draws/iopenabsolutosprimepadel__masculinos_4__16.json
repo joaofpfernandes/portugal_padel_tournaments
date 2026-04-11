@@ -3,7 +3,7 @@
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 4",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T21:40:11.353Z",
+  "generatedAt": "2026-04-11T09:33:37.062Z",
   "result": [
     {
       "pos": 1,
@@ -25,6 +25,23 @@
     {
       "pos": 2,
       "draw": "MAIN",
+      "p1": "João Silva",
+      "lic1": "8774",
+      "pid1": "82693",
+      "p2": "Francisco Almeida",
+      "lic2": "29997",
+      "pid2": "288796",
+      "club": "VCPadel",
+      "pts1": 144.13,
+      "lvl1": 6,
+      "pts2": 125.19,
+      "lvl2": 6,
+      "total": 269.32,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
       "p1": "Tomás Girão",
       "lic1": "",
       "pid1": "",
@@ -37,7 +54,7 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 9.38,
-      "note": "Seed 2"
+      "note": "Seed 3"
     }
   ]
 }

@@ -3,10 +3,27 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 4",
   "drawSize": 32,
-  "generatedAt": "2026-04-10T21:45:02.421Z",
+  "generatedAt": "2026-04-11T09:39:03.916Z",
   "result": [
     {
       "pos": 1,
+      "draw": "MAIN",
+      "p1": "Margarida Rodriguez",
+      "lic1": "26303",
+      "pid1": "332502",
+      "p2": "Filipa Naia",
+      "lic2": "27278",
+      "pid2": "344739",
+      "club": "NovoPadelClubSetubal",
+      "pts1": 2959.14,
+      "lvl1": 4,
+      "pts2": 2411.64,
+      "lvl2": 4,
+      "total": 5370.78,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
       "draw": "MAIN",
       "p1": "Maria Ana Azevedo",
       "lic1": "13396",
@@ -20,10 +37,10 @@
       "pts2": 3233.85,
       "lvl2": 4,
       "total": 4394.29,
-      "note": "Seed 1"
+      "note": "Seed 2"
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "MAIN",
       "p1": "Nance Sousa",
       "lic1": "27641",
@@ -37,10 +54,10 @@
       "pts2": 2071.61,
       "lvl2": 4,
       "total": 3715.12,
-      "note": "Seed 2"
+      "note": "Seed 3"
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "MAIN",
       "p1": "Patrícia Veiga",
       "lic1": "17575",
@@ -54,10 +71,10 @@
       "pts2": 1725,
       "lvl2": 5,
       "total": 3609.52,
-      "note": "Seed 3"
+      "note": "Seed 4"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "MAIN",
       "p1": "Luzi Reis",
       "lic1": "28438",
@@ -71,10 +88,10 @@
       "pts2": 1248.31,
       "lvl2": 5,
       "total": 3331.73,
-      "note": "Seed 4"
+      "note": "Seed 5"
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "MAIN",
       "p1": "Marisa Revez",
       "lic1": "13285",
@@ -88,10 +105,10 @@
       "pts2": 2066.98,
       "lvl2": 4,
       "total": 3295.75,
-      "note": "Seed 5"
+      "note": "Seed 6"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "MAIN",
       "p1": "Melissa Relva",
       "lic1": "24761",
@@ -105,10 +122,10 @@
       "pts2": 1870.92,
       "lvl2": 5,
       "total": 3094.2799999999997,
-      "note": "Seed 6"
+      "note": "Seed 7"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Raquel Porteira",
       "lic1": "20389",
@@ -122,10 +139,10 @@
       "pts2": 2549.72,
       "lvl2": 4,
       "total": 3008.0099999999998,
-      "note": "Seed 7"
+      "note": "Seed 8"
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Inês Vitorino",
       "lic1": "21433",
@@ -139,10 +156,10 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 2636.16,
-      "note": "Seed 8"
+      "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Joana Caetano",
       "lic1": "14168",
