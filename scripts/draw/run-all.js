@@ -225,7 +225,11 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
   );
 
   const active = tournaments.filter(
-    (t) => t.fpp_data?.link?.includes("fpp.tiepadel.com") && isActive(t),
+    (t) => {
+      const fpp = t.fpp_data;
+      if (Array.isArray(fpp)) return fpp.some(r => r.link?.includes("fpp.tiepadel.com")) && isActive(t);
+      return fpp?.link?.includes("fpp.tiepadel.com") && isActive(t);
+    }
   );
   console.log(`Active tournaments (within 21 days): ${active.length}`);
 
@@ -248,60 +252,39 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
   fs.mkdirSync(drawsDir, { recursive: true });
 
   for (const t of active) {
-    const slug = tournamentSlug(t.fpp_data.link);
-    if (!slug) {
-      console.warn(`No slug for: ${t.name}`);
-      continue;
-    }
+    const fppEntries = Array.isArray(t.fpp_data) ? t.fpp_data : [t.fpp_data];
 
-    console.log(`\n→ ${t.name} [${slug}]`);
-    const sections = await getSections(browser, slug);
-    if (!sections.length) {
-      console.warn("  No sections, skipping.");
-      continue;
-    }
-    console.log(`  Sections: ${sections.map((s) => s.text).join(" | ")}`);
+    for (const fpp of fppEntries) {
+      if (!fpp?.link?.includes("fpp.tiepadel.com")) continue;
+      const slug = tournamentSlug(fpp.link);
+      if (!slug) { console.warn(`No slug for: ${t.name}`); continue; }
 
-    for (const section of sections) {
-      console.log(`  [${section.text}] scraping...`);
-      const rawPlayers = await scrapePlayers(browser, slug, section.value);
-      if (!rawPlayers.length) {
-        console.warn("  No players, skipping.");
-        continue;
-      }
+      const tournamentName = fpp.region ? `${t.name} - ${fpp.region}` : t.name;
+      console.log(`\n→ ${tournamentName} [${slug}]`);
+      const sections = await getSections(browser, slug);
+      if (!sections.length) { console.warn("  No sections, skipping."); continue; }
+      console.log(`  Sections: ${sections.map((s) => s.text).join(" | ")}`);
 
-      const isFemale = /feminino/i.test(section.text);
-      const rankings = isFemale ? rankingsFemale : rankingsMale;
+      for (const section of sections) {
+        console.log(`  [${section.text}] scraping...`);
+        const rawPlayers = await scrapePlayers(browser, slug, section.value);
+        if (!rawPlayers.length) { console.warn("  No players, skipping."); continue; }
 
-      for (const drawSize of DRAW_SIZES) {
-        const result = buildDraw(
-          rawPlayers,
-          drawSize,
-          rankings,
-          t.fpp_data.level || "",
-        );
-        const filename = `${safeFilename(slug)}__${safeFilename(section.text)}__${drawSize}.json`;
-        fs.writeFileSync(
-          path.join(drawsDir, filename),
-          JSON.stringify(
-            {
-              tournament: t.name,
-              slug,
-              section: section.text,
-              drawSize,
-              generatedAt: new Date().toISOString(),
-              result,
-            },
-            null,
-            2,
-          ),
-        );
-        const main = result.filter((r) => r.draw === "MAIN").length;
-        const ql = result.filter((r) => r.draw === "QUALY").length;
-        const out = result.filter((r) => r.draw === "OUT").length;
-        console.log(
-          `    draw ${drawSize}: ${main} main / ${ql} qualy / ${out} out → ${filename}`,
-        );
+        const isFemale = /feminino/i.test(section.text);
+        const rankings = isFemale ? rankingsFemale : rankingsMale;
+
+        for (const drawSize of DRAW_SIZES) {
+          const result = buildDraw(rawPlayers, drawSize, rankings, fpp.level || "");
+          const filename = `${safeFilename(slug)}__${safeFilename(section.text)}__${drawSize}.json`;
+          fs.writeFileSync(
+            path.join(drawsDir, filename),
+            JSON.stringify({ tournament: tournamentName, slug, section: section.text, drawSize, generatedAt: new Date().toISOString(), result }, null, 2)
+          );
+          const main = result.filter((r) => r.draw === "MAIN").length;
+          const ql = result.filter((r) => r.draw === "QUALY").length;
+          const out = result.filter((r) => r.draw === "OUT").length;
+          console.log(`    draw ${drawSize}: ${main} main / ${ql} qualy / ${out} out → ${filename}`);
+        }
       }
     }
   }

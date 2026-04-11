@@ -81,39 +81,103 @@ async function buildTournamentList() {
     return;
   }
 
-  list.innerHTML = index.map((t, i) => {
-    const sections = Object.keys(t.sections);
-    const sectionOpts = sections.map(s => `<option value="${s}">${s}</option>`).join('');
-    const firstSection = sections[0];
-    const drawSizes = (t.sections[firstSection] || []).slice().sort((a, b) => a - b);
-    const drawOpts = drawSizes.map(d => `<option value="${d}">${d}</option>`).join('');
+  // Group regional tournaments (name contains ' - ') under their parent
+  const grouped = [];
+  const parentMap = {};
+  index.forEach(t => {
+    const dashIdx = t.tournament.lastIndexOf(' - ');
+    if (dashIdx === -1) {
+      grouped.push({ ...t, regions: null });
+    } else {
+      const parent = t.tournament.slice(0, dashIdx);
+      const region = t.tournament.slice(dashIdx + 3);
+      if (!parentMap[parent]) {
+        parentMap[parent] = { tournament: parent, slug: null, sections: {}, regions: [] };
+        grouped.push(parentMap[parent]);
+      }
+      parentMap[parent].regions.push({ region, slug: t.slug, sections: t.sections });
+    }
+  });
 
-    return `
-    <div class="t-row" id="trow-${i}">
-      <div>
-        <div class="t-name">${t.tournament}</div>
-      </div>
-      <div class="t-controls">
-        <div class="t-control-group">
-          <label>Categoria</label>
-          <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
+  list.innerHTML = grouped.map((t, i) => {
+    if (t.regions) {
+      // Regional tournament: show region picker first
+      const regionOpts = t.regions.map(r => `<option value="${r.region}">${r.region}</option>`).join('');
+      const firstRegion = t.regions[0];
+      const sections = Object.keys(firstRegion.sections);
+      const sectionOpts = sections.map(s => `<option value="${s}">${s}</option>`).join('');
+      const drawSizes = (firstRegion.sections[sections[0]] || []).slice().sort((a, b) => a - b);
+      const drawOpts = drawSizes.map(d => `<option value="${d}">${d}</option>`).join('');
+      const regionsData = btoa(unescape(encodeURIComponent(JSON.stringify(t.regions))));
+      return `
+      <div class="t-row" id="trow-${i}">
+        <div><div class="t-name">${t.tournament}</div></div>
+        <div class="t-controls">
+          <div class="t-control-group">
+            <label>Região</label>
+            <select id="rgn-${i}" data-regions="${regionsData}" onchange="updateRegion(${i})" title="Região">${regionOpts}</select>
+          </div>
+          <div class="t-control-group">
+            <label>Categoria</label>
+            <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
+          </div>
+          <div class="t-control-group">
+            <label>Tamanho do quadro</label>
+            <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+          </div>
+          <button class="btn-gen" onclick="generate(${i})">Ver</button>
         </div>
-        <div class="t-control-group">
-          <label>Tamanho do quadro</label>
-          <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+      </div>`;
+    } else {
+      const sections = Object.keys(t.sections);
+      const sectionOpts = sections.map(s => `<option value="${s}">${s}</option>`).join('');
+      const drawSizes = (t.sections[sections[0]] || []).slice().sort((a, b) => a - b);
+      const drawOpts = drawSizes.map(d => `<option value="${d}">${d}</option>`).join('');
+      return `
+      <div class="t-row" id="trow-${i}">
+        <div><div class="t-name">${t.tournament}</div></div>
+        <div class="t-controls">
+          <div class="t-control-group">
+            <label>Categoria</label>
+            <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
+          </div>
+          <div class="t-control-group">
+            <label>Tamanho do quadro</label>
+            <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+          </div>
+          <button class="btn-gen" onclick="generate(${i})">Ver</button>
         </div>
-        <button class="btn-gen" onclick="generate(${i})">Ver</button>
-      </div>
-    </div>`;
+      </div>`;
+    }
   }).join('');
 
-  window._drawIndex = index;
+  window._drawIndex = grouped;
 }
+
+window.updateRegion = function(i) {
+  const t = window._drawIndex[i];
+  const regionSel = document.getElementById(`rgn-${i}`);
+  const regions = JSON.parse(decodeURIComponent(escape(atob(regionSel.dataset.regions))));
+  const region = regions.find(r => r.region === regionSel.value);
+  if (!region) return;
+  const sections = Object.keys(region.sections);
+  document.getElementById(`sec-${i}`).innerHTML = sections.map(s => `<option value="${s}">${s}</option>`).join('');
+  updateDrawSizes(i);
+};
 
 window.updateDrawSizes = function(i) {
   const t = window._drawIndex[i];
   const section = document.getElementById(`sec-${i}`).value;
-  const sizes = (t.sections[section] || []).slice().sort((a, b) => a - b);
+  let sections;
+  if (t.regions) {
+    const regionSel = document.getElementById(`rgn-${i}`);
+    const regions = JSON.parse(decodeURIComponent(escape(atob(regionSel.dataset.regions))));
+    const region = regions.find(r => r.region === regionSel.value);
+    sections = region ? region.sections : {};
+  } else {
+    sections = t.sections;
+  }
+  const sizes = (sections[section] || []).slice().sort((a, b) => a - b);
   document.getElementById(`draw-${i}`).innerHTML = sizes.map(d => `<option value="${d}">${d}</option>`).join('');
 };
 
@@ -123,11 +187,20 @@ window.generate = async function(i) {
   const drawSize = document.getElementById(`draw-${i}`).value;
   const btn = document.querySelector(`#trow-${i} .btn-gen`);
 
+  let slug = t.slug;
+  if (t.regions) {
+    const regionSel = document.getElementById(`rgn-${i}`);
+    const regions = JSON.parse(decodeURIComponent(escape(atob(regionSel.dataset.regions))));
+    const region = regions.find(r => r.region === regionSel.value);
+    slug = region ? region.slug : null;
+  }
+  if (!slug) return;
+
   btn.disabled = true;
   btn.textContent = 'A carregar...';
 
   try {
-    const filename = `${safeFilename(t.slug)}__${safeFilename(section)}__${drawSize}.json`;
+    const filename = `${safeFilename(slug)}__${safeFilename(section)}__${drawSize}.json`;
     const data = await fetch(DRAWS_BASE + filename).then(r => r.json());
     openResultTab(data, parseInt(drawSize));
   } catch (e) {

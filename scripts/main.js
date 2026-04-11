@@ -215,18 +215,28 @@ const hasValue = (value) => {
 
 const hasAnySourceData = (sourceData) => {
   if (!sourceData || typeof sourceData !== "object") return false;
-  return ["level", "points", "prize_money", "categories", "link"]
-    .some((key) => hasValue(sourceData[key]));
+  return ["level", "points", "prize_money", "categories", "link"].some((key) =>
+    hasValue(sourceData[key]),
+  );
+};
+
+const getTournamentFppData = (tournament) => {
+  const fpp = tournament?.fpp_data;
+  return Array.isArray(fpp) ? fpp[0] : fpp;
 };
 
 const getTournamentBadgePointsPrefix = (tournament) => {
-  const pointsValue = tournament?.fpp_data?.points ?? tournament?.points ?? tournament?.fipPoints;
+  const fpp = getTournamentFppData(tournament);
+  const pointsValue =
+    fpp?.points ?? tournament?.points ?? tournament?.fipPoints;
   if (typeof pointsValue !== "number" || pointsValue <= 0) return "";
   return ` · ${pointsValue.toLocaleString("pt-PT")}`;
 };
 
 const getNoLevelAbsolutosBadgeClass = (tournament) => {
-  const pointsValue = tournament?.fpp_data?.points ?? tournament?.points ?? tournament?.fipPoints;
+  const fpp = getTournamentFppData(tournament);
+  const pointsValue =
+    fpp?.points ?? tournament?.points ?? tournament?.fipPoints;
   if (typeof pointsValue !== "number" || pointsValue <= 0) return "badge-club";
   if (pointsValue >= 10000) return "badge-c10k";
   if (pointsValue >= 5000) return "badge-c5k";
@@ -243,10 +253,13 @@ const getCardNoLevelBadge = (tournament) => {
   }
 
   if (ageGroup === "jov") {
-    const hasFppData = hasAnySourceData(tournament?.fpp_data);
+    const hasFppData = hasAnySourceData(getTournamentFppData(tournament));
     const hasFipData = hasAnySourceData(tournament?.fip_data);
     if (hasFppData && !hasFipData) {
-      return { label: `Jovens${pointsPrefix}`, badgeClass: "badge-fip-promises" };
+      return {
+        label: `Jovens${pointsPrefix}`,
+        badgeClass: "badge-fip-promises",
+      };
     }
   }
 
@@ -270,12 +283,14 @@ const buildSourceInfo = (sourceLabel, sourceData) => {
     parts.push(`Nível: ${getLevelLabel(levelKey)}`);
   }
   if (hasValue(sourceData.points)) {
-    const points = typeof sourceData.points === "number"
-      ? sourceData.points.toLocaleString("pt-PT")
-      : sourceData.points;
+    const points =
+      typeof sourceData.points === "number"
+        ? sourceData.points.toLocaleString("pt-PT")
+        : sourceData.points;
     parts.push(`Pontos: ${points}`);
   }
-  if (hasValue(sourceData.categories)) parts.push(`Categorias: ${sourceData.categories}`);
+  if (hasValue(sourceData.categories))
+    parts.push(`Categorias: ${sourceData.categories}`);
   const hasMainInfo = parts.length > 0;
   const hasLink = hasValue(sourceData.link);
 
@@ -297,21 +312,29 @@ const getTournamentPointsAndPrize = (tournament, level) => {
   let prizeMoney = null;
   const levelPts = { c2k: 2000, c5k: 5000, c10k: 10000 };
 
+  const fppData = getTournamentFppData(tournament);
   if (tournament.fipPoints) {
     pointsNum = tournament.fipPoints;
     if (tournament.prize) prizeMoney = tournament.prize;
   } else {
-    const fppPoints = tournament?.fpp_data?.points;
+    const fppPoints = fppData?.points;
     const legacyPoints = tournament?.points;
     if (fppPoints != null || legacyPoints != null) {
       pointsNum = fppPoints ?? legacyPoints;
-      prizeMoney = tournament.prizeMoney || tournament.prize_money || (tournament.prize && tournament.prize.includes("\u20AC") ? tournament.prize : null);
+      prizeMoney =
+        tournament.prizeMoney ||
+        tournament.prize_money ||
+        (tournament.prize && tournament.prize.includes("\u20AC")
+          ? tournament.prize
+          : null);
     } else if (tournament.prize) {
       if (tournament.prize.includes("\u20AC")) {
         prizeMoney = tournament.prize;
         if (levelPts[level]) pointsNum = levelPts[level];
       } else {
-        const value = parseInt(tournament.prize.replace(/\./g, "").replace(/[^\d]/g, ""));
+        const value = parseInt(
+          tournament.prize.replace(/\./g, "").replace(/[^\d]/g, ""),
+        );
         if (!isNaN(value) && value > 0) pointsNum = value;
       }
     }
@@ -320,11 +343,13 @@ const getTournamentPointsAndPrize = (tournament, level) => {
   return { pointsNum, prizeMoney };
 };
 
-const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/assets/tournament-images";
+const CDN_BASE =
+  "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/assets/tournament-images";
 const DEFAULT_TOURNAMENT_IMAGE = `${CDN_BASE}/default.jpg`;
 
 const getTournamentImageUrl = (tournament) => {
-  if (!tournament.image || !tournament.start_date) return DEFAULT_TOURNAMENT_IMAGE;
+  if (!tournament.image || !tournament.start_date)
+    return DEFAULT_TOURNAMENT_IMAGE;
   const year = tournament.start_date.slice(0, 4);
   return `${CDN_BASE}/${year}/${tournament.image}`;
 };
@@ -335,7 +360,10 @@ const buildTournamentCardContent = (tournament) => {
     ? { label: getLevelLabel(level), badgeClass: getLevelBadgeClass(level) }
     : getCardNoLevelBadge(tournament);
   const timeStatus = getTournamentTimeStatus(tournament);
-  const { pointsNum, prizeMoney } = getTournamentPointsAndPrize(tournament, level);
+  const { pointsNum, prizeMoney } = getTournamentPointsAndPrize(
+    tournament,
+    level,
+  );
 
   const prizeHtml = prizeMoney
     ? `<span class="prize">${prizeMoney}</span>`
@@ -356,6 +384,8 @@ const buildTournamentCardContent = (tournament) => {
 
   const imageUrl = getTournamentImageUrl(tournament);
 
+  const tagColor = badgeMeta.badgeClass.replace('badge-', '');
+
   return {
     level,
     month: getTournamentMonth(tournament),
@@ -373,7 +403,26 @@ const buildTournamentCardContent = (tournament) => {
   ${prizeHtml ? `<div class="card-detail">${prizeHtml}</div>` : ""}
 </div>
 ${buildSourceInfo("FIP", tournament.fip_data)}
-${buildSourceInfo("FPP", tournament.fpp_data)}
+${
+  Array.isArray(tournament.fpp_data)
+    ? (() => {
+        const id = "rgn_" + Math.random().toString(36).slice(2);
+        const opts = tournament.fpp_data
+          .map((r) => `<option value="${r.region}">${r.region}</option>`)
+          .join("");
+        const dataAttr = btoa(
+          unescape(encodeURIComponent(JSON.stringify(tournament.fpp_data))),
+        );
+        const tags = tournament.fpp_data
+          .map(
+            (r) =>
+              `<span class="rgn-tag" data-region="${r.region}" onclick="window._toggleRegion(this,'${tagColor}')" style="display:inline-block;cursor:pointer;padding:2px 10px;margin:2px;border-radius:100px;font-size:0.72rem;font-weight:500;border:1px solid var(--border);background:var(--card-bg);color:var(--text-light);user-select:none">${r.region}</span>`,
+          )
+          .join("");
+        return `<div style="margin-top:0.5rem" data-regions="${dataAttr}" id="${id}_picker">${tags}</div><div id="${id}_links"></div>`;
+      })()
+    : buildSourceInfo("FPP", tournament.fpp_data)
+}
 ${cardFooterHtml}
 ${statusBarHtml}
     `,
@@ -412,7 +461,6 @@ createFilterButton("veteranos", "Veteranos", countByFilter("veteranos"));
 createFilterButton("jovens", "Jovens", countByFilter("jovens"));
 createFilterButton("fip-only", "Apenas FIP", countByFilter("fip-only"));
 
-
 // --- SVGs ---
 const svgCalendar = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`;
 const svgPin = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
@@ -446,8 +494,8 @@ months.forEach((month) => {
 
 // --- Stats ---
 document.getElementById("totalCount").textContent = tournaments.length;
-document.getElementById("fipCount").textContent = tournaments.filter(
-  (t) => getTournamentLevel(t).startsWith("fip-"),
+document.getElementById("fipCount").textContent = tournaments.filter((t) =>
+  getTournamentLevel(t).startsWith("fip-"),
 ).length;
 document.getElementById("visibleCount").textContent = tournaments.length;
 
@@ -455,8 +503,8 @@ document.getElementById("visibleCount").textContent = tournaments.length;
 //  MAP (Leaflet + OpenStreetMap)
 // ==========================================
 const map = L.map("mapContainer", { scrollWheelZoom: true }).setView(
-[38.5, -15.5], // Centro aproximado entre o Continente e os Açores
-  5              // Zoom reduzido para abranger a distância
+  [38.5, -15.5], // Centro aproximado entre o Continente e os Açores
+  5, // Zoom reduzido para abranger a distância
 );
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
@@ -538,7 +586,9 @@ Object.entries(locationGroups).forEach(([locName, group]) => {
   const popupHtml = buildMarkerPopupHtml(popupTournaments);
 
   marker.bindPopup(popupHtml, { maxWidth: 420 });
-  marker._tournamentLevels = group.tournaments.map((t) => getTournamentLevel(t));
+  marker._tournamentLevels = group.tournaments.map((t) =>
+    getTournamentLevel(t),
+  );
   marker._locationName = locName;
   marker._tournaments = group.tournaments;
   marker.addTo(map);
@@ -619,7 +669,9 @@ function filterCards(isAll, from, to, lowerQuery) {
     }
 
     if (show && lowerQuery) {
-      const cardName = card.querySelector(".card-name").textContent.toLowerCase();
+      const cardName = card
+        .querySelector(".card-name")
+        .textContent.toLowerCase();
       show = cardName.includes(lowerQuery);
     }
 
@@ -738,6 +790,44 @@ monthTo.addEventListener("change", () => {
   }
   applyFilters();
 });
+
+// Region picker handler
+window._toggleRegion = function (tag, tagColor) {
+  const active = tag.getAttribute("data-active") === "1";
+  const colorMap = { 'fip-gold': 'gold', 'fip-silver': 'silver', 'fip-bronze': 'bronze', 'fip-promises': 'promises' };
+  const lv = colorMap[tagColor] || tagColor || 'regional';
+  tag.setAttribute("data-active", active ? "0" : "1");
+  tag.style.background = active ? "var(--card-bg)" : `var(--${lv})`;
+  tag.style.color = active ? "var(--text-light)" : "#fff";
+  tag.style.borderColor = active ? "var(--border)" : `var(--${lv})`;
+
+  const picker = tag.closest("[data-regions]");
+  const linksEl = picker.nextElementSibling;
+  const regions = JSON.parse(
+    decodeURIComponent(escape(atob(picker.dataset.regions))),
+  );
+  const selected = new Set(
+    Array.from(picker.querySelectorAll('[data-active="1"]')).map(
+      (t) => t.dataset.region,
+    ),
+  );
+  linksEl.innerHTML = regions
+    .filter((r) => selected.has(r.region))
+    .map((r) => {
+      const parts = [];
+      if (r.points != null)
+        parts.push(`Pontos: ${Number(r.points).toLocaleString("pt-PT")}`);
+      if (r.categories) parts.push(`Categorias: ${r.categories}`);
+      const info = parts.length
+        ? `<div><strong>FPP (${r.region}):</strong> ${parts.join(" · ")}</div>`
+        : `<div><strong>FPP (${r.region}):</strong></div>`;
+      const link = r.link
+        ? `<div><a href="${r.link}" target="_blank" rel="noopener noreferrer">Inscrições / Resultados</a></div>`
+        : "";
+      return `<div class="card-cats">${info}${link}</div>`;
+    })
+    .join("");
+};
 
 // Apply default month range on first render
 applyFilters();
