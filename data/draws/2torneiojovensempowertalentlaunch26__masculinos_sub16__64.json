@@ -3,10 +3,27 @@
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB16",
   "drawSize": 64,
-  "generatedAt": "2026-04-11T09:34:29.530Z",
+  "generatedAt": "2026-04-11T21:55:45.052Z",
   "result": [
     {
       "pos": 1,
+      "draw": "MAIN",
+      "p1": "André Rolim",
+      "lic1": "12673",
+      "pid1": "145964",
+      "p2": "Vicente Sá",
+      "lic2": "16109",
+      "pid2": "182528",
+      "club": "Clube Ténis Lagos",
+      "pts1": 619.55,
+      "lvl1": 6,
+      "pts2": 515.7,
+      "lvl2": 6,
+      "total": 1135.25,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
       "draw": "MAIN",
       "p1": "Tiago Cristino",
       "lic1": "27388",
@@ -20,10 +37,10 @@
       "pts2": 134.75,
       "lvl2": 6,
       "total": 141,
-      "note": "Seed 1"
+      "note": "Seed 2"
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "MAIN",
       "p1": "António Bitoque Silva",
       "lic1": "26224",
@@ -37,10 +54,10 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 7.82,
-      "note": "Seed 2"
+      "note": "Seed 3"
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "MAIN",
       "p1": "Francisco Ramalho Machado",
       "lic1": "32810",
@@ -54,10 +71,10 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 4.6899999999999995,
-      "note": "Seed 3"
+      "note": "Seed 4"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "MAIN",
       "p1": "Dominic Smook",
       "lic1": "",
@@ -71,7 +88,7 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 0,
-      "note": "Seed 4"
+      "note": "Seed 5"
     }
   ]
 }

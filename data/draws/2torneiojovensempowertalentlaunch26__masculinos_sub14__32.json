@@ -3,7 +3,7 @@
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB14",
   "drawSize": 32,
-  "generatedAt": "2026-04-11T09:34:24.771Z",
+  "generatedAt": "2026-04-11T21:55:40.226Z",
   "result": [
     {
       "pos": 1,
@@ -72,6 +72,23 @@
       "lvl2": 6,
       "total": 0,
       "note": "Seed 4"
+    },
+    {
+      "pos": 5,
+      "draw": "MAIN",
+      "p1": "Afonso Gomes",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Cristiano Ionut ilies",
+      "lic2": "",
+      "pid2": "",
+      "club": "MyCenter - Sports & Wellness",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 5"
     }
   ]
 }

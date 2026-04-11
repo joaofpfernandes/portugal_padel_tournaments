@@ -1,0 +1,43 @@
+{
+  "tournament": "Camp. Regional Jovens (4 regiões) - Ilhas",
+  "slug": "CampRegJovlhas26",
+  "section": "Femininos SUB14",
+  "drawSize": 16,
+  "generatedAt": "2026-04-11T21:52:29.281Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Oriana Barros",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Gabriela Barros",
+      "lic2": "",
+      "pid2": "",
+      "club": "MRC-MadeiraRacketClub",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Leonor Costa",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Mafalda Drumond",
+      "lic2": "",
+      "pid2": "",
+      "club": "SCPS",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 2"
+    }
+  ]
+}

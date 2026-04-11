@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 3",
   "drawSize": 64,
-  "generatedAt": "2026-04-11T09:38:09.741Z",
+  "generatedAt": "2026-04-11T21:59:26.238Z",
   "result": [
     {
       "pos": 1,
@@ -348,6 +348,23 @@
     {
       "pos": 21,
       "draw": "MAIN",
+      "p1": "Pedro Borges",
+      "lic1": "21792",
+      "pid1": "23412",
+      "p2": "Filipe Penha",
+      "lic2": "21237",
+      "pid2": "242128",
+      "club": "AirfutPadelIndoor",
+      "pts1": 6847.19,
+      "lvl1": 3,
+      "pts2": 1564.34,
+      "lvl2": 5,
+      "total": 8411.529999999999,
+      "note": ""
+    },
+    {
+      "pos": 22,
+      "draw": "MAIN",
       "p1": "Francisco Ventura",
       "lic1": "21122",
       "pid1": "106127",
@@ -363,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 22,
+      "pos": 23,
       "draw": "MAIN",
       "p1": "Afonso Esteves",
       "lic1": "12790",
@@ -380,7 +397,41 @@
       "note": ""
     },
     {
-      "pos": 23,
+      "pos": 24,
+      "draw": "MAIN",
+      "p1": "Luís Leitão",
+      "lic1": "13385",
+      "pid1": "137673",
+      "p2": "Rui M. Rodrigues",
+      "lic2": "22017",
+      "pid2": "244047",
+      "club": "New Padel - Chão da Fonte",
+      "pts1": 2926.59,
+      "lvl1": 4,
+      "pts2": 4403.88,
+      "lvl2": 3,
+      "total": 7330.47,
+      "note": ""
+    },
+    {
+      "pos": 25,
+      "draw": "MAIN",
+      "p1": "Diogo Melo",
+      "lic1": "26314",
+      "pid1": "283521",
+      "p2": "Martim Henriques",
+      "lic2": "26406",
+      "pid2": "316843",
+      "club": "PIC Padel Club",
+      "pts1": 1584.46,
+      "lvl1": 5,
+      "pts2": 4745.42,
+      "lvl2": 3,
+      "total": 6329.88,
+      "note": ""
+    },
+    {
+      "pos": 26,
       "draw": "MAIN",
       "p1": "João Simões",
       "lic1": "16095",
@@ -397,7 +448,7 @@
       "note": ""
     },
     {
-      "pos": 24,
+      "pos": 27,
       "draw": "MAIN",
       "p1": "Miguel Almeida",
       "lic1": "17437",
@@ -414,7 +465,7 @@
       "note": ""
     },
     {
-      "pos": 25,
+      "pos": 28,
       "draw": "MAIN",
       "p1": "Rodrigo Fortunato",
       "lic1": "14791",
@@ -431,7 +482,7 @@
       "note": ""
     },
     {
-      "pos": 26,
+      "pos": 29,
       "draw": "MAIN",
       "p1": "Francisco Martinez",
       "lic1": "26008",
@@ -448,7 +499,7 @@
       "note": ""
     },
     {
-      "pos": 27,
+      "pos": 30,
       "draw": "MAIN",
       "p1": "PP",
       "lic1": "17769",
@@ -465,7 +516,7 @@
       "note": ""
     },
     {
-      "pos": 28,
+      "pos": 31,
       "draw": "MAIN",
       "p1": "Ricardo Lourenço",
       "lic1": "1692",
@@ -482,7 +533,7 @@
       "note": ""
     },
     {
-      "pos": 29,
+      "pos": 32,
       "draw": "MAIN",
       "p1": "Gonçalo Cunha",
       "lic1": "16934",

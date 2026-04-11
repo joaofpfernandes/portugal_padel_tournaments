@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 5",
   "drawSize": 32,
-  "generatedAt": "2026-04-11T09:31:53.911Z",
+  "generatedAt": "2026-04-11T21:53:02.906Z",
   "result": [
     {
       "pos": 1,
@@ -178,6 +178,40 @@
     {
       "pos": 11,
       "draw": "MAIN",
+      "p1": "Márcio Carvalho",
+      "lic1": "19895",
+      "pid1": "183261",
+      "p2": "José Maia",
+      "lic2": "17418",
+      "pid2": "224765",
+      "club": "Top-padelBragaCenter",
+      "pts1": 82.75,
+      "lvl1": 6,
+      "pts2": 91.88,
+      "lvl2": 6,
+      "total": 174.63,
+      "note": ""
+    },
+    {
+      "pos": 12,
+      "draw": "MAIN",
+      "p1": "Rui Monteiro",
+      "lic1": "14409",
+      "pid1": "174956",
+      "p2": "Vitor Carvalho",
+      "lic2": "19225",
+      "pid2": "231985",
+      "club": "LIFEPADEL",
+      "pts1": 124.16,
+      "lvl1": 6,
+      "pts2": 39.75,
+      "lvl2": 6,
+      "total": 163.91,
+      "note": ""
+    },
+    {
+      "pos": 13,
+      "draw": "MAIN",
       "p1": "Ricardo Grave",
       "lic1": "32452",
       "pid1": "346495",
@@ -193,7 +227,7 @@
       "note": ""
     },
     {
-      "pos": 12,
+      "pos": 14,
       "draw": "MAIN",
       "p1": "Manuel Gonçalves",
       "lic1": "33070",
@@ -210,7 +244,7 @@
       "note": ""
     },
     {
-      "pos": 13,
+      "pos": 15,
       "draw": "MAIN",
       "p1": "Afonso Ribeiro",
       "lic1": "30230",
@@ -227,7 +261,7 @@
       "note": ""
     },
     {
-      "pos": 14,
+      "pos": 16,
       "draw": "MAIN",
       "p1": "João Santos",
       "lic1": "30641",
@@ -244,7 +278,7 @@
       "note": ""
     },
     {
-      "pos": 15,
+      "pos": 17,
       "draw": "MAIN",
       "p1": "Adriano Lopes",
       "lic1": "24360",

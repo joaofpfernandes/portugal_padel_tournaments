@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 3",
   "drawSize": 16,
-  "generatedAt": "2026-04-11T09:39:12.463Z",
+  "generatedAt": "2026-04-11T22:00:25.847Z",
   "result": [
     {
       "pos": 1,
@@ -76,6 +76,23 @@
     {
       "pos": 5,
       "draw": "MAIN",
+      "p1": "Ana Monteiro",
+      "lic1": "31172",
+      "pid1": "321567",
+      "p2": "Marta Carvalho",
+      "lic2": "26803",
+      "pid2": "326739",
+      "club": "QM / SCP",
+      "pts1": 6137.75,
+      "lvl1": 3,
+      "pts2": 1503.03,
+      "lvl2": 5,
+      "total": 7640.78,
+      "note": ""
+    },
+    {
+      "pos": 6,
+      "draw": "MAIN",
       "p1": "Laura Ferreira",
       "lic1": "20499",
       "pid1": "234241",
@@ -91,7 +108,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "MAIN",
       "p1": "Mafalda Alves",
       "lic1": "18674",
@@ -108,7 +125,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Mariana Ribeiro",
       "lic1": "14431",
@@ -125,7 +142,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Sara Meirinhos",
       "lic1": "10090",
@@ -142,7 +159,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Raquel Laconca",
       "lic1": "14568",
@@ -159,7 +176,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "Elisabete Cordeiro",
       "lic1": "10424",
@@ -176,7 +193,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "MAIN",
       "p1": "Carina Pinto",
       "lic1": "26754",
@@ -193,8 +210,8 @@
       "note": ""
     },
     {
-      "pos": 12,
-      "draw": "MAIN",
+      "pos": 1,
+      "draw": "QUALY",
       "p1": "Filipa Varandas",
       "lic1": "13340",
       "pid1": "167471",
@@ -210,7 +227,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 2,
       "draw": "QUALY",
       "p1": "Sara Machado",
       "lic1": "11913",
@@ -227,7 +244,7 @@
       "note": ""
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "QUALY",
       "p1": "Charlotte Gauthier",
       "lic1": "32822",

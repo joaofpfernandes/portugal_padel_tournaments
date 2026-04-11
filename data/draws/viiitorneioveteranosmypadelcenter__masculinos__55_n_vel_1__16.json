@@ -3,10 +3,27 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +55 Nível 1",
   "drawSize": 16,
-  "generatedAt": "2026-04-11T09:35:33.608Z",
+  "generatedAt": "2026-04-11T21:56:49.731Z",
   "result": [
     {
       "pos": 1,
+      "draw": "MAIN",
+      "p1": "JOCA MOOG",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Paulo de Vilhena",
+      "lic2": "16066",
+      "pid2": "181567",
+      "club": "Valténis Country Club",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 568.75,
+      "lvl2": 6,
+      "total": 568.75,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
       "draw": "MAIN",
       "p1": "Vitor Silva Marques",
       "lic1": "573",
@@ -20,7 +37,7 @@
       "pts2": 66.98,
       "lvl2": 6,
       "total": 114.94,
-      "note": "Seed 1"
+      "note": "Seed 2"
     }
   ]
 }

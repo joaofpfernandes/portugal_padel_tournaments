@@ -1,0 +1,26 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +60 Nível 2",
+  "drawSize": 32,
+  "generatedAt": "2026-04-11T21:57:03.757Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Telmo Simões",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Rui P Janota",
+      "lic2": "",
+      "pid2": "",
+      "club": "Evolution Padel Academy",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 1"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 4",
   "drawSize": 64,
-  "generatedAt": "2026-04-11T09:32:02.984Z",
+  "generatedAt": "2026-04-11T21:53:11.057Z",
   "result": [
     {
       "pos": 1,
@@ -42,23 +42,6 @@
     {
       "pos": 3,
       "draw": "MAIN",
-      "p1": "Rodrigo Pinheiro",
-      "lic1": "20165",
-      "pid1": "233229",
-      "p2": "Kiko Cardoso",
-      "lic2": "",
-      "pid2": "",
-      "club": "VILLAEVERDASCA-TourismSport",
-      "pts1": 9.38,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 9.38,
-      "note": "Seed 3"
-    },
-    {
-      "pos": 4,
-      "draw": "MAIN",
       "p1": "Tiago Loureiro",
       "lic1": "13915",
       "pid1": "174059",
@@ -71,7 +54,7 @@
       "pts2": 612.5,
       "lvl2": 6,
       "total": 3679.59,
-      "note": "Seed 4"
+      "note": "Seed 3"
     }
   ]
 }

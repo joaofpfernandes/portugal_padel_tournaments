@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 6",
   "drawSize": 32,
-  "generatedAt": "2026-04-11T09:31:43.464Z",
+  "generatedAt": "2026-04-11T21:52:50.871Z",
   "result": [
     {
       "pos": 1,
@@ -25,6 +25,23 @@
     {
       "pos": 2,
       "draw": "MAIN",
+      "p1": "João Moreira",
+      "lic1": "18442",
+      "pid1": "162546",
+      "p2": "Miguel Oliveira",
+      "lic2": "32597",
+      "pid2": "448347",
+      "club": "MajorPadelClubDouro",
+      "pts1": 206.54,
+      "lvl1": 6,
+      "pts2": 133.91,
+      "lvl2": 6,
+      "total": 340.45,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
       "p1": "Dani Cerqueira",
       "lic1": "28083",
       "pid1": "411449",
@@ -37,10 +54,10 @@
       "pts2": 64.16,
       "lvl2": 6,
       "total": 142.75,
-      "note": "Seed 2"
+      "note": "Seed 3"
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "MAIN",
       "p1": "Fernando Lourenço",
       "lic1": "4504",
@@ -54,10 +71,10 @@
       "pts2": 32.91,
       "lvl2": 6,
       "total": 56.78999999999999,
-      "note": "Seed 3"
+      "note": "Seed 4"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "MAIN",
       "p1": "Tomás Eça",
       "lic1": "34057",
@@ -71,10 +88,10 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 18.76,
-      "note": "Seed 4"
+      "note": "Seed 5"
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "MAIN",
       "p1": "Gonzalo Hoepelman",
       "lic1": "37329",
@@ -88,10 +105,10 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 18.76,
-      "note": "Seed 5"
+      "note": "Seed 6"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "MAIN",
       "p1": "Pedinesi",
       "lic1": "34756",
@@ -105,10 +122,10 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 18.76,
-      "note": "Seed 6"
+      "note": "Seed 7"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Leandro Teixeira",
       "lic1": "36815",
@@ -122,10 +139,10 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 16.5,
-      "note": "Seed 7"
+      "note": "Seed 8"
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "JoaoPereira",
       "lic1": "33571",
@@ -139,10 +156,10 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 12.510000000000002,
-      "note": "Seed 8"
+      "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Igor S",
       "lic1": "36016",
@@ -159,7 +176,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "Paulo Miguel Caldeira",
       "lic1": "23268",
@@ -176,7 +193,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "MAIN",
       "p1": "Paulo Alves",
       "lic1": "34252",

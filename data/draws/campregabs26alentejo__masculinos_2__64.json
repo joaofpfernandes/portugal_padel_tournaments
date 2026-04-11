@@ -1,0 +1,26 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Alentejo",
+  "slug": "CampRegABS26Alentejo",
+  "section": "Masculinos 2",
+  "drawSize": 64,
+  "generatedAt": "2026-04-11T21:47:02.799Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Jorge Gago",
+      "lic1": "6184",
+      "pid1": "60695",
+      "p2": "Francisco Manteigas",
+      "lic2": "6659",
+      "pid2": "75907",
+      "club": "BLIVE PADEL INDOOR",
+      "pts1": 787.5,
+      "lvl1": 6,
+      "pts2": 13981.25,
+      "lvl2": 2,
+      "total": 14768.75,
+      "note": "Seed 1"
+    }
+  ]
+}

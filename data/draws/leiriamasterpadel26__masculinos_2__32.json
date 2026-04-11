@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 2",
   "drawSize": 32,
-  "generatedAt": "2026-04-11T09:38:24.858Z",
+  "generatedAt": "2026-04-11T21:59:40.107Z",
   "result": [
     {
       "pos": 1,
@@ -348,23 +348,6 @@
     {
       "pos": 21,
       "draw": "MAIN",
-      "p1": "Tiago Pratas",
-      "lic1": "2963",
-      "pid1": "23639",
-      "p2": "David Pinto",
-      "lic2": "7371",
-      "pid2": "81583",
-      "club": "W Padel Country Club",
-      "pts1": 13687.5,
-      "lvl1": 2,
-      "pts2": 10419.94,
-      "lvl2": 3,
-      "total": 24107.440000000002,
-      "note": ""
-    },
-    {
-      "pos": 22,
-      "draw": "MAIN",
       "p1": "Alexandre Moreira",
       "lic1": "5316",
       "pid1": "26587",
@@ -377,6 +360,23 @@
       "pts2": 13234.38,
       "lvl2": 2,
       "total": 23715.32,
+      "note": ""
+    },
+    {
+      "pos": 22,
+      "draw": "MAIN",
+      "p1": "David Pinto",
+      "lic1": "7371",
+      "pid1": "81583",
+      "p2": "Diogo Pereira da Silva",
+      "lic2": "9323",
+      "pid2": "86496",
+      "club": "A-ZPadelSintra",
+      "pts1": 10419.94,
+      "lvl1": 3,
+      "pts2": 11692.81,
+      "lvl2": 2,
+      "total": 22112.75,
       "note": ""
     },
     {
