@@ -1,0 +1,36 @@
+name: Scrape Rankings
+
+on:
+  schedule:
+    - cron: '0 10 * * 1'  # Every Monday 10am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx puppeteer browsers install chrome
+
+      - name: Scrape rankings
+        run: node scripts/rankings/scrape-rankings.js
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/rankings/
+          git diff --cached --quiet || git commit -m "chore: update rankings [$(date -u '+%Y-%m-%d')]"
+          git push
