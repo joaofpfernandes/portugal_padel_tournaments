@@ -22,7 +22,7 @@
   const STORAGE_KEY = "padel-profile-v1";
   const MAX_RESULTS = 50;
   const SEARCH_DEBOUNCE_MS = 150;
-  const CDN_BASE = "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/rankings";
+  const CDN_BASE = "../data/rankings";
   const RANKINGS_CACHE_TTL_MS = 60 * 60 * 1000;
 
   /* ── Rankings data store ── */
@@ -220,6 +220,19 @@
   };
 
   const handleShare = async () => {
+    const card = document.querySelector('.calc-card.profile-card');
+    if (card && typeof html2canvas === 'function') {
+      try {
+        const canvas = await html2canvas(card, { useCORS: true, backgroundColor: null });
+        const win = window.open();
+        win.document.write(`<!doctype html><html><head><title>Perfil</title></head><body style="margin:0;background:#111;display:flex;justify-content:center;align-items:center;min-height:100vh"><img src="${canvas.toDataURL('image/png')}" style="max-width:100%;max-height:100vh"></body></html>`);
+        win.document.close();
+        return;
+      } catch {
+        // fall through to URL share
+      }
+    }
+
     const shareUrl = buildShareUrl();
     if (!shareUrl) return;
 
