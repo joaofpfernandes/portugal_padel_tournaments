@@ -3,7 +3,7 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 1",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T21:41:35.140Z",
+  "generatedAt": "2026-04-11T09:35:07.210Z",
   "result": [
     {
       "pos": 1,
@@ -25,6 +25,23 @@
     {
       "pos": 2,
       "draw": "MAIN",
+      "p1": "Raul Serra",
+      "lic1": "6851",
+      "pid1": "66582",
+      "p2": "Bruno Maia",
+      "lic2": "6175",
+      "pid2": "66621",
+      "club": "Indoor Padel Center",
+      "pts1": 2956.57,
+      "lvl1": 4,
+      "pts2": 735,
+      "lvl2": 6,
+      "total": 3691.57,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
       "p1": "Luís Bento",
       "lic1": "2757",
       "pid1": "40756",
@@ -37,7 +54,7 @@
       "pts2": 2287.81,
       "lvl2": 4,
       "total": 2370.56,
-      "note": "Seed 2"
+      "note": "Seed 3"
     }
   ]
 }

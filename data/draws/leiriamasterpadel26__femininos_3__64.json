@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 3",
   "drawSize": 64,
-  "generatedAt": "2026-04-10T21:45:10.552Z",
+  "generatedAt": "2026-04-11T09:39:12.516Z",
   "result": [
     {
       "pos": 1,
@@ -42,6 +42,23 @@
     {
       "pos": 3,
       "draw": "MAIN",
+      "p1": "Mónica Neves",
+      "lic1": "6431",
+      "pid1": "74066",
+      "p2": "Ana Sofia Almeida",
+      "lic2": "8819",
+      "pid2": "83087",
+      "club": "",
+      "pts1": 2900,
+      "lvl1": 4,
+      "pts2": 7222.5,
+      "lvl2": 3,
+      "total": 10122.5,
+      "note": "Seed 3"
+    },
+    {
+      "pos": 4,
+      "draw": "MAIN",
       "p1": "Marta Matos",
       "lic1": "16305",
       "pid1": "185123",
@@ -54,10 +71,10 @@
       "pts2": 3882.25,
       "lvl2": 4,
       "total": 7822.34,
-      "note": "Seed 3"
+      "note": "Seed 4"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "MAIN",
       "p1": "Laura Ferreira",
       "lic1": "20499",
@@ -71,10 +88,10 @@
       "pts2": 3297.73,
       "lvl2": 4,
       "total": 7193.84,
-      "note": "Seed 4"
+      "note": "Seed 5"
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "MAIN",
       "p1": "Mafalda Alves",
       "lic1": "18674",
@@ -88,10 +105,10 @@
       "pts2": 939.19,
       "lvl2": 6,
       "total": 6707.41,
-      "note": "Seed 5"
+      "note": "Seed 6"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "MAIN",
       "p1": "Mariana Ribeiro",
       "lic1": "14431",
@@ -105,10 +122,10 @@
       "pts2": 2830.13,
       "lvl2": 4,
       "total": 6628.01,
-      "note": "Seed 6"
+      "note": "Seed 7"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Sara Meirinhos",
       "lic1": "10090",
@@ -122,10 +139,10 @@
       "pts2": 3062.5,
       "lvl2": 4,
       "total": 6125,
-      "note": "Seed 7"
+      "note": "Seed 8"
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Raquel Laconca",
       "lic1": "14568",
@@ -139,10 +156,10 @@
       "pts2": 4283.31,
       "lvl2": 4,
       "total": 6090.950000000001,
-      "note": "Seed 8"
+      "note": "Seed 9"
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Elisabete Cordeiro",
       "lic1": "10424",
@@ -156,10 +173,10 @@
       "pts2": 4600.31,
       "lvl2": 3,
       "total": 5923.75,
-      "note": "Seed 9"
+      "note": "Seed 10"
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "Carina Pinto",
       "lic1": "26754",
@@ -173,23 +190,6 @@
       "pts2": 4331.27,
       "lvl2": 3,
       "total": 5539.85,
-      "note": "Seed 10"
-    },
-    {
-      "pos": 11,
-      "draw": "MAIN",
-      "p1": "Margarida Rodriguez",
-      "lic1": "26303",
-      "pid1": "332502",
-      "p2": "Filipa Naia",
-      "lic2": "27278",
-      "pid2": "344739",
-      "club": "NovoPadelClubSetubal",
-      "pts1": 2959.14,
-      "lvl1": 4,
-      "pts2": 2411.64,
-      "lvl2": 4,
-      "total": 5370.78,
       "note": "Seed 11"
     },
     {

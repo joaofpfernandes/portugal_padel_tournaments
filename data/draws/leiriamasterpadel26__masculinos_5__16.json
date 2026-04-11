@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 5",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T21:43:51.181Z",
+  "generatedAt": "2026-04-11T09:37:38.717Z",
   "result": [
     {
       "pos": 1,
@@ -93,6 +93,23 @@
     {
       "pos": 6,
       "draw": "MAIN",
+      "p1": "Marcos Gameiro",
+      "lic1": "3216",
+      "pid1": "57416",
+      "p2": "José Jorge",
+      "lic2": "5354",
+      "pid2": "74795",
+      "club": "Lisboa Racket Centre",
+      "pts1": 241.94,
+      "lvl1": 6,
+      "pts2": 1863.88,
+      "lvl2": 5,
+      "total": 2105.82,
+      "note": ""
+    },
+    {
+      "pos": 7,
+      "draw": "MAIN",
       "p1": "Tiago Garrochinho",
       "lic1": "9547",
       "pid1": "71811",
@@ -108,7 +125,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "João Torres",
       "lic1": "17083",
@@ -125,7 +142,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Ricardo Cordeiro",
       "lic1": "31808",
@@ -142,7 +159,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Eduardo Pedro",
       "lic1": "4155",
@@ -159,7 +176,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "João Faustino",
       "lic1": "15314",
@@ -176,7 +193,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "MAIN",
       "p1": "Rafael Vidigal",
       "lic1": "22610",
@@ -193,8 +210,8 @@
       "note": ""
     },
     {
-      "pos": 12,
-      "draw": "MAIN",
+      "pos": 1,
+      "draw": "QUALY",
       "p1": "Diogo Miranda",
       "lic1": "27172",
       "pid1": "290087",
@@ -210,7 +227,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 2,
       "draw": "QUALY",
       "p1": "Luis Guilherme Reis Marto",
       "lic1": "20182",
@@ -227,7 +244,7 @@
       "note": ""
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "QUALY",
       "p1": "Alex Amado",
       "lic1": "13189",
@@ -244,7 +261,7 @@
       "note": ""
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "QUALY",
       "p1": "João Pina dos Santos",
       "lic1": "14548",
@@ -261,8 +278,8 @@
       "note": ""
     },
     {
-      "pos": 4,
-      "draw": "QUALY",
+      "pos": 1,
+      "draw": "OUT",
       "p1": "André Oliveira",
       "lic1": "18646",
       "pid1": "230488",
@@ -278,7 +295,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 2,
       "draw": "OUT",
       "p1": "João Araújo",
       "lic1": "6467",
@@ -295,7 +312,7 @@
       "note": ""
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "OUT",
       "p1": "João Mateus",
       "lic1": "13284",
@@ -312,7 +329,7 @@
       "note": ""
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "OUT",
       "p1": "Paulo Moço",
       "lic1": "13932",
@@ -329,7 +346,7 @@
       "note": ""
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "OUT",
       "p1": "Hélder Santos",
       "lic1": "25101",
@@ -346,7 +363,7 @@
       "note": ""
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "OUT",
       "p1": "Gui Candeias",
       "lic1": "24261",
@@ -363,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "OUT",
       "p1": "André Leite",
       "lic1": "19081",
@@ -380,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "OUT",
       "p1": "Carlos Sequeira",
       "lic1": "6362",
@@ -397,7 +414,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "OUT",
       "p1": "Hugo Maçoas",
       "lic1": "19621",
@@ -414,7 +431,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "OUT",
       "p1": "KARLITO PINTCHO",
       "lic1": "4468",
@@ -431,7 +448,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "OUT",
       "p1": "Pedro Correia Vaz",
       "lic1": "9337",
@@ -448,7 +465,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "OUT",
       "p1": "Diogo Vieira",
       "lic1": "26911",
@@ -465,7 +482,7 @@
       "note": ""
     },
     {
-      "pos": 12,
+      "pos": 13,
       "draw": "OUT",
       "p1": "Rodrigo Melo",
       "lic1": "24300",
@@ -482,7 +499,7 @@
       "note": ""
     },
     {
-      "pos": 13,
+      "pos": 14,
       "draw": "OUT",
       "p1": "Ricardo Rampazzo",
       "lic1": "15307",
@@ -499,7 +516,7 @@
       "note": ""
     },
     {
-      "pos": 14,
+      "pos": 15,
       "draw": "OUT",
       "p1": "Sebastião Ghira",
       "lic1": "27792",
@@ -516,7 +533,7 @@
       "note": ""
     },
     {
-      "pos": 15,
+      "pos": 16,
       "draw": "OUT",
       "p1": "Jorge Portela",
       "lic1": "27142",
@@ -533,7 +550,7 @@
       "note": ""
     },
     {
-      "pos": 16,
+      "pos": 17,
       "draw": "OUT",
       "p1": "Arantes",
       "lic1": "17269",
@@ -550,7 +567,7 @@
       "note": ""
     },
     {
-      "pos": 17,
+      "pos": 18,
       "draw": "OUT",
       "p1": "João Lopes",
       "lic1": "26837",
@@ -567,7 +584,7 @@
       "note": ""
     },
     {
-      "pos": 18,
+      "pos": 19,
       "draw": "OUT",
       "p1": "Pedro Romao",
       "lic1": "12254",
@@ -584,7 +601,7 @@
       "note": ""
     },
     {
-      "pos": 19,
+      "pos": 20,
       "draw": "OUT",
       "p1": "Nuno Alves",
       "lic1": "31605",
@@ -601,7 +618,7 @@
       "note": ""
     },
     {
-      "pos": 20,
+      "pos": 21,
       "draw": "OUT",
       "p1": "Afonso Côrte-Real",
       "lic1": "16597",
@@ -618,7 +635,7 @@
       "note": ""
     },
     {
-      "pos": 21,
+      "pos": 22,
       "draw": "OUT",
       "p1": "Alessandro Guzzo",
       "lic1": "31847",
@@ -635,7 +652,7 @@
       "note": ""
     },
     {
-      "pos": 22,
+      "pos": 23,
       "draw": "OUT",
       "p1": "Diogo Santos",
       "lic1": "27734",
@@ -652,7 +669,7 @@
       "note": ""
     },
     {
-      "pos": 23,
+      "pos": 24,
       "draw": "OUT",
       "p1": "Miguel Pimpão",
       "lic1": "10719",
@@ -669,7 +686,7 @@
       "note": ""
     },
     {
-      "pos": 24,
+      "pos": 25,
       "draw": "OUT",
       "p1": "Thiran",
       "lic1": "18078",
@@ -686,7 +703,7 @@
       "note": ""
     },
     {
-      "pos": 25,
+      "pos": 26,
       "draw": "OUT",
       "p1": "Marco Silva",
       "lic1": "12825",
@@ -703,7 +720,7 @@
       "note": ""
     },
     {
-      "pos": 26,
+      "pos": 27,
       "draw": "OUT",
       "p1": "Afonso Carvalho",
       "lic1": "12480",
@@ -720,7 +737,7 @@
       "note": ""
     },
     {
-      "pos": 27,
+      "pos": 28,
       "draw": "OUT",
       "p1": "David Estrela Jr",
       "lic1": "14944",
@@ -737,7 +754,7 @@
       "note": ""
     },
     {
-      "pos": 28,
+      "pos": 29,
       "draw": "OUT",
       "p1": "João Diogo",
       "lic1": "21484",
@@ -754,7 +771,7 @@
       "note": ""
     },
     {
-      "pos": 29,
+      "pos": 30,
       "draw": "OUT",
       "p1": "António Cunha",
       "lic1": "23969",
@@ -771,7 +788,7 @@
       "note": ""
     },
     {
-      "pos": 30,
+      "pos": 31,
       "draw": "OUT",
       "p1": "Filipe Bragança",
       "lic1": "32176",
@@ -788,7 +805,7 @@
       "note": ""
     },
     {
-      "pos": 31,
+      "pos": 32,
       "draw": "OUT",
       "p1": "Drocas",
       "lic1": "25324",
@@ -805,7 +822,7 @@
       "note": ""
     },
     {
-      "pos": 32,
+      "pos": 33,
       "draw": "OUT",
       "p1": "Edgar Dias",
       "lic1": "11902",
@@ -822,7 +839,7 @@
       "note": ""
     },
     {
-      "pos": 33,
+      "pos": 34,
       "draw": "OUT",
       "p1": "EDUARDO",
       "lic1": "10323",
@@ -839,7 +856,7 @@
       "note": ""
     },
     {
-      "pos": 34,
+      "pos": 35,
       "draw": "OUT",
       "p1": "Miguel Teixeira",
       "lic1": "31856",
@@ -856,7 +873,7 @@
       "note": ""
     },
     {
-      "pos": 35,
+      "pos": 36,
       "draw": "OUT",
       "p1": "Diogo Duarte",
       "lic1": "18488",
@@ -873,7 +890,7 @@
       "note": ""
     },
     {
-      "pos": 36,
+      "pos": 37,
       "draw": "OUT",
       "p1": "Pedro Ribeiro",
       "lic1": "24708",
@@ -890,7 +907,7 @@
       "note": ""
     },
     {
-      "pos": 37,
+      "pos": 38,
       "draw": "OUT",
       "p1": "Duarte Henriques",
       "lic1": "17081",
@@ -907,7 +924,7 @@
       "note": ""
     },
     {
-      "pos": 38,
+      "pos": 39,
       "draw": "OUT",
       "p1": "Leandro Neves",
       "lic1": "4114",
@@ -924,7 +941,7 @@
       "note": ""
     },
     {
-      "pos": 39,
+      "pos": 40,
       "draw": "OUT",
       "p1": "Helder de Sousa",
       "lic1": "3062",
@@ -941,7 +958,7 @@
       "note": ""
     },
     {
-      "pos": 40,
+      "pos": 41,
       "draw": "OUT",
       "p1": "Élio Mouzinho",
       "lic1": "21886",
@@ -958,7 +975,7 @@
       "note": ""
     },
     {
-      "pos": 41,
+      "pos": 42,
       "draw": "OUT",
       "p1": "Tomás Silva",
       "lic1": "27097",
@@ -975,7 +992,7 @@
       "note": ""
     },
     {
-      "pos": 42,
+      "pos": 43,
       "draw": "OUT",
       "p1": "Lucas Afonso",
       "lic1": "31337",
@@ -992,7 +1009,7 @@
       "note": ""
     },
     {
-      "pos": 43,
+      "pos": 44,
       "draw": "OUT",
       "p1": "Michael Aparício",
       "lic1": "30072",
@@ -1009,7 +1026,7 @@
       "note": ""
     },
     {
-      "pos": 44,
+      "pos": 45,
       "draw": "OUT",
       "p1": "Paulo Luis",
       "lic1": "26930",
@@ -1026,7 +1043,7 @@
       "note": ""
     },
     {
-      "pos": 45,
+      "pos": 46,
       "draw": "OUT",
       "p1": "Pedro Serralheiro",
       "lic1": "29682",
@@ -1043,7 +1060,7 @@
       "note": ""
     },
     {
-      "pos": 46,
+      "pos": 47,
       "draw": "OUT",
       "p1": "João Pinto",
       "lic1": "4844",

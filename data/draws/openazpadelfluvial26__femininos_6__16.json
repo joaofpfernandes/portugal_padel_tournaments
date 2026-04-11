@@ -1,0 +1,26 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Femininos 6",
+  "drawSize": 16,
+  "generatedAt": "2026-04-11T09:32:37.195Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Katerina Skripnik",
+      "lic1": "34407",
+      "pid1": "482086",
+      "p2": "Marina Panova",
+      "lic2": "34708",
+      "pid2": "504987",
+      "club": "88PadelHouse",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 1.56,
+      "lvl2": 6,
+      "total": 10.940000000000001,
+      "note": "Seed 1"
+    }
+  ]
+}

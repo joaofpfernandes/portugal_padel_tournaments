@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 3",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T21:44:17.471Z",
+  "generatedAt": "2026-04-11T09:38:09.532Z",
   "result": [
     {
       "pos": 1,
@@ -246,6 +246,23 @@
     {
       "pos": 3,
       "draw": "QUALY",
+      "p1": "Henrique Muxagata",
+      "lic1": "11002",
+      "pid1": "94807",
+      "p2": "Miguel Bravo",
+      "lic2": "20332",
+      "pid2": "233436",
+      "club": "MastersPremiumPadel",
+      "pts1": 8467.19,
+      "lvl1": 3,
+      "pts2": 1233.39,
+      "lvl2": 5,
+      "total": 9700.58,
+      "note": ""
+    },
+    {
+      "pos": 4,
+      "draw": "QUALY",
       "p1": "Rafael Nunes",
       "lic1": "18645",
       "pid1": "145082",
@@ -261,8 +278,8 @@
       "note": ""
     },
     {
-      "pos": 4,
-      "draw": "QUALY",
+      "pos": 1,
+      "draw": "OUT",
       "p1": "Paulo Marques",
       "lic1": "16166",
       "pid1": "183371",
@@ -278,7 +295,7 @@
       "note": ""
     },
     {
-      "pos": 1,
+      "pos": 2,
       "draw": "OUT",
       "p1": "Ricardo Roda",
       "lic1": "",
@@ -295,7 +312,7 @@
       "note": ""
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "OUT",
       "p1": "Telmo Tinta",
       "lic1": "15068",
@@ -312,7 +329,7 @@
       "note": ""
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "OUT",
       "p1": "Eduardo Soares",
       "lic1": "14877",
@@ -329,7 +346,7 @@
       "note": ""
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "OUT",
       "p1": "Francisco Ventura",
       "lic1": "21122",
@@ -346,7 +363,7 @@
       "note": ""
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "OUT",
       "p1": "Afonso Esteves",
       "lic1": "12790",
@@ -363,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "OUT",
       "p1": "João Simões",
       "lic1": "16095",
@@ -380,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "OUT",
       "p1": "Miguel Almeida",
       "lic1": "17437",
@@ -397,7 +414,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "OUT",
       "p1": "Rodrigo Fortunato",
       "lic1": "14791",
@@ -414,7 +431,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "OUT",
       "p1": "Francisco Martinez",
       "lic1": "26008",
@@ -431,7 +448,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "OUT",
       "p1": "PP",
       "lic1": "17769",
@@ -448,7 +465,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "OUT",
       "p1": "Ricardo Lourenço",
       "lic1": "1692",
@@ -465,7 +482,7 @@
       "note": ""
     },
     {
-      "pos": 12,
+      "pos": 13,
       "draw": "OUT",
       "p1": "Gonçalo Cunha",
       "lic1": "16934",

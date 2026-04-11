@@ -3,7 +3,7 @@
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
   "drawSize": 16,
-  "generatedAt": "2026-04-10T21:40:04.166Z",
+  "generatedAt": "2026-04-11T09:33:28.623Z",
   "result": [
     {
       "pos": 1,
@@ -173,6 +173,23 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 13.940000000000001,
+      "note": ""
+    },
+    {
+      "pos": 11,
+      "draw": "MAIN",
+      "p1": "Tiago Pratas",
+      "lic1": "33656",
+      "pid1": "421330",
+      "p2": "Francisco Cardoso",
+      "lic2": "33901",
+      "pid2": "476844",
+      "club": "Star Padel Outdoor Coimbra",
+      "pts1": 3.13,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 12.510000000000002,
       "note": ""
     }
   ]
