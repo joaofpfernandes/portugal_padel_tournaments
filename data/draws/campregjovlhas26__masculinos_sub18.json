@@ -1,0 +1,38 @@
+{
+  "tournament": "Camp. Regional Jovens (4 regiões) - Ilhas",
+  "slug": "CampRegJovlhas26",
+  "section": "Masculinos SUB18",
+  "generatedAt": "2026-04-12T10:52:25.961Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "João Maria Pires",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Matias Gomes",
+      "lic2": "21357",
+      "pid2": "244000",
+      "club": "Clube Quinta do Padel",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 1137.5,
+      "lvl2": 6,
+      "total": 1137.5
+    },
+    {
+      "pos": 2,
+      "p1": "G.Gomes",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Tiago Castro",
+      "lic2": "31904",
+      "pid2": "426128",
+      "club": "PlayPadelMadeira",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 6.25,
+      "lvl2": 6,
+      "total": 6.25
+    }
+  ]
+}

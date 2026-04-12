@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +50 Nível 2",
+  "generatedAt": "2026-04-12T10:57:33.408Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Sandra Correia",
+      "lic1": "565",
+      "pid1": "232070",
+      "p2": "teresa adónis",
+      "lic2": "22012",
+      "pid2": "268162",
+      "club": "Padel Factory",
+      "pts1": 18.75,
+      "lvl1": 6,
+      "pts2": 766.95,
+      "lvl2": 6,
+      "total": 785.7
+    }
+  ]
+}

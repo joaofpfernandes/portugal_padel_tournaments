@@ -1,0 +1,53 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Masculinos 1",
+  "generatedAt": "2026-04-12T10:53:42.949Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Leo Torres",
+      "lic1": "15352",
+      "pid1": "176009",
+      "p2": "Luciano Piñero",
+      "lic2": "17302",
+      "pid2": "211885",
+      "club": "",
+      "pts1": 57500,
+      "lvl1": 1,
+      "pts2": 27375,
+      "lvl2": 2,
+      "total": 84875
+    },
+    {
+      "pos": 2,
+      "p1": "Bernardo Gomes",
+      "lic1": "4010",
+      "pid1": "74209",
+      "p2": "Xavier Cardoso",
+      "lic2": "12733",
+      "pid2": "142781",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 31727.5,
+      "lvl1": 2,
+      "pts2": 31443.75,
+      "lvl2": 2,
+      "total": 63171.25
+    },
+    {
+      "pos": 3,
+      "p1": "Lourenço Romão",
+      "lic1": "7156",
+      "pid1": "79944",
+      "p2": "Manuel Rocha",
+      "lic2": "",
+      "pid2": "",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 26456.25,
+      "lvl1": 2,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 26456.25
+    }
+  ]
+}

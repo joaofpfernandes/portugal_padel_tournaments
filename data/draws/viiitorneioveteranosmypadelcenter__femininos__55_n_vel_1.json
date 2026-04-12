@@ -1,0 +1,38 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +55 Nível 1",
+  "generatedAt": "2026-04-12T10:57:37.989Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Margarida Oliveira",
+      "lic1": "8086",
+      "pid1": "72998",
+      "p2": "Andrea Schoonheim",
+      "lic2": "16085",
+      "pid2": "145042",
+      "club": "Padel Factory",
+      "pts1": 178.5,
+      "lvl1": 6,
+      "pts2": 1967.41,
+      "lvl2": 5,
+      "total": 2145.91
+    },
+    {
+      "pos": 2,
+      "p1": "Cláudia Serrano",
+      "lic1": "7012",
+      "pid1": "5186",
+      "p2": "Sandra Isabelinha",
+      "lic2": "14035",
+      "pid2": "174376",
+      "club": "Clube De Ténis De Santarém",
+      "pts1": 1153.8,
+      "lvl1": 5,
+      "pts2": 273.73,
+      "lvl2": 6,
+      "total": 1427.53
+    }
+  ]
+}

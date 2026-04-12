@@ -1,0 +1,23 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
+  "slug": "CampRegABS26Setubal",
+  "section": "Femininos 1",
+  "generatedAt": "2026-04-12T10:46:31.645Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Maria Carracha",
+      "lic1": "13039",
+      "pid1": "152253",
+      "p2": "Inês Val Bento",
+      "lic2": "31463",
+      "pid2": "283801",
+      "club": "",
+      "pts1": 38125,
+      "lvl1": 1,
+      "pts2": 33000,
+      "lvl2": 1,
+      "total": 71125
+    }
+  ]
+}

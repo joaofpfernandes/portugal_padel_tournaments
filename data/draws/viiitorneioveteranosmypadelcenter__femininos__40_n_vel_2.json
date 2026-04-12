@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +40 Nível 2",
+  "generatedAt": "2026-04-12T10:57:15.702Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Anabela Brilha",
+      "lic1": "17229",
+      "pid1": "209514",
+      "p2": "Patrícia Lopes",
+      "lic2": "17234",
+      "pid2": "209656",
+      "club": "JCPADEL",
+      "pts1": 58.13,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 67.51
+    }
+  ]
+}

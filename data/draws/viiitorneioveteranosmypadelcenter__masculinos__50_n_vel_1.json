@@ -1,0 +1,38 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +50 Nível 1",
+  "generatedAt": "2026-04-12T10:56:34.681Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Miguel Bastos",
+      "lic1": "14913",
+      "pid1": "141733",
+      "p2": "B. Lousada",
+      "lic2": "2070",
+      "pid2": "42879",
+      "club": "Padel Factory",
+      "pts1": 1070.06,
+      "lvl1": 6,
+      "pts2": 450,
+      "lvl2": 6,
+      "total": 1520.06
+    },
+    {
+      "pos": 2,
+      "p1": "Pedro Oliveira",
+      "lic1": "10059",
+      "pid1": "95089",
+      "p2": "Luís Oliveira Lopes",
+      "lic2": "11447",
+      "pid2": "137585",
+      "club": "Padel Estoril",
+      "pts1": 109.86,
+      "lvl1": 6,
+      "pts2": 820,
+      "lvl2": 6,
+      "total": 929.86
+    }
+  ]
+}
