@@ -7,7 +7,16 @@ const tbody = document.getElementById("rankingsBody");
 const meta = document.getElementById("rankingsMeta");
 const prevPageBtn = document.getElementById("rankingsPrevPage");
 const nextPageBtn = document.getElementById("rankingsNextPage");
-const pageInfo = document.getElementById("rankingsPageInfo");
+const pageInput = document.getElementById("rankingsPageInput");
+const totalPagesEl = document.getElementById("rankingsTotalPages");
+const firstPageBtn = document.getElementById("rankingsFirstPage");
+const lastPageBtn = document.getElementById("rankingsLastPage");
+const prevPageBtnTop = document.getElementById("rankingsPrevPageTop");
+const nextPageBtnTop = document.getElementById("rankingsNextPageTop");
+const pageInputTop = document.getElementById("rankingsPageInputTop");
+const totalPagesElTop = document.getElementById("rankingsTotalPagesTop");
+const firstPageBtnTop = document.getElementById("rankingsFirstPageTop");
+const lastPageBtnTop = document.getElementById("rankingsLastPageTop");
 const sourceSelect = document.getElementById("rankingsSource");
 const searchInput = document.getElementById("rankingsSearch");
 const levelFilter = document.getElementById("rankingsFilterLevel");
@@ -18,6 +27,17 @@ let currentPage = 1;
 let sortedRows = [];
 let filteredRows = [];
 let currentDate = "";
+
+const getPageFromUrl = () => {
+  const p = parseInt(new URLSearchParams(location.search).get("page"));
+  return Number.isFinite(p) && p > 0 ? p : 1;
+};
+
+const pushPageToUrl = (page) => {
+  const params = new URLSearchParams(location.search);
+  params.set("page", page);
+  history.replaceState(null, "", `${location.pathname}?${params}`);
+};
 
 const parseRankingNumber = (value) => {
   const asNumber = Number(String(value ?? "").replace(/[^\d.-]/g, ""));
@@ -48,20 +68,9 @@ const getTiePadelDashboardUrl = (playerId) => {
 const renderLicenceCell = (player) => {
   const licenceNumber = String(player?.LicenceNumber ?? "").trim();
   if (!licenceNumber) return "-";
-
   const url = getTiePadelDashboardUrl(player?.PlayerID);
   if (!url) return escapeHtml(licenceNumber);
-
   return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(licenceNumber)}</a>`;
-};
-
-const renderProfileCell = (player) => {
-  const licenceNumber = String(player?.LicenceNumber ?? "").trim();
-  if (!licenceNumber) return "-";
-
-  const { source } = getSourceConfig();
-  const url = `../content/profile.html?licenceid=${encodeURIComponent(licenceNumber)}&source=${encodeURIComponent(source)}`;
-  return `<a href="${escapeHtml(url)}">Ver perfil</a>`;
 };
 
 const isYouthAgeType = (value) => {
@@ -73,10 +82,8 @@ const sortAgeTypes = (values) =>
   [...values].sort((a, b) => {
     const aNorm = normalizeSearchText(a).replaceAll(" ", "");
     const bNorm = normalizeSearchText(b).replaceAll(" ", "");
-
     const aPriority = aNorm === "abs" ? 0 : isYouthAgeType(a) ? 1 : 2;
     const bPriority = bNorm === "abs" ? 0 : isYouthAgeType(b) ? 1 : 2;
-
     if (aPriority !== bPriority) return aPriority - bPriority;
     return a.localeCompare(b, "pt");
   });
@@ -91,27 +98,19 @@ const uniqueSortedValues = (rows, key) =>
 const fillSelectOptions = (selectElement, values, allLabel) => {
   if (!selectElement) return;
   const current = selectElement.value || "all";
-  const optionsHtml = [
+  selectElement.innerHTML = [
     `<option value="all">${allLabel}</option>`,
     ...values.map(
       (value) =>
         `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`,
     ),
   ].join("");
-  selectElement.innerHTML = optionsHtml;
-  if (values.includes(current)) {
-    selectElement.value = current;
-  } else {
-    selectElement.value = "all";
-  }
+  selectElement.value = values.includes(current) ? current : "all";
 };
 
 const getSourceConfig = () => {
   const source = sourceSelect?.value === "female" ? "female" : "male";
-  return {
-    source,
-    label: source === "female" ? "Feminino" : "Masculino",
-  };
+  return { source, label: source === "female" ? "Feminino" : "Masculino" };
 };
 
 const formatFileDate = (fileName) => {
@@ -124,17 +123,16 @@ const formatFileDate = (fileName) => {
 const renderCurrentPage = () => {
   if (!filteredRows.length) {
     tbody.innerHTML =
-      '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
-    if (pageInfo) pageInfo.textContent = "Página 0 de 0";
-    if (prevPageBtn) prevPageBtn.disabled = true;
-    if (nextPageBtn) nextPageBtn.disabled = true;
+      '<tr><td colspan="10">Sem dados disponíveis de momento.</td></tr>';
+    [pageInput, pageInputTop].forEach(el => { if (el) { el.value = 0; el.max = 0; } });
+    [totalPagesEl, totalPagesElTop].forEach(el => { if (el) el.textContent = 0; });
+    [firstPageBtn, prevPageBtn, nextPageBtn, lastPageBtn,
+     firstPageBtnTop, prevPageBtnTop, nextPageBtnTop, lastPageBtnTop]
+      .forEach(b => { if (b) b.disabled = true; });
     return;
   }
 
-  const totalPages = Math.max(
-    1,
-    Math.ceil(filteredRows.length / ROWS_PER_PAGE),
-  );
+  const totalPages = Math.max(1, Math.ceil(filteredRows.length / ROWS_PER_PAGE));
   if (currentPage > totalPages) currentPage = totalPages;
   if (currentPage < 1) currentPage = 1;
 
@@ -149,7 +147,6 @@ const renderCurrentPage = () => {
       <td>${formatRankingChange(player.RankingChange)}</td>
       <td>${renderLicenceCell(player)}</td>
       <td>${escapeHtml(player.Name)}</td>
-      <td>${renderProfileCell(player)}</td>
       <td>${escapeHtml(player.Points)}</td>
       <td>${escapeHtml(player.Club || "-")}</td>
       <td>${escapeHtml(player.Level)}</td>
@@ -165,12 +162,24 @@ const renderCurrentPage = () => {
     )
     .join("");
 
-  if (pageInfo) pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
-  if (prevPageBtn) prevPageBtn.disabled = currentPage <= 1;
-  if (nextPageBtn) nextPageBtn.disabled = currentPage >= totalPages;
+  if (pageInput) { pageInput.value = currentPage; pageInput.max = totalPages; }
+  if (totalPagesEl) totalPagesEl.textContent = totalPages;
+  if (pageInputTop) { pageInputTop.value = currentPage; pageInputTop.max = totalPages; }
+  if (totalPagesElTop) totalPagesElTop.textContent = totalPages;
+  const atFirst = currentPage <= 1;
+  const atLast = currentPage >= totalPages;
+  if (firstPageBtn) firstPageBtn.disabled = atFirst;
+  if (prevPageBtn) prevPageBtn.disabled = atFirst;
+  if (nextPageBtn) nextPageBtn.disabled = atLast;
+  if (lastPageBtn) lastPageBtn.disabled = atLast;
+  if (firstPageBtnTop) firstPageBtnTop.disabled = atFirst;
+  if (prevPageBtnTop) prevPageBtnTop.disabled = atFirst;
+  if (nextPageBtnTop) nextPageBtnTop.disabled = atLast;
+  if (lastPageBtnTop) lastPageBtnTop.disabled = atLast;
+  pushPageToUrl(currentPage);
 };
 
-const applyFilters = () => {
+const applyFilters = (resetPage = true) => {
   const queryTerms = String(searchInput?.value || "")
     .split(",")
     .map((term) => normalizeSearchText(term.trim()))
@@ -180,14 +189,11 @@ const applyFilters = () => {
   const clubValue = clubFilter?.value || "all";
 
   filteredRows = sortedRows.filter((player) => {
-    const name = String(player?.Name || "");
-    const club = String(player?.Club || "");
-    const licenceNumber = String(player?.LicenceNumber || "");
+    const normalizedName = normalizeSearchText(String(player?.Name || ""));
+    const normalizedClub = normalizeSearchText(String(player?.Club || ""));
+    const normalizedLicence = normalizeSearchText(String(player?.LicenceNumber || ""));
     const level = String(player?.Level || "");
     const age = String(player?.AgeType || "");
-    const normalizedName = normalizeSearchText(name);
-    const normalizedClub = normalizeSearchText(club);
-    const normalizedLicenceNumber = normalizeSearchText(licenceNumber);
 
     const matchesSearch =
       queryTerms.length === 0 ||
@@ -195,21 +201,21 @@ const applyFilters = () => {
         (term) =>
           normalizedName.includes(term) ||
           normalizedClub.includes(term) ||
-          normalizedLicenceNumber.includes(term),
+          normalizedLicence.includes(term),
       );
-    const matchesLevel = levelValue === "all" || level === levelValue;
-    const matchesAge = ageValue === "all" || age === ageValue;
-    const matchesClub = clubValue === "all" || club === clubValue;
-
-    return matchesSearch && matchesLevel && matchesAge && matchesClub;
+    return (
+      matchesSearch &&
+      (levelValue === "all" || level === levelValue) &&
+      (ageValue === "all" || age === ageValue) &&
+      (clubValue === "all" || String(player?.Club || "") === clubValue)
+    );
   });
 
-  currentPage = 1;
+  if (resetPage) currentPage = 1;
   renderCurrentPage();
 
-  const baseText = `Fonte: FPP (${formatFileDate(currentDate)})`;
   if (meta) {
-    meta.textContent = `${baseText} · ${filteredRows.length} / ${sortedRows.length} atletas`;
+    meta.textContent = `Fonte: FPP (${formatFileDate(currentDate)}) · ${filteredRows.length} / ${sortedRows.length} atletas`;
   }
 };
 
@@ -218,34 +224,42 @@ const renderRows = (rows) => {
     (a, b) => parseRankingNumber(a.Ranking) - parseRankingNumber(b.Ranking),
   );
 
-  fillSelectOptions(
-    levelFilter,
-    uniqueSortedValues(sortedRows, "Level"),
-    "Todos os níveis",
-  );
-  fillSelectOptions(
-    ageFilter,
-    sortAgeTypes(uniqueSortedValues(sortedRows, "AgeType")),
-    "Todos os escalões",
-  );
-  fillSelectOptions(
-    clubFilter,
-    uniqueSortedValues(sortedRows, "Club"),
-    "Todos os clubes",
-  );
+  fillSelectOptions(levelFilter, uniqueSortedValues(sortedRows, "Level"), "Todos os níveis");
+  fillSelectOptions(ageFilter, sortAgeTypes(uniqueSortedValues(sortedRows, "AgeType")), "Todos os escalões");
+  fillSelectOptions(clubFilter, uniqueSortedValues(sortedRows, "Club"), "Todos os clubes");
 
-  currentPage = 1;
-  applyFilters();
+  currentPage = getPageFromUrl();
+  applyFilters(false); // don't reset page — use the one from URL
 };
 
+if (firstPageBtn)
+  firstPageBtn.addEventListener("click", () => { currentPage = 1; renderCurrentPage(); });
 if (prevPageBtn)
-  prevPageBtn.addEventListener("click", () => {
-    currentPage -= 1;
+  prevPageBtn.addEventListener("click", () => { currentPage -= 1; renderCurrentPage(); });
+if (nextPageBtn)
+  nextPageBtn.addEventListener("click", () => { currentPage += 1; renderCurrentPage(); });
+if (lastPageBtn)
+  lastPageBtn.addEventListener("click", () => { currentPage = Math.ceil(filteredRows.length / ROWS_PER_PAGE); renderCurrentPage(); });
+if (pageInput)
+  pageInput.addEventListener("change", () => {
+    const totalPages = Math.max(1, Math.ceil(filteredRows.length / ROWS_PER_PAGE));
+    const val = parseInt(pageInput.value);
+    currentPage = Number.isFinite(val) ? Math.min(Math.max(val, 1), totalPages) : 1;
     renderCurrentPage();
   });
-if (nextPageBtn)
-  nextPageBtn.addEventListener("click", () => {
-    currentPage += 1;
+if (firstPageBtnTop)
+  firstPageBtnTop.addEventListener("click", () => { currentPage = 1; renderCurrentPage(); });
+if (prevPageBtnTop)
+  prevPageBtnTop.addEventListener("click", () => { currentPage -= 1; renderCurrentPage(); });
+if (nextPageBtnTop)
+  nextPageBtnTop.addEventListener("click", () => { currentPage += 1; renderCurrentPage(); });
+if (lastPageBtnTop)
+  lastPageBtnTop.addEventListener("click", () => { currentPage = Math.ceil(filteredRows.length / ROWS_PER_PAGE); renderCurrentPage(); });
+if (pageInputTop)
+  pageInputTop.addEventListener("change", () => {
+    const totalPages = Math.max(1, Math.ceil(filteredRows.length / ROWS_PER_PAGE));
+    const val = parseInt(pageInputTop.value);
+    currentPage = Number.isFinite(val) ? Math.min(Math.max(val, 1), totalPages) : 1;
     renderCurrentPage();
   });
 if (searchInput) searchInput.addEventListener("input", applyFilters);
@@ -266,10 +280,9 @@ const loadRankings = async () => {
     renderRows(data);
   } catch {
     if (meta) meta.textContent = "Não foi possível carregar o ranking.";
-    if (tbody) {
+    if (tbody)
       tbody.innerHTML =
-        '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
-    }
+        '<tr><td colspan="10">Sem dados disponíveis de momento.</td></tr>';
   }
 };
 

@@ -16,13 +16,20 @@
         <div class="filters-header" style="margin-bottom: 0.9rem">
           <div>
             <div class="filters-title">Rankings Absolutos</div>
-            <div class="filters-hint" id="rankingsMeta" style="margin: 0.25rem 0 0">
+            <div
+              class="filters-hint"
+              id="rankingsMeta"
+              style="margin: 0.25rem 0 0"
+            >
               A carregar ranking...
             </div>
           </div>
         </div>
 
-        <div class="rankings-filters" aria-label="Pesquisa e filtros de ranking">
+        <div
+          class="rankings-filters"
+          aria-label="Pesquisa e filtros de ranking"
+        >
           <select id="rankingsSource" class="search-input">
             <option value="male" selected>Absolutos Masculino</option>
             <option value="female">Absolutos Feminino</option>
@@ -44,6 +51,18 @@
           </select>
         </div>
 
+        <div class="rankings-pagination" aria-label="Paginação de ranking" style="margin-bottom:0.6rem">
+          <button class="filter-btn" id="rankingsFirstPageTop" type="button">Início</button>
+          <button class="filter-btn" id="rankingsPrevPageTop" type="button">«</button>
+          <span class="rankings-page-info">
+            Página
+            <input id="rankingsPageInputTop" type="number" min="1" class="filter-btn rankings-page-input" />
+            de <span id="rankingsTotalPagesTop">1</span>
+          </span>
+          <button class="filter-btn" id="rankingsNextPageTop" type="button">»</button>
+          <button class="filter-btn" id="rankingsLastPageTop" type="button">Fim</button>
+        </div>
+
         <div class="calc-table-wrapper">
           <table class="calc-table rankings-table" id="rankingsTable">
             <thead>
@@ -52,7 +71,6 @@
                 <th>Var.</th>
                 <th>Licença</th>
                 <th>Nome</th>
-                <th>Perfil</th>
                 <th>Pontos</th>
                 <th>Clube</th>
                 <th>Nível</th>
@@ -66,9 +84,15 @@
         </div>
 
         <div class="rankings-pagination" aria-label="Paginação de ranking">
-          <button class="filter-btn" id="rankingsPrevPage" type="button">Anterior</button>
-          <span class="rankings-page-info" id="rankingsPageInfo">Página 1 de 1</span>
-          <button class="filter-btn" id="rankingsNextPage" type="button">Seguinte</button>
+          <button class="filter-btn" id="rankingsFirstPage" type="button">Início</button>
+          <button class="filter-btn" id="rankingsPrevPage" type="button">«</button>
+          <span class="rankings-page-info">
+            Página
+            <input id="rankingsPageInput" type="number" min="1" class="filter-btn rankings-page-input" />
+            de <span id="rankingsTotalPages">1</span>
+          </span>
+          <button class="filter-btn" id="rankingsNextPage" type="button">»</button>
+          <button class="filter-btn" id="rankingsLastPage" type="button">Fim</button>
         </div>
       </section>
     </main>

@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
 :root {
   --gold: #d4af37;
@@ -384,6 +384,12 @@ body {
 .filter-btn:hover {
   border-color: #aaa;
   transform: translateY(-1px);
+}
+.filter-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+  pointer-events: none;
 }
 .filter-btn.active {
   color: white;
@@ -1017,10 +1023,9 @@ select {
 
 .rankings-table th:first-child,
 .rankings-table td:first-child {
-  min-width: 6ch;
-  width: 6ch;
-  max-width: 6ch;
+  white-space: nowrap;
   text-align: right;
+  min-width: 6ch;
   font-variant-numeric: tabular-nums;
 }
 
@@ -1049,6 +1054,17 @@ select {
 .rankings-table th:last-child,
 .rankings-table td:last-child {
   display: none;
+}
+
+.rankings-page-input {
+  width: 4rem;
+  text-align: center;
+  -moz-appearance: textfield;
+  cursor: text;
+}
+.rankings-page-input::-webkit-outer-spin-button,
+.rankings-page-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .rankings-pagination {
@@ -1172,7 +1188,10 @@ select {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: transform 0.15s, border-color 0.2s, color 0.2s;
+  transition:
+    transform 0.15s,
+    border-color 0.2s,
+    color 0.2s;
 }
 
 .profile-share-btn:hover {
@@ -1359,4 +1378,3 @@ select {
   font-size: 0.88rem;
   padding: 0.4rem 0;
 }
-
