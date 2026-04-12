@@ -3,7 +3,7 @@
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 1",
   "drawSize": 16,
-  "generatedAt": "2026-04-11T09:35:07.184Z",
+  "generatedAt": "2026-04-11T21:56:22.449Z",
   "result": [
     {
       "pos": 1,
@@ -25,6 +25,23 @@
     {
       "pos": 2,
       "draw": "MAIN",
+      "p1": "Andre Rocha",
+      "lic1": "3745",
+      "pid1": "37347",
+      "p2": "Dan Robinson",
+      "lic2": "15286",
+      "pid2": "175898",
+      "club": "Clube Ténis Padel de Portimão",
+      "pts1": 787.5,
+      "lvl1": 6,
+      "pts2": 4681.25,
+      "lvl2": 3,
+      "total": 5468.75,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
       "p1": "Raul Serra",
       "lic1": "6851",
       "pid1": "66582",
@@ -37,10 +54,10 @@
       "pts2": 735,
       "lvl2": 6,
       "total": 3691.57,
-      "note": "Seed 2"
+      "note": "Seed 3"
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "MAIN",
       "p1": "Luís Bento",
       "lic1": "2757",
@@ -54,7 +71,7 @@
       "pts2": 2287.81,
       "lvl2": 4,
       "total": 2370.56,
-      "note": "Seed 3"
+      "note": "Seed 4"
     }
   ]
 }

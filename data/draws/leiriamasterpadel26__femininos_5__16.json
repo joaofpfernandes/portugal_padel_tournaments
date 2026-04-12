@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 5",
   "drawSize": 16,
-  "generatedAt": "2026-04-11T09:38:54.945Z",
+  "generatedAt": "2026-04-11T22:00:08.975Z",
   "result": [
     {
       "pos": 1,
@@ -297,6 +297,23 @@
     {
       "pos": 2,
       "draw": "OUT",
+      "p1": "Patrícia Salvador",
+      "lic1": "19223",
+      "pid1": "231978",
+      "p2": "Marta Silva",
+      "lic2": "29628",
+      "pid2": "280051",
+      "club": "PadelExperienceCenter",
+      "pts1": 853.18,
+      "lvl1": 6,
+      "pts2": 229.23,
+      "lvl2": 6,
+      "total": 1082.4099999999999,
+      "note": ""
+    },
+    {
+      "pos": 3,
+      "draw": "OUT",
       "p1": "Marta Cabral",
       "lic1": "33600",
       "pid1": "325181",
@@ -312,7 +329,7 @@
       "note": ""
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "OUT",
       "p1": "Mathilde Farnabe",
       "lic1": "19135",
@@ -329,7 +346,7 @@
       "note": ""
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "OUT",
       "p1": "Daniela Pinto",
       "lic1": "15214",
@@ -346,7 +363,7 @@
       "note": ""
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "OUT",
       "p1": "Carolina Marques",
       "lic1": "23667",
@@ -363,7 +380,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "OUT",
       "p1": "Inês Coelho",
       "lic1": "27047",
@@ -380,7 +397,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "OUT",
       "p1": "Francisca Vieira Lima",
       "lic1": "27726",
@@ -397,7 +414,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "OUT",
       "p1": "Cristina Thiran",
       "lic1": "22528",
@@ -414,7 +431,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "OUT",
       "p1": "Ana Sofia Santos",
       "lic1": "19809",
@@ -431,7 +448,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "OUT",
       "p1": "Catarina Urgueira",
       "lic1": "32311",
@@ -448,7 +465,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "OUT",
       "p1": "Anita",
       "lic1": "19722",
@@ -465,7 +482,7 @@
       "note": ""
     },
     {
-      "pos": 12,
+      "pos": 13,
       "draw": "OUT",
       "p1": "Ana Roxo",
       "lic1": "20761",
@@ -482,7 +499,7 @@
       "note": ""
     },
     {
-      "pos": 13,
+      "pos": 14,
       "draw": "OUT",
       "p1": "Beatriz Cordeiro",
       "lic1": "28211",
@@ -499,7 +516,24 @@
       "note": ""
     },
     {
-      "pos": 14,
+      "pos": 15,
+      "draw": "OUT",
+      "p1": "Alexandra Silva",
+      "lic1": "26913",
+      "pid1": "305289",
+      "p2": "Ana Hellman",
+      "lic2": "27009",
+      "pid2": "369538",
+      "club": "Tennis Club da Figueira da Foz",
+      "pts1": 121.42,
+      "lvl1": 6,
+      "pts2": 121.42,
+      "lvl2": 6,
+      "total": 242.84,
+      "note": ""
+    },
+    {
+      "pos": 16,
       "draw": "OUT",
       "p1": "Denise Pieters",
       "lic1": "27724",
@@ -516,7 +550,7 @@
       "note": ""
     },
     {
-      "pos": 15,
+      "pos": 17,
       "draw": "OUT",
       "p1": "Andreia Patrício",
       "lic1": "16302",
@@ -533,7 +567,7 @@
       "note": ""
     },
     {
-      "pos": 16,
+      "pos": 18,
       "draw": "OUT",
       "p1": "Andreia Migueis",
       "lic1": "31080",
@@ -550,7 +584,7 @@
       "note": ""
     },
     {
-      "pos": 17,
+      "pos": 19,
       "draw": "OUT",
       "p1": "Sara Carpinteiro",
       "lic1": "13774",
@@ -567,7 +601,7 @@
       "note": ""
     },
     {
-      "pos": 18,
+      "pos": 20,
       "draw": "OUT",
       "p1": "Fabiana Jorge Seco",
       "lic1": "22849",
@@ -584,7 +618,7 @@
       "note": ""
     },
     {
-      "pos": 19,
+      "pos": 21,
       "draw": "OUT",
       "p1": "Matilde Casqueiro",
       "lic1": "36662",
@@ -601,7 +635,7 @@
       "note": ""
     },
     {
-      "pos": 20,
+      "pos": 22,
       "draw": "OUT",
       "p1": "Patricia Franquinho",
       "lic1": "",
@@ -618,7 +652,7 @@
       "note": ""
     },
     {
-      "pos": 21,
+      "pos": 23,
       "draw": "OUT",
       "p1": "Inês Alves",
       "lic1": "15130",
@@ -635,7 +669,7 @@
       "note": ""
     },
     {
-      "pos": 22,
+      "pos": 24,
       "draw": "OUT",
       "p1": "Daniela Santos",
       "lic1": "29831",

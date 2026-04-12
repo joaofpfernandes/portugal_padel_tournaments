@@ -1,0 +1,43 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
+  "slug": "CampRegABS26Sul",
+  "section": "Femininos 2",
+  "drawSize": 32,
+  "generatedAt": "2026-04-11T21:49:37.371Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Diana Lemeshko",
+      "lic1": "12879",
+      "pid1": "8665",
+      "p2": "Liliana Ferreira",
+      "lic2": "12766",
+      "pid2": "140334",
+      "club": "Padel4move",
+      "pts1": 11506.25,
+      "lvl1": 2,
+      "pts2": 20618.75,
+      "lvl2": 2,
+      "total": 32125,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Kateryna Kharych",
+      "lic1": "5663",
+      "pid1": "61810",
+      "p2": "Paula Felícia",
+      "lic2": "12867",
+      "pid2": "103640",
+      "club": "Clube Ténis Padel de Portimão",
+      "pts1": 5510.31,
+      "lvl1": 3,
+      "pts2": 7984.22,
+      "lvl2": 3,
+      "total": 13494.53,
+      "note": "Seed 2"
+    }
+  ]
+}

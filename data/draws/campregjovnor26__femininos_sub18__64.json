@@ -1,0 +1,26 @@
+{
+  "tournament": "Camp. Regional Jovens (4 regiões) - Norte",
+  "slug": "CampRegJovNor26",
+  "section": "Femininos SUB18",
+  "drawSize": 64,
+  "generatedAt": "2026-04-11T21:50:29.803Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Margarida Leiras",
+      "lic1": "19054",
+      "pid1": "64622",
+      "p2": "Leonor Oliveira",
+      "lic2": "18191",
+      "pid2": "228770",
+      "club": "New Padel - Chão da Fonte",
+      "pts1": 30581.25,
+      "lvl1": 2,
+      "pts2": 19950,
+      "lvl2": 2,
+      "total": 50531.25,
+      "note": "Seed 1"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Alentejo",
+  "slug": "CampRegABS26Alentejo",
+  "section": "Masculinos 3",
+  "drawSize": 64,
+  "generatedAt": "2026-04-11T21:46:55.154Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Tiago Henriques",
+      "lic1": "19239",
+      "pid1": "10134",
+      "p2": "Fábio Raposo",
+      "lic2": "5189",
+      "pid2": "10697",
+      "club": "IP7 Indoor Padel",
+      "pts1": 7870.31,
+      "lvl1": 3,
+      "pts2": 4931.88,
+      "lvl2": 3,
+      "total": 12802.19,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Miguel Rosado da Fonseca",
+      "lic1": "3209",
+      "pid1": "90131",
+      "p2": "Joaquim Fonseca",
+      "lic2": "26819",
+      "pid2": "256895",
+      "club": "IP7 Indoor Padel",
+      "pts1": 4346.56,
+      "lvl1": 3,
+      "pts2": 2762.5,
+      "lvl2": 4,
+      "total": 7109.06,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Hugo Estanque",
+      "lic1": "11161",
+      "pid1": "90696",
+      "p2": "Pedro Vaz Brazão",
+      "lic2": "16430",
+      "pid2": "137743",
+      "club": "BLIVE PADEL INDOOR",
+      "pts1": 2450,
+      "lvl1": 4,
+      "pts2": 2555.84,
+      "lvl2": 4,
+      "total": 5005.84,
+      "note": "Seed 3"
+    }
+  ]
+}

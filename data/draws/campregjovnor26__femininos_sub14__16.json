@@ -1,0 +1,60 @@
+{
+  "tournament": "Camp. Regional Jovens (4 regiões) - Norte",
+  "slug": "CampRegJovNor26",
+  "section": "Femininos SUB14",
+  "drawSize": 16,
+  "generatedAt": "2026-04-11T21:50:20.548Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Mariana Campos",
+      "lic1": "12330",
+      "pid1": "28523",
+      "p2": "Joana Oliveira",
+      "lic2": "",
+      "pid2": "",
+      "club": "AveiroPadel Clube dos Galitos",
+      "pts1": 1231.25,
+      "lvl1": 5,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 1231.25,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Alice Lopez",
+      "lic1": "30241",
+      "pid1": "61854",
+      "p2": "Leonor Carvalho",
+      "lic2": "",
+      "pid2": "",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 37.5,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 37.5,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Kika",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Sofia Perpétua",
+      "lic2": "",
+      "pid2": "",
+      "club": "MeshPadelCenter",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 3"
+    }
+  ]
+}

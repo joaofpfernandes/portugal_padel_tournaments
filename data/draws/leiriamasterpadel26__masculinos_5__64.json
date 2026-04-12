@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 5",
   "drawSize": 64,
-  "generatedAt": "2026-04-11T09:37:39.165Z",
+  "generatedAt": "2026-04-11T21:58:54.653Z",
   "result": [
     {
       "pos": 1,
@@ -875,6 +875,23 @@
     {
       "pos": 4,
       "draw": "QUALY",
+      "p1": "Romain",
+      "lic1": "6972",
+      "pid1": "83608",
+      "p2": "Tiago silva",
+      "lic2": "23737",
+      "pid2": "323394",
+      "club": "Padel XXL",
+      "pts1": 371.86,
+      "lvl1": 6,
+      "pts2": 63.28,
+      "lvl2": 6,
+      "total": 435.14,
+      "note": ""
+    },
+    {
+      "pos": 5,
+      "draw": "QUALY",
       "p1": "Diogo Duarte",
       "lic1": "18488",
       "pid1": "229973",
@@ -890,7 +907,7 @@
       "note": ""
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "QUALY",
       "p1": "Pedro Ribeiro",
       "lic1": "24708",
@@ -907,7 +924,7 @@
       "note": ""
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "QUALY",
       "p1": "Duarte Henriques",
       "lic1": "17081",
@@ -924,7 +941,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "QUALY",
       "p1": "Leandro Neves",
       "lic1": "4114",
@@ -941,7 +958,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "QUALY",
       "p1": "Helder de Sousa",
       "lic1": "3062",
@@ -958,7 +975,7 @@
       "note": ""
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "QUALY",
       "p1": "Élio Mouzinho",
       "lic1": "21886",
@@ -975,7 +992,7 @@
       "note": ""
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "QUALY",
       "p1": "Tomás Silva",
       "lic1": "27097",
@@ -992,7 +1009,7 @@
       "note": ""
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "QUALY",
       "p1": "Lucas Afonso",
       "lic1": "31337",
@@ -1009,7 +1026,7 @@
       "note": ""
     },
     {
-      "pos": 12,
+      "pos": 13,
       "draw": "QUALY",
       "p1": "Michael Aparício",
       "lic1": "30072",
@@ -1026,7 +1043,7 @@
       "note": ""
     },
     {
-      "pos": 13,
+      "pos": 14,
       "draw": "QUALY",
       "p1": "Paulo Luis",
       "lic1": "26930",
@@ -1043,7 +1060,7 @@
       "note": ""
     },
     {
-      "pos": 14,
+      "pos": 15,
       "draw": "QUALY",
       "p1": "Pedro Serralheiro",
       "lic1": "29682",
@@ -1060,7 +1077,7 @@
       "note": ""
     },
     {
-      "pos": 15,
+      "pos": 16,
       "draw": "QUALY",
       "p1": "João Pinto",
       "lic1": "4844",

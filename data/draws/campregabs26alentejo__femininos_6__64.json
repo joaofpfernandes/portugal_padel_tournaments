@@ -1,0 +1,60 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Alentejo",
+  "slug": "CampRegABS26Alentejo",
+  "section": "Femininos 6",
+  "drawSize": 64,
+  "generatedAt": "2026-04-11T21:47:15.775Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Cláudia Silva",
+      "lic1": "17643",
+      "pid1": "226327",
+      "p2": "Ana Russo",
+      "lic2": "21315",
+      "pid2": "243126",
+      "club": "IP7 Indoor Padel",
+      "pts1": 205.48,
+      "lvl1": 6,
+      "pts2": 356.73,
+      "lvl2": 6,
+      "total": 562.21,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Susana Carreira Marques",
+      "lic1": "14204",
+      "pid1": "147162",
+      "p2": "Daniela Rocha",
+      "lic2": "20074",
+      "pid2": "203511",
+      "club": "BLIVE PADEL INDOOR",
+      "pts1": 33.75,
+      "lvl1": 6,
+      "pts2": 33.75,
+      "lvl2": 6,
+      "total": 67.5,
+      "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Cláudia Norte",
+      "lic1": "14045",
+      "pid1": "174395",
+      "p2": "Marta Leal Palma",
+      "lic2": "14068",
+      "pid2": "174429",
+      "club": "BLIVE PADEL INDOOR",
+      "pts1": 39.57,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 42.7,
+      "note": "Seed 3"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 4",
   "drawSize": 32,
-  "generatedAt": "2026-04-11T09:37:54.461Z",
+  "generatedAt": "2026-04-11T21:59:10.510Z",
   "result": [
     {
       "pos": 1,
@@ -484,6 +484,23 @@
     {
       "pos": 5,
       "draw": "QUALY",
+      "p1": "Manuel Esperto",
+      "lic1": "16675",
+      "pid1": "169524",
+      "p2": "Bernardo Rama",
+      "lic2": "26365",
+      "pid2": "243985",
+      "club": "PadelFactoryCarregado",
+      "pts1": 1309.95,
+      "lvl1": 5,
+      "pts2": 105.84,
+      "lvl2": 6,
+      "total": 1415.79,
+      "note": ""
+    },
+    {
+      "pos": 6,
+      "draw": "QUALY",
       "p1": "Diogo Gomes",
       "lic1": "17679",
       "pid1": "146704",
@@ -496,6 +513,23 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 761.8,
+      "note": ""
+    },
+    {
+      "pos": 7,
+      "draw": "QUALY",
+      "p1": "Marco Custódio",
+      "lic1": "15168",
+      "pid1": "160718",
+      "p2": "Marco Oliveira",
+      "lic2": "19405",
+      "pid2": "232237",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 142.98,
+      "lvl1": 6,
+      "pts2": 149.23,
+      "lvl2": 6,
+      "total": 292.21,
       "note": ""
     }
   ]

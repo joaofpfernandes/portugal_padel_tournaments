@@ -3,10 +3,27 @@
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
   "drawSize": 64,
-  "generatedAt": "2026-04-11T09:33:28.706Z",
+  "generatedAt": "2026-04-11T21:54:38.783Z",
   "result": [
     {
       "pos": 1,
+      "draw": "MAIN",
+      "p1": "P. Carvalho",
+      "lic1": "12482",
+      "pid1": "144097",
+      "p2": "Quilho",
+      "lic2": "",
+      "pid2": "",
+      "club": "PRIMEPADEL",
+      "pts1": 949.84,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 949.84,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
       "draw": "MAIN",
       "p1": "Hugo Freire",
       "lic1": "20505",
@@ -20,10 +37,10 @@
       "pts2": 278.75,
       "lvl2": 6,
       "total": 466.9,
-      "note": "Seed 1"
+      "note": "Seed 2"
     },
     {
-      "pos": 2,
+      "pos": 3,
       "draw": "MAIN",
       "p1": "RICARDO SUBTIL",
       "lic1": "13319",
@@ -37,10 +54,10 @@
       "pts2": 163.75,
       "lvl2": 6,
       "total": 308.28999999999996,
-      "note": "Seed 2"
+      "note": "Seed 3"
     },
     {
-      "pos": 3,
+      "pos": 4,
       "draw": "MAIN",
       "p1": "João José Costa",
       "lic1": "15989",
@@ -54,10 +71,10 @@
       "pts2": 30.88,
       "lvl2": 6,
       "total": 149.01,
-      "note": "Seed 3"
+      "note": "Seed 4"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "draw": "MAIN",
       "p1": "João Mamede",
       "lic1": "12496",
@@ -71,10 +88,10 @@
       "pts2": 44.26,
       "lvl2": 6,
       "total": 140.59,
-      "note": "Seed 4"
+      "note": "Seed 5"
     },
     {
-      "pos": 5,
+      "pos": 6,
       "draw": "MAIN",
       "p1": "Francisco Pires",
       "lic1": "9930",
@@ -88,10 +105,10 @@
       "pts2": 66.46,
       "lvl2": 6,
       "total": 113.61999999999999,
-      "note": "Seed 5"
+      "note": "Seed 6"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "draw": "MAIN",
       "p1": "Bernardo Silva",
       "lic1": "37060",
@@ -105,10 +122,10 @@
       "pts2": 85.41,
       "lvl2": 6,
       "total": 97.22,
-      "note": "Seed 6"
+      "note": "Seed 7"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Rodrigo Vaz",
       "lic1": "9929",
@@ -122,10 +139,10 @@
       "pts2": 4.69,
       "lvl2": 6,
       "total": 78.78,
-      "note": "Seed 7"
+      "note": "Seed 8"
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Rui Arnaud",
       "lic1": "8666",
@@ -139,10 +156,10 @@
       "pts2": 14.06,
       "lvl2": 6,
       "total": 23.44,
-      "note": "Seed 8"
+      "note": "Seed 9"
     },
     {
-      "pos": 9,
+      "pos": 10,
       "draw": "MAIN",
       "p1": "Francisco Ferreira",
       "lic1": "35479",
@@ -156,10 +173,10 @@
       "pts2": 6.25,
       "lvl2": 6,
       "total": 15.63,
-      "note": "Seed 9"
+      "note": "Seed 10"
     },
     {
-      "pos": 10,
+      "pos": 11,
       "draw": "MAIN",
       "p1": "Jorge Góis",
       "lic1": "30393",
@@ -173,10 +190,10 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 13.940000000000001,
-      "note": "Seed 10"
+      "note": "Seed 11"
     },
     {
-      "pos": 11,
+      "pos": 12,
       "draw": "MAIN",
       "p1": "Tiago Pratas",
       "lic1": "33656",
@@ -190,7 +207,7 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 12.510000000000002,
-      "note": "Seed 11"
+      "note": "Seed 12"
     }
   ]
 }

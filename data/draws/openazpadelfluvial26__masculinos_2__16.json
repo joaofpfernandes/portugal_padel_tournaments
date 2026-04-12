@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
   "drawSize": 16,
-  "generatedAt": "2026-04-11T09:32:22.914Z",
+  "generatedAt": "2026-04-11T21:53:31.423Z",
   "result": [
     {
       "pos": 1,
@@ -93,6 +93,23 @@
     {
       "pos": 6,
       "draw": "MAIN",
+      "p1": "Davide Rodrigues",
+      "lic1": "23571",
+      "pid1": "323066",
+      "p2": "Mati Mendez",
+      "lic2": "27053",
+      "pid2": "369330",
+      "club": "MeshPadelCenter",
+      "pts1": 12440.63,
+      "lvl1": 2,
+      "pts2": 5181.25,
+      "lvl2": 3,
+      "total": 17621.879999999997,
+      "note": ""
+    },
+    {
+      "pos": 7,
+      "draw": "MAIN",
       "p1": "Francisco Vilaça",
       "lic1": "31827",
       "pid1": "17445",
@@ -108,7 +125,7 @@
       "note": ""
     },
     {
-      "pos": 7,
+      "pos": 8,
       "draw": "MAIN",
       "p1": "Duarte Durão",
       "lic1": "26797",
@@ -125,7 +142,7 @@
       "note": ""
     },
     {
-      "pos": 8,
+      "pos": 9,
       "draw": "MAIN",
       "p1": "Guigas",
       "lic1": "11329",

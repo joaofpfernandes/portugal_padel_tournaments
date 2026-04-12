@@ -1,0 +1,43 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Madeira",
+  "slug": "CampRegABSPadel26Madeira",
+  "section": "Masculinos 3",
+  "drawSize": 32,
+  "generatedAt": "2026-04-11T21:36:08.821Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Pedro Solano",
+      "lic1": "8971",
+      "pid1": "84093",
+      "p2": "Andres Rodriguez",
+      "lic2": "7763",
+      "pid2": "96879",
+      "club": "PlayPadelMadeira",
+      "pts1": 7787.5,
+      "lvl1": 3,
+      "pts2": 3803.75,
+      "lvl2": 4,
+      "total": 11591.25,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Rodrigo Casanova",
+      "lic1": "3523",
+      "pid1": "83285",
+      "p2": "Eduardo Vieira",
+      "lic2": "12504",
+      "pid2": "143058",
+      "club": "PlayPadelMadeira",
+      "pts1": 4485.63,
+      "lvl1": 3,
+      "pts2": 857.5,
+      "lvl2": 6,
+      "total": 5343.13,
+      "note": "Seed 2"
+    }
+  ]
+}

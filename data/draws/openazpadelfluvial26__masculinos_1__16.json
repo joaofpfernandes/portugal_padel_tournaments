@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 1",
   "drawSize": 16,
-  "generatedAt": "2026-04-11T09:32:30.816Z",
+  "generatedAt": "2026-04-11T21:53:39.317Z",
   "result": [
     {
       "pos": 1,
@@ -38,6 +38,23 @@
       "lvl2": 2,
       "total": 63171.25,
       "note": "Seed 2"
+    },
+    {
+      "pos": 3,
+      "draw": "MAIN",
+      "p1": "Lourenço Romão",
+      "lic1": "7156",
+      "pid1": "79944",
+      "p2": "Manuel Rocha",
+      "lic2": "",
+      "pid2": "",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 26456.25,
+      "lvl1": 2,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 26456.25,
+      "note": "Seed 3"
     }
   ]
 }

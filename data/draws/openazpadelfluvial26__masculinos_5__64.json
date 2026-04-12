@@ -3,7 +3,7 @@
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 5",
   "drawSize": 64,
-  "generatedAt": "2026-04-11T09:31:53.970Z",
+  "generatedAt": "2026-04-11T21:53:02.965Z",
   "result": [
     {
       "pos": 1,
@@ -178,6 +178,40 @@
     {
       "pos": 11,
       "draw": "MAIN",
+      "p1": "Márcio Carvalho",
+      "lic1": "19895",
+      "pid1": "183261",
+      "p2": "José Maia",
+      "lic2": "17418",
+      "pid2": "224765",
+      "club": "Top-padelBragaCenter",
+      "pts1": 82.75,
+      "lvl1": 6,
+      "pts2": 91.88,
+      "lvl2": 6,
+      "total": 174.63,
+      "note": "Seed 11"
+    },
+    {
+      "pos": 12,
+      "draw": "MAIN",
+      "p1": "Rui Monteiro",
+      "lic1": "14409",
+      "pid1": "174956",
+      "p2": "Vitor Carvalho",
+      "lic2": "19225",
+      "pid2": "231985",
+      "club": "LIFEPADEL",
+      "pts1": 124.16,
+      "lvl1": 6,
+      "pts2": 39.75,
+      "lvl2": 6,
+      "total": 163.91,
+      "note": "Seed 12"
+    },
+    {
+      "pos": 13,
+      "draw": "MAIN",
       "p1": "Ricardo Grave",
       "lic1": "32452",
       "pid1": "346495",
@@ -190,10 +224,10 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 147.25,
-      "note": "Seed 11"
+      "note": "Seed 13"
     },
     {
-      "pos": 12,
+      "pos": 14,
       "draw": "MAIN",
       "p1": "Manuel Gonçalves",
       "lic1": "33070",
@@ -207,10 +241,10 @@
       "pts2": 84.06,
       "lvl2": 6,
       "total": 115.31,
-      "note": "Seed 12"
+      "note": "Seed 14"
     },
     {
-      "pos": 13,
+      "pos": 15,
       "draw": "MAIN",
       "p1": "Afonso Ribeiro",
       "lic1": "30230",
@@ -224,10 +258,10 @@
       "pts2": 62.81,
       "lvl2": 6,
       "total": 72.19,
-      "note": "Seed 13"
+      "note": "Seed 15"
     },
     {
-      "pos": 14,
+      "pos": 16,
       "draw": "MAIN",
       "p1": "João Santos",
       "lic1": "30641",
@@ -241,10 +275,10 @@
       "pts2": 7.81,
       "lvl2": 6,
       "total": 67.09,
-      "note": "Seed 14"
+      "note": "Seed 16"
     },
     {
-      "pos": 15,
+      "pos": 17,
       "draw": "MAIN",
       "p1": "Adriano Lopes",
       "lic1": "24360",
@@ -258,7 +292,7 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 23.439999999999998,
-      "note": "Seed 15"
+      "note": ""
     }
   ]
 }

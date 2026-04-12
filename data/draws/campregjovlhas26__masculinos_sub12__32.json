@@ -1,0 +1,43 @@
+{
+  "tournament": "Camp. Regional Jovens (4 regiões) - Ilhas",
+  "slug": "CampRegJovlhas26",
+  "section": "Masculinos SUB12",
+  "drawSize": 32,
+  "generatedAt": "2026-04-11T21:52:07.596Z",
+  "result": [
+    {
+      "pos": 1,
+      "draw": "MAIN",
+      "p1": "Bernardo Câmara",
+      "lic1": "",
+      "pid1": "",
+      "p2": "António Correia",
+      "lic2": "",
+      "pid2": "",
+      "club": "SCPS",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 1"
+    },
+    {
+      "pos": 2,
+      "draw": "MAIN",
+      "p1": "Vicente Gomes",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Tomas Soares",
+      "lic2": "",
+      "pid2": "",
+      "club": "PlayPadelMadeira",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0,
+      "note": "Seed 2"
+    }
+  ]
+}
