@@ -1087,7 +1087,9 @@ select {
   color: var(--text);
 }
 
+.rankings-pagination {
   margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -1095,10 +1097,12 @@ select {
 }
 
 .rankings-page-info {
-  font-size: 0.82rem;
-  color: var(--text-light);
-  min-width: 95px;
-  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .rankings-filters {
