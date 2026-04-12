@@ -343,17 +343,6 @@ const getTournamentPointsAndPrize = (tournament, level) => {
   return { pointsNum, prizeMoney };
 };
 
-const CDN_BASE =
-  "https://cdn.jsdelivr.net/gh/ricardowth/portugal_padel_cdn@main/assets/tournament-images";
-const DEFAULT_TOURNAMENT_IMAGE = `${CDN_BASE}/default.jpg`;
-
-const getTournamentImageUrl = (tournament) => {
-  if (!tournament.image || !tournament.start_date)
-    return DEFAULT_TOURNAMENT_IMAGE;
-  const year = tournament.start_date.slice(0, 4);
-  return `${CDN_BASE}/${year}/${tournament.image}`;
-};
-
 const buildTournamentCardContent = (tournament) => {
   const level = getTournamentLevel(tournament);
   const badgeMeta = level
@@ -378,20 +367,14 @@ const buildTournamentCardContent = (tournament) => {
   ${org ? `<div class="card-detail">${svgOrg}<span style="font-size:0.75rem">${org}</span></div>` : ""}
 </div>`;
 
-  const pointsHtml = pointsNum
-    ? `<span class="fip-points">${pointsNum.toLocaleString("pt-PT")} pts</span>`
-    : "";
-
-  const imageUrl = getTournamentImageUrl(tournament);
-
-  const tagColor = badgeMeta.badgeClass.replace('badge-', '');
+  const tagColor = badgeMeta.badgeClass.replace("badge-", "");
 
   return {
     level,
     month: getTournamentMonth(tournament),
     ageGroup: getTournamentAgeGroup(tournament),
     html: `
-<div class="card-bg-image" style="background-image:url('${imageUrl}')"></div>
+<div class="card-bg-image"></div>
 <div class="card-bg-overlay"></div>
 <div class="card-top">
   <div class="card-name">${tournament.name}</div>
@@ -794,8 +777,13 @@ monthTo.addEventListener("change", () => {
 // Region picker handler
 window._toggleRegion = function (tag, tagColor) {
   const active = tag.getAttribute("data-active") === "1";
-  const colorMap = { 'fip-gold': 'gold', 'fip-silver': 'silver', 'fip-bronze': 'bronze', 'fip-promises': 'promises' };
-  const lv = colorMap[tagColor] || tagColor || 'regional';
+  const colorMap = {
+    "fip-gold": "gold",
+    "fip-silver": "silver",
+    "fip-bronze": "bronze",
+    "fip-promises": "promises",
+  };
+  const lv = colorMap[tagColor] || tagColor || "regional";
   tag.setAttribute("data-active", active ? "0" : "1");
   tag.style.background = active ? "var(--card-bg)" : `var(--${lv})`;
   tag.style.color = active ? "var(--text-light)" : "#fff";

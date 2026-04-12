@@ -1,4 +1,4 @@
-Copyright 2026 João Fernandes (https://github.com/joaofpfernandes)
+Copyright 2026 João Fernandes (https://github.com/joaofpfernandes) e Ricardo Ferreira (https://github.com/rferreira98)
 Copyright 2026 Contributors (https://github.com/joaofpfernandes/portugal_padel_tournaments/graphs/contributors)
 
 # Padel Portugal 🎾
@@ -10,6 +10,7 @@ Um site gratuito que reúne toda a informação competitiva do padel em Portugal
 ---
 
 ### 📅 Calendário de Torneios
+
 Consulta todos os torneios FPP e FIP de 2026 numa vista clara e organizada.
 
 - **Pesquisa** por nome de torneio
@@ -18,17 +19,20 @@ Consulta todos os torneios FPP e FIP de 2026 numa vista clara e organizada.
 - Os torneios em curso aparecem com um badge **ao vivo**, os já terminados como **concluídos**
 
 ### 🗺️ Mapa Interativo
+
 No calendário encontras também um mapa de Portugal com todos os torneios marcados.
 
 - Clica num marcador para ver os torneios nessa localização
 - O mapa atualiza automaticamente conforme os filtros que tens ativos
 
 ### 🧮 Calculadora de Pontos
+
 Não sabes quantos pontos vale chegar às meias-finais de um torneio de 10.000 pontos?
 
 - Escolhe o nível do torneio e vê de imediato os pontos atribuídos em cada fase — desde vencedor até 4º lugar de grupo
 
 ### 👤 Perfil de Jogador
+
 Pesquisa qualquer jogador pelo nome, número de licença ou clube.
 
 - Vê a posição no ranking, pontos e nível atual
@@ -37,6 +41,7 @@ Pesquisa qualquer jogador pelo nome, número de licença ou clube.
 - Partilha o perfil de um jogador com um link direto
 
 ### 🏆 Rankings
+
 Navega pelos rankings Absolutos Masculino e Feminino atualizados semanalmente.
 
 - **Pesquisa** por nome, clube ou licença

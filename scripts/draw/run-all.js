@@ -8,8 +8,8 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-const RANKINGS_URL_MALE   = "https://raw.githubusercontent.com/ricardowth/portugal_padel_tournaments/refs/heads/main/data/rankings/male/latest.json";
-const RANKINGS_URL_FEMALE = "https://raw.githubusercontent.com/ricardowth/portugal_padel_tournaments/refs/heads/main/data/rankings/female/latest.json";
+const RANKINGS_URL_MALE = "../data/rankings/male/latest.json";
+const RANKINGS_URL_FEMALE = "../data/rankings/female/latest.json";
 
 function normName(s) {
   return s.toLowerCase().trim().replace(/\s+/g, " ");
@@ -24,11 +24,26 @@ function parseLevel(str) {
 function getPlayerInfo(name, club, rankings) {
   const key = normName(name);
   const matches = rankings.filter((r) => normName(r.Name) === key);
-  if (!matches.length) return { points: 0, level: 6, license: '', playerId: '' };
-  if (matches.length === 1) return { points: parsePoints(matches[0].Points), level: parseLevel(matches[0].Level), license: matches[0].LicenceNumber || '', playerId: matches[0].PlayerID || '' };
-  const clubMatch = matches.find((r) => r.Club?.toLowerCase().trim() === club.toLowerCase().trim());
-  if (clubMatch) return { points: parsePoints(clubMatch.Points), level: parseLevel(clubMatch.Level), license: clubMatch.LicenceNumber || '', playerId: clubMatch.PlayerID || '' };
-  return { points: 0, level: 6, license: '', playerId: '' };
+  if (!matches.length)
+    return { points: 0, level: 6, license: "", playerId: "" };
+  if (matches.length === 1)
+    return {
+      points: parsePoints(matches[0].Points),
+      level: parseLevel(matches[0].Level),
+      license: matches[0].LicenceNumber || "",
+      playerId: matches[0].PlayerID || "",
+    };
+  const clubMatch = matches.find(
+    (r) => r.Club?.toLowerCase().trim() === club.toLowerCase().trim(),
+  );
+  if (clubMatch)
+    return {
+      points: parsePoints(clubMatch.Points),
+      level: parseLevel(clubMatch.Level),
+      license: clubMatch.LicenceNumber || "",
+      playerId: clubMatch.PlayerID || "",
+    };
+  return { points: 0, level: 6, license: "", playerId: "" };
 }
 
 // FPP 10.4.5/10.4.6 priority — lower = higher priority
@@ -160,11 +175,17 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
     const info1 = getPlayerInfo(p1, club1, rankings);
     const info2 = getPlayerInfo(p2, club2, rankings);
     pairs.push({
-      p1, p2, club: row.club,
-      lic1: info1.license, pid1: info1.playerId,
-      pts1: info1.points, lvl1: info1.level,
-      lic2: info2.license, pid2: info2.playerId,
-      pts2: info2.points, lvl2: info2.level,
+      p1,
+      p2,
+      club: row.club,
+      lic1: info1.license,
+      pid1: info1.playerId,
+      pts1: info1.points,
+      lvl1: info1.level,
+      lic2: info2.license,
+      pid2: info2.playerId,
+      pts2: info2.points,
+      lvl2: info2.level,
       total: info1.points + info2.points,
       priority: pairPriority(info1.level, info2.level, T),
     });
@@ -174,11 +195,17 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
 
   return pairs.map((p, i) => ({
     pos: i + 1,
-    p1: p.p1, lic1: p.lic1, pid1: p.pid1,
-    p2: p.p2, lic2: p.lic2, pid2: p.pid2,
+    p1: p.p1,
+    lic1: p.lic1,
+    pid1: p.pid1,
+    p2: p.p2,
+    lic2: p.lic2,
+    pid2: p.pid2,
     club: p.club,
-    pts1: p.pts1, lvl1: p.lvl1,
-    pts2: p.pts2, lvl2: p.lvl2,
+    pts1: p.pts1,
+    lvl1: p.lvl1,
+    pts2: p.pts2,
+    lvl2: p.lvl2,
     total: p.total,
   }));
 }
@@ -193,13 +220,14 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
     tournamentsRaw.replace("window.tournamentsData =", ""),
   );
 
-  const active = tournaments.filter(
-    (t) => {
-      const fpp = t.fpp_data;
-      if (Array.isArray(fpp)) return fpp.some(r => r.link?.includes("fpp.tiepadel.com")) && isActive(t);
-      return fpp?.link?.includes("fpp.tiepadel.com") && isActive(t);
-    }
-  );
+  const active = tournaments.filter((t) => {
+    const fpp = t.fpp_data;
+    if (Array.isArray(fpp))
+      return (
+        fpp.some((r) => r.link?.includes("fpp.tiepadel.com")) && isActive(t)
+      );
+    return fpp?.link?.includes("fpp.tiepadel.com") && isActive(t);
+  });
   console.log(`Active tournaments (within 21 days): ${active.length}`);
 
   if (!active.length) {
@@ -208,10 +236,11 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
   }
 
   console.log("Fetching rankings...");
-  const [{ rankings: rankingsMale }, { rankings: rankingsFemale }] = await Promise.all([
-    fetch(RANKINGS_URL_MALE).then(r => r.json()),
-    fetch(RANKINGS_URL_FEMALE).then(r => r.json()),
-  ]);
+  const [{ rankings: rankingsMale }, { rankings: rankingsFemale }] =
+    await Promise.all([
+      fetch(RANKINGS_URL_MALE).then((r) => r.json()),
+      fetch(RANKINGS_URL_FEMALE).then((r) => r.json()),
+    ]);
 
   const browser = await puppeteer.launch({
     headless: true,
@@ -222,7 +251,7 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
 
   // Clear all existing draw files before regenerating
   for (const f of fs.readdirSync(drawsDir)) {
-    if (f.endsWith('.json')) fs.unlinkSync(path.join(drawsDir, f));
+    if (f.endsWith(".json")) fs.unlinkSync(path.join(drawsDir, f));
   }
 
   for (const t of active) {
@@ -231,29 +260,48 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
     for (const fpp of fppEntries) {
       if (!fpp?.link?.includes("fpp.tiepadel.com")) continue;
       const slug = tournamentSlug(fpp.link);
-      if (!slug) { console.warn(`No slug for: ${t.name}`); continue; }
+      if (!slug) {
+        console.warn(`No slug for: ${t.name}`);
+        continue;
+      }
 
       const tournamentName = fpp.region ? `${t.name} - ${fpp.region}` : t.name;
       console.log(`\n→ ${tournamentName} [${slug}]`);
       const sections = await getSections(browser, slug);
-      if (!sections.length) { console.warn("  No sections, skipping."); continue; }
+      if (!sections.length) {
+        console.warn("  No sections, skipping.");
+        continue;
+      }
       console.log(`  Sections: ${sections.map((s) => s.text).join(" | ")}`);
 
       for (const section of sections) {
         console.log(`  [${section.text}] scraping...`);
         const rawPlayers = await scrapePlayers(browser, slug, section.value);
-        if (!rawPlayers.length) { console.warn("  No players, skipping."); continue; }
+        if (!rawPlayers.length) {
+          console.warn("  No players, skipping.");
+          continue;
+        }
 
         const isFemale = /feminino/i.test(section.text);
         const rankings = isFemale ? rankingsFemale : rankingsMale;
 
         const result = buildDraw(rawPlayers, rankings, fpp.level || "");
-          const filename = `${safeFilename(slug)}__${safeFilename(section.text)}.json`;
-          fs.writeFileSync(
-            path.join(drawsDir, filename),
-            JSON.stringify({ tournament: tournamentName, slug, section: section.text, generatedAt: new Date().toISOString(), result }, null, 2)
-          );
-          console.log(`    ${result.length} pairs → ${filename}`);
+        const filename = `${safeFilename(slug)}__${safeFilename(section.text)}.json`;
+        fs.writeFileSync(
+          path.join(drawsDir, filename),
+          JSON.stringify(
+            {
+              tournament: tournamentName,
+              slug,
+              section: section.text,
+              generatedAt: new Date().toISOString(),
+              result,
+            },
+            null,
+            2,
+          ),
+        );
+        console.log(`    ${result.length} pairs → ${filename}`);
       }
     }
   }
@@ -261,16 +309,22 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
   await browser.close();
 
   // Write manifest index
-  const allFiles = fs.readdirSync(drawsDir).filter(f => f.endsWith('.json') && f !== 'index.json');
+  const allFiles = fs
+    .readdirSync(drawsDir)
+    .filter((f) => f.endsWith(".json") && f !== "index.json");
   const index = {};
   for (const file of allFiles) {
-    const data = JSON.parse(fs.readFileSync(path.join(drawsDir, file), 'utf8'));
+    const data = JSON.parse(fs.readFileSync(path.join(drawsDir, file), "utf8"));
     const { tournament, slug, section } = data;
     if (!index[slug]) index[slug] = { tournament, slug, sections: [] };
-    if (!index[slug].sections.includes(section)) index[slug].sections.push(section);
+    if (!index[slug].sections.includes(section))
+      index[slug].sections.push(section);
   }
-  fs.writeFileSync(path.join(drawsDir, 'index.json'), JSON.stringify(Object.values(index), null, 2));
-  console.log('  index.json written.');
+  fs.writeFileSync(
+    path.join(drawsDir, "index.json"),
+    JSON.stringify(Object.values(index), null, 2),
+  );
+  console.log("  index.json written.");
 
   console.log("\n✅ Done.");
 })();
