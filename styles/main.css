@@ -908,8 +908,8 @@ select {
 
 .theme-toggle {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 6rem;
+  right: 0.75rem;
   width: 56px;
   height: 56px;
   border-radius: 50%;
@@ -1067,7 +1067,26 @@ select {
   -webkit-appearance: none;
 }
 
-.rankings-pagination {
+.site-footer {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-size: 0.78rem;
+  color: var(--text-light);
+}
+.site-footer a {
+  color: var(--text-light);
+  text-decoration: underline;
+}
+.site-footer a:hover {
+  color: var(--text);
+}
+
   margin-top: 0.9rem;
   display: flex;
   align-items: center;
@@ -1121,6 +1140,9 @@ select {
   .header-year {
     font-size: 4rem;
   }
+  .site-footer {
+    padding: 1rem 4rem 1rem 1.5rem;
+  }
   .tournament-grid {
     grid-template-columns: 1fr;
   }
@@ -1139,7 +1161,7 @@ select {
   }
   .theme-toggle {
     bottom: 1rem;
-    right: 1rem;
+    right: 0.75rem;
     width: 48px;
     height: 48px;
   }

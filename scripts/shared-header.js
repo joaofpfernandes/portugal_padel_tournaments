@@ -102,4 +102,20 @@
       </div>
     </div>
   `;
+
+  const footer = document.createElement("footer");
+  footer.className = "site-footer";
+  footer.innerHTML = `
+    <span>Fonte: Calendário de Actividades Provisório 2026 &mdash; Federação Portuguesa de Padel</span>
+    <span>Desenvolvido por
+      <a href="https://github.com/rferreira98" target="_blank" rel="noopener noreferrer">Ricardo Ferreira</a>
+      &amp;
+      <a href="https://github.com/joaofpfernandes" target="_blank" rel="noopener noreferrer">Joao Fernandes</a>
+    </span>
+    <span>
+      Queres contribuir? O projeto é open source —
+      <a href="https://github.com/joaofpfernandes/portugal_padel_tournaments" target="_blank" rel="noopener noreferrer">contribui no GitHub</a>
+    </span>
+  `;
+  document.body.appendChild(footer);
 })();
