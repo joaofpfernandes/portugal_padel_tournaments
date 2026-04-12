@@ -1,0 +1,68 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
+  "slug": "CampRegABS26Setubal",
+  "section": "Femininos 3",
+  "generatedAt": "2026-04-12T10:46:20.697Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Catarina Silva",
+      "lic1": "21045",
+      "pid1": "188586",
+      "p2": "Sofia Carvalho",
+      "lic2": "16642",
+      "pid2": "190680",
+      "club": "SmashPadelAlmada",
+      "pts1": 5775,
+      "lvl1": 3,
+      "pts2": 6355.34,
+      "lvl2": 3,
+      "total": 12130.34
+    },
+    {
+      "pos": 2,
+      "p1": "Andreia Ramos",
+      "lic1": "7105",
+      "pid1": "74953",
+      "p2": "Ela",
+      "lic2": "16514",
+      "pid2": "188748",
+      "club": "MrPadel",
+      "pts1": 5473.13,
+      "lvl1": 3,
+      "pts2": 3411.63,
+      "lvl2": 4,
+      "total": 8884.76
+    },
+    {
+      "pos": 3,
+      "p1": "Margarida Soares",
+      "lic1": "17028",
+      "pid1": "159579",
+      "p2": "Gabriela Lopes",
+      "lic2": "15245",
+      "pid2": "175810",
+      "club": "Arrábida Padel",
+      "pts1": 1099.38,
+      "lvl1": 5,
+      "pts2": 6816.25,
+      "lvl2": 3,
+      "total": 7915.63
+    },
+    {
+      "pos": 4,
+      "p1": "Ana Lourenço",
+      "lic1": "14407",
+      "pid1": "167147",
+      "p2": "Bianca Farinhas",
+      "lic2": "24804",
+      "pid2": "302639",
+      "club": "MrPadel",
+      "pts1": 1282.5,
+      "lvl1": 5,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 1285.63
+    }
+  ]
+}

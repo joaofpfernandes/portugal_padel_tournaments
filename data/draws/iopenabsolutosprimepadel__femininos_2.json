@@ -1,0 +1,38 @@
+{
+  "tournament": "I Open Absolutos Prime Padel",
+  "slug": "IOpenAbsolutosPrimePadel",
+  "section": "Femininos 2",
+  "generatedAt": "2026-04-12T10:55:21.942Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Raquel Laconca",
+      "lic1": "14568",
+      "pid1": "175188",
+      "p2": "Mariana Nunes",
+      "lic2": "17729",
+      "pid2": "201102",
+      "club": "Padel XXL",
+      "pts1": 1807.64,
+      "lvl1": 5,
+      "pts2": 4600.31,
+      "lvl2": 3,
+      "total": 6407.950000000001
+    },
+    {
+      "pos": 2,
+      "p1": "Filipa Varandas",
+      "lic1": "13340",
+      "pid1": "167471",
+      "p2": "Andreia Morgado",
+      "lic2": "27015",
+      "pid2": "305436",
+      "club": "PRIMEPADEL",
+      "pts1": 2511.25,
+      "lvl1": 4,
+      "pts2": 2367.25,
+      "lvl2": 4,
+      "total": 4878.5
+    }
+  ]
+}

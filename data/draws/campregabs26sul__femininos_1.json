@@ -1,0 +1,23 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
+  "slug": "CampRegABS26Sul",
+  "section": "Femininos 1",
+  "generatedAt": "2026-04-12T10:49:51.854Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Micaela Para",
+      "lic1": "12890",
+      "pid1": "149580",
+      "p2": "Jéssica Para",
+      "lic2": "21027",
+      "pid2": "11034",
+      "club": "",
+      "pts1": 131000,
+      "lvl1": 1,
+      "pts2": 129000,
+      "lvl2": 1,
+      "total": 260000
+    }
+  ]
+}

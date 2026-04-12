@@ -1,0 +1,23 @@
+{
+  "tournament": "2º Torneio Jovens Empower Talent Launch",
+  "slug": "2torneioJovensEmpowerTalentLaunch26",
+  "section": "Masculinos SUB18",
+  "generatedAt": "2026-04-12T10:55:44.409Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Jamie Calderbank",
+      "lic1": "19779",
+      "pid1": "232846",
+      "p2": "Nicholas Hoines",
+      "lic2": "23430",
+      "pid2": "320386",
+      "club": "Clube Ténis Lagos",
+      "pts1": 15.63,
+      "lvl1": 6,
+      "pts2": 1.56,
+      "lvl2": 6,
+      "total": 17.19
+    }
+  ]
+}

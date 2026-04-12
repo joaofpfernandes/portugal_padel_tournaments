@@ -1,0 +1,38 @@
+{
+  "tournament": "Open A-Z Padel Fluvial",
+  "slug": "OpenAZPadelFluvial26",
+  "section": "Femininos 1",
+  "generatedAt": "2026-04-12T10:54:25.474Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "MªJoão Fernandes",
+      "lic1": "1738",
+      "pid1": "74517",
+      "p2": "Joana Soares",
+      "lic2": "13633",
+      "pid2": "170934",
+      "club": "",
+      "pts1": 23362.5,
+      "lvl1": 2,
+      "pts2": 85625,
+      "lvl2": 1,
+      "total": 108987.5
+    },
+    {
+      "pos": 2,
+      "p1": "Inês Barbosa",
+      "lic1": "2099",
+      "pid1": "25424",
+      "p2": "Maria Ferreira",
+      "lic2": "12576",
+      "pid2": "144708",
+      "club": "",
+      "pts1": 7625,
+      "lvl1": 3,
+      "pts2": 77625,
+      "lvl2": 1,
+      "total": 85250
+    }
+  ]
+}

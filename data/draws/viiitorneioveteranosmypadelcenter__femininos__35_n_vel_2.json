@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +35 Nível 2",
+  "generatedAt": "2026-04-12T10:57:06.881Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Fernanda Baeza",
+      "lic1": "19599",
+      "pid1": "232616",
+      "p2": "Magui Ribeiro",
+      "lic2": "33840",
+      "pid2": "400314",
+      "club": "PadelExperienceCenter",
+      "pts1": 15.28,
+      "lvl1": 6,
+      "pts2": 15.28,
+      "lvl2": 6,
+      "total": 30.56
+    }
+  ]
+}

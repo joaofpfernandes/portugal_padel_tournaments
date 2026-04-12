@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +35 Nível 1",
+  "generatedAt": "2026-04-12T10:56:08.087Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Diogo Oliveira",
+      "lic1": "578",
+      "pid1": "28867",
+      "p2": "TIFO",
+      "lic2": "7525",
+      "pid2": "74860",
+      "club": "Ultra Padel Club",
+      "pts1": 32737.5,
+      "lvl1": 2,
+      "pts2": 5731.25,
+      "lvl2": 3,
+      "total": 38468.75
+    }
+  ]
+}

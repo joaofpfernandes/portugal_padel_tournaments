@@ -1,0 +1,23 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Açores",
+  "slug": "CampRegABS26Acores",
+  "section": "Femininos 5",
+  "generatedAt": "2026-04-12T10:35:39.293Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Raquel Franco",
+      "lic1": "27199",
+      "pid1": "243648",
+      "p2": "Telma Rocha",
+      "lic2": "27185",
+      "pid2": "381334",
+      "club": "",
+      "pts1": 22.31,
+      "lvl1": 6,
+      "pts2": 22.31,
+      "lvl2": 6,
+      "total": 44.62
+    }
+  ]
+}

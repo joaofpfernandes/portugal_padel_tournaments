@@ -1,0 +1,38 @@
+{
+  "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
+  "slug": "CampRegABS26Norte",
+  "section": "Femininos 6",
+  "generatedAt": "2026-04-12T10:38:36.876Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Joana Da Silva",
+      "lic1": "29953",
+      "pid1": "414507",
+      "p2": "Bruna Silva",
+      "lic2": "34590",
+      "pid2": "505072",
+      "club": "A-ZPadelFamalicao",
+      "pts1": 242.31,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 245.44
+    },
+    {
+      "pos": 2,
+      "p1": "Inês Furtado",
+      "lic1": "4993",
+      "pid1": "75724",
+      "p2": "Ana Cortez",
+      "lic2": "32588",
+      "pid2": "447943",
+      "club": "A-ZPadelFamalicao",
+      "pts1": 159,
+      "lvl1": 6,
+      "pts2": 40.5,
+      "lvl2": 6,
+      "total": 199.5
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "tournament": "I Open Absolutos Prime Padel",
+  "slug": "IOpenAbsolutosPrimePadel",
+  "section": "Masculinos 3",
+  "generatedAt": "2026-04-12T10:54:52.643Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Joao Facas",
+      "lic1": "6233",
+      "pid1": "74875",
+      "p2": "José Pedro Cavaleiro",
+      "lic2": "9927",
+      "pid2": "93289",
+      "club": "PRIMEPADEL",
+      "pts1": 2852.53,
+      "lvl1": 4,
+      "pts2": 950.97,
+      "lvl2": 6,
+      "total": 3803.5
+    },
+    {
+      "pos": 2,
+      "p1": "Francisco Silva",
+      "lic1": "4047",
+      "pid1": "13312",
+      "p2": "Beni Figueiredo",
+      "lic2": "12962",
+      "pid2": "149120",
+      "club": "PRIMEPADEL",
+      "pts1": 1944.38,
+      "lvl1": 5,
+      "pts2": 245,
+      "lvl2": 6,
+      "total": 2189.38
+    }
+  ]
+}

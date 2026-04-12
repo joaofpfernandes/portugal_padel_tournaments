@@ -1,0 +1,23 @@
+{
+  "tournament": "2º Torneio Jovens Empower Talent Launch",
+  "slug": "2torneioJovensEmpowerTalentLaunch26",
+  "section": "Femininos SUB14",
+  "generatedAt": "2026-04-12T10:55:52.742Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Mafalda Santos",
+      "lic1": "17778",
+      "pid1": "227149",
+      "p2": "Matilde Ferreira",
+      "lic2": "",
+      "pid2": "",
+      "club": "GrandeIndoorPadel",
+      "pts1": 330.4,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 330.4
+    }
+  ]
+}

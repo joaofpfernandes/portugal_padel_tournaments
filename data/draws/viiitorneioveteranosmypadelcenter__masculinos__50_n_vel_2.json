@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +50 Nível 2",
+  "generatedAt": "2026-04-12T10:56:39.253Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Pedro Campos",
+      "lic1": "9650",
+      "pid1": "72710",
+      "p2": "João Pêgo",
+      "lic2": "10296",
+      "pid2": "91812",
+      "club": "Lx Indoor Padel",
+      "pts1": 263.15,
+      "lvl1": 6,
+      "pts2": 28.81,
+      "lvl2": 6,
+      "total": 291.96
+    }
+  ]
+}
