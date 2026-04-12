@@ -220,6 +220,11 @@ function buildDraw(rawPlayers, rankings, tournamentLevel) {
   const drawsDir = path.resolve(__dirname, "../../data/draws");
   fs.mkdirSync(drawsDir, { recursive: true });
 
+  // Clear all existing draw files before regenerating
+  for (const f of fs.readdirSync(drawsDir)) {
+    if (f.endsWith('.json')) fs.unlinkSync(path.join(drawsDir, f));
+  }
+
   for (const t of active) {
     const fppEntries = Array.isArray(t.fpp_data) ? t.fpp_data : [t.fpp_data];
 
