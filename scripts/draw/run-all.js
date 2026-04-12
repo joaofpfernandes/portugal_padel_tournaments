@@ -1,32 +1,15 @@
 // run-all.js
 // Runs at 9am/9pm UTC via GitHub Actions.
 // For every tournament active within 31 days of its start_date that has a fpp_data.link,
-// scrapes all available Secções and generates draws for sizes [6, 32, 64].
-// Results saved to data/draws/{slug}__{section}__{drawSize}.json
+// scrapes all available Secções and generates one draw file per section.
+// Results saved to data/draws/{slug}__{section}.json
 
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-const DRAW_SIZES = [16, 32, 64];
 const RANKINGS_URL_MALE   = "https://raw.githubusercontent.com/ricardowth/portugal_padel_tournaments/refs/heads/main/data/rankings/male/latest.json";
 const RANKINGS_URL_FEMALE = "https://raw.githubusercontent.com/ricardowth/portugal_padel_tournaments/refs/heads/main/data/rankings/female/latest.json";
-
-// FPP table 10.8.8
-const DRAW_TABLE = {
-  16: { direct: 12, seeds: 4, qualy: 4 },
-  32: { direct: 24, seeds: 8, qualy: 8 },
-  64: { direct: 48, seeds: 16, qualy: 16 },
-};
-function drawConfig(n) {
-  return (
-    DRAW_TABLE[n] || {
-      direct: Math.floor(n * 0.75),
-      seeds: Math.floor(n / 4),
-      qualy: Math.floor(n * 0.25),
-    }
-  );
-}
 
 function normName(s) {
   return s.toLowerCase().trim().replace(/\s+/g, " ");
@@ -155,8 +138,7 @@ async function scrapePlayers(browser, slug, sectionValue) {
   }
 }
 
-function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
-  const { direct, seeds, qualy } = drawConfig(drawSize);
+function buildDraw(rawPlayers, rankings, tournamentLevel) {
   const T = parseLevel(tournamentLevel);
   const playerClub = new Map();
 
@@ -178,15 +160,11 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
     const info1 = getPlayerInfo(p1, club1, rankings);
     const info2 = getPlayerInfo(p2, club2, rankings);
     pairs.push({
-      p1,
-      p2,
-      club: row.club,
+      p1, p2, club: row.club,
       lic1: info1.license, pid1: info1.playerId,
-      pts1: info1.points,
-      lvl1: info1.level,
+      pts1: info1.points, lvl1: info1.level,
       lic2: info2.license, pid2: info2.playerId,
-      pts2: info2.points,
-      lvl2: info2.level,
+      pts2: info2.points, lvl2: info2.level,
       total: info1.points + info2.points,
       priority: pairPriority(info1.level, info2.level, T),
     });
@@ -194,24 +172,15 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
 
   pairs.sort((a, b) => a.priority - b.priority || b.total - a.total);
 
-  const label = (arr, tag) =>
-    arr.map((p, i) => ({
-      pos: i + 1,
-      draw: tag,
-      p1: p.p1, lic1: p.lic1, pid1: p.pid1,
-      p2: p.p2, lic2: p.lic2, pid2: p.pid2,
-      club: p.club,
-      pts1: p.pts1, lvl1: p.lvl1,
-      pts2: p.pts2, lvl2: p.lvl2,
-      total: p.total,
-      note: tag === "MAIN" && i < seeds ? `Seed ${i + 1}` : "",
-    }));
-
-  return [
-    ...label(pairs.slice(0, direct), "MAIN"),
-    ...label(pairs.slice(direct, direct + qualy), "QUALY"),
-    ...label(pairs.slice(direct + qualy), "OUT"),
-  ];
+  return pairs.map((p, i) => ({
+    pos: i + 1,
+    p1: p.p1, lic1: p.lic1, pid1: p.pid1,
+    p2: p.p2, lic2: p.lic2, pid2: p.pid2,
+    club: p.club,
+    pts1: p.pts1, lvl1: p.lvl1,
+    pts2: p.pts2, lvl2: p.lvl2,
+    total: p.total,
+  }));
 }
 
 (async () => {
@@ -273,18 +242,13 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
         const isFemale = /feminino/i.test(section.text);
         const rankings = isFemale ? rankingsFemale : rankingsMale;
 
-        for (const drawSize of DRAW_SIZES) {
-          const result = buildDraw(rawPlayers, drawSize, rankings, fpp.level || "");
-          const filename = `${safeFilename(slug)}__${safeFilename(section.text)}__${drawSize}.json`;
+        const result = buildDraw(rawPlayers, rankings, fpp.level || "");
+          const filename = `${safeFilename(slug)}__${safeFilename(section.text)}.json`;
           fs.writeFileSync(
             path.join(drawsDir, filename),
-            JSON.stringify({ tournament: tournamentName, slug, section: section.text, drawSize, generatedAt: new Date().toISOString(), result }, null, 2)
+            JSON.stringify({ tournament: tournamentName, slug, section: section.text, generatedAt: new Date().toISOString(), result }, null, 2)
           );
-          const main = result.filter((r) => r.draw === "MAIN").length;
-          const ql = result.filter((r) => r.draw === "QUALY").length;
-          const out = result.filter((r) => r.draw === "OUT").length;
-          console.log(`    draw ${drawSize}: ${main} main / ${ql} qualy / ${out} out → ${filename}`);
-        }
+          console.log(`    ${result.length} pairs → ${filename}`);
       }
     }
   }
@@ -296,10 +260,9 @@ function buildDraw(rawPlayers, drawSize, rankings, tournamentLevel) {
   const index = {};
   for (const file of allFiles) {
     const data = JSON.parse(fs.readFileSync(path.join(drawsDir, file), 'utf8'));
-    const { tournament, slug, section, drawSize } = data;
-    if (!index[slug]) index[slug] = { tournament, slug, sections: {} };
-    if (!index[slug].sections[section]) index[slug].sections[section] = [];
-    if (!index[slug].sections[section].includes(drawSize)) index[slug].sections[section].push(drawSize);
+    const { tournament, slug, section } = data;
+    if (!index[slug]) index[slug] = { tournament, slug, sections: [] };
+    if (!index[slug].sections.includes(section)) index[slug].sections.push(section);
   }
   fs.writeFileSync(path.join(drawsDir, 'index.json'), JSON.stringify(Object.values(index), null, 2));
   console.log('  index.json written.');

@@ -6,55 +6,53 @@ function levelPrefix(section) {
   return /feminino/i.test(section) ? 'F' : 'M';
 }
 
-function openResultTab(data, selectedDrawSize) {
+function openResultTab(data) {
   const { tournament, section, result, generatedAt } = data;
-  const drawSize = selectedDrawSize;
   const prefix = levelPrefix(section);
-  const colors = { MAIN: '#d4edda', QUALY: '#fff3cd', OUT: '#f8d7da' };
-  const badge  = { MAIN: '#28a745', QUALY: '#856404', OUT: '#721c24' };
 
   const rows = result.map(r => `
-    <tr style="background:${colors[r.draw]}">
+    <tr>
       <td>${r.pos}</td>
-      <td><span style="background:${badge[r.draw]};color:#fff;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:700">${r.draw}</span></td>
       <td>${r.pid1 ? `<a href="https://www.tiepadel.com/Dashboard.aspx?id=${r.pid1}" target="_blank">${r.p1}</a>` : r.p1} / ${r.pid2 ? `<a href="https://www.tiepadel.com/Dashboard.aspx?id=${r.pid2}" target="_blank">${r.p2}</a>` : r.p2}</td>
       <td>${r.club}</td>
-      <td style="text-align:right">${r.pts1.toFixed(2)} <span style="font-size:11px;color:#666">${prefix}${r.lvl1 === 99 ? 6 : r.lvl1}</span></td>
-      <td style="text-align:right">${r.pts2.toFixed(2)} <span style="font-size:11px;color:#666">${prefix}${r.lvl2 === 99 ? 6 : r.lvl2}</span></td>
+      <td style="text-align:right">${r.pts1.toFixed(2)} <span style="font-size:11px;color:#6b7280">${prefix}${r.lvl1 === 99 ? 6 : r.lvl1}</span></td>
+      <td style="text-align:right">${r.pts2.toFixed(2)} <span style="font-size:11px;color:#6b7280">${prefix}${r.lvl2 === 99 ? 6 : r.lvl2}</span></td>
       <td style="text-align:right"><strong>${r.total.toFixed(2)}</strong></td>
-      <td>${r.note ? `<span style="background:#1565c0;color:#fff;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:700">${r.note}</span>` : ''}</td>
     </tr>`).join('');
-
-  const main = result.filter(r => r.draw === 'MAIN').length;
-  const ql   = result.filter(r => r.draw === 'QUALY').length;
-  const out  = result.filter(r => r.draw === 'OUT').length;
 
   const win = window.open('', '_blank');
   win.document.write(`<!DOCTYPE html>
 <html lang="pt"><head><meta charset="UTF-8">
 <title>${tournament} — ${section}</title>
 <style>
-  body{font-family:system-ui,sans-serif;padding:24px;background:#f5f5f5;color:#222}
-  h1{margin-bottom:4px;font-size:1.3rem}
-  .meta{color:#666;font-size:13px;margin-bottom:16px}
-  .pills{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
-  .pill{padding:8px 16px;border-radius:8px;color:#fff;font-weight:700;font-size:13px}
-  table{border-collapse:collapse;width:100%;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.1)}
-  th{background:#1e293b;color:#fff;padding:9px 12px;text-align:left;font-size:13px}
-  td{padding:8px 12px;font-size:13px;border-bottom:1px solid rgba(0,0,0,.05)}
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',system-ui,sans-serif;background:#f5f6fa;color:#1a1a2e;line-height:1.5}
+  .header{background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);color:white;padding:1.5rem 2rem;border-bottom:4px solid #d4af37}
+  .header h1{font-size:1.4rem;font-weight:800;color:#fff;margin-bottom:0.25rem}
+  .header .meta{font-size:0.8rem;color:#cbd5e1}
+  .container{max-width:1100px;margin:1.5rem auto;padding:0 1.5rem}
+  .card{background:#fff;border-radius:12px;border:1px solid #e5e7eb;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  table{border-collapse:collapse;width:100%}
+  th{background:#f9fafb;color:#6b7280;padding:9px 12px;text-align:left;font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid #e5e7eb}
+  td{padding:8px 12px;font-size:0.82rem;border-bottom:1px solid #f3f4f6}
+  tr:last-child td{border-bottom:none}
+  tr:hover td{background:#f9fafb}
+  a{color:#1565c0;text-decoration:none}
+  a:hover{text-decoration:underline}
 </style></head><body>
-<h1>🎾 ${tournament}</h1>
-<div class="meta">Secção: <strong>${section}</strong> · Quadro: <strong>${drawSize}</strong> · Gerado: ${new Date(generatedAt).toLocaleString('pt-PT')}</div>
-<div class="pills">
-  <span class="pill" style="background:#28a745">✅ Quadro Principal: ${main}</span>
-  <span class="pill" style="background:#856404">⚡ Qualificação: ${ql}</span>
-  <span class="pill" style="background:#721c24">❌ Fora: ${out}</span>
-  <span class="pill" style="background:#1565c0">👥 Total Pares: ${result.length}</span>
+<div class="header">
+  <h1>🎾 ${tournament}</h1>
+  <div class="meta">Secção: <strong>${section}</strong> &middot; Gerado: ${new Date(generatedAt).toLocaleString('pt-PT')}</div>
 </div>
-<table>
-  <thead><tr><th>#</th><th>Draw</th><th>Par</th><th>Clube</th><th>Pts P1</th><th>Pts P2</th><th>Total</th><th>Nota</th></tr></thead>
-  <tbody>${rows}</tbody>
-</table>
+<div class="container">
+  <div class="card">
+    <table>
+      <thead><tr><th>#</th><th>Par</th><th>Clube</th><th>Pts P1</th><th>Pts P2</th><th>Total</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>
+</div>
 </body></html>`);
   win.document.close();
 }
@@ -92,7 +90,7 @@ async function buildTournamentList() {
       const parent = t.tournament.slice(0, dashIdx);
       const region = t.tournament.slice(dashIdx + 3);
       if (!parentMap[parent]) {
-        parentMap[parent] = { tournament: parent, slug: null, sections: {}, regions: [] };
+        parentMap[parent] = { tournament: parent, slug: null, sections: [], regions: [] };
         grouped.push(parentMap[parent]);
       }
       parentMap[parent].regions.push({ region, slug: t.slug, sections: t.sections });
@@ -101,13 +99,9 @@ async function buildTournamentList() {
 
   list.innerHTML = grouped.map((t, i) => {
     if (t.regions) {
-      // Regional tournament: show region picker first
       const regionOpts = t.regions.map(r => `<option value="${r.region}">${r.region}</option>`).join('');
       const firstRegion = t.regions[0];
-      const sections = Object.keys(firstRegion.sections);
-      const sectionOpts = sections.map(s => `<option value="${s}">${s}</option>`).join('');
-      const drawSizes = (firstRegion.sections[sections[0]] || []).slice().sort((a, b) => a - b);
-      const drawOpts = drawSizes.map(d => `<option value="${d}">${d}</option>`).join('');
+      const sectionOpts = firstRegion.sections.map(s => `<option value="${s}">${s}</option>`).join('');
       const regionsData = btoa(unescape(encodeURIComponent(JSON.stringify(t.regions))));
       return `
       <div class="t-row" id="trow-${i}">
@@ -119,31 +113,20 @@ async function buildTournamentList() {
           </div>
           <div class="t-control-group">
             <label>Categoria</label>
-            <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
-          </div>
-          <div class="t-control-group">
-            <label>Tamanho do quadro</label>
-            <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+            <select id="sec-${i}" title="Secção">${sectionOpts}</select>
           </div>
           <button class="btn-gen" onclick="generate(${i})">Ver</button>
         </div>
       </div>`;
     } else {
-      const sections = Object.keys(t.sections);
-      const sectionOpts = sections.map(s => `<option value="${s}">${s}</option>`).join('');
-      const drawSizes = (t.sections[sections[0]] || []).slice().sort((a, b) => a - b);
-      const drawOpts = drawSizes.map(d => `<option value="${d}">${d}</option>`).join('');
+      const sectionOpts = t.sections.map(s => `<option value="${s}">${s}</option>`).join('');
       return `
       <div class="t-row" id="trow-${i}">
         <div><div class="t-name">${t.tournament}</div></div>
         <div class="t-controls">
           <div class="t-control-group">
             <label>Categoria</label>
-            <select id="sec-${i}" onchange="updateDrawSizes(${i})" title="Secção">${sectionOpts}</select>
-          </div>
-          <div class="t-control-group">
-            <label>Tamanho do quadro</label>
-            <select id="draw-${i}" title="Tamanho do quadro">${drawOpts}</select>
+            <select id="sec-${i}" title="Secção">${sectionOpts}</select>
           </div>
           <button class="btn-gen" onclick="generate(${i})">Ver</button>
         </div>
@@ -155,36 +138,16 @@ async function buildTournamentList() {
 }
 
 window.updateRegion = function(i) {
-  const t = window._drawIndex[i];
   const regionSel = document.getElementById(`rgn-${i}`);
   const regions = JSON.parse(decodeURIComponent(escape(atob(regionSel.dataset.regions))));
   const region = regions.find(r => r.region === regionSel.value);
   if (!region) return;
-  const sections = Object.keys(region.sections);
-  document.getElementById(`sec-${i}`).innerHTML = sections.map(s => `<option value="${s}">${s}</option>`).join('');
-  updateDrawSizes(i);
-};
-
-window.updateDrawSizes = function(i) {
-  const t = window._drawIndex[i];
-  const section = document.getElementById(`sec-${i}`).value;
-  let sections;
-  if (t.regions) {
-    const regionSel = document.getElementById(`rgn-${i}`);
-    const regions = JSON.parse(decodeURIComponent(escape(atob(regionSel.dataset.regions))));
-    const region = regions.find(r => r.region === regionSel.value);
-    sections = region ? region.sections : {};
-  } else {
-    sections = t.sections;
-  }
-  const sizes = (sections[section] || []).slice().sort((a, b) => a - b);
-  document.getElementById(`draw-${i}`).innerHTML = sizes.map(d => `<option value="${d}">${d}</option>`).join('');
+  document.getElementById(`sec-${i}`).innerHTML = region.sections.map(s => `<option value="${s}">${s}</option>`).join('');
 };
 
 window.generate = async function(i) {
   const t = window._drawIndex[i];
-  const section  = document.getElementById(`sec-${i}`).value;
-  const drawSize = document.getElementById(`draw-${i}`).value;
+  const section = document.getElementById(`sec-${i}`).value;
   const btn = document.querySelector(`#trow-${i} .btn-gen`);
 
   let slug = t.slug;
@@ -200,9 +163,9 @@ window.generate = async function(i) {
   btn.textContent = 'A carregar...';
 
   try {
-    const filename = `${safeFilename(slug)}__${safeFilename(section)}__${drawSize}.json`;
+    const filename = `${safeFilename(slug)}__${safeFilename(section)}.json`;
     const data = await fetch(DRAWS_BASE + filename).then(r => r.json());
-    openResultTab(data, parseInt(drawSize));
+    openResultTab(data);
   } catch (e) {
     alert(`Erro ao carregar quadro: ${e.message}`);
   } finally {

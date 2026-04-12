@@ -1,6 +1,5 @@
-/* globals escapeHtml, normalizeSearchText, readCache, writeCache */
+/* globals escapeHtml, normalizeSearchText */
 
-const CACHE_TTL_MS = 60 * 60 * 1000;
 const ROWS_PER_PAGE = 100;
 const CDN_BASE = "../data/rankings";
 
@@ -27,16 +26,11 @@ const parseRankingNumber = (value) => {
 
 const formatRankingChange = (value) => {
   const raw = String(value ?? "").trim();
-  if (!raw) return "-";
-  if (raw === "-") return raw;
-  if (raw.startsWith("+") || raw.startsWith("-")) return raw;
-
-  const numeric = Number(raw.replace(",", "."));
-  if (Number.isFinite(numeric) && numeric > 0) {
-    return `+${raw}`;
-  }
-
-  return raw;
+  if (!raw || raw === "-") return "-";
+  const num = Number(raw);
+  if (!Number.isFinite(num) || num === 0) return raw;
+  if (num > 0) return `<span style="color:#2e7d32">+${raw}</span>`;
+  return `<span style="color:#c62828">${raw}</span>`;
 };
 
 const getTiePlayerUrl = (playerId) => {
@@ -75,36 +69,34 @@ const isYouthAgeType = (value) => {
   return normalized.startsWith("sub") || normalized.startsWith("jov");
 };
 
-const sortAgeTypes = (values) => [...values].sort((a, b) => {
-  const aNorm = normalizeSearchText(a).replaceAll(" ", "");
-  const bNorm = normalizeSearchText(b).replaceAll(" ", "");
+const sortAgeTypes = (values) =>
+  [...values].sort((a, b) => {
+    const aNorm = normalizeSearchText(a).replaceAll(" ", "");
+    const bNorm = normalizeSearchText(b).replaceAll(" ", "");
 
-  const aPriority = aNorm === "abs"
-    ? 0
-    : isYouthAgeType(a)
-      ? 1
-      : 2;
-  const bPriority = bNorm === "abs"
-    ? 0
-    : isYouthAgeType(b)
-      ? 1
-      : 2;
+    const aPriority = aNorm === "abs" ? 0 : isYouthAgeType(a) ? 1 : 2;
+    const bPriority = bNorm === "abs" ? 0 : isYouthAgeType(b) ? 1 : 2;
 
-  if (aPriority !== bPriority) return aPriority - bPriority;
-  return a.localeCompare(b, "pt");
-});
+    if (aPriority !== bPriority) return aPriority - bPriority;
+    return a.localeCompare(b, "pt");
+  });
 
-const uniqueSortedValues = (rows, key) => [...new Set(rows
-  .map((row) => String(row?.[key] ?? "").trim())
-  .filter(Boolean))]
-  .sort((a, b) => a.localeCompare(b, "pt"));
+const uniqueSortedValues = (rows, key) =>
+  [
+    ...new Set(
+      rows.map((row) => String(row?.[key] ?? "").trim()).filter(Boolean),
+    ),
+  ].sort((a, b) => a.localeCompare(b, "pt"));
 
 const fillSelectOptions = (selectElement, values, allLabel) => {
   if (!selectElement) return;
   const current = selectElement.value || "all";
   const optionsHtml = [
     `<option value="all">${allLabel}</option>`,
-    ...values.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`),
+    ...values.map(
+      (value) =>
+        `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`,
+    ),
   ].join("");
   selectElement.innerHTML = optionsHtml;
   if (values.includes(current)) {
@@ -116,10 +108,8 @@ const fillSelectOptions = (selectElement, values, allLabel) => {
 
 const getSourceConfig = () => {
   const source = sourceSelect?.value === "female" ? "female" : "male";
-
   return {
     source,
-    cacheKey: `${source}-rankings-cache-v1`,
     label: source === "female" ? "Feminino" : "Masculino",
   };
 };
@@ -133,24 +123,30 @@ const formatFileDate = (fileName) => {
 
 const renderCurrentPage = () => {
   if (!filteredRows.length) {
-    tbody.innerHTML = '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
+    tbody.innerHTML =
+      '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
     if (pageInfo) pageInfo.textContent = "Página 0 de 0";
     if (prevPageBtn) prevPageBtn.disabled = true;
     if (nextPageBtn) nextPageBtn.disabled = true;
     return;
   }
 
-  const totalPages = Math.max(1, Math.ceil(filteredRows.length / ROWS_PER_PAGE));
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredRows.length / ROWS_PER_PAGE),
+  );
   if (currentPage > totalPages) currentPage = totalPages;
   if (currentPage < 1) currentPage = 1;
 
   const start = (currentPage - 1) * ROWS_PER_PAGE;
   const pageRows = filteredRows.slice(start, start + ROWS_PER_PAGE);
 
-  tbody.innerHTML = pageRows.map((player) => `
+  tbody.innerHTML = pageRows
+    .map(
+      (player) => `
     <tr>
       <td>${escapeHtml(player.Ranking)}</td>
-      <td>${escapeHtml(formatRankingChange(player.RankingChange))}</td>
+      <td>${formatRankingChange(player.RankingChange)}</td>
       <td>${renderLicenceCell(player)}</td>
       <td>${escapeHtml(player.Name)}</td>
       <td>${renderProfileCell(player)}</td>
@@ -159,11 +155,15 @@ const renderCurrentPage = () => {
       <td>${escapeHtml(player.Level)}</td>
       <td>${escapeHtml(player.AgeType)}</td>
       <td>${escapeHtml(player.NumberOfValidTournaments)}</td>
-      <td>${getTiePlayerUrl(player.PlayerID)
-        ? `<a href="${escapeHtml(getTiePlayerUrl(player.PlayerID))}" target="_blank" rel="noopener noreferrer">Ver</a>`
-        : "-"}</td>
+      <td>${
+        getTiePlayerUrl(player.PlayerID)
+          ? `<a href="${escapeHtml(getTiePlayerUrl(player.PlayerID))}" target="_blank" rel="noopener noreferrer">Ver</a>`
+          : "-"
+      }</td>
     </tr>
-  `).join("");
+  `,
+    )
+    .join("");
 
   if (pageInfo) pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
   if (prevPageBtn) prevPageBtn.disabled = currentPage <= 1;
@@ -189,11 +189,13 @@ const applyFilters = () => {
     const normalizedClub = normalizeSearchText(club);
     const normalizedLicenceNumber = normalizeSearchText(licenceNumber);
 
-    const matchesSearch = queryTerms.length === 0 ||
-      queryTerms.some((term) =>
-        normalizedName.includes(term) ||
-        normalizedClub.includes(term) ||
-        normalizedLicenceNumber.includes(term)
+    const matchesSearch =
+      queryTerms.length === 0 ||
+      queryTerms.some(
+        (term) =>
+          normalizedName.includes(term) ||
+          normalizedClub.includes(term) ||
+          normalizedLicenceNumber.includes(term),
       );
     const matchesLevel = levelValue === "all" || level === levelValue;
     const matchesAge = ageValue === "all" || age === ageValue;
@@ -216,22 +218,36 @@ const renderRows = (rows) => {
     (a, b) => parseRankingNumber(a.Ranking) - parseRankingNumber(b.Ranking),
   );
 
-  fillSelectOptions(levelFilter, uniqueSortedValues(sortedRows, "Level"), "Todos os níveis");
-  fillSelectOptions(ageFilter, sortAgeTypes(uniqueSortedValues(sortedRows, "AgeType")), "Todos os escalões");
-  fillSelectOptions(clubFilter, uniqueSortedValues(sortedRows, "Club"), "Todos os clubes");
+  fillSelectOptions(
+    levelFilter,
+    uniqueSortedValues(sortedRows, "Level"),
+    "Todos os níveis",
+  );
+  fillSelectOptions(
+    ageFilter,
+    sortAgeTypes(uniqueSortedValues(sortedRows, "AgeType")),
+    "Todos os escalões",
+  );
+  fillSelectOptions(
+    clubFilter,
+    uniqueSortedValues(sortedRows, "Club"),
+    "Todos os clubes",
+  );
 
   currentPage = 1;
   applyFilters();
 };
 
-if (prevPageBtn) prevPageBtn.addEventListener("click", () => {
-  currentPage -= 1;
-  renderCurrentPage();
-});
-if (nextPageBtn) nextPageBtn.addEventListener("click", () => {
-  currentPage += 1;
-  renderCurrentPage();
-});
+if (prevPageBtn)
+  prevPageBtn.addEventListener("click", () => {
+    currentPage -= 1;
+    renderCurrentPage();
+  });
+if (nextPageBtn)
+  nextPageBtn.addEventListener("click", () => {
+    currentPage += 1;
+    renderCurrentPage();
+  });
 if (searchInput) searchInput.addEventListener("input", applyFilters);
 if (levelFilter) levelFilter.addEventListener("change", applyFilters);
 if (ageFilter) ageFilter.addEventListener("change", applyFilters);
@@ -239,30 +255,20 @@ if (clubFilter) clubFilter.addEventListener("change", applyFilters);
 
 const loadRankings = async () => {
   const config = getSourceConfig();
-
-  const cached = readCache(config.cacheKey, CACHE_TTL_MS);
-  if (cached) {
-    currentDate = cached.date;
-    renderRows(cached.data);
-    return;
-  }
-
   try {
-    const response = await fetch(`${CDN_BASE}/${config.source}/latest.json`, {
-      cache: "no-cache",
-    });
+    const response = await fetch(`${CDN_BASE}/${config.source}/latest.json`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const json = await response.json();
     const date = String(json?.date || "");
     const data = json?.rankings;
     if (!Array.isArray(data)) throw new Error("Invalid rankings format");
     currentDate = date;
-    writeCache(config.cacheKey, date, data);
     renderRows(data);
   } catch {
     if (meta) meta.textContent = "Não foi possível carregar o ranking.";
     if (tbody) {
-      tbody.innerHTML = '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
+      tbody.innerHTML =
+        '<tr><td colspan="11">Sem dados disponíveis de momento.</td></tr>';
     }
   }
 };

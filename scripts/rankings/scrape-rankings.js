@@ -14,9 +14,16 @@ async function extractRows(page) {
       if (!row.querySelector('[id*="_lbl_position_"]')) return null;
       const get = sel => { const el = row.querySelector(sel); return el ? el.innerText.trim() : ''; };
       const tdVars = row.querySelector('[id*="_td_vars_"]');
+      const movesNum = get('[id*="_lbl_moves_number_"]');
+      const isUp = !!row.querySelector('[id*="_lbl_moves_up_"]');
+      const isDown = !!row.querySelector('[id*="_lbl_moves_down_"]');
+      const rankingChange = movesNum === '' || movesNum === '-' ? '-'
+        : isDown ? `-${movesNum}`
+        : isUp ? movesNum
+        : '-';
       return {
         Ranking:                  get('[id*="_lbl_position_"]'),
-        RankingChange:            get('[id*="_lbl_moves_number_"]'),
+        RankingChange:            rankingChange,
         LicenceNumber:            get('[id*="_lbl_license_"]'),
         Name:                     get('[id*="_lbl_player_"]'),
         Points:                   get('[id*="_lbl_points_"]'),
