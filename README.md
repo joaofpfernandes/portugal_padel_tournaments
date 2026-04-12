@@ -1,3 +1,6 @@
+Copyright 2026 João Fernandes (https://github.com/joaofpfernandes)
+Copyright 2026 Contributors (https://github.com/joaofpfernandes/portugal_padel_tournaments/graphs/contributors)
+
 # Padel Portugal 🎾
 
 **https://joaofpfernandes.github.io/portugal_padel_tournaments/**
