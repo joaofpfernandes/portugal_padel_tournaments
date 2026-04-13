@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-12T10:59:30.291Z",
+  "generatedAt": "2026-04-13T10:41:31.262Z",
   "result": [
     {
       "pos": 1,
@@ -126,6 +126,21 @@
     },
     {
       "pos": 9,
+      "p1": "Bernardo Monteiro",
+      "lic1": "5394",
+      "pid1": "84131",
+      "p2": "Rodrigo Gabado",
+      "lic2": "7568",
+      "pid2": "97691",
+      "club": "ProPadelAcademy",
+      "pts1": 38625,
+      "lvl1": 2,
+      "pts2": 6918.75,
+      "lvl2": 3,
+      "total": 45543.75
+    },
+    {
+      "pos": 10,
       "p1": "Guilherme Martins",
       "lic1": "9007",
       "pid1": "41305",
@@ -140,7 +155,37 @@
       "total": 45493.75
     },
     {
-      "pos": 10,
+      "pos": 11,
+      "p1": "Bernardo Guimarães",
+      "lic1": "16583",
+      "pid1": "5416",
+      "p2": "Luís Simões 🤖",
+      "lic2": "15102",
+      "pid2": "86711",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 18300,
+      "lvl1": 2,
+      "pts2": 26718.75,
+      "lvl2": 2,
+      "total": 45018.75
+    },
+    {
+      "pos": 12,
+      "p1": "Bernardo Gomes",
+      "lic1": "4010",
+      "pid1": "74209",
+      "p2": "Davide Rodrigues",
+      "lic2": "23571",
+      "pid2": "323066",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 31727.5,
+      "lvl1": 2,
+      "pts2": 12440.63,
+      "lvl2": 2,
+      "total": 44168.13
+    },
+    {
+      "pos": 13,
       "p1": "Morten Eriksen",
       "lic1": "14699",
       "pid1": "175320",
@@ -155,7 +200,22 @@
       "total": 40713.75
     },
     {
-      "pos": 11,
+      "pos": 14,
+      "p1": "João Luís Santos",
+      "lic1": "982",
+      "pid1": "75305",
+      "p2": "Diogo Santiago",
+      "lic2": "4396",
+      "pid2": "76297",
+      "club": "",
+      "pts1": 12862.5,
+      "lvl1": 2,
+      "pts2": 25156.25,
+      "lvl2": 2,
+      "total": 38018.75
+    },
+    {
+      "pos": 15,
       "p1": "Henrique Costa",
       "lic1": "12247",
       "pid1": "85506",
@@ -170,7 +230,7 @@
       "total": 37050
     },
     {
-      "pos": 12,
+      "pos": 16,
       "p1": "Filipe Lucas Bernardo 💥",
       "lic1": "10021",
       "pid1": "94515",
@@ -185,7 +245,7 @@
       "total": 36443.75
     },
     {
-      "pos": 13,
+      "pos": 17,
       "p1": "André Figueiredo",
       "lic1": "18864",
       "pid1": "154570",
@@ -200,7 +260,7 @@
       "total": 34424.69
     },
     {
-      "pos": 14,
+      "pos": 18,
       "p1": "Carlos Morais",
       "lic1": "21641",
       "pid1": "27460",
@@ -215,7 +275,7 @@
       "total": 33637.5
     },
     {
-      "pos": 15,
+      "pos": 19,
       "p1": "André Martelo",
       "lic1": "3055",
       "pid1": "69147",
@@ -230,7 +290,7 @@
       "total": 29781.25
     },
     {
-      "pos": 16,
+      "pos": 20,
       "p1": "Marcos Salort",
       "lic1": "21903",
       "pid1": "247589",
@@ -245,7 +305,7 @@
       "total": 29673.440000000002
     },
     {
-      "pos": 17,
+      "pos": 21,
       "p1": "Ricardo Azurara",
       "lic1": "4437",
       "pid1": "54234",
@@ -260,7 +320,7 @@
       "total": 29050.35
     },
     {
-      "pos": 18,
+      "pos": 22,
       "p1": "Eduardo Costa",
       "lic1": "12317",
       "pid1": "11515",
@@ -275,7 +335,7 @@
       "total": 28085.63
     },
     {
-      "pos": 19,
+      "pos": 23,
       "p1": "João Azevedo",
       "lic1": "8801",
       "pid1": "50512",
@@ -290,7 +350,7 @@
       "total": 27946.879999999997
     },
     {
-      "pos": 20,
+      "pos": 24,
       "p1": "João Fiúza",
       "lic1": "13289",
       "pid1": "152600",
@@ -305,7 +365,7 @@
       "total": 27695.940000000002
     },
     {
-      "pos": 21,
+      "pos": 25,
       "p1": "Luís Carrasqueira",
       "lic1": "16844",
       "pid1": "199306",
@@ -320,7 +380,7 @@
       "total": 26971.879999999997
     },
     {
-      "pos": 22,
+      "pos": 26,
       "p1": "Gabriel Machado",
       "lic1": "22635",
       "pid1": "14934",
@@ -335,7 +395,22 @@
       "total": 25815
     },
     {
-      "pos": 23,
+      "pos": 27,
+      "p1": "Alexandre Belchior",
+      "lic1": "16892",
+      "pid1": "200226",
+      "p2": "Gabriel Barreiros",
+      "lic2": "20675",
+      "pid2": "235795",
+      "club": "GCP-PadelAmoreiras",
+      "pts1": 16624.06,
+      "lvl1": 2,
+      "pts2": 7422.25,
+      "lvl2": 3,
+      "total": 24046.31
+    },
+    {
+      "pos": 28,
       "p1": "Alexandre Moreira",
       "lic1": "5316",
       "pid1": "26587",
@@ -350,7 +425,7 @@
       "total": 23715.32
     },
     {
-      "pos": 24,
+      "pos": 29,
       "p1": "David Pinto",
       "lic1": "7371",
       "pid1": "81583",
@@ -365,7 +440,7 @@
       "total": 22112.75
     },
     {
-      "pos": 25,
+      "pos": 30,
       "p1": "Paulo Paulos",
       "lic1": "17272",
       "pid1": "183223",
@@ -380,7 +455,7 @@
       "total": 16562.25
     },
     {
-      "pos": 26,
+      "pos": 31,
       "p1": "José Duarte",
       "lic1": "3477",
       "pid1": "27205",
@@ -395,7 +470,7 @@
       "total": 16553.2
     },
     {
-      "pos": 27,
+      "pos": 32,
       "p1": "Rodrigo Confraria",
       "lic1": "11730",
       "pid1": "138061",
@@ -410,7 +485,7 @@
       "total": 16441.26
     },
     {
-      "pos": 28,
+      "pos": 33,
       "p1": "Gonçalo Guerra",
       "lic1": "817",
       "pid1": "40723",

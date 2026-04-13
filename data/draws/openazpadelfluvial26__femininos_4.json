@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-12T10:54:04.171Z",
+  "generatedAt": "2026-04-13T10:35:51.607Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Inês Bastos",
+      "lic1": "10997",
+      "pid1": "136761",
+      "p2": "Kika Carvalho",
+      "lic2": "21575",
+      "pid2": "246871",
+      "club": "4OURPADELSobrosa",
+      "pts1": 476.22,
+      "lvl1": 6,
+      "pts2": 1461.98,
+      "lvl2": 5,
+      "total": 1938.2
+    },
+    {
+      "pos": 3,
       "p1": "Joana Casais",
       "lic1": "25762",
       "pid1": "304545",
@@ -35,7 +50,7 @@
       "total": 1719.75
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Luísa Salgueiro",
       "lic1": "1768",
       "pid1": "78317",
@@ -50,7 +65,7 @@
       "total": 1050.24
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Francisca Bessa",
       "lic1": "23314",
       "pid1": "186134",
@@ -65,7 +80,7 @@
       "total": 772.12
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Catarina Lima",
       "lic1": "17053",
       "pid1": "203476",
@@ -78,6 +93,21 @@
       "pts2": 12.5,
       "lvl2": 6,
       "total": 3487.03
+    },
+    {
+      "pos": 7,
+      "p1": "Joana Ribeiro",
+      "lic1": "10993",
+      "pid1": "136424",
+      "p2": "Rita Marques Dias",
+      "lic2": "29936",
+      "pid2": "414492",
+      "club": "Padel Beat",
+      "pts1": 3362.69,
+      "lvl1": 4,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 3365.82
     }
   ]
 }

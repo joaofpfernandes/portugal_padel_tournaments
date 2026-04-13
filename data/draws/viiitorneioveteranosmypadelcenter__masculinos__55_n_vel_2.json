@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +55 Nível 2",
+  "generatedAt": "2026-04-13T10:38:49.973Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Joao Morgado",
+      "lic1": "32763",
+      "pid1": "229544",
+      "p2": "alvaro silva",
+      "lic2": "35237",
+      "pid2": "317364",
+      "club": "Nave",
+      "pts1": 371.16,
+      "lvl1": 6,
+      "pts2": 4.69,
+      "lvl2": 6,
+      "total": 375.85
+    }
+  ]
+}

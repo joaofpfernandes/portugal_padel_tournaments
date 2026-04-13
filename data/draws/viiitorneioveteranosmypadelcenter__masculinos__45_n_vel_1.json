@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +45 Nível 1",
+  "generatedAt": "2026-04-13T10:38:27.986Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Vasco Rocha",
+      "lic1": "4188",
+      "pid1": "42128",
+      "p2": "Rui Quental",
+      "lic2": "4187",
+      "pid2": "42129",
+      "club": "Clube Ténis Padel de Portimão",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 1137.5,
+      "lvl2": 6,
+      "total": 1150
+    }
+  ]
+}

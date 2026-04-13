@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-12T11:00:26.724Z",
+  "generatedAt": "2026-04-13T10:42:29.548Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Sofia Albuquerque",
+      "lic1": "21428",
+      "pid1": "243343",
+      "p2": "Vera Cavalheiro",
+      "lic2": "27315",
+      "pid2": "384522",
+      "club": "Padel Factory",
+      "pts1": 22933.75,
+      "lvl1": 2,
+      "pts2": 15442.81,
+      "lvl2": 2,
+      "total": 38376.56
+    },
+    {
+      "pos": 4,
       "p1": "Catarina Pontes",
       "lic1": "17524",
       "pid1": "172563",
@@ -50,7 +65,7 @@
       "total": 27075.65
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Carolina Reis",
       "lic1": "18637",
       "pid1": "230464",
@@ -65,7 +80,7 @@
       "total": 22872.5
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Filipa Alveirinho",
       "lic1": "22106",
       "pid1": "173181",
@@ -78,6 +93,36 @@
       "pts2": 9670.47,
       "lvl2": 3,
       "total": 21366.72
+    },
+    {
+      "pos": 7,
+      "p1": "Maria Rodrigues",
+      "lic1": "18004",
+      "pid1": "23233",
+      "p2": "Mónica Galambas",
+      "lic2": "21544",
+      "pid2": "175293",
+      "club": "Lisboa Racket Centre",
+      "pts1": 8335.94,
+      "lvl1": 3,
+      "pts2": 11725,
+      "lvl2": 2,
+      "total": 20060.940000000002
+    },
+    {
+      "pos": 8,
+      "p1": "Cristina Gomes",
+      "lic1": "4603",
+      "pid1": "74046",
+      "p2": "Marta Gomes",
+      "lic2": "9310",
+      "pid2": "86575",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 8575,
+      "lvl1": 3,
+      "pts2": 7093.75,
+      "lvl2": 3,
+      "total": 15668.75
     }
   ]
 }

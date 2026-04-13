@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-12T10:53:06.719Z",
+  "generatedAt": "2026-04-13T10:34:43.802Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Zé Macedo",
+      "lic1": "13642",
+      "pid1": "95945",
+      "p2": "André Ferreira",
+      "lic2": "17422",
+      "pid2": "187794",
+      "club": "MeshPadelCenter",
+      "pts1": 15.63,
+      "lvl1": 6,
+      "pts2": 1075.06,
+      "lvl2": 6,
+      "total": 1090.69
+    },
+    {
+      "pos": 4,
       "p1": "Frederico Mota Pereira",
       "lic1": "25776",
       "pid1": "332384",
@@ -50,7 +65,7 @@
       "total": 1023.63
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Raúl Lima",
       "lic1": "13172",
       "pid1": "157079",
@@ -65,7 +80,7 @@
       "total": 1010.35
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Eduardo Lamas",
       "lic1": "9888",
       "pid1": "93078",
@@ -80,7 +95,22 @@
       "total": 837.86
     },
     {
-      "pos": 6,
+      "pos": 7,
+      "p1": "Pedro Castro Azevedo",
+      "lic1": "28428",
+      "pid1": "188021",
+      "p2": "Real",
+      "lic2": "29916",
+      "pid2": "326904",
+      "club": "M9PadelCenter",
+      "pts1": 339.06,
+      "lvl1": 6,
+      "pts2": 423.22,
+      "lvl2": 6,
+      "total": 762.28
+    },
+    {
+      "pos": 8,
       "p1": "Gonçalo Namorado",
       "lic1": "12157",
       "pid1": "101946",
@@ -95,7 +125,7 @@
       "total": 504.13
     },
     {
-      "pos": 7,
+      "pos": 9,
       "p1": "João Mesquita",
       "lic1": "30265",
       "pid1": "317862",
@@ -110,7 +140,7 @@
       "total": 429.52
     },
     {
-      "pos": 8,
+      "pos": 10,
       "p1": "José Borges",
       "lic1": "11026",
       "pid1": "136826",
@@ -125,7 +155,7 @@
       "total": 322.16
     },
     {
-      "pos": 9,
+      "pos": 11,
       "p1": "André Tubias",
       "lic1": "6556",
       "pid1": "58450",
@@ -140,7 +170,7 @@
       "total": 269.26
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Tiago Oliveira",
       "lic1": "22829",
       "pid1": "319801",
@@ -155,7 +185,7 @@
       "total": 260.02
     },
     {
-      "pos": 11,
+      "pos": 13,
       "p1": "Márcio Carvalho",
       "lic1": "19895",
       "pid1": "183261",
@@ -170,7 +200,7 @@
       "total": 174.63
     },
     {
-      "pos": 12,
+      "pos": 14,
       "p1": "Rui Monteiro",
       "lic1": "14409",
       "pid1": "174956",
@@ -185,7 +215,7 @@
       "total": 163.91
     },
     {
-      "pos": 13,
+      "pos": 15,
       "p1": "Ricardo Grave",
       "lic1": "32452",
       "pid1": "346495",
@@ -200,7 +230,22 @@
       "total": 147.25
     },
     {
-      "pos": 14,
+      "pos": 16,
+      "p1": "João Pimenta",
+      "lic1": "32919",
+      "pid1": "144663",
+      "p2": "Edu Leite",
+      "lic2": "33479",
+      "pid2": "480485",
+      "club": "LIFEPADEL",
+      "pts1": 55.63,
+      "lvl1": 6,
+      "pts2": 61.88,
+      "lvl2": 6,
+      "total": 117.51
+    },
+    {
+      "pos": 17,
       "p1": "Manuel Gonçalves",
       "lic1": "33070",
       "pid1": "6762",
@@ -215,7 +260,22 @@
       "total": 115.31
     },
     {
-      "pos": 15,
+      "pos": 18,
+      "p1": "Manuel Paraíso Araújo",
+      "lic1": "25230",
+      "pid1": "325954",
+      "p2": "Luis Porto",
+      "lic2": "29291",
+      "pid2": "413548",
+      "club": "Top-padelBragaCenter",
+      "pts1": 71.17,
+      "lvl1": 6,
+      "pts2": 7.81,
+      "lvl2": 6,
+      "total": 78.98
+    },
+    {
+      "pos": 19,
       "p1": "Afonso Ribeiro",
       "lic1": "30230",
       "pid1": "369555",
@@ -230,7 +290,7 @@
       "total": 72.19
     },
     {
-      "pos": 16,
+      "pos": 20,
       "p1": "João Santos",
       "lic1": "30641",
       "pid1": "416099",
@@ -245,7 +305,22 @@
       "total": 67.09
     },
     {
-      "pos": 17,
+      "pos": 21,
+      "p1": "Diogo Castro",
+      "lic1": "14792",
+      "pid1": "150507",
+      "p2": "Manu",
+      "lic2": "33569",
+      "pid2": "502623",
+      "club": "LIFEPADEL",
+      "pts1": 54.12,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 63.5
+    },
+    {
+      "pos": 22,
       "p1": "Adriano Lopes",
       "lic1": "24360",
       "pid1": "205669",

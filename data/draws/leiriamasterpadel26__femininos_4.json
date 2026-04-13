@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-12T11:00:07.828Z",
+  "generatedAt": "2026-04-13T10:42:06.254Z",
   "result": [
     {
       "pos": 1,
@@ -126,6 +126,36 @@
     },
     {
       "pos": 9,
+      "p1": "Raquel Ramos",
+      "lic1": "29674",
+      "pid1": "208420",
+      "p2": "Ana Santos",
+      "lic2": "30600",
+      "pid2": "334577",
+      "club": "Boavista FC Padel Team",
+      "pts1": 732.44,
+      "lvl1": 6,
+      "pts2": 2137.73,
+      "lvl2": 4,
+      "total": 2870.17
+    },
+    {
+      "pos": 10,
+      "p1": "Catarina Mata",
+      "lic1": "13338",
+      "pid1": "104097",
+      "p2": "Carolina Almeida",
+      "lic2": "30502",
+      "pid2": "331261",
+      "club": "W Padel Country Club",
+      "pts1": 1987.72,
+      "lvl1": 5,
+      "pts2": 712.13,
+      "lvl2": 6,
+      "total": 2699.85
+    },
+    {
+      "pos": 11,
       "p1": "Inês Vitorino",
       "lic1": "21433",
       "pid1": "203789",
@@ -140,7 +170,7 @@
       "total": 2636.16
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Joana Caetano",
       "lic1": "14168",
       "pid1": "174621",

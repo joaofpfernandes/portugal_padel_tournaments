@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-12T10:53:25.265Z",
+  "generatedAt": "2026-04-13T10:35:02.548Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Pedro Alves",
+      "lic1": "19319",
+      "pid1": "16578",
+      "p2": "Miguel Martins",
+      "lic2": "21390",
+      "pid2": "204370",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 6508.13,
+      "lvl1": 3,
+      "pts2": 2667.5,
+      "lvl2": 4,
+      "total": 9175.630000000001
+    },
+    {
+      "pos": 4,
       "p1": "“Tolito” Magalhães",
       "lic1": "4755",
       "pid1": "74217",
@@ -50,7 +65,7 @@
       "total": 8939.69
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Huguito Ferraro",
       "lic1": "18606",
       "pid1": "224803",
@@ -65,7 +80,7 @@
       "total": 8299.75
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Diogo Miranda",
       "lic1": "16745",
       "pid1": "197441",
@@ -80,7 +95,22 @@
       "total": 7792.8099999999995
     },
     {
-      "pos": 6,
+      "pos": 7,
+      "p1": "João Bessa",
+      "lic1": "12175",
+      "pid1": "141569",
+      "p2": "Gonçalo",
+      "lic2": "21212",
+      "pid2": "241881",
+      "club": "TheHyveAcademy",
+      "pts1": 4203.13,
+      "lvl1": 4,
+      "pts2": 3390.73,
+      "lvl2": 4,
+      "total": 7593.860000000001
+    },
+    {
+      "pos": 8,
       "p1": "André Silva",
       "lic1": "18758",
       "pid1": "95222",
@@ -95,7 +125,7 @@
       "total": 7057.25
     },
     {
-      "pos": 7,
+      "pos": 9,
       "p1": "Simoes17",
       "lic1": "14143",
       "pid1": "174555",
@@ -110,7 +140,7 @@
       "total": 5503.62
     },
     {
-      "pos": 8,
+      "pos": 10,
       "p1": "Ivo Oliveira",
       "lic1": "6692",
       "pid1": "69395",
@@ -125,7 +155,7 @@
       "total": 5282.8099999999995
     },
     {
-      "pos": 9,
+      "pos": 11,
       "p1": "Andres Rodriguez",
       "lic1": "7763",
       "pid1": "96879",
@@ -140,7 +170,7 @@
       "total": 4036.88
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Pedro Lopes",
       "lic1": "8654",
       "pid1": "81305",

@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +55 Nível 1",
-  "generatedAt": "2026-04-12T10:56:44.009Z",
+  "generatedAt": "2026-04-13T10:38:45.917Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Rui Oliveira",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Rui Cardoso",
+      "lic2": "14434",
+      "pid2": "174993",
+      "club": "Padel Factory",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 300.06,
+      "lvl2": 6,
+      "total": 300.06
+    },
+    {
+      "pos": 3,
       "p1": "Vitor Silva Marques",
       "lic1": "573",
       "pid1": "46689",
@@ -35,7 +50,7 @@
       "total": 114.94
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Diogo Mendonça",
       "lic1": "",
       "pid1": "",
@@ -50,7 +65,7 @@
       "total": 22.75
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Plinio Jorge",
       "lic1": "2891",
       "pid1": "128",
@@ -63,6 +78,21 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 6.25
+    },
+    {
+      "pos": 6,
+      "p1": "João Branquinho",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Rui Martins",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel Estoril",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
     }
   ]
 }

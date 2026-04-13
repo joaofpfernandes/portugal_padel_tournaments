@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 1",
-  "generatedAt": "2026-04-12T10:56:17.070Z",
+  "generatedAt": "2026-04-13T10:38:20.050Z",
   "result": [
     {
       "pos": 1,
@@ -63,6 +63,21 @@
       "pts2": 2287.81,
       "lvl2": 4,
       "total": 2370.56
+    },
+    {
+      "pos": 5,
+      "p1": "Gonzalo Cuevas",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Lousada",
+      "lic2": "10359",
+      "pid2": "103717",
+      "club": "My Padel Center",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 1445.08,
+      "lvl2": 5,
+      "total": 1445.08
     }
   ]
 }

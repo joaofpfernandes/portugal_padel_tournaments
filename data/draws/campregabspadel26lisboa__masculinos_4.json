@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-12T10:42:39.223Z",
+  "generatedAt": "2026-04-13T10:24:19.830Z",
   "result": [
     {
       "pos": 1,
@@ -81,6 +81,21 @@
     },
     {
       "pos": 6,
+      "p1": "Samuel Felício",
+      "lic1": "16293",
+      "pid1": "184935",
+      "p2": "Carlos A. Lopes",
+      "lic2": "17148",
+      "pid2": "201442",
+      "club": "Lisboa Racket Centre",
+      "pts1": 2749.36,
+      "lvl1": 4,
+      "pts2": 1798.17,
+      "lvl2": 5,
+      "total": 4547.530000000001
+    },
+    {
+      "pos": 7,
       "p1": "Carlos Ferreira",
       "lic1": "9965",
       "pid1": "93105",
@@ -95,7 +110,7 @@
       "total": 4472.77
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "KARLITO PINTCHO",
       "lic1": "4468",
       "pid1": "40762",
@@ -110,7 +125,7 @@
       "total": 4362.39
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Sebastião Bandeira",
       "lic1": "11935",
       "pid1": "96921",
@@ -125,7 +140,7 @@
       "total": 3971.75
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Miguel Pita",
       "lic1": "24683",
       "pid1": "232181",
@@ -140,7 +155,7 @@
       "total": 3838.42
     },
     {
-      "pos": 10,
+      "pos": 11,
       "p1": "Raul Serra",
       "lic1": "6851",
       "pid1": "66582",
@@ -155,7 +170,7 @@
       "total": 3593.23
     },
     {
-      "pos": 11,
+      "pos": 12,
       "p1": "Tiago de Paula",
       "lic1": "15834",
       "pid1": "142695",
@@ -170,7 +185,7 @@
       "total": 3592.88
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Daniel Teodoro",
       "lic1": "12016",
       "pid1": "76705",
@@ -185,7 +200,7 @@
       "total": 3556.31
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "João Barreto",
       "lic1": "19030",
       "pid1": "231552",
@@ -200,7 +215,7 @@
       "total": 3238.29
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Tiago Cunha",
       "lic1": "9413",
       "pid1": "77417",
@@ -215,7 +230,7 @@
       "total": 3237.44
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "Pedro Barradas",
       "lic1": "31323",
       "pid1": "226904",
@@ -230,7 +245,7 @@
       "total": 3165.56
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Guedes",
       "lic1": "231",
       "pid1": "77806",
@@ -245,7 +260,7 @@
       "total": 3145.63
     },
     {
-      "pos": 17,
+      "pos": 18,
       "p1": "Sérgio Fernandes",
       "lic1": "19289",
       "pid1": "86369",
@@ -260,7 +275,7 @@
       "total": 3126.87
     },
     {
-      "pos": 18,
+      "pos": 19,
       "p1": "João Cidra",
       "lic1": "16819",
       "pid1": "91715",
@@ -275,7 +290,7 @@
       "total": 2809.63
     },
     {
-      "pos": 19,
+      "pos": 20,
       "p1": "Miguel Leitão Amaro",
       "lic1": "14024",
       "pid1": "101401",
@@ -290,7 +305,7 @@
       "total": 2527.3399999999997
     },
     {
-      "pos": 20,
+      "pos": 21,
       "p1": "Luis Beleza",
       "lic1": "14593",
       "pid1": "145334",

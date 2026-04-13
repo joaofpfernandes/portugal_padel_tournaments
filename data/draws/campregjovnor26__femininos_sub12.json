@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Norte",
   "slug": "CampRegJovNor26",
   "section": "Femininos SUB12",
-  "generatedAt": "2026-04-12T10:50:23.656Z",
+  "generatedAt": "2026-04-13T10:32:08.443Z",
   "result": [
     {
       "pos": 1,
@@ -28,6 +28,21 @@
       "lic2": "",
       "pid2": "",
       "club": "VILLAEVERDASCA-TourismSport",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 3,
+      "p1": "Migui",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Sara Moreira",
+      "lic2": "",
+      "pid2": "",
+      "club": "PadelNationFelgueiras",
       "pts1": 0,
       "lvl1": 6,
       "pts2": 0,

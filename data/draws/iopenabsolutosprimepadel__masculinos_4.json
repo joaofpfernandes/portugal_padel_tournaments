@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-12T10:54:44.989Z",
+  "generatedAt": "2026-04-13T10:36:39.355Z",
   "result": [
     {
       "pos": 1,
@@ -48,6 +48,21 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 9.38
+    },
+    {
+      "pos": 4,
+      "p1": "Pedro Violante",
+      "lic1": "12967",
+      "pid1": "150742",
+      "p2": "Bruno Gonçalo",
+      "lic2": "",
+      "pid2": "",
+      "club": "AdhocClubCoimbra",
+      "pts1": 4.69,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 4.69
     }
   ]
 }

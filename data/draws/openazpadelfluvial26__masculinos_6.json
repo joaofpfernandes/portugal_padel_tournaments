@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 6",
-  "generatedAt": "2026-04-12T10:52:55.096Z",
+  "generatedAt": "2026-04-13T10:34:31.426Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Nuno Campelo Guimarães",
+      "lic1": "28999",
+      "pid1": "367087",
+      "p2": "Nuno Gonçalves",
+      "lic2": "29706",
+      "pid2": "414172",
+      "club": "BlackPadel",
+      "pts1": 59.09,
+      "lvl1": 6,
+      "pts2": 127.03,
+      "lvl2": 6,
+      "total": 186.12
+    },
+    {
+      "pos": 4,
       "p1": "Dani Cerqueira",
       "lic1": "28083",
       "pid1": "411449",
@@ -50,7 +65,7 @@
       "total": 142.75
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Fernando Lourenço",
       "lic1": "4504",
       "pid1": "54148",
@@ -65,7 +80,37 @@
       "total": 56.78999999999999
     },
     {
-      "pos": 5,
+      "pos": 6,
+      "p1": "Leandro Teixeira",
+      "lic1": "36815",
+      "pid1": "445253",
+      "p2": "Miguel Mascarenhas",
+      "lic2": "34730",
+      "pid2": "464789",
+      "club": "Top-padel Fluvial Indoor",
+      "pts1": 16.5,
+      "lvl1": 6,
+      "pts2": 14.94,
+      "lvl2": 6,
+      "total": 31.439999999999998
+    },
+    {
+      "pos": 7,
+      "p1": "Luís Brito",
+      "lic1": "30029",
+      "pid1": "265548",
+      "p2": "Federico Cabrera",
+      "lic2": "27432",
+      "pid2": "408366",
+      "club": "",
+      "pts1": 1.56,
+      "lvl1": 6,
+      "pts2": 18.75,
+      "lvl2": 6,
+      "total": 20.31
+    },
+    {
+      "pos": 8,
       "p1": "Tomás Eça",
       "lic1": "34057",
       "pid1": "503570",
@@ -80,7 +125,7 @@
       "total": 18.76
     },
     {
-      "pos": 6,
+      "pos": 9,
       "p1": "Gonzalo Hoepelman",
       "lic1": "37329",
       "pid1": "478496",
@@ -95,7 +140,7 @@
       "total": 18.76
     },
     {
-      "pos": 7,
+      "pos": 10,
       "p1": "Pedinesi",
       "lic1": "34756",
       "pid1": "505283",
@@ -110,22 +155,7 @@
       "total": 18.76
     },
     {
-      "pos": 8,
-      "p1": "Leandro Teixeira",
-      "lic1": "36815",
-      "pid1": "445253",
-      "p2": "Miguel Mascarenhas",
-      "lic2": "",
-      "pid2": "",
-      "club": "Top-padel Fluvial Indoor",
-      "pts1": 16.5,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 16.5
-    },
-    {
-      "pos": 9,
+      "pos": 11,
       "p1": "JoaoPereira",
       "lic1": "33571",
       "pid1": "466458",
@@ -140,7 +170,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Igor S",
       "lic1": "36016",
       "pid1": "461103",
@@ -155,7 +185,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 11,
+      "pos": 13,
       "p1": "Paulo Miguel Caldeira",
       "lic1": "23268",
       "pid1": "300122",
@@ -170,7 +200,7 @@
       "total": 10.940000000000001
     },
     {
-      "pos": 12,
+      "pos": 14,
       "p1": "Paulo Alves",
       "lic1": "34252",
       "pid1": "422624",

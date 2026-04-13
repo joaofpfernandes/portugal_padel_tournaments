@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 1",
-  "generatedAt": "2026-04-12T10:54:25.474Z",
+  "generatedAt": "2026-04-13T10:36:17.536Z",
   "result": [
     {
       "pos": 1,
@@ -33,6 +33,21 @@
       "pts2": 77625,
       "lvl2": 1,
       "total": 85250
+    },
+    {
+      "pos": 3,
+      "p1": "Clara Leite",
+      "lic1": "5077",
+      "pid1": "74568",
+      "p2": "Inês Barreto Lima",
+      "lic2": "",
+      "pid2": "",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 41125,
+      "lvl1": 1,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 41125
     }
   ]
 }

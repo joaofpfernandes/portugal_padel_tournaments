@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB16",
-  "generatedAt": "2026-04-12T10:55:40.312Z",
+  "generatedAt": "2026-04-13T10:37:42.968Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Dinis Neto🎾",
+      "lic1": "19513",
+      "pid1": "232451",
+      "p2": "Matias Gonçalves",
+      "lic2": "28042",
+      "pid2": "411361",
+      "club": "Clube Ténis Lagos",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 6.25,
+      "lvl2": 6,
+      "total": 15.63
+    },
+    {
+      "pos": 4,
       "p1": "António Bitoque Silva",
       "lic1": "26224",
       "pid1": "249202",
@@ -50,7 +65,7 @@
       "total": 7.82
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Francisco Ramalho Machado",
       "lic1": "32810",
       "pid1": "45104",
@@ -65,7 +80,7 @@
       "total": 4.6899999999999995
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Dominic Smook",
       "lic1": "",
       "pid1": "",

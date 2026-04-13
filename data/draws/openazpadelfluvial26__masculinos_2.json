@@ -2,10 +2,40 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-12T10:53:35.138Z",
+  "generatedAt": "2026-04-13T10:35:14.573Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Antonio Pinto",
+      "lic1": "8959",
+      "pid1": "84027",
+      "p2": "Mário Correia",
+      "lic2": "4943",
+      "pid2": "89953",
+      "club": "QM / SCP",
+      "pts1": 1248.04,
+      "lvl1": 5,
+      "pts2": 30162.5,
+      "lvl2": 2,
+      "total": 31410.54
+    },
+    {
+      "pos": 2,
+      "p1": "Duarte Mota",
+      "lic1": "22113",
+      "pid1": "176282",
+      "p2": "Tiago Pereira",
+      "lic2": "15714",
+      "pid2": "177352",
+      "club": "VILLAEVERDASCA-TourismSport",
+      "pts1": 2028.13,
+      "lvl1": 5,
+      "pts2": 18181.25,
+      "lvl2": 2,
+      "total": 20209.38
+    },
+    {
+      "pos": 3,
       "p1": "Afonso Matos",
       "lic1": "3714",
       "pid1": "74174",
@@ -20,7 +50,7 @@
       "total": 41925
     },
     {
-      "pos": 2,
+      "pos": 4,
       "p1": "Joao Vieira",
       "lic1": "19443",
       "pid1": "182847",
@@ -35,7 +65,22 @@
       "total": 37746.88
     },
     {
-      "pos": 3,
+      "pos": 5,
+      "p1": "Miguel Duarte Caldas",
+      "lic1": "15743",
+      "pid1": "177816",
+      "p2": "Guilherme Baptista",
+      "lic2": "19451",
+      "pid2": "232020",
+      "club": "BlackPadel",
+      "pts1": 13090,
+      "lvl1": 2,
+      "pts2": 21400,
+      "lvl2": 2,
+      "total": 34490
+    },
+    {
+      "pos": 6,
       "p1": "Manú",
       "lic1": "4249",
       "pid1": "74374",
@@ -50,7 +95,7 @@
       "total": 30856.25
     },
     {
-      "pos": 4,
+      "pos": 7,
       "p1": "David Pinto",
       "lic1": "7371",
       "pid1": "81583",
@@ -65,7 +110,7 @@
       "total": 22112.75
     },
     {
-      "pos": 5,
+      "pos": 8,
       "p1": "Sílvio Cristino",
       "lic1": "13986",
       "pid1": "174285",
@@ -80,22 +125,7 @@
       "total": 22029.059999999998
     },
     {
-      "pos": 6,
-      "p1": "Davide Rodrigues",
-      "lic1": "23571",
-      "pid1": "323066",
-      "p2": "Mati Mendez",
-      "lic2": "27053",
-      "pid2": "369330",
-      "club": "MeshPadelCenter",
-      "pts1": 12440.63,
-      "lvl1": 2,
-      "pts2": 5181.25,
-      "lvl2": 3,
-      "total": 17621.879999999997
-    },
-    {
-      "pos": 7,
+      "pos": 9,
       "p1": "Francisco Vilaça",
       "lic1": "31827",
       "pid1": "17445",
@@ -110,7 +140,37 @@
       "total": 16231.25
     },
     {
-      "pos": 8,
+      "pos": 10,
+      "p1": "Guilherme Moreira",
+      "lic1": "9855",
+      "pid1": "85020",
+      "p2": "Guilherme Lupi",
+      "lic2": "5581",
+      "pid2": "150751",
+      "club": "",
+      "pts1": 8618.75,
+      "lvl1": 3,
+      "pts2": 6860,
+      "lvl2": 3,
+      "total": 15478.75
+    },
+    {
+      "pos": 11,
+      "p1": "Tiago Moreira",
+      "lic1": "13831",
+      "pid1": "173832",
+      "p2": "Filipe Costa",
+      "lic2": "23775",
+      "pid2": "251250",
+      "club": "",
+      "pts1": 5180,
+      "lvl1": 3,
+      "pts2": 8514.06,
+      "lvl2": 3,
+      "total": 13694.06
+    },
+    {
+      "pos": 12,
       "p1": "Duarte Durão",
       "lic1": "26797",
       "pid1": "44115",
@@ -125,7 +185,7 @@
       "total": 11196.88
     },
     {
-      "pos": 9,
+      "pos": 13,
       "p1": "Guigas",
       "lic1": "11329",
       "pid1": "137360",
