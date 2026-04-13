@@ -35,3 +35,13 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update draws [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git pull --rebase
           git push
+
+      - name: Sync draws to Hetzner
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.KEY }}
+          source: "data/draws/"
+          target: "/var/www/padelportugues/data/draws"
+          strip_components: 1

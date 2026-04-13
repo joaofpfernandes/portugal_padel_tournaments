@@ -36,3 +36,13 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update rankings [$(date -u '+%Y-%m-%d')]"
           git pull --rebase
           git push
+
+      - name: Sync rankings to Hetzner
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.KEY }}
+          source: "data/rankings/"
+          target: "/var/www/padelportugues/data/rankings"
+          strip_components: 1
