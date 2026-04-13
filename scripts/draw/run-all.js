@@ -8,8 +8,8 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
-const RANKINGS_URL_MALE = "../data/rankings/male/latest.json";
-const RANKINGS_URL_FEMALE = "../data/rankings/female/latest.json";
+const RANKINGS_URL_MALE = "https://raw.githubusercontent.com/joaofpfernandes/portugal_padel_tournaments/refs/heads/main/data/rankings/male/latest.json";
+const RANKINGS_URL_FEMALE = "https://raw.githubusercontent.com/joaofpfernandes/portugal_padel_tournaments/refs/heads/main/data/rankings/female/latest.json";
 
 function normName(s) {
   return s.toLowerCase().trim().replace(/\s+/g, " ");
