@@ -9,15 +9,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Deploy site to Hetzner
-        uses: appleboy/scp-action@v0.1.7
+      - name: Deploy via git pull
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
-          source: "assets/,content/,data/,scripts/,styles/,index.html,robots.txt"
-          target: "/var/www/padelportugues"
-          strip_components: 0
-          rm: true
+          script: |
+            cd /var/www/padelportugues
+            git pull origin main
