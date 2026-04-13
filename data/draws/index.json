@@ -186,7 +186,9 @@
     "slug": "IOpenAbsolutosPrimePadel",
     "sections": [
       "Femininos 2",
+      "Femininos 3",
       "Femininos 4",
+      "Femininos 5",
       "Masculinos 2",
       "Masculinos 3",
       "Masculinos 4",
@@ -202,8 +204,6 @@
       "Femininos 4",
       "Femininos 5",
       "Femininos 6",
-      "Masculinos 2",
-      "Masculinos 3",
       "Masculinos 4",
       "Masculinos 5",
       "Masculinos 6"
@@ -233,12 +233,14 @@
     "sections": [
       "Femininos +35 Nível 2",
       "Femininos +40 Nível 2",
+      "Femininos +45 Nível 1",
       "Femininos +45 Nível 2",
       "Femininos +50 Nível 1",
       "Femininos +50 Nível 2",
       "Femininos +55 Nível 1",
       "Masculinos +35 Nível 1",
       "Masculinos +40 Nível 1",
+      "Masculinos +40 Nível 2",
       "Masculinos +45 Nível 1",
       "Masculinos +45 Nível 2",
       "Masculinos +50 Nível 1",

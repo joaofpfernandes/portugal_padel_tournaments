@@ -2,25 +2,10 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T10:36:30.559Z",
+  "generatedAt": "2026-04-13T22:10:49.301Z",
   "result": [
     {
       "pos": 1,
-      "p1": "P. Carvalho",
-      "lic1": "12482",
-      "pid1": "144097",
-      "p2": "Quilho",
-      "lic2": "",
-      "pid2": "",
-      "club": "PRIMEPADEL",
-      "pts1": 949.84,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 949.84
-    },
-    {
-      "pos": 2,
       "p1": "Hugo Freire",
       "lic1": "20505",
       "pid1": "229700",
@@ -35,7 +20,7 @@
       "total": 466.9
     },
     {
-      "pos": 3,
+      "pos": 2,
       "p1": "RICARDO SUBTIL",
       "lic1": "13319",
       "pid1": "167274",
@@ -50,7 +35,7 @@
       "total": 308.28999999999996
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "João José Costa",
       "lic1": "15989",
       "pid1": "33406",
@@ -65,7 +50,7 @@
       "total": 149.01
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "João Mamede",
       "lic1": "12496",
       "pid1": "144237",
@@ -80,7 +65,7 @@
       "total": 140.59
     },
     {
-      "pos": 6,
+      "pos": 5,
       "p1": "Francisco Pires",
       "lic1": "9930",
       "pid1": "93302",
@@ -95,7 +80,7 @@
       "total": 113.61999999999999
     },
     {
-      "pos": 7,
+      "pos": 6,
       "p1": "Bernardo Silva",
       "lic1": "37060",
       "pid1": "276702",
@@ -108,6 +93,21 @@
       "pts2": 85.41,
       "lvl2": 6,
       "total": 97.22
+    },
+    {
+      "pos": 7,
+      "p1": "Michael Aparício",
+      "lic1": "30072",
+      "pid1": "348690",
+      "p2": "Marcelo Lopes",
+      "lic2": "27703",
+      "pid2": "378651",
+      "club": "New Padel - Chão da Fonte",
+      "pts1": 27.44,
+      "lvl1": 6,
+      "pts2": 61.66,
+      "lvl2": 6,
+      "total": 89.1
     },
     {
       "pos": 8,
@@ -183,6 +183,21 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 12.510000000000002
+    },
+    {
+      "pos": 13,
+      "p1": "Jorge Todo Bom",
+      "lic1": "30159",
+      "pid1": "286545",
+      "p2": "Gonçalo Almeida",
+      "lic2": "30058",
+      "pid2": "319169",
+      "club": "VCPadel",
+      "pts1": 3.13,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 6.26
     }
   ]
 }

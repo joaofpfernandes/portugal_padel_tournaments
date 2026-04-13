@@ -2,10 +2,25 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +35 Nível 2",
-  "generatedAt": "2026-04-13T10:39:08.458Z",
+  "generatedAt": "2026-04-13T22:13:25.658Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Joana Cortez",
+      "lic1": "12499",
+      "pid1": "102047",
+      "p2": "Vera Santos",
+      "lic2": "10369",
+      "pid2": "102639",
+      "club": "My Padel Center",
+      "pts1": 355.63,
+      "lvl1": 6,
+      "pts2": 68.13,
+      "lvl2": 6,
+      "total": 423.76
+    },
+    {
+      "pos": 2,
       "p1": "Fernanda Baeza",
       "lic1": "19599",
       "pid1": "232616",

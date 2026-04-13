@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 6",
-  "generatedAt": "2026-04-13T10:34:31.426Z",
+  "generatedAt": "2026-04-13T22:09:03.242Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Hugo Costa",
+      "lic1": "31445",
+      "pid1": "385780",
+      "p2": "Gonçalo Ramos",
+      "lic2": "32522",
+      "pid2": "432973",
+      "club": "BlackPadel",
+      "pts1": 204.47,
+      "lvl1": 6,
+      "pts2": 47.63,
+      "lvl2": 6,
+      "total": 252.1
+    },
+    {
+      "pos": 4,
       "p1": "Nuno Campelo Guimarães",
       "lic1": "28999",
       "pid1": "367087",
@@ -50,7 +65,22 @@
       "total": 186.12
     },
     {
-      "pos": 4,
+      "pos": 5,
+      "p1": "Emilio Golão",
+      "lic1": "29096",
+      "pid1": "180660",
+      "p2": "Pedro Santos",
+      "lic2": "32403",
+      "pid2": "346677",
+      "club": "BlackPadel",
+      "pts1": 11.81,
+      "lvl1": 6,
+      "pts2": 156.73,
+      "lvl2": 6,
+      "total": 168.54
+    },
+    {
+      "pos": 6,
       "p1": "Dani Cerqueira",
       "lic1": "28083",
       "pid1": "411449",
@@ -65,7 +95,7 @@
       "total": 142.75
     },
     {
-      "pos": 5,
+      "pos": 7,
       "p1": "Fernando Lourenço",
       "lic1": "4504",
       "pid1": "54148",
@@ -80,7 +110,22 @@
       "total": 56.78999999999999
     },
     {
-      "pos": 6,
+      "pos": 8,
+      "p1": "Bruno Sousa",
+      "lic1": "32536",
+      "pid1": "442679",
+      "p2": "Rui Granja",
+      "lic2": "",
+      "pid2": "",
+      "club": "",
+      "pts1": 46.59,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 46.59
+    },
+    {
+      "pos": 9,
       "p1": "Leandro Teixeira",
       "lic1": "36815",
       "pid1": "445253",
@@ -95,7 +140,7 @@
       "total": 31.439999999999998
     },
     {
-      "pos": 7,
+      "pos": 10,
       "p1": "Luís Brito",
       "lic1": "30029",
       "pid1": "265548",
@@ -110,22 +155,7 @@
       "total": 20.31
     },
     {
-      "pos": 8,
-      "p1": "Tomás Eça",
-      "lic1": "34057",
-      "pid1": "503570",
-      "p2": "João Lima",
-      "lic2": "35500",
-      "pid2": "506379",
-      "club": "QM / SCP",
-      "pts1": 15.63,
-      "lvl1": 6,
-      "pts2": 3.13,
-      "lvl2": 6,
-      "total": 18.76
-    },
-    {
-      "pos": 9,
+      "pos": 11,
       "p1": "Gonzalo Hoepelman",
       "lic1": "37329",
       "pid1": "478496",
@@ -140,7 +170,7 @@
       "total": 18.76
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Pedinesi",
       "lic1": "34756",
       "pid1": "505283",
@@ -155,7 +185,7 @@
       "total": 18.76
     },
     {
-      "pos": 11,
+      "pos": 13,
       "p1": "JoaoPereira",
       "lic1": "33571",
       "pid1": "466458",
@@ -170,7 +200,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 12,
+      "pos": 14,
       "p1": "Igor S",
       "lic1": "36016",
       "pid1": "461103",
@@ -185,7 +215,22 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 13,
+      "pos": 15,
+      "p1": "Tomás Machado Cruz",
+      "lic1": "33524",
+      "pid1": "469764",
+      "p2": "Eduardo Pinto da Cruz",
+      "lic2": "36757",
+      "pid2": "511640",
+      "club": "QM / SCP",
+      "pts1": 3.13,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 12.510000000000002
+    },
+    {
+      "pos": 16,
       "p1": "Paulo Miguel Caldeira",
       "lic1": "23268",
       "pid1": "300122",
@@ -200,7 +245,7 @@
       "total": 10.940000000000001
     },
     {
-      "pos": 14,
+      "pos": 17,
       "p1": "Paulo Alves",
       "lic1": "34252",
       "pid1": "422624",
@@ -213,6 +258,21 @@
       "pts2": 4.69,
       "lvl2": 6,
       "total": 9.38
+    },
+    {
+      "pos": 18,
+      "p1": "João Magalhães",
+      "lic1": "33256",
+      "pid1": "500923",
+      "p2": "Ricardo Magalhães",
+      "lic2": "33670",
+      "pid2": "502947",
+      "club": "LIFEPADEL",
+      "pts1": 3.13,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 6.26
     }
   ]
 }

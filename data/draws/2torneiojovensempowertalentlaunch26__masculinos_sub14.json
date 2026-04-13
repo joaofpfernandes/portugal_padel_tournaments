@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB14",
-  "generatedAt": "2026-04-13T10:37:38.501Z",
+  "generatedAt": "2026-04-13T22:11:52.852Z",
   "result": [
     {
       "pos": 1,
@@ -85,6 +85,21 @@
       "lic1": "",
       "pid1": "",
       "p2": "tyson zane",
+      "lic2": "",
+      "pid2": "",
+      "club": "",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 7,
+      "p1": "Aiden Lindsay",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Roman Garcia",
       "lic2": "",
       "pid2": "",
       "club": "",

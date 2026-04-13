@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB12",
-  "generatedAt": "2026-04-13T10:37:34.083Z",
+  "generatedAt": "2026-04-13T22:11:48.631Z",
   "result": [
     {
       "pos": 1,
@@ -141,6 +141,21 @@
     },
     {
       "pos": 10,
+      "p1": "Tiago João",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Isaac Lima",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel4move",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 11,
       "p1": "Gonçalo Figueiredo",
       "lic1": "",
       "pid1": "",

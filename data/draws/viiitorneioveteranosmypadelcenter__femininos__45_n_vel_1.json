@@ -1,0 +1,53 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +45 Nível 1",
+  "generatedAt": "2026-04-13T22:13:40.157Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Bárbara Corte-Real",
+      "lic1": "88",
+      "pid1": "7558",
+      "p2": "Ana Guedes",
+      "lic2": "8037",
+      "pid2": "78965",
+      "club": "Lisboa Racket Centre",
+      "pts1": 25543.75,
+      "lvl1": 2,
+      "pts2": 32481.25,
+      "lvl2": 1,
+      "total": 58025
+    },
+    {
+      "pos": 2,
+      "p1": "Luísa Teixeira Silva",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Ana Coelho",
+      "lic2": "12529",
+      "pid2": "144418",
+      "club": "",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 8268.75,
+      "lvl2": 3,
+      "total": 8268.75
+    },
+    {
+      "pos": 3,
+      "p1": "Catarina Alves",
+      "lic1": "9016",
+      "pid1": "77490",
+      "p2": "Marta Modesto",
+      "lic2": "11950",
+      "pid2": "139546",
+      "club": "Lisboa Racket Centre",
+      "pts1": 722.81,
+      "lvl1": 6,
+      "pts2": 2309.05,
+      "lvl2": 4,
+      "total": 3031.86
+    }
+  ]
+}

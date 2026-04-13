@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 1",
-  "generatedAt": "2026-04-13T10:38:20.050Z",
+  "generatedAt": "2026-04-13T22:12:34.220Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "R1CARDO",
+      "lic1": "20470",
+      "pid1": "19436",
+      "p2": "João Pedro Santos",
+      "lic2": "372",
+      "pid2": "20976",
+      "club": "Vilamoura Tennis & Padel Acade",
+      "pts1": 814.69,
+      "lvl1": 6,
+      "pts2": 12137.5,
+      "lvl2": 2,
+      "total": 12952.19
+    },
+    {
+      "pos": 3,
       "p1": "Andre Rocha",
       "lic1": "3745",
       "pid1": "37347",
@@ -35,7 +50,7 @@
       "total": 5468.75
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Raul Serra",
       "lic1": "6851",
       "pid1": "66582",
@@ -50,7 +65,7 @@
       "total": 3691.57
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Luís Bento",
       "lic1": "2757",
       "pid1": "40756",
@@ -65,7 +80,7 @@
       "total": 2370.56
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Gonzalo Cuevas",
       "lic1": "",
       "pid1": "",

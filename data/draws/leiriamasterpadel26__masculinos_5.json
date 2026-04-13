@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T10:40:47.256Z",
+  "generatedAt": "2026-04-13T22:15:10.046Z",
   "result": [
     {
       "pos": 1,
@@ -906,6 +906,21 @@
     },
     {
       "pos": 61,
+      "p1": "Hugo Libório",
+      "lic1": "5196",
+      "pid1": "79353",
+      "p2": "Nuno Pedreiro",
+      "lic2": "20869",
+      "pid2": "209856",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 108.66,
+      "lvl1": 6,
+      "pts2": 20.31,
+      "lvl2": 6,
+      "total": 128.97
+    },
+    {
+      "pos": 62,
       "p1": "Antonio Ferraz",
       "lic1": "26164",
       "pid1": "299841",
@@ -920,7 +935,7 @@
       "total": 125.63
     },
     {
-      "pos": 62,
+      "pos": 63,
       "p1": "Élio Mouzinho",
       "lic1": "21886",
       "pid1": "225508",
@@ -935,7 +950,7 @@
       "total": 105.3
     },
     {
-      "pos": 63,
+      "pos": 64,
       "p1": "Tomás Silva",
       "lic1": "27097",
       "pid1": "242504",
@@ -950,7 +965,7 @@
       "total": 71.03
     },
     {
-      "pos": 64,
+      "pos": 65,
       "p1": "Lucas Afonso",
       "lic1": "31337",
       "pid1": "160695",
@@ -965,7 +980,7 @@
       "total": 53.96
     },
     {
-      "pos": 65,
+      "pos": 66,
       "p1": "Michael Aparício",
       "lic1": "30072",
       "pid1": "348690",
@@ -980,7 +995,7 @@
       "total": 48.63
     },
     {
-      "pos": 66,
+      "pos": 67,
       "p1": "Paulo Luis",
       "lic1": "26930",
       "pid1": "94065",
@@ -995,7 +1010,7 @@
       "total": 43.49
     },
     {
-      "pos": 67,
+      "pos": 68,
       "p1": "Pedro Serralheiro",
       "lic1": "29682",
       "pid1": "315833",
@@ -1010,7 +1025,7 @@
       "total": 30.880000000000003
     },
     {
-      "pos": 68,
+      "pos": 69,
       "p1": "João Pinto",
       "lic1": "4844",
       "pid1": "89215",

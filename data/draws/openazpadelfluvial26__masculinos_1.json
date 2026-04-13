@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T10:35:27.937Z",
+  "generatedAt": "2026-04-13T22:09:54.047Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Manuel Bragança",
+      "lic1": "6324",
+      "pid1": "22681",
+      "p2": "Rodrigo Casais",
+      "lic2": "9185",
+      "pid2": "25656",
+      "club": "LIFEPADEL",
+      "pts1": 40750,
+      "lvl1": 1,
+      "pts2": 36200,
+      "lvl2": 2,
+      "total": 76950
+    },
+    {
+      "pos": 3,
       "p1": "Bernardo Gomes",
       "lic1": "4010",
       "pid1": "74209",
@@ -35,7 +50,22 @@
       "total": 63171.25
     },
     {
-      "pos": 3,
+      "pos": 4,
+      "p1": "Afonso Matos",
+      "lic1": "3714",
+      "pid1": "74174",
+      "p2": "Antunes Gonçalves",
+      "lic2": "9611",
+      "pid2": "89370",
+      "club": "Mar Padel",
+      "pts1": 20218.75,
+      "lvl1": 2,
+      "pts2": 21706.25,
+      "lvl2": 2,
+      "total": 41925
+    },
+    {
+      "pos": 5,
       "p1": "Lourenço Romão",
       "lic1": "7156",
       "pid1": "79944",

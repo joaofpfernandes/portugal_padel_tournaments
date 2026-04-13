@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T10:34:43.802Z",
+  "generatedAt": "2026-04-13T22:09:16.705Z",
   "result": [
     {
       "pos": 1,
@@ -81,6 +81,51 @@
     },
     {
       "pos": 6,
+      "p1": "Danny",
+      "lic1": "22953",
+      "pid1": "257776",
+      "p2": "Helder Marques",
+      "lic2": "28929",
+      "pid2": "273497",
+      "club": "A-ZPadelFamalicao",
+      "pts1": 516.89,
+      "lvl1": 6,
+      "pts2": 472.88,
+      "lvl2": 6,
+      "total": 989.77
+    },
+    {
+      "pos": 7,
+      "p1": "Andre Ribeiro",
+      "lic1": "30372",
+      "pid1": "357202",
+      "p2": "Hugo Peudru",
+      "lic2": "32217",
+      "pid2": "387034",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 339.03,
+      "lvl1": 6,
+      "pts2": 572.53,
+      "lvl2": 6,
+      "total": 911.56
+    },
+    {
+      "pos": 8,
+      "p1": "José Pedro Barbosa",
+      "lic1": "16884",
+      "pid1": "22835",
+      "p2": "Guga Dunkel",
+      "lic2": "26793",
+      "pid2": "185641",
+      "club": "QM / SCP",
+      "pts1": 385.73,
+      "lvl1": 6,
+      "pts2": 502.47,
+      "lvl2": 6,
+      "total": 888.2
+    },
+    {
+      "pos": 9,
       "p1": "Eduardo Lamas",
       "lic1": "9888",
       "pid1": "93078",
@@ -95,7 +140,7 @@
       "total": 837.86
     },
     {
-      "pos": 7,
+      "pos": 10,
       "p1": "Pedro Castro Azevedo",
       "lic1": "28428",
       "pid1": "188021",
@@ -110,7 +155,7 @@
       "total": 762.28
     },
     {
-      "pos": 8,
+      "pos": 11,
       "p1": "Gonçalo Namorado",
       "lic1": "12157",
       "pid1": "101946",
@@ -125,7 +170,7 @@
       "total": 504.13
     },
     {
-      "pos": 9,
+      "pos": 12,
       "p1": "João Mesquita",
       "lic1": "30265",
       "pid1": "317862",
@@ -140,7 +185,22 @@
       "total": 429.52
     },
     {
-      "pos": 10,
+      "pos": 13,
+      "p1": "Joao Mourinho",
+      "lic1": "29596",
+      "pid1": "413980",
+      "p2": "João Melo",
+      "lic2": "29644",
+      "pid2": "414069",
+      "club": "QM / SCP",
+      "pts1": 207.94,
+      "lvl1": 6,
+      "pts2": 193.03,
+      "lvl2": 6,
+      "total": 400.97
+    },
+    {
+      "pos": 14,
       "p1": "José Borges",
       "lic1": "11026",
       "pid1": "136826",
@@ -155,7 +215,7 @@
       "total": 322.16
     },
     {
-      "pos": 11,
+      "pos": 15,
       "p1": "André Tubias",
       "lic1": "6556",
       "pid1": "58450",
@@ -170,7 +230,7 @@
       "total": 269.26
     },
     {
-      "pos": 12,
+      "pos": 16,
       "p1": "Tiago Oliveira",
       "lic1": "22829",
       "pid1": "319801",
@@ -185,7 +245,7 @@
       "total": 260.02
     },
     {
-      "pos": 13,
+      "pos": 17,
       "p1": "Márcio Carvalho",
       "lic1": "19895",
       "pid1": "183261",
@@ -200,7 +260,7 @@
       "total": 174.63
     },
     {
-      "pos": 14,
+      "pos": 18,
       "p1": "Rui Monteiro",
       "lic1": "14409",
       "pid1": "174956",
@@ -215,7 +275,7 @@
       "total": 163.91
     },
     {
-      "pos": 15,
+      "pos": 19,
       "p1": "Ricardo Grave",
       "lic1": "32452",
       "pid1": "346495",
@@ -230,7 +290,7 @@
       "total": 147.25
     },
     {
-      "pos": 16,
+      "pos": 20,
       "p1": "João Pimenta",
       "lic1": "32919",
       "pid1": "144663",
@@ -245,7 +305,7 @@
       "total": 117.51
     },
     {
-      "pos": 17,
+      "pos": 21,
       "p1": "Manuel Gonçalves",
       "lic1": "33070",
       "pid1": "6762",
@@ -260,7 +320,7 @@
       "total": 115.31
     },
     {
-      "pos": 18,
+      "pos": 22,
       "p1": "Manuel Paraíso Araújo",
       "lic1": "25230",
       "pid1": "325954",
@@ -275,7 +335,7 @@
       "total": 78.98
     },
     {
-      "pos": 19,
+      "pos": 23,
       "p1": "Afonso Ribeiro",
       "lic1": "30230",
       "pid1": "369555",
@@ -290,7 +350,7 @@
       "total": 72.19
     },
     {
-      "pos": 20,
+      "pos": 24,
       "p1": "João Santos",
       "lic1": "30641",
       "pid1": "416099",
@@ -305,7 +365,7 @@
       "total": 67.09
     },
     {
-      "pos": 21,
+      "pos": 25,
       "p1": "Diogo Castro",
       "lic1": "14792",
       "pid1": "150507",
@@ -320,7 +380,7 @@
       "total": 63.5
     },
     {
-      "pos": 22,
+      "pos": 26,
       "p1": "Adriano Lopes",
       "lic1": "24360",
       "pid1": "205669",
@@ -333,6 +393,21 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 23.439999999999998
+    },
+    {
+      "pos": 27,
+      "p1": "Tomás Eça",
+      "lic1": "34057",
+      "pid1": "503570",
+      "p2": "João Lima",
+      "lic2": "35500",
+      "pid2": "506379",
+      "club": "QM / SCP",
+      "pts1": 15.63,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 18.76
     }
   ]
 }

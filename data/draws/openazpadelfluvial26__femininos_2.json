@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T10:36:08.482Z",
+  "generatedAt": "2026-04-13T22:10:30.152Z",
   "result": [
     {
       "pos": 1,
@@ -66,6 +66,36 @@
     },
     {
       "pos": 5,
+      "p1": "Sofia Couto",
+      "lic1": "15552",
+      "pid1": "176508",
+      "p2": "Emma Delphin",
+      "lic2": "32606",
+      "pid2": "213649",
+      "club": "",
+      "pts1": 25506.25,
+      "lvl1": 2,
+      "pts2": 5282.5,
+      "lvl2": 3,
+      "total": 30788.75
+    },
+    {
+      "pos": 6,
+      "p1": "Carolina Melo",
+      "lic1": "12363",
+      "pid1": "137606",
+      "p2": "Cristina Alves",
+      "lic2": "17277",
+      "pid2": "208995",
+      "club": "New Padel - Chão da Fonte",
+      "pts1": 14831.25,
+      "lvl1": 2,
+      "pts2": 10237.5,
+      "lvl2": 3,
+      "total": 25068.75
+    },
+    {
+      "pos": 7,
       "p1": "Martinha Cruz",
       "lic1": "10277",
       "pid1": "101440",
@@ -80,7 +110,7 @@
       "total": 21317.5
     },
     {
-      "pos": 6,
+      "pos": 8,
       "p1": "Susana Rodrigues",
       "lic1": "10998",
       "pid1": "136748",
@@ -95,7 +125,7 @@
       "total": 19756.25
     },
     {
-      "pos": 7,
+      "pos": 9,
       "p1": "Leonor Renda",
       "lic1": "9749",
       "pid1": "25030",
@@ -110,7 +140,7 @@
       "total": 17984.690000000002
     },
     {
-      "pos": 8,
+      "pos": 10,
       "p1": "Joana Melo",
       "lic1": "12350",
       "pid1": "137605",
@@ -125,7 +155,7 @@
       "total": 15968.75
     },
     {
-      "pos": 9,
+      "pos": 11,
       "p1": "Beatriz Alves",
       "lic1": "23124",
       "pid1": "223955",
@@ -140,7 +170,7 @@
       "total": 14362.5
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Joana Caldas",
       "lic1": "4158",
       "pid1": "74117",

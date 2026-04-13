@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T10:35:14.573Z",
+  "generatedAt": "2026-04-13T22:09:45.940Z",
   "result": [
     {
       "pos": 1,
@@ -36,21 +36,6 @@
     },
     {
       "pos": 3,
-      "p1": "Afonso Matos",
-      "lic1": "3714",
-      "pid1": "74174",
-      "p2": "Antunes Gonçalves",
-      "lic2": "9611",
-      "pid2": "89370",
-      "club": "Mar Padel",
-      "pts1": 20218.75,
-      "lvl1": 2,
-      "pts2": 21706.25,
-      "lvl2": 2,
-      "total": 41925
-    },
-    {
-      "pos": 4,
       "p1": "Joao Vieira",
       "lic1": "19443",
       "pid1": "182847",
@@ -65,7 +50,7 @@
       "total": 37746.88
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "Miguel Duarte Caldas",
       "lic1": "15743",
       "pid1": "177816",
@@ -80,7 +65,7 @@
       "total": 34490
     },
     {
-      "pos": 6,
+      "pos": 5,
       "p1": "Manú",
       "lic1": "4249",
       "pid1": "74374",
@@ -95,22 +80,7 @@
       "total": 30856.25
     },
     {
-      "pos": 7,
-      "p1": "David Pinto",
-      "lic1": "7371",
-      "pid1": "81583",
-      "p2": "Diogo Pereira da Silva",
-      "lic2": "9323",
-      "pid2": "86496",
-      "club": "A-ZPadelSintra",
-      "pts1": 10419.94,
-      "lvl1": 3,
-      "pts2": 11692.81,
-      "lvl2": 2,
-      "total": 22112.75
-    },
-    {
-      "pos": 8,
+      "pos": 6,
       "p1": "Sílvio Cristino",
       "lic1": "13986",
       "pid1": "174285",
@@ -125,7 +95,7 @@
       "total": 22029.059999999998
     },
     {
-      "pos": 9,
+      "pos": 7,
       "p1": "Francisco Vilaça",
       "lic1": "31827",
       "pid1": "17445",
@@ -140,7 +110,7 @@
       "total": 16231.25
     },
     {
-      "pos": 10,
+      "pos": 8,
       "p1": "Guilherme Moreira",
       "lic1": "9855",
       "pid1": "85020",
@@ -155,7 +125,7 @@
       "total": 15478.75
     },
     {
-      "pos": 11,
+      "pos": 9,
       "p1": "Tiago Moreira",
       "lic1": "13831",
       "pid1": "173832",
@@ -170,7 +140,22 @@
       "total": 13694.06
     },
     {
-      "pos": 12,
+      "pos": 10,
+      "p1": "Gustavo Fleming",
+      "lic1": "12024",
+      "pid1": "31232",
+      "p2": "Francisco Fleming",
+      "lic2": "",
+      "pid2": "",
+      "club": "Top-padel Quinta do Fojo",
+      "pts1": 11875,
+      "lvl1": 2,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 11875
+    },
+    {
+      "pos": 11,
       "p1": "Duarte Durão",
       "lic1": "26797",
       "pid1": "44115",
@@ -185,7 +170,7 @@
       "total": 11196.88
     },
     {
-      "pos": 13,
+      "pos": 12,
       "p1": "Guigas",
       "lic1": "11329",
       "pid1": "137360",

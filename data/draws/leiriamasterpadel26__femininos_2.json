@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T10:42:29.548Z",
+  "generatedAt": "2026-04-13T22:18:09.570Z",
   "result": [
     {
       "pos": 1,
@@ -51,6 +51,21 @@
     },
     {
       "pos": 4,
+      "p1": "Sofia Couto",
+      "lic1": "15552",
+      "pid1": "176508",
+      "p2": "Rita Pereira",
+      "lic2": "22668",
+      "pid2": "319135",
+      "club": "",
+      "pts1": 25506.25,
+      "lvl1": 2,
+      "pts2": 4520.31,
+      "lvl2": 3,
+      "total": 30026.56
+    },
+    {
+      "pos": 5,
       "p1": "Catarina Pontes",
       "lic1": "17524",
       "pid1": "172563",
@@ -65,7 +80,7 @@
       "total": 27075.65
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Carolina Reis",
       "lic1": "18637",
       "pid1": "230464",
@@ -80,7 +95,7 @@
       "total": 22872.5
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Filipa Alveirinho",
       "lic1": "22106",
       "pid1": "173181",
@@ -95,7 +110,7 @@
       "total": 21366.72
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Maria Rodrigues",
       "lic1": "18004",
       "pid1": "23233",
@@ -110,7 +125,7 @@
       "total": 20060.940000000002
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Cristina Gomes",
       "lic1": "4603",
       "pid1": "74046",
@@ -123,6 +138,36 @@
       "pts2": 7093.75,
       "lvl2": 3,
       "total": 15668.75
+    },
+    {
+      "pos": 10,
+      "p1": "Betina Beirão",
+      "lic1": "8930",
+      "pid1": "75743",
+      "p2": "Bruna Morroni",
+      "lic2": "32862",
+      "pid2": "479076",
+      "club": "Pac-PadelAthleticClub",
+      "pts1": 10631.25,
+      "lvl1": 3,
+      "pts2": 4575,
+      "lvl2": 3,
+      "total": 15206.25
+    },
+    {
+      "pos": 11,
+      "p1": "Tânia Mendes",
+      "lic1": "5898",
+      "pid1": "74738",
+      "p2": "Adriana Silva",
+      "lic2": "13360",
+      "pid2": "167592",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 6387.5,
+      "lvl1": 3,
+      "pts2": 6387.5,
+      "lvl2": 3,
+      "total": 12775
     }
   ]
 }

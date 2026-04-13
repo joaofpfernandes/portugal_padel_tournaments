@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +60 Nível 1",
-  "generatedAt": "2026-04-13T10:38:54.412Z",
+  "generatedAt": "2026-04-13T22:13:12.377Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Delfim Machado",
+      "lic1": "4660",
+      "pid1": "80107",
+      "p2": "Luís Deus",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel Estoril",
+      "pts1": 537.5,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 537.5
+    },
+    {
+      "pos": 3,
       "p1": "João Nobre",
       "lic1": "",
       "pid1": "",
@@ -35,7 +50,7 @@
       "total": 9.38
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Mike Jenkins",
       "lic1": "",
       "pid1": "",

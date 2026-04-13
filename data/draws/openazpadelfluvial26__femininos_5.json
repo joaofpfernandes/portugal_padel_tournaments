@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T10:35:43.317Z",
+  "generatedAt": "2026-04-13T22:10:08.953Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Inês Fernandes",
+      "lic1": "16790",
+      "pid1": "118448",
+      "p2": "Ju Fortuna",
+      "lic2": "18036",
+      "pid2": "176987",
+      "club": "QM / SCP",
+      "pts1": 34.38,
+      "lvl1": 6,
+      "pts2": 1422.8,
+      "lvl2": 5,
+      "total": 1457.18
+    },
+    {
+      "pos": 3,
       "p1": "Carolina Tam",
       "lic1": "18846",
       "pid1": "231133",
@@ -35,7 +50,7 @@
       "total": 966.22
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Angela Alejo",
       "lic1": "30358",
       "pid1": "297578",
@@ -50,7 +65,7 @@
       "total": 673.2
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Margarida Silva",
       "lic1": "19818",
       "pid1": "232896",
@@ -65,7 +80,7 @@
       "total": 486.89
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Sara Carvalho",
       "lic1": "27323",
       "pid1": "406913",
@@ -80,7 +95,7 @@
       "total": 482.03
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Inês Camões",
       "lic1": "27406",
       "pid1": "407914",
@@ -95,7 +110,7 @@
       "total": 252.25
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Tatiana Donnikova",
       "lic1": "33962",
       "pid1": "503708",
@@ -110,7 +125,7 @@
       "total": 117.50999999999999
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Joana Casanova",
       "lic1": "",
       "pid1": "",

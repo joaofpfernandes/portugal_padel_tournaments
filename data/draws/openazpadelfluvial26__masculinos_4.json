@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T10:34:51.798Z",
+  "generatedAt": "2026-04-13T22:09:25.522Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,51 @@
     },
     {
       "pos": 3,
+      "p1": "Bernardo Faria",
+      "lic1": "9300",
+      "pid1": "136878",
+      "p2": "Granja",
+      "lic2": "32753",
+      "pid2": "425456",
+      "club": "LIFEPADEL",
+      "pts1": 82.67,
+      "lvl1": 6,
+      "pts2": 612.8,
+      "lvl2": 6,
+      "total": 695.4699999999999
+    },
+    {
+      "pos": 4,
+      "p1": "Paulo Marques",
+      "lic1": "21422",
+      "pid1": "178319",
+      "p2": "bruno Coutada",
+      "lic2": "31207",
+      "pid2": "318562",
+      "club": "QM / SCP - Gaia",
+      "pts1": 135.09,
+      "lvl1": 6,
+      "pts2": 307.9,
+      "lvl2": 6,
+      "total": 442.99
+    },
+    {
+      "pos": 5,
+      "p1": "Ricardo Branquinho",
+      "lic1": "10739",
+      "pid1": "36724",
+      "p2": "Diogo Martins",
+      "lic2": "4167",
+      "pid2": "70945",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 52.19,
+      "lvl1": 6,
+      "pts2": 7.81,
+      "lvl2": 6,
+      "total": 60
+    },
+    {
+      "pos": 6,
       "p1": "Hélder Lopes",
       "lic1": "7287",
       "pid1": "74807",
@@ -50,7 +95,7 @@
       "total": 49.06
     },
     {
-      "pos": 4,
+      "pos": 7,
       "p1": "Tiago Loureiro",
       "lic1": "13915",
       "pid1": "174059",

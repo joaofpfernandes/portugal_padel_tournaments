@@ -1,0 +1,23 @@
+{
+  "tournament": "I Open Absolutos Prime Padel",
+  "slug": "IOpenAbsolutosPrimePadel",
+  "section": "Femininos 3",
+  "generatedAt": "2026-04-13T22:11:32.891Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Raquel Laconca",
+      "lic1": "14568",
+      "pid1": "175188",
+      "p2": "Mariana Nunes",
+      "lic2": "17729",
+      "pid2": "201102",
+      "club": "Padel XXL",
+      "pts1": 1807.64,
+      "lvl1": 5,
+      "pts2": 4600.31,
+      "lvl2": 3,
+      "total": 6407.950000000001
+    }
+  ]
+}

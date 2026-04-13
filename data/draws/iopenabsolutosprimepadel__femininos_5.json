@@ -1,0 +1,38 @@
+{
+  "tournament": "I Open Absolutos Prime Padel",
+  "slug": "IOpenAbsolutosPrimePadel",
+  "section": "Femininos 5",
+  "generatedAt": "2026-04-13T22:11:20.774Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Alexandra Silva",
+      "lic1": "26913",
+      "pid1": "305289",
+      "p2": "Ana Hellman",
+      "lic2": "27009",
+      "pid2": "369538",
+      "club": "Tennis Club da Figueira da Foz",
+      "pts1": 121.42,
+      "lvl1": 6,
+      "pts2": 121.42,
+      "lvl2": 6,
+      "total": 242.84
+    },
+    {
+      "pos": 2,
+      "p1": "Telma Lima Mendes",
+      "lic1": "35940",
+      "pid1": "424637",
+      "p2": "Raquel Ferreira",
+      "lic2": "35156",
+      "pid2": "490986",
+      "club": "OBAIRROPADEL",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 18.76
+    }
+  ]
+}
