@@ -2,10 +2,40 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-14T10:27:38.022Z",
+  "generatedAt": "2026-04-14T22:13:52.359Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Carla Jesus",
+      "lic1": "27785",
+      "pid1": "223686",
+      "p2": "Joana Hb",
+      "lic2": "32781",
+      "pid2": "385191",
+      "club": "OBAIRROPADEL",
+      "pts1": 444.38,
+      "lvl1": 6,
+      "pts2": 279.47,
+      "lvl2": 6,
+      "total": 723.85
+    },
+    {
+      "pos": 2,
+      "p1": "Patrícia Jordão",
+      "lic1": "20067",
+      "pid1": "233141",
+      "p2": "Célia Matias",
+      "lic2": "21865",
+      "pid2": "234831",
+      "club": "New Padel - Chão da Fonte",
+      "pts1": 33.13,
+      "lvl1": 6,
+      "pts2": 477.86,
+      "lvl2": 6,
+      "total": 510.99
+    },
+    {
+      "pos": 3,
       "p1": "Alexandra Silva",
       "lic1": "26913",
       "pid1": "305289",
@@ -20,7 +50,7 @@
       "total": 242.84
     },
     {
-      "pos": 2,
+      "pos": 4,
       "p1": "Telma Lima Mendes",
       "lic1": "35940",
       "pid1": "424637",

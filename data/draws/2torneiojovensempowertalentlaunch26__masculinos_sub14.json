@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB14",
-  "generatedAt": "2026-04-14T10:28:14.401Z",
+  "generatedAt": "2026-04-14T22:14:26.824Z",
   "result": [
     {
       "pos": 1,
@@ -118,6 +118,21 @@
       "lic2": "",
       "pid2": "",
       "club": "",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 9,
+      "p1": "Guilherme Vilhena",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Francisco Silva",
+      "lic2": "",
+      "pid2": "",
+      "club": "OeirasPadelAcademy",
       "pts1": 0,
       "lvl1": 6,
       "pts2": 0,

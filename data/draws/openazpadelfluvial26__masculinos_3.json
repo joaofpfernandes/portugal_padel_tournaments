@@ -2,10 +2,25 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-14T10:25:42.327Z",
+  "generatedAt": "2026-04-14T22:11:59.288Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Óscar Pereira",
+      "lic1": "9107",
+      "pid1": "84035",
+      "p2": "João Ínsua",
+      "lic2": "10116",
+      "pid2": "96210",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 1863.13,
+      "lvl1": 5,
+      "pts2": 1582.53,
+      "lvl2": 5,
+      "total": 3445.66
+    },
+    {
+      "pos": 2,
       "p1": "Rui Gorgal",
       "lic1": "6695",
       "pid1": "74425",
@@ -20,7 +35,7 @@
       "total": 2237.44
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Pedro Simões",
       "lic1": "11057",
       "pid1": "136881",
@@ -35,7 +50,7 @@
       "total": 1314.69
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "João Moura",
       "lic1": "4714",
       "pid1": "74245",
@@ -50,7 +65,7 @@
       "total": 1062.22
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Duarte Pinto",
       "lic1": "21225",
       "pid1": "210372",
@@ -65,7 +80,37 @@
       "total": 814.06
     },
     {
-      "pos": 5,
+      "pos": 6,
+      "p1": "André Silva",
+      "lic1": "22175",
+      "pid1": "295016",
+      "p2": "Andrés Sánchez",
+      "lic2": "31060",
+      "pid2": "417806",
+      "club": "88PadelHouse",
+      "pts1": 357.28,
+      "lvl1": 6,
+      "pts2": 153.5,
+      "lvl2": 6,
+      "total": 510.78
+    },
+    {
+      "pos": 7,
+      "p1": "Domingos Garcia",
+      "lic1": "13635",
+      "pid1": "162942",
+      "p2": "Filipe Nóbrega",
+      "lic2": "16684",
+      "pid2": "179556",
+      "club": "MrPadel",
+      "pts1": 5523.34,
+      "lvl1": 3,
+      "pts2": 1166.88,
+      "lvl2": 5,
+      "total": 6690.22
+    },
+    {
+      "pos": 8,
       "p1": "PCruz",
       "lic1": "4218",
       "pid1": "74276",
@@ -80,7 +125,7 @@
       "total": 6099.26
     },
     {
-      "pos": 6,
+      "pos": 9,
       "p1": "Pedro Alves",
       "lic1": "19319",
       "pid1": "16578",
@@ -95,7 +140,7 @@
       "total": 9696.25
     },
     {
-      "pos": 7,
+      "pos": 10,
       "p1": "Huguito Ferraro",
       "lic1": "18606",
       "pid1": "224803",
@@ -110,7 +155,22 @@
       "total": 9524.75
     },
     {
-      "pos": 8,
+      "pos": 11,
+      "p1": "Gonçalo Lopes Barata",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Guilherme Guedes",
+      "lic2": "24706",
+      "pid2": "325304",
+      "club": "QM / SCP",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 9259.69,
+      "lvl2": 3,
+      "total": 9259.69
+    },
+    {
+      "pos": 12,
       "p1": "“Tolito” Magalhães",
       "lic1": "4755",
       "pid1": "74217",
@@ -125,7 +185,7 @@
       "total": 8939.69
     },
     {
-      "pos": 9,
+      "pos": 13,
       "p1": "João Bessa",
       "lic1": "12175",
       "pid1": "141569",
@@ -140,7 +200,7 @@
       "total": 7836.55
     },
     {
-      "pos": 10,
+      "pos": 14,
       "p1": "Diogo Miranda",
       "lic1": "16745",
       "pid1": "197441",
@@ -155,7 +215,7 @@
       "total": 7792.8099999999995
     },
     {
-      "pos": 11,
+      "pos": 15,
       "p1": "Afonso Neves",
       "lic1": "26020",
       "pid1": "242000",
@@ -170,22 +230,7 @@
       "total": 7469.289999999999
     },
     {
-      "pos": 12,
-      "p1": "André Silva",
-      "lic1": "18758",
-      "pid1": "95222",
-      "p2": "Andrés Sánchez",
-      "lic2": "31060",
-      "pid2": "417806",
-      "club": "88PadelHouse",
-      "pts1": 6903.75,
-      "lvl1": 3,
-      "pts2": 153.5,
-      "lvl2": 6,
-      "total": 7057.25
-    },
-    {
-      "pos": 13,
+      "pos": 16,
       "p1": "Lourenço Rodrigues",
       "lic1": "15697",
       "pid1": "177042",
@@ -200,7 +245,7 @@
       "total": 6365.9400000000005
     },
     {
-      "pos": 14,
+      "pos": 17,
       "p1": "Simoes17",
       "lic1": "14143",
       "pid1": "174555",
@@ -215,7 +260,7 @@
       "total": 5939.26
     },
     {
-      "pos": 15,
+      "pos": 18,
       "p1": "Ivo Oliveira",
       "lic1": "6692",
       "pid1": "69395",
@@ -230,7 +275,22 @@
       "total": 5282.8099999999995
     },
     {
-      "pos": 16,
+      "pos": 19,
+      "p1": "André Cunha",
+      "lic1": "20597",
+      "pid1": "221723",
+      "p2": "André Silva",
+      "lic2": "22175",
+      "pid2": "295016",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 4179.75,
+      "lvl1": 3,
+      "pts2": 357.28,
+      "lvl2": 6,
+      "total": 4537.03
+    },
+    {
+      "pos": 20,
       "p1": "Andres Rodriguez",
       "lic1": "7763",
       "pid1": "96879",
@@ -245,7 +305,7 @@
       "total": 4036.88
     },
     {
-      "pos": 17,
+      "pos": 21,
       "p1": "Pedro Lopes",
       "lic1": "8654",
       "pid1": "81305",

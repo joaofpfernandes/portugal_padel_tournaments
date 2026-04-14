@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-14T10:26:40.400Z",
+  "generatedAt": "2026-04-14T22:12:58.339Z",
   "result": [
     {
       "pos": 1,
@@ -171,6 +171,21 @@
     },
     {
       "pos": 12,
+      "p1": "Beatriz Alves",
+      "lic1": "23124",
+      "pid1": "223955",
+      "p2": "Florencia Vara",
+      "lic2": "30692",
+      "pid2": "416279",
+      "club": "Pac-PadelAthleticClub",
+      "pts1": 6925,
+      "lvl1": 3,
+      "pts2": 10150,
+      "lvl2": 3,
+      "total": 17075
+    },
+    {
+      "pos": 13,
       "p1": "Joana Melo",
       "lic1": "12350",
       "pid1": "137605",

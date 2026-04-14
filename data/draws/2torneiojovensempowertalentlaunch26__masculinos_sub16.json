@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB16",
-  "generatedAt": "2026-04-14T10:28:19.082Z",
+  "generatedAt": "2026-04-14T22:14:32.552Z",
   "result": [
     {
       "pos": 1,
@@ -81,6 +81,21 @@
     },
     {
       "pos": 6,
+      "p1": "Santiago Marreiros",
+      "lic1": "12707",
+      "pid1": "146319",
+      "p2": "Charlie H",
+      "lic2": "",
+      "pid2": "",
+      "club": "Clube Ténis Lagos",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 9.38
+    },
+    {
+      "pos": 7,
       "p1": "Dominic Smook",
       "lic1": "",
       "pid1": "",

@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-14T10:33:12.041Z",
+  "generatedAt": "2026-04-14T22:19:28.101Z",
   "result": [
     {
       "pos": 1,
@@ -21,21 +21,6 @@
     },
     {
       "pos": 2,
-      "p1": "Mónica Neves",
-      "lic1": "6431",
-      "pid1": "74066",
-      "p2": "Ana Sofia Almeida",
-      "lic2": "8819",
-      "pid2": "83087",
-      "club": "",
-      "pts1": 2900,
-      "lvl1": 4,
-      "pts2": 7559.38,
-      "lvl2": 3,
-      "total": 10459.380000000001
-    },
-    {
-      "pos": 3,
       "p1": "Sofia Gião",
       "lic1": "22992",
       "pid1": "227738",
@@ -48,6 +33,21 @@
       "pts2": 2544.5,
       "lvl2": 4,
       "total": 10129.41
+    },
+    {
+      "pos": 3,
+      "p1": "Joana Tavares",
+      "lic1": "27669",
+      "pid1": "23756",
+      "p2": "Daniela Ferreira",
+      "lic2": "10701",
+      "pid2": "119274",
+      "club": "WOWPadel",
+      "pts1": 3827.36,
+      "lvl1": 4,
+      "pts2": 5993.75,
+      "lvl2": 3,
+      "total": 9821.11
     },
     {
       "pos": 4,
@@ -81,6 +81,21 @@
     },
     {
       "pos": 6,
+      "p1": "Ariana Santos",
+      "lic1": "27400",
+      "pid1": "407172",
+      "p2": "Vanessa Pacheco",
+      "lic2": "28567",
+      "pid2": "412471",
+      "club": "A-ZPadelFamalicao",
+      "pts1": 3635.94,
+      "lvl1": 4,
+      "pts2": 4125.69,
+      "lvl2": 3,
+      "total": 7761.629999999999
+    },
+    {
+      "pos": 7,
       "p1": "Ela",
       "lic1": "16514",
       "pid1": "188748",
@@ -95,7 +110,7 @@
       "total": 7647.76
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Patricia David",
       "lic1": "10046",
       "pid1": "95017",
@@ -110,7 +125,7 @@
       "total": 7449.73
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Laura Ferreira",
       "lic1": "20499",
       "pid1": "234241",
@@ -125,7 +140,7 @@
       "total": 7193.84
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Mariana Ribeiro",
       "lic1": "14431",
       "pid1": "174986",
@@ -140,7 +155,7 @@
       "total": 6665.51
     },
     {
-      "pos": 10,
+      "pos": 11,
       "p1": "Mafalda Alves",
       "lic1": "18674",
       "pid1": "230545",
@@ -155,7 +170,7 @@
       "total": 6629.32
     },
     {
-      "pos": 11,
+      "pos": 12,
       "p1": "Sara Meirinhos",
       "lic1": "10090",
       "pid1": "48834",
@@ -170,7 +185,7 @@
       "total": 6125
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Raquel Laconca",
       "lic1": "14568",
       "pid1": "175188",
@@ -185,7 +200,7 @@
       "total": 6090.950000000001
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Elisabete Cordeiro",
       "lic1": "10424",
       "pid1": "7428",
@@ -200,7 +215,7 @@
       "total": 5923.75
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Carolina Osório",
       "lic1": "12973",
       "pid1": "150886",
@@ -215,7 +230,7 @@
       "total": 5790.94
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "Carina Pinto",
       "lic1": "26754",
       "pid1": "352149",
@@ -230,7 +245,7 @@
       "total": 5577.97
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Filipa Varandas",
       "lic1": "13340",
       "pid1": "167471",
@@ -245,7 +260,7 @@
       "total": 4878.5
     },
     {
-      "pos": 17,
+      "pos": 18,
       "p1": "Sara Machado",
       "lic1": "11913",
       "pid1": "139204",
@@ -260,7 +275,7 @@
       "total": 2205.63
     },
     {
-      "pos": 18,
+      "pos": 19,
       "p1": "Charlotte Gauthier",
       "lic1": "32822",
       "pid1": "97400",

@@ -2,10 +2,25 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 6",
-  "generatedAt": "2026-04-14T10:32:37.442Z",
+  "generatedAt": "2026-04-14T22:18:52.588Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Ana Rita Almeida",
+      "lic1": "11174",
+      "pid1": "120913",
+      "p2": "Sílvia Félix",
+      "lic2": "12982",
+      "pid2": "151200",
+      "club": "Dezporvinte",
+      "pts1": 418.75,
+      "lvl1": 6,
+      "pts2": 470.06,
+      "lvl2": 6,
+      "total": 888.81
+    },
+    {
+      "pos": 2,
       "p1": "Catarina Vera",
       "lic1": "28442",
       "pid1": "262820",
@@ -20,7 +35,7 @@
       "total": 884.1800000000001
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Sofia Roberto",
       "lic1": "17697",
       "pid1": "226791",
@@ -35,7 +50,7 @@
       "total": 609.04
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Beatriz Guerra",
       "lic1": "29713",
       "pid1": "357432",
@@ -50,7 +65,7 @@
       "total": 399.22
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Mathilde Prates",
       "lic1": "29296",
       "pid1": "302118",
@@ -65,7 +80,7 @@
       "total": 371.47
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Bruna Santos",
       "lic1": "21307",
       "pid1": "243015",
@@ -80,7 +95,7 @@
       "total": 366.94
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Mafalda Santos",
       "lic1": "17778",
       "pid1": "227149",
@@ -95,7 +110,7 @@
       "total": 352.15
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Bianca Alberto",
       "lic1": "18686",
       "pid1": "230549",
@@ -110,7 +125,7 @@
       "total": 338.46999999999997
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Maria Monteiro",
       "lic1": "31485",
       "pid1": "209879",
@@ -125,7 +140,7 @@
       "total": 231.81
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Eleonora Mendonça",
       "lic1": "15082",
       "pid1": "175712",
@@ -140,7 +155,7 @@
       "total": 196.96
     },
     {
-      "pos": 10,
+      "pos": 11,
       "p1": "Maria Caio",
       "lic1": "32363",
       "pid1": "213253",
@@ -155,7 +170,7 @@
       "total": 196.87
     },
     {
-      "pos": 11,
+      "pos": 12,
       "p1": "Paula Martins",
       "lic1": "18530",
       "pid1": "230126",
@@ -170,7 +185,7 @@
       "total": 166.72
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Fabiana Jorge Seco",
       "lic1": "22849",
       "pid1": "69522",
@@ -185,7 +200,7 @@
       "total": 162.14999999999998
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Sofia Marques",
       "lic1": "22735",
       "pid1": "319533",
@@ -200,7 +215,7 @@
       "total": 161.32
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Inês Costa",
       "lic1": "23198",
       "pid1": "71450",
@@ -215,7 +230,7 @@
       "total": 155.81
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "Mariana Domingues",
       "lic1": "",
       "pid1": "",
@@ -230,7 +245,7 @@
       "total": 154.05
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Teresa Gomez",
       "lic1": "27532",
       "pid1": "318717",
@@ -245,7 +260,7 @@
       "total": 153.85
     },
     {
-      "pos": 17,
+      "pos": 18,
       "p1": "Ana Luísa Marques",
       "lic1": "29548",
       "pid1": "189774",
@@ -260,7 +275,7 @@
       "total": 149.95
     },
     {
-      "pos": 18,
+      "pos": 19,
       "p1": "Maria Assunção Magro Sequeira",
       "lic1": "19016",
       "pid1": "203113",
@@ -275,7 +290,7 @@
       "total": 139.78
     },
     {
-      "pos": 19,
+      "pos": 20,
       "p1": "Marisa Lopes",
       "lic1": "27455",
       "pid1": "361111",
@@ -290,7 +305,7 @@
       "total": 96.82
     },
     {
-      "pos": 20,
+      "pos": 21,
       "p1": "Carina Fragoso",
       "lic1": "27457",
       "pid1": "350695",
@@ -305,7 +320,7 @@
       "total": 73.03
     },
     {
-      "pos": 21,
+      "pos": 22,
       "p1": "Carla Neves",
       "lic1": "31885",
       "pid1": "278088",
@@ -320,7 +335,7 @@
       "total": 57.5
     },
     {
-      "pos": 22,
+      "pos": 23,
       "p1": "Patricia Castilho",
       "lic1": "34291",
       "pid1": "504445",
@@ -335,7 +350,7 @@
       "total": 42.07
     },
     {
-      "pos": 23,
+      "pos": 24,
       "p1": "Joana Ferreira Costa",
       "lic1": "19849",
       "pid1": "189571",
@@ -350,7 +365,7 @@
       "total": 38.900000000000006
     },
     {
-      "pos": 24,
+      "pos": 25,
       "p1": "Ana marques(nita)",
       "lic1": "32076",
       "pid1": "383101",
@@ -365,7 +380,7 @@
       "total": 37.65
     },
     {
-      "pos": 25,
+      "pos": 26,
       "p1": "Catarina Caneira",
       "lic1": "34203",
       "pid1": "238677",
@@ -380,7 +395,7 @@
       "total": 15.170000000000002
     },
     {
-      "pos": 26,
+      "pos": 27,
       "p1": "Jamila Portilha",
       "lic1": "31712",
       "pid1": "215040",
@@ -395,7 +410,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 27,
+      "pos": 28,
       "p1": "Joana Pedro",
       "lic1": "33579",
       "pid1": "359069",
@@ -410,7 +425,7 @@
       "total": 12.5
     },
     {
-      "pos": 28,
+      "pos": 29,
       "p1": "Natasha Costa",
       "lic1": "33316",
       "pid1": "471108",

@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +50 Nível 2",
-  "generatedAt": "2026-04-14T10:29:21.163Z",
+  "generatedAt": "2026-04-14T22:15:34.033Z",
   "result": [
     {
       "pos": 1,
@@ -21,21 +21,6 @@
     },
     {
       "pos": 2,
-      "p1": "Hugo Vasques",
-      "lic1": "21861",
-      "pid1": "4882",
-      "p2": "Velho Rovisco",
-      "lic2": "2233",
-      "pid2": "32001",
-      "club": "Padel Estoril",
-      "pts1": 63.75,
-      "lvl1": 6,
-      "pts2": 385.73,
-      "lvl2": 6,
-      "total": 449.48
-    },
-    {
-      "pos": 3,
       "p1": "Ricardo Costa e Silva",
       "lic1": "1455",
       "pid1": "51060",
@@ -50,7 +35,7 @@
       "total": 435.62
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "Pedro Campos",
       "lic1": "9650",
       "pid1": "72710",

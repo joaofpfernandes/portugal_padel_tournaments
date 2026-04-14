@@ -2,10 +2,25 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-14T10:27:51.451Z",
+  "generatedAt": "2026-04-14T22:14:04.483Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Ana Sofia Almeida",
+      "lic1": "8819",
+      "pid1": "83087",
+      "p2": "Joana Sevivas",
+      "lic2": "12360",
+      "pid2": "103093",
+      "club": "PRIMEPADEL",
+      "pts1": 7559.38,
+      "lvl1": 3,
+      "pts2": 2939.09,
+      "lvl2": 4,
+      "total": 10498.470000000001
+    },
+    {
+      "pos": 2,
       "p1": "Raquel Laconca",
       "lic1": "14568",
       "pid1": "175188",
@@ -18,6 +33,21 @@
       "pts2": 4600.31,
       "lvl2": 3,
       "total": 6407.950000000001
+    },
+    {
+      "pos": 3,
+      "p1": "Ana Campos",
+      "lic1": "1834",
+      "pid1": "69169",
+      "p2": "Teresa De Santis",
+      "lic2": "",
+      "pid2": "",
+      "club": "PRIMEPADEL",
+      "pts1": 31.25,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 31.25
     }
   ]
 }

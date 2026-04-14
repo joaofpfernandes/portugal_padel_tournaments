@@ -2,10 +2,25 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-14T10:25:30.451Z",
+  "generatedAt": "2026-04-14T22:11:47.684Z",
   "result": [
     {
       "pos": 1,
+      "p1": "João Zão",
+      "lic1": "20279",
+      "pid1": "174346",
+      "p2": "André Amorim",
+      "lic2": "21848",
+      "pid2": "203428",
+      "club": "",
+      "pts1": 1236.13,
+      "lvl1": 5,
+      "pts2": 1933.95,
+      "lvl2": 5,
+      "total": 3170.08
+    },
+    {
+      "pos": 2,
       "p1": "Alberto Santos",
       "lic1": "13236",
       "pid1": "150506",
@@ -20,7 +35,7 @@
       "total": 1946.33
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Rui Vieira",
       "lic1": "17417",
       "pid1": "212192",
@@ -35,7 +50,7 @@
       "total": 1235.1
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Miguel Janson",
       "lic1": "3150",
       "pid1": "74218",
@@ -50,7 +65,7 @@
       "total": 807.6600000000001
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Bernardo Faria",
       "lic1": "9300",
       "pid1": "136878",
@@ -65,7 +80,7 @@
       "total": 717.3399999999999
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Paulo Marques",
       "lic1": "21422",
       "pid1": "178319",
@@ -80,7 +95,22 @@
       "total": 467.99
     },
     {
-      "pos": 6,
+      "pos": 7,
+      "p1": "Ricardo Lago",
+      "lic1": "21927",
+      "pid1": "185837",
+      "p2": "Miguel Cruz",
+      "lic2": "34857",
+      "pid2": "505403",
+      "club": "Top-padel Quinta do Fojo",
+      "pts1": 77.48,
+      "lvl1": 6,
+      "pts2": 1.56,
+      "lvl2": 6,
+      "total": 79.04
+    },
+    {
+      "pos": 8,
       "p1": "Ricardo Branquinho",
       "lic1": "10739",
       "pid1": "36724",
@@ -95,7 +125,7 @@
       "total": 66.25
     },
     {
-      "pos": 7,
+      "pos": 9,
       "p1": "Hélder Lopes",
       "lic1": "7287",
       "pid1": "74807",
@@ -110,7 +140,7 @@
       "total": 58.44
     },
     {
-      "pos": 8,
+      "pos": 10,
       "p1": "Tiago Loureiro",
       "lic1": "13915",
       "pid1": "174059",
@@ -123,6 +153,36 @@
       "pts2": 612.5,
       "lvl2": 6,
       "total": 3679.59
+    },
+    {
+      "pos": 11,
+      "p1": "Igor Antruejo",
+      "lic1": "20828",
+      "pid1": "232970",
+      "p2": "Ricardo Vieira",
+      "lic2": "22520",
+      "pid2": "273419",
+      "club": "TheHyveAcademy",
+      "pts1": 3321.69,
+      "lvl1": 4,
+      "pts2": 325.47,
+      "lvl2": 6,
+      "total": 3647.16
+    },
+    {
+      "pos": 12,
+      "p1": "João Soares",
+      "lic1": "12308",
+      "pid1": "45049",
+      "p2": "Afonso Melo",
+      "lic2": "12535",
+      "pid2": "144454",
+      "club": "PadelPointErmesinde",
+      "pts1": 144.13,
+      "lvl1": 6,
+      "pts2": 3001.25,
+      "lvl2": 4,
+      "total": 3145.38
     }
   ]
 }

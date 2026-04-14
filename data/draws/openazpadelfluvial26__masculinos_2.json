@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-14T10:25:52.597Z",
+  "generatedAt": "2026-04-14T22:12:10.875Z",
   "result": [
     {
       "pos": 1,
@@ -21,21 +21,6 @@
     },
     {
       "pos": 2,
-      "p1": "Joao Vieira",
-      "lic1": "19443",
-      "pid1": "182847",
-      "p2": "José Tinoco",
-      "lic2": "21990",
-      "pid2": "276229",
-      "club": "DOuroPadelPasteleira",
-      "pts1": 24006.25,
-      "lvl1": 2,
-      "pts2": 13740.63,
-      "lvl2": 2,
-      "total": 37746.88
-    },
-    {
-      "pos": 3,
       "p1": "Miguel Duarte Caldas",
       "lic1": "15743",
       "pid1": "177816",
@@ -50,7 +35,7 @@
       "total": 36240
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "Manú",
       "lic1": "4249",
       "pid1": "74374",
@@ -65,22 +50,22 @@
       "total": 30893.75
     },
     {
-      "pos": 5,
-      "p1": "Diogo Teixeira",
-      "lic1": "8019",
-      "pid1": "81837",
-      "p2": "Tiago Pereira",
-      "lic2": "21754",
-      "pid2": "251314",
-      "club": "",
-      "pts1": 17106.25,
+      "pos": 4,
+      "p1": "Hugo Mirra",
+      "lic1": "12568",
+      "pid1": "59799",
+      "p2": "Lucas Gomes",
+      "lic2": "20514",
+      "pid2": "234371",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 20918.75,
       "lvl1": 2,
-      "pts2": 13485.94,
-      "lvl2": 2,
-      "total": 30592.190000000002
+      "pts2": 7700,
+      "lvl2": 3,
+      "total": 28618.75
     },
     {
-      "pos": 6,
+      "pos": 5,
       "p1": "Sílvio Cristino",
       "lic1": "13986",
       "pid1": "174285",
@@ -95,7 +80,37 @@
       "total": 22204.059999999998
     },
     {
+      "pos": 6,
+      "p1": "Duarte Mota",
+      "lic1": "22113",
+      "pid1": "176282",
+      "p2": "Tiago Pereira",
+      "lic2": "15714",
+      "pid2": "177352",
+      "club": "VILLAEVERDASCA-TourismSport",
+      "pts1": 2606.25,
+      "lvl1": 4,
+      "pts2": 18425,
+      "lvl2": 2,
+      "total": 21031.25
+    },
+    {
       "pos": 7,
+      "p1": "Tiago Pizarro",
+      "lic1": "12167",
+      "pid1": "141482",
+      "p2": "Guilherme Pinto",
+      "lic2": "12485",
+      "pid2": "142130",
+      "club": "Chaves Padel Center",
+      "pts1": 9677.5,
+      "lvl1": 3,
+      "pts2": 8933.75,
+      "lvl2": 3,
+      "total": 18611.25
+    },
+    {
+      "pos": 8,
       "p1": "Francisco Vilaça",
       "lic1": "31827",
       "pid1": "17445",
@@ -108,21 +123,6 @@
       "pts2": 12150,
       "lvl2": 2,
       "total": 16231.25
-    },
-    {
-      "pos": 8,
-      "p1": "Duarte Mota",
-      "lic1": "22113",
-      "pid1": "176282",
-      "p2": "Tiago Pereira",
-      "lic2": "21754",
-      "pid2": "251314",
-      "club": "VILLAEVERDASCA-TourismSport",
-      "pts1": 2606.25,
-      "lvl1": 4,
-      "pts2": 13485.94,
-      "lvl2": 2,
-      "total": 16092.19
     },
     {
       "pos": 9,
@@ -216,6 +216,21 @@
     },
     {
       "pos": 15,
+      "p1": "Zé Guedes",
+      "lic1": "12805",
+      "pid1": "148282",
+      "p2": "Mati Mendez",
+      "lic2": "27053",
+      "pid2": "369330",
+      "club": "",
+      "pts1": 5405.31,
+      "lvl1": 3,
+      "pts2": 5181.25,
+      "lvl2": 3,
+      "total": 10586.560000000001
+    },
+    {
+      "pos": 16,
       "p1": "Guigas",
       "lic1": "11329",
       "pid1": "137360",

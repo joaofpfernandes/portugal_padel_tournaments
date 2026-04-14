@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-14T10:31:49.322Z",
+  "generatedAt": "2026-04-14T22:18:04.347Z",
   "result": [
     {
       "pos": 1,
@@ -411,6 +411,21 @@
     },
     {
       "pos": 28,
+      "p1": "Ricardo Verdugo",
+      "lic1": "24064",
+      "pid1": "178871",
+      "p2": "Bernardo Condeixa",
+      "lic2": "30832",
+      "pid2": "385787",
+      "club": "Arrábida Padel",
+      "pts1": 2175.89,
+      "lvl1": 4,
+      "pts2": 305.67,
+      "lvl2": 6,
+      "total": 2481.56
+    },
+    {
+      "pos": 29,
       "p1": "Luís Soares",
       "lic1": "14690",
       "pid1": "101802",
@@ -425,7 +440,7 @@
       "total": 2455.53
     },
     {
-      "pos": 29,
+      "pos": 30,
       "p1": "Manuel Esperto",
       "lic1": "16675",
       "pid1": "169524",
@@ -440,7 +455,7 @@
       "total": 1415.79
     },
     {
-      "pos": 30,
+      "pos": 31,
       "p1": "Diogo Gomes",
       "lic1": "17679",
       "pid1": "146704",
@@ -455,7 +470,7 @@
       "total": 761.8
     },
     {
-      "pos": 31,
+      "pos": 32,
       "p1": "Tiago Gonçalves",
       "lic1": "",
       "pid1": "",
@@ -470,7 +485,7 @@
       "total": 430.84
     },
     {
-      "pos": 32,
+      "pos": 33,
       "p1": "Marco Custódio",
       "lic1": "15168",
       "pid1": "160718",

@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 1",
-  "generatedAt": "2026-04-14T10:28:58.046Z",
+  "generatedAt": "2026-04-14T22:15:11.025Z",
   "result": [
     {
       "pos": 1,
@@ -93,6 +93,21 @@
       "pts2": 1445.08,
       "lvl2": 5,
       "total": 1445.08
+    },
+    {
+      "pos": 7,
+      "p1": "Brasão",
+      "lic1": "4021",
+      "pid1": "44634",
+      "p2": "Semi",
+      "lic2": "9675",
+      "pid2": "89216",
+      "club": "Padel Factory",
+      "pts1": 539.31,
+      "lvl1": 6,
+      "pts2": 6.75,
+      "lvl2": 6,
+      "total": 546.06
     }
   ]
 }

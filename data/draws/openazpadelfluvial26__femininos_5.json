@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-14T10:26:15.468Z",
+  "generatedAt": "2026-04-14T22:12:36.208Z",
   "result": [
     {
       "pos": 1,
@@ -96,6 +96,21 @@
     },
     {
       "pos": 7,
+      "p1": "Inês Pestana",
+      "lic1": "10807",
+      "pid1": "136108",
+      "p2": "Filipa Costa",
+      "lic2": "36351",
+      "pid2": "510271",
+      "club": "QM / SCP - Gaia",
+      "pts1": 236.56,
+      "lvl1": 6,
+      "pts2": 67.5,
+      "lvl2": 6,
+      "total": 304.06
+    },
+    {
+      "pos": 8,
       "p1": "Inês Camões",
       "lic1": "27406",
       "pid1": "407914",
@@ -110,7 +125,7 @@
       "total": 271
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Tatiana Donnikova",
       "lic1": "33962",
       "pid1": "503708",
@@ -125,7 +140,22 @@
       "total": 142.51
     },
     {
-      "pos": 9,
+      "pos": 10,
+      "p1": "Mafalda Mendes",
+      "lic1": "32996",
+      "pid1": "206094",
+      "p2": "Leonor Tschopp",
+      "lic2": "33144",
+      "pid2": "219293",
+      "club": "M9PadelCenter",
+      "pts1": 34.38,
+      "lvl1": 6,
+      "pts2": 34.38,
+      "lvl2": 6,
+      "total": 68.76
+    },
+    {
+      "pos": 11,
       "p1": "Joana Casanova",
       "lic1": "24464",
       "pid1": "86623",

@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Femininos SUB14",
-  "generatedAt": "2026-04-14T10:28:32.590Z",
+  "generatedAt": "2026-04-14T22:14:45.910Z",
   "result": [
     {
       "pos": 1,
@@ -18,6 +18,36 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 330.4
+    },
+    {
+      "pos": 2,
+      "p1": "Maelys",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Beatriz Santos",
+      "lic2": "",
+      "pid2": "",
+      "club": "Clube Ténis Lagos",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 3,
+      "p1": "Benedita Manso",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Carlota Lóres",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel4move",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
     }
   ]
 }

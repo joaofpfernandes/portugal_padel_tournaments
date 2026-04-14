@@ -2,10 +2,25 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +55 Nível 1",
-  "generatedAt": "2026-04-14T10:29:27.714Z",
+  "generatedAt": "2026-04-14T22:15:41.271Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Vitor Inácio",
+      "lic1": "4662",
+      "pid1": "61267",
+      "p2": "Luis Nogueira",
+      "lic2": "7394",
+      "pid2": "87174",
+      "club": "",
+      "pts1": 988.39,
+      "lvl1": 6,
+      "pts2": 247.41,
+      "lvl2": 6,
+      "total": 1235.8
+    },
+    {
+      "pos": 2,
       "p1": "JOCA MOOG",
       "lic1": "",
       "pid1": "",
@@ -20,7 +35,7 @@
       "total": 568.75
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Luis Branco",
       "lic1": "",
       "pid1": "",
@@ -35,7 +50,7 @@
       "total": 325
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Rui Oliveira",
       "lic1": "",
       "pid1": "",
@@ -50,7 +65,7 @@
       "total": 300.06
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Vitor Silva Marques",
       "lic1": "573",
       "pid1": "46689",
@@ -65,7 +80,7 @@
       "total": 130.57
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "José Queijo",
       "lic1": "13589",
       "pid1": "15493",
@@ -80,7 +95,7 @@
       "total": 26.560000000000002
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Plinio Jorge",
       "lic1": "2891",
       "pid1": "128",
@@ -95,7 +110,7 @@
       "total": 25
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Diogo Mendonça",
       "lic1": "",
       "pid1": "",
@@ -110,7 +125,7 @@
       "total": 22.75
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "João Branquinho",
       "lic1": "",
       "pid1": "",

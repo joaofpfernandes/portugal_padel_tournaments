@@ -2,10 +2,25 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-14T10:26:00.636Z",
+  "generatedAt": "2026-04-14T22:12:21.348Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Zé Pedro Ferreira",
+      "lic1": "10736",
+      "pid1": "14320",
+      "p2": "Bernardo Bastos",
+      "lic2": "405",
+      "pid2": "33959",
+      "club": "",
+      "pts1": 101750,
+      "lvl1": 1,
+      "pts2": 93000,
+      "lvl2": 1,
+      "total": 194750
+    },
+    {
+      "pos": 2,
       "p1": "Leo Torres",
       "lic1": "15352",
       "pid1": "176009",
@@ -20,7 +35,7 @@
       "total": 87375
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Manuel Bragança",
       "lic1": "6324",
       "pid1": "22681",
@@ -35,7 +50,7 @@
       "total": 82450
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Bernardo Gomes",
       "lic1": "4010",
       "pid1": "74209",
@@ -50,7 +65,22 @@
       "total": 63912.5
     },
     {
-      "pos": 4,
+      "pos": 5,
+      "p1": "Henrique Leitao",
+      "lic1": "25723",
+      "pid1": "67645",
+      "p2": "Manel Doria",
+      "lic2": "20046",
+      "pid2": "91861",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 29790.63,
+      "lvl1": 2,
+      "pts2": 19937.5,
+      "lvl2": 2,
+      "total": 49728.130000000005
+    },
+    {
+      "pos": 6,
       "p1": "Afonso Matos",
       "lic1": "3714",
       "pid1": "74174",
@@ -65,7 +95,37 @@
       "total": 41925
     },
     {
-      "pos": 5,
+      "pos": 7,
+      "p1": "Joao Vieira",
+      "lic1": "19443",
+      "pid1": "182847",
+      "p2": "José Tinoco",
+      "lic2": "21990",
+      "pid2": "276229",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 24006.25,
+      "lvl1": 2,
+      "pts2": 13740.63,
+      "lvl2": 2,
+      "total": 37746.88
+    },
+    {
+      "pos": 8,
+      "p1": "João Guimarães",
+      "lic1": "969",
+      "pid1": "33974",
+      "p2": "Benny Ribeiro",
+      "lic2": "14733",
+      "pid2": "175349",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 19387.5,
+      "lvl1": 2,
+      "pts2": 11556.25,
+      "lvl2": 2,
+      "total": 30943.75
+    },
+    {
+      "pos": 9,
       "p1": "Lourenço Romão",
       "lic1": "7156",
       "pid1": "79944",
