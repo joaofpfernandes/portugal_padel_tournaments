@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T21:57:38.261Z",
+  "generatedAt": "2026-04-14T10:13:03.521Z",
   "result": [
     {
       "pos": 1,
@@ -103,11 +103,11 @@
       "lic2": "23199",
       "pid2": "320787",
       "club": "ClubePadeldasCaldas",
-      "pts1": 1041.22,
+      "pts1": 936.22,
       "lvl1": 6,
       "pts2": 73.13,
       "lvl2": 6,
-      "total": 1114.35
+      "total": 1009.35
     },
     {
       "pos": 8,
@@ -285,9 +285,9 @@
       "club": "Dezporvinte",
       "pts1": 102.16,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 4.69,
       "lvl2": 6,
-      "total": 105.28999999999999
+      "total": 106.85
     },
     {
       "pos": 20,

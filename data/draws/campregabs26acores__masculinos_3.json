@@ -2,25 +2,10 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Açores",
   "slug": "CampRegABS26Acores",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-13T21:52:04.501Z",
+  "generatedAt": "2026-04-14T10:07:11.934Z",
   "result": [
     {
       "pos": 1,
-      "p1": "João Bettencourt",
-      "lic1": "22143",
-      "pid1": "8580",
-      "p2": "Tiago Macedo",
-      "lic2": "32041",
-      "pid2": "319284",
-      "club": "LawnTennisClubdailhaTerceira",
-      "pts1": 10000,
-      "lvl1": 3,
-      "pts2": 10000,
-      "lvl2": 3,
-      "total": 20000
-    },
-    {
-      "pos": 2,
       "p1": "Patrick Soares de Medeiros",
       "lic1": "16288",
       "pid1": "118648",
@@ -30,9 +15,24 @@
       "club": "",
       "pts1": 6019.34,
       "lvl1": 3,
-      "pts2": 3903.75,
-      "lvl2": 4,
-      "total": 9923.09
+      "pts2": 1653.75,
+      "lvl2": 5,
+      "total": 7673.09
+    },
+    {
+      "pos": 2,
+      "p1": "João Bettencourt",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Tiago Macedo",
+      "lic2": "29384",
+      "pid2": "413710",
+      "club": "LawnTennisClubdailhaTerceira",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 1.56,
+      "lvl2": 6,
+      "total": 1.56
     }
   ]
 }

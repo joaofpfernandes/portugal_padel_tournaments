@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Norte",
   "slug": "CampRegJovNor26",
   "section": "Femininos SUB14",
-  "generatedAt": "2026-04-13T22:06:36.072Z",
+  "generatedAt": "2026-04-14T10:22:36.547Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "",
       "pid2": "",
       "club": "AveiroPadel Clube dos Galitos",
-      "pts1": 1231.25,
+      "pts1": 1237.5,
       "lvl1": 5,
       "pts2": 0,
       "lvl2": 6,
-      "total": 1231.25
+      "total": 1237.5
     },
     {
       "pos": 2,
@@ -37,17 +37,17 @@
     {
       "pos": 3,
       "p1": "Kika",
-      "lic1": "",
-      "pid1": "",
+      "lic1": "25900",
+      "pid1": "333348",
       "p2": "Sofia Perpétua",
       "lic2": "",
       "pid2": "",
       "club": "MeshPadelCenter",
-      "pts1": 0,
+      "pts1": 9.38,
       "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 0
+      "total": 9.38
     }
   ]
 }

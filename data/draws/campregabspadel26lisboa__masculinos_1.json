@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T21:59:51.869Z",
+  "generatedAt": "2026-04-14T10:15:24.375Z",
   "result": [
     {
       "pos": 1,
@@ -66,21 +66,6 @@
     },
     {
       "pos": 5,
-      "p1": "Miguel Chaleta Henriques",
-      "lic1": "11263",
-      "pid1": "10427",
-      "p2": "Bernardo Ferreira",
-      "lic2": "5212",
-      "pid2": "10859",
-      "club": "Padel Expo",
-      "pts1": 49075,
-      "lvl1": 1,
-      "pts2": 43000,
-      "lvl2": 1,
-      "total": 92075
-    },
-    {
-      "pos": 6,
       "p1": "Gonçalo Serras Pereira",
       "lic1": "26200",
       "pid1": "16290",
@@ -95,6 +80,21 @@
       "total": 91856.25
     },
     {
+      "pos": 6,
+      "p1": "Miguel Chaleta Henriques",
+      "lic1": "11263",
+      "pid1": "10427",
+      "p2": "Bernardo Ferreira",
+      "lic2": "5212",
+      "pid2": "10859",
+      "club": "Padel Expo",
+      "pts1": 48275,
+      "lvl1": 1,
+      "pts2": 43000,
+      "lvl2": 1,
+      "total": 91275
+    },
+    {
       "pos": 7,
       "p1": "Miguel Vieira",
       "lic1": "4130",
@@ -105,9 +105,9 @@
       "club": "Lx Indoor Padel",
       "pts1": 48250,
       "lvl1": 1,
-      "pts2": 25306.25,
+      "pts2": 24518.75,
       "lvl2": 2,
-      "total": 73556.25
+      "total": 72768.75
     },
     {
       "pos": 8,
@@ -120,9 +120,9 @@
       "club": "",
       "pts1": 52375,
       "lvl1": 1,
-      "pts2": 19450,
+      "pts2": 18987.5,
       "lvl2": 2,
-      "total": 71825
+      "total": 71362.5
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "5394",
       "pid2": "84131",
       "club": "",
-      "pts1": 32500,
+      "pts1": 29250,
       "lvl1": 2,
-      "pts2": 38625,
+      "pts2": 36125,
       "lvl2": 2,
-      "total": 71125
+      "total": 65375
     },
     {
       "pos": 10,
@@ -163,11 +163,11 @@
       "lic2": "",
       "pid2": "",
       "club": "OeirasPadelAcademy",
-      "pts1": 53000,
+      "pts1": 55750,
       "lvl1": 1,
       "pts2": 0,
       "lvl2": 6,
-      "total": 53000
+      "total": 55750
     },
     {
       "pos": 12,
@@ -178,11 +178,11 @@
       "lic2": "16791",
       "pid2": "188876",
       "club": "AirfutPadelIndoor",
-      "pts1": 15318.75,
+      "pts1": 14531.25,
       "lvl1": 2,
-      "pts2": 27431.25,
+      "pts2": 27081.25,
       "lvl2": 2,
-      "total": 42750
+      "total": 41612.5
     }
   ]
 }

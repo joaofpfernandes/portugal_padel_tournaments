@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +55 Nível 1",
-  "generatedAt": "2026-04-13T22:13:03.332Z",
+  "generatedAt": "2026-04-14T10:29:27.714Z",
   "result": [
     {
       "pos": 1,
@@ -58,14 +58,44 @@
       "lic2": "12596",
       "pid2": "54213",
       "club": "Padel Factory",
-      "pts1": 47.96,
+      "pts1": 57.34,
       "lvl1": 6,
-      "pts2": 66.98,
+      "pts2": 73.23,
       "lvl2": 6,
-      "total": 114.94
+      "total": 130.57
     },
     {
       "pos": 5,
+      "p1": "José Queijo",
+      "lic1": "13589",
+      "pid1": "15493",
+      "p2": "Filipe Ribeiro",
+      "lic2": "30366",
+      "pid2": "415404",
+      "club": "Padel Factory",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 14.06,
+      "lvl2": 6,
+      "total": 26.560000000000002
+    },
+    {
+      "pos": 6,
+      "p1": "Plinio Jorge",
+      "lic1": "2891",
+      "pid1": "128",
+      "p2": "Pedro Frazão",
+      "lic2": "",
+      "pid2": "",
+      "club": "Clube Ténis Padel de Portimão",
+      "pts1": 25,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 25
+    },
+    {
+      "pos": 7,
       "p1": "Diogo Mendonça",
       "lic1": "",
       "pid1": "",
@@ -78,36 +108,6 @@
       "pts2": 22.75,
       "lvl2": 6,
       "total": 22.75
-    },
-    {
-      "pos": 6,
-      "p1": "José Queijo",
-      "lic1": "13589",
-      "pid1": "15493",
-      "p2": "Filipe Ribeiro",
-      "lic2": "30366",
-      "pid2": "415404",
-      "club": "Padel Factory",
-      "pts1": 3.13,
-      "lvl1": 6,
-      "pts2": 14.06,
-      "lvl2": 6,
-      "total": 17.19
-    },
-    {
-      "pos": 7,
-      "p1": "Plinio Jorge",
-      "lic1": "2891",
-      "pid1": "128",
-      "p2": "Pedro Frazão",
-      "lic2": "",
-      "pid2": "",
-      "club": "Clube Ténis Padel de Portimão",
-      "pts1": 6.25,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 6.25
     },
     {
       "pos": 8,

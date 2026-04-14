@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T21:55:11.742Z",
+  "generatedAt": "2026-04-14T10:10:29.343Z",
   "result": [
     {
       "pos": 1,
@@ -28,11 +28,11 @@
       "lic2": "8748",
       "pid2": "81804",
       "club": "",
-      "pts1": 80125,
+      "pts1": 80625,
       "lvl1": 1,
       "pts2": 27750,
       "lvl2": 2,
-      "total": 107875
+      "total": 108375
     },
     {
       "pos": 3,
@@ -58,11 +58,11 @@
       "lic2": "967",
       "pid2": "34003",
       "club": "",
-      "pts1": 33956.25,
+      "pts1": 36206.25,
       "lvl1": 2,
       "pts2": 53000,
       "lvl2": 1,
-      "total": 86956.25
+      "total": 89206.25
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "17302",
       "pid2": "211885",
       "club": "",
-      "pts1": 57500,
+      "pts1": 58375,
       "lvl1": 1,
-      "pts2": 27375,
+      "pts2": 29000,
       "lvl2": 2,
-      "total": 84875
+      "total": 87375
     },
     {
       "pos": 6,
@@ -88,11 +88,11 @@
       "lic2": "9185",
       "pid2": "25656",
       "club": "LIFEPADEL",
-      "pts1": 40750,
+      "pts1": 43500,
       "lvl1": 1,
-      "pts2": 36200,
+      "pts2": 38950,
       "lvl2": 2,
-      "total": 76950
+      "total": 82450
     },
     {
       "pos": 7,
@@ -105,9 +105,9 @@
       "club": "DOuroPadelPasteleira",
       "pts1": 14206.25,
       "lvl1": 2,
-      "pts2": 29250,
+      "pts2": 31375,
       "lvl2": 2,
-      "total": 43456.25
+      "total": 45581.25
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "982",
       "pid2": "75305",
       "club": "",
-      "pts1": 25486.25,
+      "pts1": 26323.75,
       "lvl1": 2,
-      "pts2": 12862.5,
+      "pts2": 13606.25,
       "lvl2": 2,
-      "total": 38348.75
+      "total": 39930
     }
   ]
 }

@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Femininos 6",
-  "generatedAt": "2026-04-13T22:05:23.800Z",
+  "generatedAt": "2026-04-14T10:21:23.340Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "Vilamoura Tennis & Padel Acade",
       "pts1": 74.69,
       "lvl1": 6,
-      "pts2": 1022.04,
+      "pts2": 1025.17,
       "lvl2": 6,
-      "total": 1096.73
+      "total": 1099.8600000000001
     },
     {
       "pos": 2,
@@ -30,9 +30,9 @@
       "club": "Clube Ténis Padel de Portimão",
       "pts1": 306.47,
       "lvl1": 6,
-      "pts2": 206.59,
+      "pts2": 215.97,
       "lvl2": 6,
-      "total": 513.0600000000001
+      "total": 522.44
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "17731",
       "pid2": "172111",
       "club": "Padel4move",
-      "pts1": 489.23,
+      "pts1": 492.36,
       "lvl1": 6,
       "pts2": 23.44,
       "lvl2": 6,
-      "total": 512.6700000000001
+      "total": 515.8000000000001
     },
     {
       "pos": 4,
@@ -118,11 +118,11 @@
       "lic2": "27902",
       "pid2": "385596",
       "club": "Padel4move",
-      "pts1": 148.59,
+      "pts1": 136.78,
       "lvl1": 6,
       "pts2": 17.63,
       "lvl2": 6,
-      "total": 166.22
+      "total": 154.41
     },
     {
       "pos": 9,

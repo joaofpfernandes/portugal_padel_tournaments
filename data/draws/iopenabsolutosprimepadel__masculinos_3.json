@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-13T22:11:05.688Z",
+  "generatedAt": "2026-04-14T10:27:22.017Z",
   "result": [
     {
       "pos": 1,
@@ -18,21 +18,6 @@
       "pts2": 245,
       "lvl2": 6,
       "total": 2189.38
-    },
-    {
-      "pos": 2,
-      "p1": "Miguel Pedro",
-      "lic1": "9496",
-      "pid1": "88771",
-      "p2": "José Ricardo",
-      "lic2": "12463",
-      "pid2": "143862",
-      "club": "CET de Cantanhede",
-      "pts1": 401.25,
-      "lvl1": 6,
-      "pts2": 3.13,
-      "lvl2": 6,
-      "total": 404.38
     }
   ]
 }

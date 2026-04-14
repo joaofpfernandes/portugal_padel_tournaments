@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T22:10:49.301Z",
+  "generatedAt": "2026-04-14T10:27:04.434Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "27412",
       "pid2": "353596",
       "club": "MagicpadelLda",
-      "pts1": 188.15,
+      "pts1": 189.71,
       "lvl1": 6,
       "pts2": 278.75,
       "lvl2": 6,
-      "total": 466.9
+      "total": 468.46000000000004
     },
     {
       "pos": 2,
@@ -36,6 +36,36 @@
     },
     {
       "pos": 3,
+      "p1": "João Silva",
+      "lic1": "8774",
+      "pid1": "82693",
+      "p2": "Francisco Almeida",
+      "lic2": "29997",
+      "pid2": "288796",
+      "club": "VCPadel",
+      "pts1": 144.13,
+      "lvl1": 6,
+      "pts2": 125.19,
+      "lvl2": 6,
+      "total": 269.32
+    },
+    {
+      "pos": 4,
+      "p1": "Ricardo Ferreira",
+      "lic1": "11218",
+      "pid1": "34008",
+      "p2": "Afonso Carreira",
+      "lic2": "37698",
+      "pid2": "250226",
+      "club": "",
+      "pts1": 234.28,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 243.66
+    },
+    {
+      "pos": 5,
       "p1": "João José Costa",
       "lic1": "15989",
       "pid1": "33406",
@@ -50,7 +80,7 @@
       "total": 149.01
     },
     {
-      "pos": 4,
+      "pos": 6,
       "p1": "João Mamede",
       "lic1": "12496",
       "pid1": "144237",
@@ -65,7 +95,7 @@
       "total": 140.59
     },
     {
-      "pos": 5,
+      "pos": 7,
       "p1": "Francisco Pires",
       "lic1": "9930",
       "pid1": "93302",
@@ -80,7 +110,7 @@
       "total": 113.61999999999999
     },
     {
-      "pos": 6,
+      "pos": 8,
       "p1": "Bernardo Silva",
       "lic1": "37060",
       "pid1": "276702",
@@ -95,7 +125,7 @@
       "total": 97.22
     },
     {
-      "pos": 7,
+      "pos": 9,
       "p1": "Michael Aparício",
       "lic1": "30072",
       "pid1": "348690",
@@ -110,7 +140,7 @@
       "total": 89.1
     },
     {
-      "pos": 8,
+      "pos": 10,
       "p1": "Rodrigo Vaz",
       "lic1": "9929",
       "pid1": "93297",
@@ -125,7 +155,7 @@
       "total": 78.78
     },
     {
-      "pos": 9,
+      "pos": 11,
       "p1": "Rui Arnaud",
       "lic1": "8666",
       "pid1": "81402",
@@ -140,7 +170,7 @@
       "total": 23.44
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Francisco Ferreira",
       "lic1": "35479",
       "pid1": "273619",
@@ -155,7 +185,7 @@
       "total": 15.63
     },
     {
-      "pos": 11,
+      "pos": 13,
       "p1": "Jorge Góis",
       "lic1": "30393",
       "pid1": "379339",
@@ -170,7 +200,7 @@
       "total": 13.940000000000001
     },
     {
-      "pos": 12,
+      "pos": 14,
       "p1": "Tiago Pratas",
       "lic1": "33656",
       "pid1": "421330",
@@ -185,7 +215,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 13,
+      "pos": 15,
       "p1": "Jorge Todo Bom",
       "lic1": "30159",
       "pid1": "286545",
@@ -198,6 +228,21 @@
       "pts2": 3.13,
       "lvl2": 6,
       "total": 6.26
+    },
+    {
+      "pos": 16,
+      "p1": "Pedro Violante",
+      "lic1": "12967",
+      "pid1": "150742",
+      "p2": "Bruno Gonçalo",
+      "lic2": "",
+      "pid2": "",
+      "club": "AdhocClubCoimbra",
+      "pts1": 4.69,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 4.69
     }
   ]
 }

@@ -2,10 +2,25 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +55 Nível 2",
-  "generatedAt": "2026-04-13T22:13:07.750Z",
+  "generatedAt": "2026-04-14T10:29:32.280Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Mario Martins",
+      "lic1": "9872",
+      "pid1": "92969",
+      "p2": "Eduardo Vieira",
+      "lic2": "12504",
+      "pid2": "143058",
+      "club": "",
+      "pts1": 240,
+      "lvl1": 6,
+      "pts2": 876.25,
+      "lvl2": 6,
+      "total": 1116.25
+    },
+    {
+      "pos": 2,
       "p1": "Joao Morgado",
       "lic1": "32763",
       "pid1": "229544",
@@ -13,11 +28,11 @@
       "lic2": "35237",
       "pid2": "317364",
       "club": "Nave",
-      "pts1": 371.16,
+      "pts1": 380.53,
       "lvl1": 6,
-      "pts2": 4.69,
+      "pts2": 7.81,
       "lvl2": 6,
-      "total": 375.85
+      "total": 388.34
     }
   ]
 }

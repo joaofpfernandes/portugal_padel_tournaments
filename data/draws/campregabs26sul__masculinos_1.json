@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T22:05:14.040Z",
+  "generatedAt": "2026-04-14T10:21:14.739Z",
   "result": [
     {
       "pos": 1,
@@ -58,11 +58,11 @@
       "lic2": "11153",
       "pid2": "88824",
       "club": "Padel4move",
-      "pts1": 39431.25,
+      "pts1": 39418.75,
       "lvl1": 1,
-      "pts2": 32106.25,
+      "pts2": 30968.75,
       "lvl2": 2,
-      "total": 71537.5
+      "total": 70387.5
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "4971",
       "pid2": "48670",
       "club": "Padel Clube VRSA",
-      "pts1": 29068.75,
+      "pts1": 28068.75,
       "lvl1": 2,
-      "pts2": 36950,
+      "pts2": 35950,
       "lvl2": 2,
-      "total": 66018.75
+      "total": 64018.75
     },
     {
       "pos": 6,
@@ -120,9 +120,9 @@
       "club": "SportingClubeFarense",
       "pts1": 11440,
       "lvl1": 2,
-      "pts2": 25800,
+      "pts2": 24312.5,
       "lvl2": 2,
-      "total": 37240
+      "total": 35752.5
     }
   ]
 }

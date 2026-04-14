@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-13T22:18:01.315Z",
+  "generatedAt": "2026-04-14T10:33:12.041Z",
   "result": [
     {
       "pos": 1,
@@ -13,29 +13,14 @@
       "lic2": "18882",
       "pid2": "186279",
       "club": "Padel Factory",
-      "pts1": 10229.75,
+      "pts1": 10636,
       "lvl1": 3,
       "pts2": 6662.06,
       "lvl2": 3,
-      "total": 16891.81
+      "total": 17298.06
     },
     {
       "pos": 2,
-      "p1": "Sofia Gião",
-      "lic1": "22992",
-      "pid1": "227738",
-      "p2": "Rafaela Costa",
-      "lic2": "26670",
-      "pid2": "349202",
-      "club": "Padel Factory",
-      "pts1": 7572.41,
-      "lvl1": 3,
-      "pts2": 2936.38,
-      "lvl2": 4,
-      "total": 10508.79
-    },
-    {
-      "pos": 3,
       "p1": "Mónica Neves",
       "lic1": "6431",
       "pid1": "74066",
@@ -45,12 +30,42 @@
       "club": "",
       "pts1": 2900,
       "lvl1": 4,
-      "pts2": 7222.5,
+      "pts2": 7559.38,
       "lvl2": 3,
-      "total": 10122.5
+      "total": 10459.380000000001
+    },
+    {
+      "pos": 3,
+      "p1": "Sofia Gião",
+      "lic1": "22992",
+      "pid1": "227738",
+      "p2": "Rafaela Costa",
+      "lic2": "26670",
+      "pid2": "349202",
+      "club": "Padel Factory",
+      "pts1": 7584.91,
+      "lvl1": 3,
+      "pts2": 2544.5,
+      "lvl2": 4,
+      "total": 10129.41
     },
     {
       "pos": 4,
+      "p1": "Ana Monteiro",
+      "lic1": "31172",
+      "pid1": "321567",
+      "p2": "Marta Carvalho",
+      "lic2": "26803",
+      "pid2": "326739",
+      "club": "QM / SCP",
+      "pts1": 6427.38,
+      "lvl1": 3,
+      "pts2": 1544.28,
+      "lvl2": 5,
+      "total": 7971.66
+    },
+    {
+      "pos": 5,
       "p1": "Marta Matos",
       "lic1": "16305",
       "pid1": "185123",
@@ -58,14 +73,14 @@
       "lic2": "16307",
       "pid2": "185146",
       "club": "W Padel Country Club",
-      "pts1": 3940.09,
+      "pts1": 3943.22,
       "lvl1": 4,
-      "pts2": 3882.25,
+      "pts2": 3913.5,
       "lvl2": 4,
-      "total": 7822.34
+      "total": 7856.719999999999
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Ela",
       "lic1": "16514",
       "pid1": "188748",
@@ -76,26 +91,26 @@
       "pts1": 3411.63,
       "lvl1": 4,
       "pts2": 4236.13,
-      "lvl2": 4,
+      "lvl2": 3,
       "total": 7647.76
     },
     {
-      "pos": 6,
-      "p1": "Ana Monteiro",
-      "lic1": "31172",
-      "pid1": "321567",
-      "p2": "Marta Carvalho",
-      "lic2": "26803",
-      "pid2": "326739",
-      "club": "QM / SCP",
-      "pts1": 6137.75,
-      "lvl1": 3,
-      "pts2": 1503.03,
-      "lvl2": 5,
-      "total": 7640.78
+      "pos": 7,
+      "p1": "Patricia David",
+      "lic1": "10046",
+      "pid1": "95017",
+      "p2": "Inês Santos",
+      "lic2": "11437",
+      "pid2": "101522",
+      "club": "OeirasPadelAcademy",
+      "pts1": 877.48,
+      "lvl1": 6,
+      "pts2": 6572.25,
+      "lvl2": 3,
+      "total": 7449.73
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Laura Ferreira",
       "lic1": "20499",
       "pid1": "234241",
@@ -110,21 +125,6 @@
       "total": 7193.84
     },
     {
-      "pos": 8,
-      "p1": "Mafalda Alves",
-      "lic1": "18674",
-      "pid1": "230545",
-      "p2": "Lucie",
-      "lic2": "32845",
-      "pid2": "418870",
-      "club": "",
-      "pts1": 5768.22,
-      "lvl1": 3,
-      "pts2": 939.19,
-      "lvl2": 6,
-      "total": 6707.41
-    },
-    {
       "pos": 9,
       "p1": "Mariana Ribeiro",
       "lic1": "14431",
@@ -133,14 +133,29 @@
       "lic2": "26128",
       "pid2": "251285",
       "club": "Quinta dos Lombos Padel",
-      "pts1": 3797.88,
+      "pts1": 3816.63,
       "lvl1": 4,
-      "pts2": 2830.13,
+      "pts2": 2848.88,
       "lvl2": 4,
-      "total": 6628.01
+      "total": 6665.51
     },
     {
       "pos": 10,
+      "p1": "Mafalda Alves",
+      "lic1": "18674",
+      "pid1": "230545",
+      "p2": "Lucie",
+      "lic2": "32845",
+      "pid2": "418870",
+      "club": "",
+      "pts1": 5690.13,
+      "lvl1": 3,
+      "pts2": 939.19,
+      "lvl2": 6,
+      "total": 6629.32
+    },
+    {
+      "pos": 11,
       "p1": "Sara Meirinhos",
       "lic1": "10090",
       "pid1": "48834",
@@ -155,7 +170,7 @@
       "total": 6125
     },
     {
-      "pos": 11,
+      "pos": 12,
       "p1": "Raquel Laconca",
       "lic1": "14568",
       "pid1": "175188",
@@ -166,11 +181,11 @@
       "pts1": 1807.64,
       "lvl1": 5,
       "pts2": 4283.31,
-      "lvl2": 4,
+      "lvl2": 3,
       "total": 6090.950000000001
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Elisabete Cordeiro",
       "lic1": "10424",
       "pid1": "7428",
@@ -185,7 +200,7 @@
       "total": 5923.75
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Carolina Osório",
       "lic1": "12973",
       "pid1": "150886",
@@ -200,7 +215,7 @@
       "total": 5790.94
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Carina Pinto",
       "lic1": "26754",
       "pid1": "352149",
@@ -208,14 +223,14 @@
       "lic2": "29131",
       "pid2": "413294",
       "club": "QM / SCP",
-      "pts1": 1208.58,
+      "pts1": 1240.45,
       "lvl1": 5,
-      "pts2": 4331.27,
+      "pts2": 4337.52,
       "lvl2": 3,
-      "total": 5539.85
+      "total": 5577.97
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "Filipa Varandas",
       "lic1": "13340",
       "pid1": "167471",
@@ -230,7 +245,7 @@
       "total": 4878.5
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Sara Machado",
       "lic1": "11913",
       "pid1": "139204",
@@ -238,14 +253,14 @@
       "lic2": "",
       "pid2": "",
       "club": "Quinta dos Lombos Padel",
-      "pts1": 2186.88,
+      "pts1": 2205.63,
       "lvl1": 4,
       "pts2": 0,
       "lvl2": 6,
-      "total": 2186.88
+      "total": 2205.63
     },
     {
-      "pos": 17,
+      "pos": 18,
       "p1": "Charlotte Gauthier",
       "lic1": "32822",
       "pid1": "97400",
@@ -253,11 +268,11 @@
       "lic2": "20489",
       "pid2": "234136",
       "club": "Clube VII",
-      "pts1": 320.75,
+      "pts1": 339.5,
       "lvl1": 6,
-      "pts2": 1270.3,
+      "pts2": 1282.8,
       "lvl2": 5,
-      "total": 1591.05
+      "total": 1622.3
     }
   ]
 }

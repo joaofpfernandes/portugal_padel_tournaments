@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +50 Nível 2",
-  "generatedAt": "2026-04-13T22:12:56.829Z",
+  "generatedAt": "2026-04-14T10:29:21.163Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "17391",
       "pid2": "172619",
       "club": "Lisboa Racket Centre",
-      "pts1": 333.44,
+      "pts1": 342.81,
       "lvl1": 6,
-      "pts2": 142.35,
+      "pts2": 145.48,
       "lvl2": 6,
-      "total": 475.78999999999996
+      "total": 488.28999999999996
     },
     {
       "pos": 2,
@@ -43,11 +43,11 @@
       "lic2": "4151",
       "pid2": "80113",
       "club": "Valténis Country Club",
-      "pts1": 205.31,
+      "pts1": 211.56,
       "lvl1": 6,
-      "pts2": 217.81,
+      "pts2": 224.06,
       "lvl2": 6,
-      "total": 423.12
+      "total": 435.62
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "10296",
       "pid2": "91812",
       "club": "Lx Indoor Padel",
-      "pts1": 263.15,
+      "pts1": 266.28,
       "lvl1": 6,
-      "pts2": 28.81,
+      "pts2": 33.5,
       "lvl2": 6,
-      "total": 291.96
+      "total": 299.78
     }
   ]
 }

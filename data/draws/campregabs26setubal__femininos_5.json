@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
   "slug": "CampRegABS26Setubal",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T22:02:28.483Z",
+  "generatedAt": "2026-04-14T10:18:05.008Z",
   "result": [
     {
       "pos": 1,
@@ -13,29 +13,14 @@
       "lic2": "27874",
       "pid2": "384547",
       "club": "SmashPadelAlmada",
-      "pts1": 853.88,
+      "pts1": 825,
       "lvl1": 6,
-      "pts2": 1039.8,
+      "pts2": 1027.8,
       "lvl2": 6,
-      "total": 1893.6799999999998
+      "total": 1852.8
     },
     {
       "pos": 2,
-      "p1": "Joana Rocha",
-      "lic1": "18396",
-      "pid1": "148827",
-      "p2": "Mimi Cabral",
-      "lic2": "32114",
-      "pid2": "429713",
-      "club": "Rackets Pro Nova",
-      "pts1": 1586.75,
-      "lvl1": 5,
-      "pts2": 279.38,
-      "lvl2": 6,
-      "total": 1866.13
-    },
-    {
-      "pos": 3,
       "p1": "Elisa Alvarez",
       "lic1": "14308",
       "pid1": "174791",
@@ -50,6 +35,21 @@
       "total": 1582.17
     },
     {
+      "pos": 3,
+      "p1": "Joana Rocha",
+      "lic1": "18396",
+      "pid1": "148827",
+      "p2": "Mimi Cabral",
+      "lic2": "32114",
+      "pid2": "429713",
+      "club": "Rackets Pro Nova",
+      "pts1": 1188.63,
+      "lvl1": 5,
+      "pts2": 279.38,
+      "lvl2": 6,
+      "total": 1468.0100000000002
+    },
+    {
       "pos": 4,
       "p1": "Patrícia Ferreira",
       "lic1": "24740",
@@ -58,29 +58,14 @@
       "lic2": "24738",
       "pid2": "258011",
       "club": "MrPadel",
-      "pts1": 706.05,
+      "pts1": 680.3,
       "lvl1": 6,
-      "pts2": 742.67,
+      "pts2": 723.17,
       "lvl2": 6,
-      "total": 1448.7199999999998
+      "total": 1403.4699999999998
     },
     {
       "pos": 5,
-      "p1": "Mafalda Tavares",
-      "lic1": "14104",
-      "pid1": "169819",
-      "p2": "Andreia Pina",
-      "lic2": "14501",
-      "pid2": "175097",
-      "club": "MrPadel",
-      "pts1": 621.88,
-      "lvl1": 6,
-      "pts2": 768.37,
-      "lvl2": 6,
-      "total": 1390.25
-    },
-    {
-      "pos": 6,
       "p1": "Maria Pereira",
       "lic1": "29933",
       "pid1": "146874",
@@ -95,7 +80,7 @@
       "total": 1259.57
     },
     {
-      "pos": 7,
+      "pos": 6,
       "p1": "iola Marçalo",
       "lic1": "10043",
       "pid1": "64224",
@@ -110,6 +95,21 @@
       "total": 1217.98
     },
     {
+      "pos": 7,
+      "p1": "Mafalda Tavares",
+      "lic1": "14104",
+      "pid1": "169819",
+      "p2": "Andreia Pina",
+      "lic2": "14501",
+      "pid2": "175097",
+      "club": "MrPadel",
+      "pts1": 349.38,
+      "lvl1": 6,
+      "pts2": 768.37,
+      "lvl2": 6,
+      "total": 1117.75
+    },
+    {
       "pos": 8,
       "p1": "Paula Mendes",
       "lic1": "28586",
@@ -118,11 +118,11 @@
       "lic2": "28557",
       "pid2": "412452",
       "club": "NovoPadelClubSetubal",
-      "pts1": 908.52,
+      "pts1": 908.33,
       "lvl1": 6,
       "pts2": 172.41,
       "lvl2": 6,
-      "total": 1080.93
+      "total": 1080.74
     },
     {
       "pos": 9,
@@ -135,27 +135,12 @@
       "club": "SmashPadelAlmada",
       "pts1": 535.94,
       "lvl1": 6,
-      "pts2": 378.56,
+      "pts2": 356.25,
       "lvl2": 6,
-      "total": 914.5
+      "total": 892.19
     },
     {
       "pos": 10,
-      "p1": "Sofia Gomes",
-      "lic1": "14853",
-      "pid1": "124235",
-      "p2": "Rita Mimoso",
-      "lic2": "21806",
-      "pid2": "190108",
-      "club": "Arrábida Padel",
-      "pts1": 486.47,
-      "lvl1": 6,
-      "pts2": 171.03,
-      "lvl2": 6,
-      "total": 657.5
-    },
-    {
-      "pos": 11,
       "p1": "Leo Freitas",
       "lic1": "28032",
       "pid1": "303774",
@@ -170,22 +155,22 @@
       "total": 585
     },
     {
-      "pos": 12,
-      "p1": "Bruna Santos",
-      "lic1": "21307",
-      "pid1": "243015",
-      "p2": "Filipa Gonçalves",
-      "lic2": "",
-      "pid2": "",
-      "club": "SmashPadelAlmada",
-      "pts1": 389.25,
+      "pos": 11,
+      "p1": "Sofia Gomes",
+      "lic1": "14853",
+      "pid1": "124235",
+      "p2": "Rita Mimoso",
+      "lic2": "21806",
+      "pid2": "190108",
+      "club": "Arrábida Padel",
+      "pts1": 422.72,
       "lvl1": 6,
-      "pts2": 0,
+      "pts2": 148.72,
       "lvl2": 6,
-      "total": 389.25
+      "total": 571.44
     },
     {
-      "pos": 13,
+      "pos": 12,
       "p1": "Salette Vasconcelos",
       "lic1": "13309",
       "pid1": "142247",
@@ -198,6 +183,21 @@
       "pts2": 209.38,
       "lvl2": 6,
       "total": 385.01
+    },
+    {
+      "pos": 13,
+      "p1": "Bruna Santos",
+      "lic1": "21307",
+      "pid1": "243015",
+      "p2": "Filipa Gonçalves",
+      "lic2": "",
+      "pid2": "",
+      "club": "SmashPadelAlmada",
+      "pts1": 366.94,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 366.94
     },
     {
       "pos": 14,
@@ -223,11 +223,11 @@
       "lic2": "25473",
       "pid2": "328638",
       "club": "PIC Padel Club",
-      "pts1": 141.22,
+      "pts1": 128.84,
       "lvl1": 6,
-      "pts2": 43.31,
+      "pts2": 30.94,
       "lvl2": 6,
-      "total": 184.53
+      "total": 159.78
     },
     {
       "pos": 16,

@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Femininos 6",
-  "generatedAt": "2026-04-13T21:57:27.588Z",
+  "generatedAt": "2026-04-14T10:12:52.483Z",
   "result": [
     {
       "pos": 1,
@@ -103,11 +103,11 @@
       "lic2": "24102",
       "pid2": "323614",
       "club": "WOWPadel",
-      "pts1": 90.75,
+      "pts1": 92.31,
       "lvl1": 6,
-      "pts2": 38.25,
+      "pts2": 42.94,
       "lvl2": 6,
-      "total": 129
+      "total": 135.25
     },
     {
       "pos": 8,
@@ -133,11 +133,11 @@
       "lic2": "22724",
       "pid2": "319082",
       "club": "AlmeirINNPadel",
-      "pts1": 43.13,
+      "pts1": 44.69,
       "lvl1": 6,
-      "pts2": 31.69,
+      "pts2": 36.38,
       "lvl2": 6,
-      "total": 74.82000000000001
+      "total": 81.07
     },
     {
       "pos": 10,
@@ -246,6 +246,21 @@
     },
     {
       "pos": 17,
+      "p1": "Francisca Frazao",
+      "lic1": "34382",
+      "pid1": "234419",
+      "p2": "Joana Maria",
+      "lic2": "33480",
+      "pid2": "366036",
+      "club": "Dezporvinte",
+      "pts1": 7.81,
+      "lvl1": 6,
+      "pts2": 14.06,
+      "lvl2": 6,
+      "total": 21.87
+    },
+    {
+      "pos": 18,
       "p1": "Tamara de Jager",
       "lic1": "29244",
       "pid1": "396541",
@@ -260,7 +275,7 @@
       "total": 17.06
     },
     {
-      "pos": 18,
+      "pos": 19,
       "p1": "Rute Rocha",
       "lic1": "16285",
       "pid1": "104427",
@@ -273,21 +288,6 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 12.510000000000002
-    },
-    {
-      "pos": 19,
-      "p1": "Francisca Frazao",
-      "lic1": "34382",
-      "pid1": "234419",
-      "p2": "Joana Maria",
-      "lic2": "33480",
-      "pid2": "366036",
-      "club": "Dezporvinte",
-      "pts1": 4.69,
-      "lvl1": 6,
-      "pts2": 4.69,
-      "lvl2": 6,
-      "total": 9.38
     },
     {
       "pos": 20,

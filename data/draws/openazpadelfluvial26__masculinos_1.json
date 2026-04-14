@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T22:09:54.047Z",
+  "generatedAt": "2026-04-14T10:26:00.636Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "17302",
       "pid2": "211885",
       "club": "",
-      "pts1": 57500,
+      "pts1": 58375,
       "lvl1": 1,
-      "pts2": 27375,
+      "pts2": 29000,
       "lvl2": 2,
-      "total": 84875
+      "total": 87375
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "9185",
       "pid2": "25656",
       "club": "LIFEPADEL",
-      "pts1": 40750,
+      "pts1": 43500,
       "lvl1": 1,
-      "pts2": 36200,
+      "pts2": 38950,
       "lvl2": 2,
-      "total": 76950
+      "total": 82450
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "12733",
       "pid2": "142781",
       "club": "A-Z Padel Elite Barcelos",
-      "pts1": 31727.5,
+      "pts1": 31806.25,
       "lvl1": 2,
-      "pts2": 31443.75,
+      "pts2": 32106.25,
       "lvl2": 2,
-      "total": 63171.25
+      "total": 63912.5
     },
     {
       "pos": 4,

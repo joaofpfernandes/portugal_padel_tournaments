@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Sul",
   "slug": "CampRegJovSul26",
   "section": "Femininos SUB14",
-  "generatedAt": "2026-04-13T22:08:04.283Z",
+  "generatedAt": "2026-04-14T10:24:06.437Z",
   "result": [
     {
       "pos": 1,
@@ -22,17 +22,17 @@
     {
       "pos": 2,
       "p1": "Isabel Lerneby",
-      "lic1": "",
-      "pid1": "",
+      "lic1": "21592",
+      "pid1": "247495",
       "p2": "Benedita Manso",
       "lic2": "",
       "pid2": "",
       "club": "Padel4move",
-      "pts1": 0,
+      "pts1": 6.25,
       "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 0
+      "total": 6.25
     },
     {
       "pos": 3,

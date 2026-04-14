@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-13T22:05:41.951Z",
+  "generatedAt": "2026-04-14T10:21:41.174Z",
   "result": [
     {
       "pos": 1,
@@ -29,10 +29,10 @@
       "pid2": "287206",
       "club": "Clube Ténis Lagos",
       "pts1": 1967.41,
-      "lvl1": 5,
-      "pts2": 2005.54,
+      "lvl1": 4,
+      "pts2": 2008.66,
       "lvl2": 4,
-      "total": 3972.95
+      "total": 3976.07
     },
     {
       "pos": 3,

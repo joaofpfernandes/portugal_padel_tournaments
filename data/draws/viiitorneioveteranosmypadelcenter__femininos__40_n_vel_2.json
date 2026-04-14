@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +40 Nível 2",
-  "generatedAt": "2026-04-13T22:13:35.487Z",
+  "generatedAt": "2026-04-14T10:29:59.236Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "17234",
       "pid2": "209656",
       "club": "JCPADEL",
-      "pts1": 58.13,
+      "pts1": 55,
       "lvl1": 6,
-      "pts2": 9.38,
+      "pts2": 6.25,
       "lvl2": 6,
-      "total": 67.51
+      "total": 61.25
     }
   ]
 }

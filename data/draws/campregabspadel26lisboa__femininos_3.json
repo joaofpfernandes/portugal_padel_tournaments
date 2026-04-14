@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-13T22:00:40.965Z",
+  "generatedAt": "2026-04-14T10:16:12.978Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "16307",
       "pid2": "185146",
       "club": "Clube de Padel Alcântara",
-      "pts1": 8246.31,
+      "pts1": 7731.94,
       "lvl1": 3,
-      "pts2": 3882.25,
+      "pts2": 3913.5,
       "lvl2": 4,
-      "total": 12128.56
+      "total": 11645.439999999999
     },
     {
       "pos": 2,
@@ -30,27 +30,12 @@
       "club": "Lisboa Racket Centre",
       "pts1": 3827.36,
       "lvl1": 4,
-      "pts2": 6269.19,
+      "pts2": 6281.69,
       "lvl2": 3,
-      "total": 10096.55
+      "total": 10109.05
     },
     {
       "pos": 3,
-      "p1": "Bárbara Silva",
-      "lic1": "15606",
-      "pid1": "158989",
-      "p2": "Rita Fontemanha",
-      "lic2": "33706",
-      "pid2": "284539",
-      "club": "Lisboa Racket Centre",
-      "pts1": 8218.75,
-      "lvl1": 3,
-      "pts2": 650,
-      "lvl2": 6,
-      "total": 8868.75
-    },
-    {
-      "pos": 4,
       "p1": "Joana Lobo",
       "lic1": "17478",
       "pid1": "43514",
@@ -58,14 +43,14 @@
       "lic2": "1809",
       "pid2": "76047",
       "club": "OeirasPadelAcademy",
-      "pts1": 4056.1,
+      "pts1": 3670.48,
       "lvl1": 4,
-      "pts2": 4639.82,
+      "pts2": 4649.19,
       "lvl2": 3,
-      "total": 8695.92
+      "total": 8319.67
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "Sofia Gião",
       "lic1": "22992",
       "pid1": "227738",
@@ -73,29 +58,29 @@
       "lic2": "25991",
       "pid2": "301975",
       "club": "Padel Factory",
-      "pts1": 7572.41,
+      "pts1": 7584.91,
       "lvl1": 3,
-      "pts2": 404.38,
+      "pts2": 416.88,
       "lvl2": 6,
-      "total": 7976.79
+      "total": 8001.79
+    },
+    {
+      "pos": 5,
+      "p1": "Bárbara Silva",
+      "lic1": "15606",
+      "pid1": "158989",
+      "p2": "Rita Fontemanha",
+      "lic2": "33706",
+      "pid2": "284539",
+      "club": "Lisboa Racket Centre",
+      "pts1": 7031.25,
+      "lvl1": 3,
+      "pts2": 687.5,
+      "lvl2": 6,
+      "total": 7718.75
     },
     {
       "pos": 6,
-      "p1": "Sara Calado",
-      "lic1": "12089",
-      "pid1": "141027",
-      "p2": "Beatriz Katzenstein",
-      "lic2": "24246",
-      "pid2": "282982",
-      "club": "Time2padelCenter",
-      "pts1": 2024.69,
-      "lvl1": 4,
-      "pts2": 5470.94,
-      "lvl2": 3,
-      "total": 7495.629999999999
-    },
-    {
-      "pos": 7,
       "p1": "Djessika Eller",
       "lic1": "32344",
       "pid1": "21622",
@@ -103,14 +88,14 @@
       "lic2": "16582",
       "pid2": "189726",
       "club": "Time2padelCenter",
-      "pts1": 2404,
+      "pts1": 2422.75,
       "lvl1": 4,
-      "pts2": 4870.88,
+      "pts2": 4895.88,
       "lvl2": 3,
-      "total": 7274.88
+      "total": 7318.63
     },
     {
-      "pos": 8,
+      "pos": 7,
       "p1": "Mariana Ribeiro",
       "lic1": "14431",
       "pid1": "174986",
@@ -118,14 +103,14 @@
       "lic2": "26128",
       "pid2": "251285",
       "club": "Quinta dos Lombos Padel",
-      "pts1": 3797.88,
+      "pts1": 3816.63,
       "lvl1": 4,
-      "pts2": 2830.13,
+      "pts2": 2848.88,
       "lvl2": 4,
-      "total": 6628.01
+      "total": 6665.51
     },
     {
-      "pos": 9,
+      "pos": 8,
       "p1": "Mafalda Alves",
       "lic1": "18674",
       "pid1": "230545",
@@ -133,11 +118,26 @@
       "lic2": "29455",
       "pid2": "413800",
       "club": "",
-      "pts1": 5768.22,
+      "pts1": 5690.13,
       "lvl1": 3,
-      "pts2": 855.84,
+      "pts2": 858.97,
       "lvl2": 6,
-      "total": 6624.06
+      "total": 6549.1
+    },
+    {
+      "pos": 9,
+      "p1": "Sara Calado",
+      "lic1": "12089",
+      "pid1": "141027",
+      "p2": "Beatriz Katzenstein",
+      "lic2": "24246",
+      "pid2": "282982",
+      "club": "Time2padelCenter",
+      "pts1": 2043.44,
+      "lvl1": 4,
+      "pts2": 4333.44,
+      "lvl2": 3,
+      "total": 6376.879999999999
     },
     {
       "pos": 10,
@@ -148,11 +148,11 @@
       "lic2": "25674",
       "pid2": "331269",
       "club": "Padel Estoril",
-      "pts1": 2895.97,
+      "pts1": 2914.72,
       "lvl1": 4,
-      "pts2": 2376.63,
+      "pts2": 2414.13,
       "lvl2": 4,
-      "total": 5272.6
+      "total": 5328.85
     },
     {
       "pos": 11,
@@ -163,29 +163,14 @@
       "lic2": "23154",
       "pid2": "293094",
       "club": "Carcavelos Ténis",
-      "pts1": 2371.52,
-      "lvl1": 4,
-      "pts2": 2326.04,
+      "pts1": 1850.89,
+      "lvl1": 5,
+      "pts2": 2186.69,
       "lvl2": 4,
-      "total": 4697.5599999999995
+      "total": 4037.58
     },
     {
       "pos": 12,
-      "p1": "Filipa Câmara",
-      "lic1": "23778",
-      "pid1": "277378",
-      "p2": "Leticia Gomes",
-      "lic2": "22142",
-      "pid2": "288964",
-      "club": "BSJoao Padel",
-      "pts1": 2024.31,
-      "lvl1": 4,
-      "pts2": 245,
-      "lvl2": 6,
-      "total": 2269.31
-    },
-    {
-      "pos": 13,
       "p1": "Sara Machado",
       "lic1": "11913",
       "pid1": "139204",
@@ -193,11 +178,26 @@
       "lic2": "",
       "pid2": "",
       "club": "Quinta dos Lombos Padel",
-      "pts1": 2186.88,
+      "pts1": 2205.63,
       "lvl1": 4,
       "pts2": 0,
       "lvl2": 6,
-      "total": 2186.88
+      "total": 2205.63
+    },
+    {
+      "pos": 13,
+      "p1": "Filipa Câmara",
+      "lic1": "23778",
+      "pid1": "277378",
+      "p2": "Leticia Gomes",
+      "lic2": "22142",
+      "pid2": "288964",
+      "club": "BSJoao Padel",
+      "pts1": 1620.56,
+      "lvl1": 5,
+      "pts2": 257.5,
+      "lvl2": 6,
+      "total": 1878.06
     }
   ]
 }

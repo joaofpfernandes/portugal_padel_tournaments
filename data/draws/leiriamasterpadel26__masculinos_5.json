@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T22:15:10.046Z",
+  "generatedAt": "2026-04-14T10:31:34.169Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "20353",
       "pid2": "183863",
       "club": "Padel Campo Grande",
-      "pts1": 1556.64,
+      "pts1": 1471.78,
       "lvl1": 5,
-      "pts2": 1130.77,
+      "pts2": 991.43,
       "lvl2": 6,
-      "total": 2687.41
+      "total": 2463.21
     },
     {
       "pos": 2,
@@ -28,44 +28,29 @@
       "lic2": "20938",
       "pid2": "205937",
       "club": "Lisboa Racket Centre",
-      "pts1": 647.54,
+      "pts1": 653.79,
       "lvl1": 6,
-      "pts2": 1597.84,
+      "pts2": 1604.09,
       "lvl2": 5,
-      "total": 2245.38
+      "total": 2257.88
     },
     {
       "pos": 3,
-      "p1": "Duarte Redinha",
-      "lic1": "21173",
-      "pid1": "151780",
-      "p2": "Francisco Casqueiro",
-      "lic2": "13279",
-      "pid2": "166955",
-      "club": "SociedadedeEducacaoeRecreio“Os",
-      "pts1": 880.59,
+      "p1": "David Estrela Jr",
+      "lic1": "14944",
+      "pid1": "175567",
+      "p2": "Bruno Guedes",
+      "lic2": "23280",
+      "pid2": "262019",
+      "club": "Lisboa Racket Centre",
+      "pts1": 616.84,
       "lvl1": 6,
-      "pts2": 1334.27,
+      "pts2": 1618.06,
       "lvl2": 5,
-      "total": 2214.86
+      "total": 2234.9
     },
     {
       "pos": 4,
-      "p1": "Tiago Félix",
-      "lic1": "6605",
-      "pid1": "79092",
-      "p2": "David Coutinho",
-      "lic2": "6482",
-      "pid2": "80279",
-      "club": "New Padel - Chão da Fonte",
-      "pts1": 862.8,
-      "lvl1": 6,
-      "pts2": 1285.94,
-      "lvl2": 5,
-      "total": 2148.74
-    },
-    {
-      "pos": 5,
       "p1": "André Castanheira",
       "lic1": "10462",
       "pid1": "105647",
@@ -75,9 +60,24 @@
       "club": "PRIMEPADEL",
       "pts1": 1566.84,
       "lvl1": 5,
-      "pts2": 569.36,
+      "pts2": 606.86,
       "lvl2": 6,
-      "total": 2136.2
+      "total": 2173.7
+    },
+    {
+      "pos": 5,
+      "p1": "Tiago Félix",
+      "lic1": "6605",
+      "pid1": "79092",
+      "p2": "David Coutinho",
+      "lic2": "6482",
+      "pid2": "80279",
+      "club": "New Padel - Chão da Fonte",
+      "pts1": 862.8,
+      "lvl1": 6,
+      "pts2": 1298.44,
+      "lvl2": 5,
+      "total": 2161.24
     },
     {
       "pos": 6,
@@ -88,29 +88,14 @@
       "lic2": "5354",
       "pid2": "74795",
       "club": "Lisboa Racket Centre",
-      "pts1": 241.94,
+      "pts1": 245.06,
       "lvl1": 6,
       "pts2": 1863.88,
       "lvl2": 5,
-      "total": 2105.82
+      "total": 2108.94
     },
     {
       "pos": 7,
-      "p1": "Tiago Garrochinho",
-      "lic1": "9547",
-      "pid1": "71811",
-      "p2": "Rodrigo Caeiro",
-      "lic2": "11226",
-      "pid2": "75419",
-      "club": "NovoPadelClubSetubal",
-      "pts1": 958.92,
-      "lvl1": 6,
-      "pts2": 1094.02,
-      "lvl2": 6,
-      "total": 2052.94
-    },
-    {
-      "pos": 8,
       "p1": "João Torres",
       "lic1": "17083",
       "pid1": "204518",
@@ -118,14 +103,14 @@
       "lic2": "30111",
       "pid2": "314365",
       "club": "Dezporvinte",
-      "pts1": 1085.12,
+      "pts1": 1094.49,
       "lvl1": 6,
-      "pts2": 965.12,
+      "pts2": 969.8,
       "lvl2": 6,
-      "total": 2050.24
+      "total": 2064.29
     },
     {
-      "pos": 9,
+      "pos": 8,
       "p1": "Ricardo Cordeiro",
       "lic1": "31808",
       "pid1": "77782",
@@ -133,14 +118,14 @@
       "lic2": "21392",
       "pid2": "216086",
       "club": "Dezporvinte",
-      "pts1": 438.75,
+      "pts1": 448.12,
       "lvl1": 6,
-      "pts2": 1585.98,
+      "pts2": 1601.61,
       "lvl2": 5,
-      "total": 2024.73
+      "total": 2049.73
     },
     {
-      "pos": 10,
+      "pos": 9,
       "p1": "Eduardo Pedro",
       "lic1": "4155",
       "pid1": "83537",
@@ -155,7 +140,37 @@
       "total": 1998.82
     },
     {
+      "pos": 10,
+      "p1": "Duarte Redinha",
+      "lic1": "21173",
+      "pid1": "151780",
+      "p2": "Francisco Casqueiro",
+      "lic2": "13279",
+      "pid2": "166955",
+      "club": "SociedadedeEducacaoeRecreio“Os",
+      "pts1": 747.5,
+      "lvl1": 6,
+      "pts2": 1232.42,
+      "lvl2": 5,
+      "total": 1979.92
+    },
+    {
       "pos": 11,
+      "p1": "Tiago Garrochinho",
+      "lic1": "9547",
+      "pid1": "71811",
+      "p2": "Rodrigo Caeiro",
+      "lic2": "11226",
+      "pid2": "75419",
+      "club": "NovoPadelClubSetubal",
+      "pts1": 958.92,
+      "lvl1": 6,
+      "pts2": 997.55,
+      "lvl2": 6,
+      "total": 1956.4699999999998
+    },
+    {
+      "pos": 12,
       "p1": "João Faustino",
       "lic1": "15314",
       "pid1": "64412",
@@ -170,7 +185,7 @@
       "total": 1825.3
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Rafael Vidigal",
       "lic1": "22610",
       "pid1": "209491",
@@ -178,14 +193,14 @@
       "lic2": "28059",
       "pid2": "353776",
       "club": "A2N Padel Academy",
-      "pts1": 1561.31,
+      "pts1": 1521.94,
       "lvl1": 5,
       "pts2": 239.13,
       "lvl2": 6,
-      "total": 1800.44
+      "total": 1761.0700000000002
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Diogo Miranda",
       "lic1": "27172",
       "pid1": "290087",
@@ -193,14 +208,29 @@
       "lic2": "24551",
       "pid2": "310634",
       "club": "PadelExperienceCenter",
-      "pts1": 414.38,
+      "pts1": 417.5,
       "lvl1": 6,
-      "pts2": 1288.97,
+      "pts2": 1298.35,
       "lvl2": 5,
-      "total": 1703.35
+      "total": 1715.85
     },
     {
-      "pos": 14,
+      "pos": 15,
+      "p1": "Alex Amado",
+      "lic1": "13189",
+      "pid1": "102048",
+      "p2": "Martim Mendes",
+      "lic2": "27167",
+      "pid2": "275637",
+      "club": "Lisboa Racket Centre",
+      "pts1": 1094.71,
+      "lvl1": 6,
+      "pts2": 588.88,
+      "lvl2": 6,
+      "total": 1683.5900000000001
+    },
+    {
+      "pos": 16,
       "p1": "Luis Guilherme Reis Marto",
       "lic1": "20182",
       "pid1": "210063",
@@ -215,22 +245,7 @@
       "total": 1665.3400000000001
     },
     {
-      "pos": 15,
-      "p1": "Alex Amado",
-      "lic1": "13189",
-      "pid1": "102048",
-      "p2": "Martim Mendes",
-      "lic2": "27167",
-      "pid2": "275637",
-      "club": "Lisboa Racket Centre",
-      "pts1": 1085.34,
-      "lvl1": 6,
-      "pts2": 579.51,
-      "lvl2": 6,
-      "total": 1664.85
-    },
-    {
-      "pos": 16,
+      "pos": 17,
       "p1": "João Pina dos Santos",
       "lic1": "14548",
       "pid1": "139730",
@@ -238,26 +253,11 @@
       "lic2": "13826",
       "pid2": "173813",
       "club": "Lisboa Racket Centre",
-      "pts1": 622.37,
+      "pts1": 641.12,
       "lvl1": 6,
-      "pts2": 918.2,
+      "pts2": 924.45,
       "lvl2": 6,
-      "total": 1540.5700000000002
-    },
-    {
-      "pos": 17,
-      "p1": "Rui Freitas",
-      "lic1": "17328",
-      "pid1": "158632",
-      "p2": "João Pina",
-      "lic2": "15868",
-      "pid2": "166453",
-      "club": "PadelExperienceCenter",
-      "pts1": 1430.41,
-      "lvl1": 5,
-      "pts2": 58.13,
-      "lvl2": 6,
-      "total": 1488.5400000000002
+      "total": 1565.5700000000002
     },
     {
       "pos": 18,
@@ -270,9 +270,9 @@
       "club": "New Padel - Chão da Fonte",
       "pts1": 425.89,
       "lvl1": 6,
-      "pts2": 983.66,
+      "pts2": 1002.41,
       "lvl2": 6,
-      "total": 1409.55
+      "total": 1428.3
     },
     {
       "pos": 19,
@@ -306,6 +306,21 @@
     },
     {
       "pos": 21,
+      "p1": "Rui Freitas",
+      "lic1": "17328",
+      "pid1": "158632",
+      "p2": "João Pina",
+      "lic2": "15868",
+      "pid2": "166453",
+      "club": "PadelExperienceCenter",
+      "pts1": 1297.31,
+      "lvl1": 5,
+      "pts2": 76.88,
+      "lvl2": 6,
+      "total": 1374.19
+    },
+    {
+      "pos": 22,
       "p1": "João Mateus",
       "lic1": "13284",
       "pid1": "167056",
@@ -320,7 +335,7 @@
       "total": 1369.9099999999999
     },
     {
-      "pos": 22,
+      "pos": 23,
       "p1": "Paulo Moço",
       "lic1": "13932",
       "pid1": "174090",
@@ -335,7 +350,7 @@
       "total": 1365.3600000000001
     },
     {
-      "pos": 23,
+      "pos": 24,
       "p1": "Hélder Santos",
       "lic1": "25101",
       "pid1": "283748",
@@ -350,7 +365,22 @@
       "total": 1297.32
     },
     {
-      "pos": 24,
+      "pos": 25,
+      "p1": "Goncalo Santos",
+      "lic1": "23086",
+      "pid1": "240378",
+      "p2": "Joao Romano",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel XXL",
+      "pts1": 1281.84,
+      "lvl1": 5,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 1281.84
+    },
+    {
+      "pos": 26,
       "p1": "Gui Candeias",
       "lic1": "24261",
       "pid1": "18796",
@@ -365,7 +395,7 @@
       "total": 1241.65
     },
     {
-      "pos": 25,
+      "pos": 27,
       "p1": "André Leite",
       "lic1": "19081",
       "pid1": "178413",
@@ -373,14 +403,14 @@
       "lic2": "18766",
       "pid2": "184962",
       "club": "VILLAEVERDASCA-TourismSport",
-      "pts1": 514.27,
+      "pts1": 511.33,
       "lvl1": 6,
-      "pts2": 724.67,
+      "pts2": 727.98,
       "lvl2": 6,
-      "total": 1238.94
+      "total": 1239.31
     },
     {
-      "pos": 26,
+      "pos": 28,
       "p1": "Carlos Sequeira",
       "lic1": "6362",
       "pid1": "84080",
@@ -390,12 +420,12 @@
       "club": "Escola Ténis Padel Rio Maior",
       "pts1": 794.03,
       "lvl1": 6,
-      "pts2": 364.95,
+      "pts2": 374.33,
       "lvl2": 6,
-      "total": 1158.98
+      "total": 1168.36
     },
     {
-      "pos": 27,
+      "pos": 29,
       "p1": "Hugo Maçoas",
       "lic1": "19621",
       "pid1": "232634",
@@ -405,12 +435,12 @@
       "club": "SmashPadelAlmada",
       "pts1": 357.73,
       "lvl1": 6,
-      "pts2": 781.59,
+      "pts2": 790.97,
       "lvl2": 6,
-      "total": 1139.3200000000002
+      "total": 1148.7
     },
     {
-      "pos": 28,
+      "pos": 30,
       "p1": "KARLITO PINTCHO",
       "lic1": "4468",
       "pid1": "40762",
@@ -425,7 +455,7 @@
       "total": 1121.66
     },
     {
-      "pos": 29,
+      "pos": 31,
       "p1": "Pedro Correia Vaz",
       "lic1": "9337",
       "pid1": "5304",
@@ -435,12 +465,12 @@
       "club": "Clube De Ténis De Santarém",
       "pts1": 154.59,
       "lvl1": 6,
-      "pts2": 899.06,
+      "pts2": 902.19,
       "lvl2": 6,
-      "total": 1053.6499999999999
+      "total": 1056.78
     },
     {
-      "pos": 30,
+      "pos": 32,
       "p1": "Diogo Vieira",
       "lic1": "26911",
       "pid1": "86708",
@@ -455,7 +485,22 @@
       "total": 1024.12
     },
     {
-      "pos": 31,
+      "pos": 33,
+      "p1": "Sebastião Ghira",
+      "lic1": "27792",
+      "pid1": "297868",
+      "p2": "Victor Redondo",
+      "lic2": "28885",
+      "pid2": "375331",
+      "club": "ProPadelAcademy",
+      "pts1": 288.58,
+      "lvl1": 6,
+      "pts2": 685.94,
+      "lvl2": 6,
+      "total": 974.52
+    },
+    {
+      "pos": 34,
       "p1": "Rodrigo Melo",
       "lic1": "24300",
       "pid1": "136809",
@@ -470,7 +515,7 @@
       "total": 971.96
     },
     {
-      "pos": 32,
+      "pos": 35,
       "p1": "Ricardo Rampazzo",
       "lic1": "15307",
       "pid1": "175944",
@@ -485,37 +530,7 @@
       "total": 970.2299999999999
     },
     {
-      "pos": 33,
-      "p1": "Sebastião Ghira",
-      "lic1": "27792",
-      "pid1": "297868",
-      "p2": "Victor Redondo",
-      "lic2": "28885",
-      "pid2": "375331",
-      "club": "ProPadelAcademy",
-      "pts1": 279.2,
-      "lvl1": 6,
-      "pts2": 676.56,
-      "lvl2": 6,
-      "total": 955.76
-    },
-    {
-      "pos": 34,
-      "p1": "Jorge Portela",
-      "lic1": "27142",
-      "pid1": "252173",
-      "p2": "Tiago Honrado",
-      "lic2": "27777",
-      "pid2": "299215",
-      "club": "AirfutPadelIndoor",
-      "pts1": 710.25,
-      "lvl1": 6,
-      "pts2": 235.03,
-      "lvl2": 6,
-      "total": 945.28
-    },
-    {
-      "pos": 35,
+      "pos": 36,
       "p1": "Arantes",
       "lic1": "17269",
       "pid1": "169902",
@@ -523,14 +538,59 @@
       "lic2": "18732",
       "pid2": "184510",
       "club": "MeshPadelCenter",
-      "pts1": 487.31,
+      "pts1": 488.88,
       "lvl1": 6,
-      "pts2": 452.64,
+      "pts2": 462.02,
       "lvl2": 6,
-      "total": 939.95
+      "total": 950.9
     },
     {
-      "pos": 36,
+      "pos": 37,
+      "p1": "Jorge Portela",
+      "lic1": "27142",
+      "pid1": "252173",
+      "p2": "Tiago Honrado",
+      "lic2": "27777",
+      "pid2": "299215",
+      "club": "AirfutPadelIndoor",
+      "pts1": 670.88,
+      "lvl1": 6,
+      "pts2": 244.41,
+      "lvl2": 6,
+      "total": 915.29
+    },
+    {
+      "pos": 38,
+      "p1": "João Lopes",
+      "lic1": "26837",
+      "pid1": "331340",
+      "p2": "Dani",
+      "lic2": "26838",
+      "pid2": "356319",
+      "club": "BSJoao Padel",
+      "pts1": 99.19,
+      "lvl1": 6,
+      "pts2": 801.53,
+      "lvl2": 6,
+      "total": 900.72
+    },
+    {
+      "pos": 39,
+      "p1": "Nuno Alves",
+      "lic1": "31605",
+      "pid1": "216200",
+      "p2": "Goncalo Cardoso",
+      "lic2": "29747",
+      "pid2": "373851",
+      "club": "UrbanPadelTrofa",
+      "pts1": 349.7,
+      "lvl1": 6,
+      "pts2": 526.02,
+      "lvl2": 6,
+      "total": 875.72
+    },
+    {
+      "pos": 40,
       "p1": "Dinis Sá Pereira",
       "lic1": "22549",
       "pid1": "41558",
@@ -545,22 +605,7 @@
       "total": 867.34
     },
     {
-      "pos": 37,
-      "p1": "João Lopes",
-      "lic1": "26837",
-      "pid1": "331340",
-      "p2": "Dani",
-      "lic2": "26838",
-      "pid2": "356319",
-      "club": "BSJoao Padel",
-      "pts1": 83.56,
-      "lvl1": 6,
-      "pts2": 774.03,
-      "lvl2": 6,
-      "total": 857.5899999999999
-    },
-    {
-      "pos": 38,
+      "pos": 41,
       "p1": "Pedro Romao",
       "lic1": "12254",
       "pid1": "95065",
@@ -568,29 +613,14 @@
       "lic2": "20770",
       "pid2": "189430",
       "club": "AirfutPadelIndoor",
-      "pts1": 130.03,
+      "pts1": 139.41,
       "lvl1": 6,
       "pts2": 726.66,
       "lvl2": 6,
-      "total": 856.6899999999999
+      "total": 866.0699999999999
     },
     {
-      "pos": 39,
-      "p1": "Nuno Alves",
-      "lic1": "31605",
-      "pid1": "216200",
-      "p2": "Goncalo Cardoso",
-      "lic2": "29747",
-      "pid2": "373851",
-      "club": "UrbanPadelTrofa",
-      "pts1": 330.95,
-      "lvl1": 6,
-      "pts2": 507.27,
-      "lvl2": 6,
-      "total": 838.22
-    },
-    {
-      "pos": 40,
+      "pos": 42,
       "p1": "Afonso Côrte-Real",
       "lic1": "16597",
       "pid1": "189917",
@@ -605,7 +635,7 @@
       "total": 838.22
     },
     {
-      "pos": 41,
+      "pos": 43,
       "p1": "Alessandro Guzzo",
       "lic1": "31847",
       "pid1": "69871",
@@ -615,12 +645,12 @@
       "club": "",
       "pts1": 395.06,
       "lvl1": 6,
-      "pts2": 413.81,
+      "pts2": 432.56,
       "lvl2": 6,
-      "total": 808.87
+      "total": 827.62
     },
     {
-      "pos": 42,
+      "pos": 44,
       "p1": "Diogo Santos",
       "lic1": "27734",
       "pid1": "375044",
@@ -628,14 +658,14 @@
       "lic2": "32817",
       "pid2": "390643",
       "club": "Carcavelos Ténis",
-      "pts1": 746.19,
+      "pts1": 761.81,
       "lvl1": 6,
-      "pts2": 18.75,
+      "pts2": 21.88,
       "lvl2": 6,
-      "total": 764.94
+      "total": 783.6899999999999
     },
     {
-      "pos": 43,
+      "pos": 45,
       "p1": "Miguel Pimpão",
       "lic1": "10719",
       "pid1": "119450",
@@ -650,7 +680,7 @@
       "total": 734.75
     },
     {
-      "pos": 44,
+      "pos": 46,
       "p1": "Thiran",
       "lic1": "18078",
       "pid1": "203814",
@@ -665,7 +695,7 @@
       "total": 711.05
     },
     {
-      "pos": 45,
+      "pos": 47,
       "p1": "Marco Silva",
       "lic1": "12825",
       "pid1": "148414",
@@ -675,12 +705,12 @@
       "club": "VilaPadel",
       "pts1": 205.31,
       "lvl1": 6,
-      "pts2": 452.64,
+      "pts2": 462.02,
       "lvl2": 6,
-      "total": 657.95
+      "total": 667.3299999999999
     },
     {
-      "pos": 46,
+      "pos": 48,
       "p1": "Afonso Carvalho",
       "lic1": "12480",
       "pid1": "141856",
@@ -688,29 +718,29 @@
       "lic2": "25145",
       "pid2": "245350",
       "club": "AbrantesClubedePadelABCP",
-      "pts1": 525.63,
+      "pts1": 535,
       "lvl1": 6,
       "pts2": 111.09,
       "lvl2": 6,
-      "total": 636.72
+      "total": 646.09
     },
     {
-      "pos": 47,
-      "p1": "David Estrela Jr",
-      "lic1": "14944",
-      "pid1": "175567",
-      "p2": "Bruno Guedes",
-      "lic2": "",
-      "pid2": "",
-      "club": "Lisboa Racket Centre",
-      "pts1": 598.09,
+      "pos": 49,
+      "p1": "António Cunha",
+      "lic1": "23969",
+      "pid1": "323960",
+      "p2": "Pedro Rodrigues",
+      "lic2": "27437",
+      "pid2": "408485",
+      "club": "Padel Academy",
+      "pts1": 345.4,
       "lvl1": 6,
-      "pts2": 0,
+      "pts2": 238.49,
       "lvl2": 6,
-      "total": 598.09
+      "total": 583.89
     },
     {
-      "pos": 48,
+      "pos": 50,
       "p1": "João Diogo",
       "lic1": "21484",
       "pid1": "245232",
@@ -725,22 +755,7 @@
       "total": 575.65
     },
     {
-      "pos": 49,
-      "p1": "António Cunha",
-      "lic1": "23969",
-      "pid1": "323960",
-      "p2": "Pedro Rodrigues",
-      "lic2": "27437",
-      "pid2": "408485",
-      "club": "Padel Academy",
-      "pts1": 326.65,
-      "lvl1": 6,
-      "pts2": 232.24,
-      "lvl2": 6,
-      "total": 558.89
-    },
-    {
-      "pos": 50,
+      "pos": 51,
       "p1": "Filipe Bragança",
       "lic1": "32176",
       "pid1": "156422",
@@ -755,7 +770,7 @@
       "total": 547.97
     },
     {
-      "pos": 51,
+      "pos": 52,
       "p1": "Drocas",
       "lic1": "25324",
       "pid1": "286511",
@@ -770,7 +785,7 @@
       "total": 502.15999999999997
     },
     {
-      "pos": 52,
+      "pos": 53,
       "p1": "Edgar Dias",
       "lic1": "11902",
       "pid1": "138027",
@@ -785,7 +800,22 @@
       "total": 475.16
     },
     {
-      "pos": 53,
+      "pos": 54,
+      "p1": "Miguel Teixeira",
+      "lic1": "31856",
+      "pid1": "214883",
+      "p2": "Mauro Silva",
+      "lic2": "29293",
+      "pid2": "402494",
+      "club": "UltimateUrbanPadel",
+      "pts1": 146.63,
+      "lvl1": 6,
+      "pts2": 306.7,
+      "lvl2": 6,
+      "total": 453.33
+    },
+    {
+      "pos": 55,
       "p1": "EDUARDO",
       "lic1": "10323",
       "pid1": "103461",
@@ -800,22 +830,7 @@
       "total": 450.94
     },
     {
-      "pos": 54,
-      "p1": "Miguel Teixeira",
-      "lic1": "31856",
-      "pid1": "214883",
-      "p2": "Mauro Silva",
-      "lic2": "29293",
-      "pid2": "402494",
-      "club": "UltimateUrbanPadel",
-      "pts1": 141.94,
-      "lvl1": 6,
-      "pts2": 297.33,
-      "lvl2": 6,
-      "total": 439.27
-    },
-    {
-      "pos": 55,
+      "pos": 56,
       "p1": "Romain",
       "lic1": "6972",
       "pid1": "83608",
@@ -830,7 +845,7 @@
       "total": 435.14
     },
     {
-      "pos": 56,
+      "pos": 57,
       "p1": "Diogo Duarte",
       "lic1": "18488",
       "pid1": "229973",
@@ -838,14 +853,14 @@
       "lic2": "27564",
       "pid2": "337573",
       "club": "Time2padelCenter",
-      "pts1": 22.13,
+      "pts1": 25.25,
       "lvl1": 6,
-      "pts2": 306.34,
+      "pts2": 315.72,
       "lvl2": 6,
-      "total": 328.46999999999997
+      "total": 340.97
     },
     {
-      "pos": 57,
+      "pos": 58,
       "p1": "Pedro Ribeiro",
       "lic1": "24708",
       "pid1": "259206",
@@ -853,14 +868,14 @@
       "lic2": "35849",
       "pid2": "461169",
       "club": "AlvercaPadelClub",
-      "pts1": 198.25,
+      "pts1": 217,
       "lvl1": 6,
       "pts2": 12.72,
       "lvl2": 6,
-      "total": 210.97
+      "total": 229.72
     },
     {
-      "pos": 58,
+      "pos": 59,
       "p1": "Duarte Henriques",
       "lic1": "17081",
       "pid1": "160748",
@@ -868,14 +883,14 @@
       "lic2": "17080",
       "pid2": "204508",
       "club": "Padel Club Torres Novas",
-      "pts1": 138.75,
+      "pts1": 140.31,
       "lvl1": 6,
-      "pts2": 70.63,
+      "pts2": 75.31,
       "lvl2": 6,
-      "total": 209.38
+      "total": 215.62
     },
     {
-      "pos": 59,
+      "pos": 60,
       "p1": "Leandro Neves",
       "lic1": "4114",
       "pid1": "79812",
@@ -890,7 +905,7 @@
       "total": 188.75
     },
     {
-      "pos": 60,
+      "pos": 61,
       "p1": "Helder de Sousa",
       "lic1": "3062",
       "pid1": "36835",
@@ -905,7 +920,7 @@
       "total": 187.09
     },
     {
-      "pos": 61,
+      "pos": 62,
       "p1": "Hugo Libório",
       "lic1": "5196",
       "pid1": "79353",
@@ -920,7 +935,7 @@
       "total": 128.97
     },
     {
-      "pos": 62,
+      "pos": 63,
       "p1": "Antonio Ferraz",
       "lic1": "26164",
       "pid1": "299841",
@@ -935,7 +950,7 @@
       "total": 125.63
     },
     {
-      "pos": 63,
+      "pos": 64,
       "p1": "Élio Mouzinho",
       "lic1": "21886",
       "pid1": "225508",
@@ -950,7 +965,22 @@
       "total": 105.3
     },
     {
-      "pos": 64,
+      "pos": 65,
+      "p1": "João Pinto",
+      "lic1": "4844",
+      "pid1": "89215",
+      "p2": "Rui Martins",
+      "lic2": "23711",
+      "pid2": "320173",
+      "club": "Padel Academy",
+      "pts1": 21.88,
+      "lvl1": 6,
+      "pts2": 65.31,
+      "lvl2": 6,
+      "total": 87.19
+    },
+    {
+      "pos": 66,
       "p1": "Tomás Silva",
       "lic1": "27097",
       "pid1": "242504",
@@ -958,14 +988,14 @@
       "lic2": "31019",
       "pid2": "408294",
       "club": "Arruda Fun Padel",
-      "pts1": 61.88,
+      "pts1": 71.25,
       "lvl1": 6,
       "pts2": 9.15,
       "lvl2": 6,
-      "total": 71.03
+      "total": 80.4
     },
     {
-      "pos": 65,
+      "pos": 67,
       "p1": "Lucas Afonso",
       "lic1": "31337",
       "pid1": "160695",
@@ -980,7 +1010,7 @@
       "total": 53.96
     },
     {
-      "pos": 66,
+      "pos": 68,
       "p1": "Michael Aparício",
       "lic1": "30072",
       "pid1": "348690",
@@ -995,7 +1025,7 @@
       "total": 48.63
     },
     {
-      "pos": 67,
+      "pos": 69,
       "p1": "Paulo Luis",
       "lic1": "26930",
       "pid1": "94065",
@@ -1010,7 +1040,7 @@
       "total": 43.49
     },
     {
-      "pos": 68,
+      "pos": 70,
       "p1": "Pedro Serralheiro",
       "lic1": "29682",
       "pid1": "315833",
@@ -1023,21 +1053,6 @@
       "pts2": 21.5,
       "lvl2": 6,
       "total": 30.880000000000003
-    },
-    {
-      "pos": 69,
-      "p1": "João Pinto",
-      "lic1": "4844",
-      "pid1": "89215",
-      "p2": "Rui Martins",
-      "lic2": "23711",
-      "pid2": "320173",
-      "club": "Padel Academy",
-      "pts1": 3.13,
-      "lvl1": 6,
-      "pts2": 20.31,
-      "lvl2": 6,
-      "total": 23.439999999999998
     }
   ]
 }

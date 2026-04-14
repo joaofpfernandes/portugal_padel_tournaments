@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T22:05:03.081Z",
+  "generatedAt": "2026-04-14T10:21:04.588Z",
   "result": [
     {
       "pos": 1,
@@ -13,29 +13,14 @@
       "lic2": "17841",
       "pid2": "202810",
       "club": "Padel4move",
-      "pts1": 11324.06,
-      "lvl1": 2,
+      "pts1": 10186.56,
+      "lvl1": 3,
       "pts2": 9125.31,
       "lvl2": 3,
-      "total": 20449.37
+      "total": 19311.87
     },
     {
       "pos": 2,
-      "p1": "José Duarte",
-      "lic1": "3477",
-      "pid1": "27205",
-      "p2": "Pedro Luz",
-      "lic2": "4898",
-      "pid2": "43641",
-      "club": "SportingClubeFarense",
-      "pts1": 5714.1,
-      "lvl1": 3,
-      "pts2": 10839.1,
-      "lvl2": 2,
-      "total": 16553.2
-    },
-    {
-      "pos": 3,
       "p1": "Ricardo Maia",
       "lic1": "14604",
       "pid1": "103791",
@@ -43,14 +28,14 @@
       "lic2": "10378",
       "pid2": "103795",
       "club": "Padel4move",
-      "pts1": 4533.38,
+      "pts1": 4521.56,
       "lvl1": 3,
-      "pts2": 11498.13,
+      "pts2": 11100,
       "lvl2": 2,
-      "total": 16031.509999999998
+      "total": 15621.560000000001
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "João Batalha",
       "lic1": "12700",
       "pid1": "93342",
@@ -60,9 +45,24 @@
       "club": "LagoaStation",
       "pts1": 6317.5,
       "lvl1": 3,
-      "pts2": 9620.63,
+      "pts2": 8763.13,
       "lvl2": 3,
-      "total": 15938.13
+      "total": 15080.63
+    },
+    {
+      "pos": 4,
+      "p1": "José Duarte",
+      "lic1": "3477",
+      "pid1": "27205",
+      "p2": "Pedro Luz",
+      "lic2": "4898",
+      "pid2": "43641",
+      "club": "SportingClubeFarense",
+      "pts1": 5714.1,
+      "lvl1": 3,
+      "pts2": 9351.6,
+      "lvl2": 3,
+      "total": 15065.7
     },
     {
       "pos": 5,

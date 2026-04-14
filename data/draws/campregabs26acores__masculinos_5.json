@@ -2,25 +2,10 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Açores",
   "slug": "CampRegABS26Acores",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T21:51:48.379Z",
+  "generatedAt": "2026-04-14T10:06:56.581Z",
   "result": [
     {
       "pos": 1,
-      "p1": "Zé Ferreira",
-      "lic1": "17683",
-      "pid1": "226730",
-      "p2": "João Ferreira",
-      "lic2": "",
-      "pid2": "",
-      "club": "",
-      "pts1": 1039.72,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 1039.72
-    },
-    {
-      "pos": 2,
       "p1": "Ilídio Medeiros",
       "lic1": "26606",
       "pid1": "51022",
@@ -35,7 +20,7 @@
       "total": 857.5
     },
     {
-      "pos": 3,
+      "pos": 2,
       "p1": "Paulo Filipe",
       "lic1": "",
       "pid1": "",
@@ -48,6 +33,21 @@
       "pts2": 214.48,
       "lvl2": 6,
       "total": 214.48
+    },
+    {
+      "pos": 3,
+      "p1": "Zé Ferreira",
+      "lic1": "17683",
+      "pid1": "226730",
+      "p2": "João Ferreira",
+      "lic2": "",
+      "pid2": "",
+      "club": "",
+      "pts1": 182.22,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 182.22
     },
     {
       "pos": 4,

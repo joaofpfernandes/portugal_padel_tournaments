@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-13T22:17:51.145Z",
+  "generatedAt": "2026-04-14T10:33:02.015Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "NovoPadelClubSetubal",
       "pts1": 2959.14,
       "lvl1": 4,
-      "pts2": 2411.64,
+      "pts2": 2392.89,
       "lvl2": 4,
-      "total": 5370.78
+      "total": 5352.03
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "17745",
       "pid2": "227060",
       "club": "Lx Indoor Padel",
-      "pts1": 1160.44,
+      "pts1": 1179.19,
       "lvl1": 5,
-      "pts2": 3233.85,
+      "pts2": 3243.23,
       "lvl2": 4,
-      "total": 4394.29
+      "total": 4422.42
     },
     {
       "pos": 3,
@@ -60,9 +60,9 @@
       "club": "ClubePadeldasCaldas",
       "pts1": 1884.52,
       "lvl1": 5,
-      "pts2": 1725,
+      "pts2": 1620,
       "lvl2": 5,
-      "total": 3609.52
+      "total": 3504.52
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "23229",
       "pid2": "262952",
       "club": "OeirasPadelAcademy",
-      "pts1": 2083.42,
+      "pts1": 2092.8,
       "lvl1": 4,
-      "pts2": 1248.31,
+      "pts2": 1257.68,
       "lvl2": 5,
-      "total": 3331.73
+      "total": 3350.4800000000005
     },
     {
       "pos": 6,
@@ -88,11 +88,11 @@
       "lic2": "22007",
       "pid2": "221217",
       "club": "Academia Padel Setúbal",
-      "pts1": 1228.77,
+      "pts1": 1078.77,
       "lvl1": 5,
       "pts2": 2066.98,
       "lvl2": 4,
-      "total": 3295.75
+      "total": 3145.75
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "24774",
       "pid2": "142482",
       "club": "PadelExperienceCenter",
-      "pts1": 1223.36,
+      "pts1": 1150.23,
       "lvl1": 5,
-      "pts2": 1870.92,
+      "pts2": 1791.55,
       "lvl2": 5,
-      "total": 3094.2799999999997
+      "total": 2941.7799999999997
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "18218",
       "pid2": "228913",
       "club": "PadelExperienceCenter",
-      "pts1": 458.29,
+      "pts1": 467.66,
       "lvl1": 6,
-      "pts2": 2549.72,
+      "pts2": 2457.54,
       "lvl2": 4,
-      "total": 3008.0099999999998
+      "total": 2925.2
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "30600",
       "pid2": "334577",
       "club": "Boavista FC Padel Team",
-      "pts1": 732.44,
+      "pts1": 735.56,
       "lvl1": 6,
       "pts2": 2137.73,
       "lvl2": 4,
-      "total": 2870.17
+      "total": 2873.29
     },
     {
       "pos": 10,
@@ -148,11 +148,11 @@
       "lic2": "30502",
       "pid2": "331261",
       "club": "W Padel Country Club",
-      "pts1": 1987.72,
-      "lvl1": 5,
-      "pts2": 712.13,
+      "pts1": 1990.84,
+      "lvl1": 4,
+      "pts2": 716.81,
       "lvl2": 6,
-      "total": 2699.85
+      "total": 2707.6499999999996
     },
     {
       "pos": 11,

@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 1",
-  "generatedAt": "2026-04-13T22:10:36.699Z",
+  "generatedAt": "2026-04-14T10:26:48.919Z",
   "result": [
     {
       "pos": 1,
@@ -13,14 +13,29 @@
       "lic2": "13633",
       "pid2": "170934",
       "club": "",
-      "pts1": 23362.5,
+      "pts1": 24987.5,
       "lvl1": 2,
       "pts2": 85625,
       "lvl2": 1,
-      "total": 108987.5
+      "total": 110612.5
     },
     {
       "pos": 2,
+      "p1": "Beatriz Ferreira",
+      "lic1": "6663",
+      "pid1": "91945",
+      "p2": "Florencia Vara",
+      "lic2": "30692",
+      "pid2": "416279",
+      "club": "BlackPadel",
+      "pts1": 97625,
+      "lvl1": 1,
+      "pts2": 10150,
+      "lvl2": 3,
+      "total": 107775
+    },
+    {
+      "pos": 3,
       "p1": "Inês Barbosa",
       "lic1": "2099",
       "pid1": "25424",
@@ -30,12 +45,12 @@
       "club": "",
       "pts1": 7625,
       "lvl1": 3,
-      "pts2": 77625,
+      "pts2": 77125,
       "lvl2": 1,
-      "total": 85250
+      "total": 84750
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Clara Leite",
       "lic1": "5077",
       "pid1": "74568",
@@ -43,11 +58,11 @@
       "lic2": "",
       "pid2": "",
       "club": "Top-padel Industrial Indoor",
-      "pts1": 41125,
+      "pts1": 40000,
       "lvl1": 1,
       "pts2": 0,
       "lvl2": 6,
-      "total": 41125
+      "total": 40000
     }
   ]
 }

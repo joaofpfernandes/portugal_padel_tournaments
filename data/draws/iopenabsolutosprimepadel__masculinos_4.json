@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T22:10:57.608Z",
+  "generatedAt": "2026-04-14T10:27:13.651Z",
   "result": [
     {
       "pos": 1,
@@ -48,6 +48,21 @@
       "pts2": 68.75,
       "lvl2": 6,
       "total": 68.75
+    },
+    {
+      "pos": 4,
+      "p1": "Gonçalo Cruz",
+      "lic1": "27389",
+      "pid1": "334986",
+      "p2": "Ricardo Cruz",
+      "lic2": "27900",
+      "pid2": "350420",
+      "club": "CET de Cantanhede",
+      "pts1": 6.25,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 15.63
     }
   ]
 }

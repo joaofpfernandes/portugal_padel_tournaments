@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T21:55:01.680Z",
+  "generatedAt": "2026-04-14T10:10:17.353Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "25723",
       "pid2": "67645",
       "club": "DOuroPadelPasteleira",
-      "pts1": 36718.75,
+      "pts1": 38843.75,
       "lvl1": 2,
-      "pts2": 28234.38,
+      "pts2": 29790.63,
       "lvl2": 2,
-      "total": 64953.130000000005
+      "total": 68634.38
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "15743",
       "pid2": "177816",
       "club": "",
-      "pts1": 35362.5,
+      "pts1": 35625,
       "lvl1": 2,
-      "pts2": 13090,
+      "pts2": 14840,
       "lvl2": 2,
-      "total": 48452.5
+      "total": 50465
     },
     {
       "pos": 3,
@@ -58,11 +58,11 @@
       "lic2": "12733",
       "pid2": "142781",
       "club": "",
-      "pts1": 12390,
+      "pts1": 13352.5,
       "lvl1": 2,
-      "pts2": 31443.75,
+      "pts2": 32106.25,
       "lvl2": 2,
-      "total": 43833.75
+      "total": 45458.75
     },
     {
       "pos": 5,
@@ -81,6 +81,21 @@
     },
     {
       "pos": 6,
+      "p1": "Luís Gaspar",
+      "lic1": "8092",
+      "pid1": "75183",
+      "p2": "Alexandre Botelho",
+      "lic2": "11717",
+      "pid2": "98877",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 11750,
+      "lvl1": 2,
+      "pts2": 26887.5,
+      "lvl2": 2,
+      "total": 38637.5
+    },
+    {
+      "pos": 7,
       "p1": "Joao Vieira",
       "lic1": "19443",
       "pid1": "182847",
@@ -95,21 +110,6 @@
       "total": 37746.88
     },
     {
-      "pos": 7,
-      "p1": "Luís Gaspar",
-      "lic1": "8092",
-      "pid1": "75183",
-      "p2": "Alexandre Botelho",
-      "lic2": "11717",
-      "pid2": "98877",
-      "club": "Top-padel Industrial Indoor",
-      "pts1": 11750,
-      "lvl1": 2,
-      "pts2": 25662.5,
-      "lvl2": 2,
-      "total": 37412.5
-    },
-    {
       "pos": 8,
       "p1": "Jó Carvalho",
       "lic1": "3353",
@@ -120,9 +120,9 @@
       "club": "",
       "pts1": 1540.63,
       "lvl1": 5,
-      "pts2": 31727.5,
+      "pts2": 31806.25,
       "lvl2": 2,
-      "total": 33268.13
+      "total": 33346.88
     },
     {
       "pos": 9,
@@ -148,11 +148,11 @@
       "lic2": "13752",
       "pid2": "91524",
       "club": "A-Z Padel Elite Barcelos",
-      "pts1": 20560,
+      "pts1": 20918.75,
       "lvl1": 2,
-      "pts2": 7288.75,
+      "pts2": 7870,
       "lvl2": 3,
-      "total": 27848.75
+      "total": 28788.75
     },
     {
       "pos": 11,
@@ -163,11 +163,11 @@
       "lic2": "20783",
       "pid2": "236762",
       "club": "",
-      "pts1": 22015,
+      "pts1": 22093.75,
       "lvl1": 2,
-      "pts2": 3414.72,
+      "pts2": 3675.03,
       "lvl2": 4,
-      "total": 25429.72
+      "total": 25768.78
     },
     {
       "pos": 12,
@@ -178,11 +178,11 @@
       "lic2": "5581",
       "pid2": "150751",
       "club": "",
-      "pts1": 16931.25,
+      "pts1": 17106.25,
       "lvl1": 2,
-      "pts2": 6860,
+      "pts2": 7428.75,
       "lvl2": 3,
-      "total": 23791.25
+      "total": 24535
     },
     {
       "pos": 13,
@@ -195,12 +195,27 @@
       "club": "",
       "pts1": 8656.25,
       "lvl1": 3,
-      "pts2": 14915.63,
+      "pts2": 15484.38,
       "lvl2": 2,
-      "total": 23571.879999999997
+      "total": 24140.629999999997
     },
     {
       "pos": 14,
+      "p1": "Tiago Pereira",
+      "lic1": "21754",
+      "pid1": "251314",
+      "p2": "Lucas Gomes",
+      "lic2": "20514",
+      "pid2": "234371",
+      "club": "VILLAEVERDASCA-TourismSport",
+      "pts1": 13485.94,
+      "lvl1": 2,
+      "pts2": 7700,
+      "lvl2": 3,
+      "total": 21185.940000000002
+    },
+    {
+      "pos": 15,
       "p1": "“Tolito” Magalhães",
       "lic1": "4755",
       "pid1": "74217",
@@ -215,21 +230,6 @@
       "total": 20635.63
     },
     {
-      "pos": 15,
-      "p1": "Tiago Pereira",
-      "lic1": "21754",
-      "pid1": "251314",
-      "p2": "Lucas Gomes",
-      "lic2": "20514",
-      "pid2": "234371",
-      "club": "VILLAEVERDASCA-TourismSport",
-      "pts1": 13485.94,
-      "lvl1": 2,
-      "pts2": 6956.25,
-      "lvl2": 3,
-      "total": 20442.190000000002
-    },
-    {
       "pos": 16,
       "p1": "Afonso Brito",
       "lic1": "26710",
@@ -238,11 +238,11 @@
       "lic2": "23775",
       "pid2": "251250",
       "club": "DOuroPadelPasteleira",
-      "pts1": 11284.06,
+      "pts1": 11459.06,
       "lvl1": 2,
-      "pts2": 8514.06,
+      "pts2": 8837.81,
       "lvl2": 3,
-      "total": 19798.12
+      "total": 20296.87
     },
     {
       "pos": 17,
@@ -253,11 +253,11 @@
       "lic2": "16522",
       "pid2": "188860",
       "club": "",
-      "pts1": 8299.38,
+      "pts1": 8868.13,
       "lvl1": 3,
       "pts2": 11287.5,
       "lvl2": 2,
-      "total": 19586.879999999997
+      "total": 20155.629999999997
     },
     {
       "pos": 18,
@@ -268,11 +268,11 @@
       "lic2": "12485",
       "pid2": "142130",
       "club": "Chaves Padel Center",
-      "pts1": 8927.5,
+      "pts1": 9677.5,
       "lvl1": 3,
-      "pts2": 8927.5,
+      "pts2": 8933.75,
       "lvl2": 3,
-      "total": 17855
+      "total": 18611.25
     },
     {
       "pos": 19,
@@ -298,11 +298,11 @@
       "lic2": "21241",
       "pid2": "242172",
       "club": "Top-padel Quinta do Fojo",
-      "pts1": 4684.91,
+      "pts1": 4697.41,
       "lvl1": 3,
-      "pts2": 7212.54,
+      "pts2": 8437.54,
       "lvl2": 3,
-      "total": 11897.45
+      "total": 13134.95
     },
     {
       "pos": 21,
@@ -313,11 +313,11 @@
       "lic2": "6618",
       "pid2": "93065",
       "club": "DOuroPadelPasteleira",
-      "pts1": 5674.69,
+      "pts1": 6418.44,
       "lvl1": 3,
-      "pts2": 5522.19,
+      "pts2": 6265.94,
       "lvl2": 3,
-      "total": 11196.88
+      "total": 12684.38
     },
     {
       "pos": 22,
@@ -328,11 +328,11 @@
       "lic2": "16745",
       "pid2": "197441",
       "club": "TheHyveAcademy",
-      "pts1": 5278.19,
+      "pts1": 5477.25,
       "lvl1": 3,
       "pts2": 5222.5,
       "lvl2": 3,
-      "total": 10500.689999999999
+      "total": 10699.75
     }
   ]
 }

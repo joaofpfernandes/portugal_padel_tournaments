@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T21:55:26.726Z",
+  "generatedAt": "2026-04-14T10:10:44.487Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "88PadelHouse",
       "pts1": 874.72,
       "lvl1": 6,
-      "pts2": 1503.03,
+      "pts2": 1544.28,
       "lvl2": 5,
-      "total": 2377.75
+      "total": 2419
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "34564",
       "pid2": "504383",
       "club": "A-ZPadelFamalicao",
-      "pts1": 1787.34,
+      "pts1": 1799.84,
       "lvl1": 5,
-      "pts2": 67.88,
+      "pts2": 83.5,
       "lvl2": 6,
-      "total": 1855.2199999999998
+      "total": 1883.34
     },
     {
       "pos": 3,
@@ -73,11 +73,11 @@
       "lic2": "31078",
       "pid2": "417912",
       "club": "A-ZPadelFamalicao",
-      "pts1": 964.59,
+      "pts1": 973.97,
       "lvl1": 6,
-      "pts2": 492.13,
+      "pts2": 495.25,
       "lvl2": 6,
-      "total": 1456.72
+      "total": 1469.22
     },
     {
       "pos": 6,
@@ -88,11 +88,11 @@
       "lic2": "25003",
       "pid2": "325730",
       "club": "UrbanPadelTrofa",
-      "pts1": 634.13,
+      "pts1": 652.88,
       "lvl1": 6,
-      "pts2": 537.28,
+      "pts2": 556.03,
       "lvl2": 6,
-      "total": 1171.4099999999999
+      "total": 1208.9099999999999
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "31976",
       "pid2": "427341",
       "club": "Mar Padel",
-      "pts1": 708.75,
+      "pts1": 727.5,
       "lvl1": 6,
-      "pts2": 130.31,
+      "pts2": 149.06,
       "lvl2": 6,
-      "total": 839.06
+      "total": 876.56
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "28686",
       "pid2": "412687",
       "club": "A-ZPadelFamalicao",
-      "pts1": 211.22,
+      "pts1": 220.59,
       "lvl1": 6,
-      "pts2": 270.81,
+      "pts2": 280.19,
       "lvl2": 6,
-      "total": 482.03
+      "total": 500.78
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "35417",
       "pid2": "506223",
       "club": "A-ZPadelFamalicao",
-      "pts1": 330.23,
+      "pts1": 339.61,
       "lvl1": 6,
-      "pts2": 33.75,
+      "pts2": 36.88,
       "lvl2": 6,
-      "total": 363.98
+      "total": 376.49
     },
     {
       "pos": 10,
@@ -148,11 +148,11 @@
       "lic2": "29999",
       "pid2": "414551",
       "club": "A-ZPadelFamalicao",
-      "pts1": 151.66,
+      "pts1": 154.78,
       "lvl1": 6,
-      "pts2": 151.66,
+      "pts2": 157.91,
       "lvl2": 6,
-      "total": 303.32
+      "total": 312.69
     },
     {
       "pos": 11,
@@ -163,11 +163,11 @@
       "lic2": "32538",
       "pid2": "445387",
       "club": "BlackPadel",
-      "pts1": 167.94,
+      "pts1": 177.31,
       "lvl1": 6,
-      "pts2": 122.16,
+      "pts2": 131.53,
       "lvl2": 6,
-      "total": 290.1
+      "total": 308.84000000000003
     },
     {
       "pos": 12,
@@ -178,11 +178,11 @@
       "lic2": "36223",
       "pid2": "507811",
       "club": "BlackPadel",
-      "pts1": 7.81,
+      "pts1": 10.94,
       "lvl1": 6,
-      "pts2": 4.69,
+      "pts2": 7.81,
       "lvl2": 6,
-      "total": 12.5
+      "total": 18.75
     }
   ]
 }

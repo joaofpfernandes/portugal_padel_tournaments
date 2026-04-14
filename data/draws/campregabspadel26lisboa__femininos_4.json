@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-13T22:00:32.390Z",
+  "generatedAt": "2026-04-14T10:16:03.591Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "17745",
       "pid2": "227060",
       "club": "Padel Expo",
-      "pts1": 1794.35,
+      "pts1": 1803.73,
       "lvl1": 5,
-      "pts2": 3233.85,
+      "pts2": 3243.23,
       "lvl2": 4,
-      "total": 5028.2
+      "total": 5046.96
     },
     {
       "pos": 2,
@@ -28,59 +28,14 @@
       "lic2": "23196",
       "pid2": "294977",
       "club": "OeirasPadelAcademy",
-      "pts1": 3566.11,
+      "pts1": 3578.61,
       "lvl1": 4,
-      "pts2": 1230.7,
+      "pts2": 1243.2,
       "lvl2": 5,
-      "total": 4796.81
+      "total": 4821.81
     },
     {
       "pos": 3,
-      "p1": "Alexandra Simões",
-      "lic1": "4434",
-      "pid1": "36305",
-      "p2": "Vera Bernardez",
-      "lic2": "16925",
-      "pid2": "101163",
-      "club": "OeirasPadelAcademy",
-      "pts1": 568.09,
-      "lvl1": 6,
-      "pts2": 3923.25,
-      "lvl2": 4,
-      "total": 4491.34
-    },
-    {
-      "pos": 4,
-      "p1": "Joana Marinheiro",
-      "lic1": "5446",
-      "pid1": "90746",
-      "p2": "Ana Vilhena",
-      "lic2": "16927",
-      "pid2": "101152",
-      "club": "Quinta dos Lombos Padel",
-      "pts1": 2001.62,
-      "lvl1": 4,
-      "pts2": 2432.37,
-      "lvl2": 4,
-      "total": 4433.99
-    },
-    {
-      "pos": 5,
-      "p1": "Rita Carvalho",
-      "lic1": "16944",
-      "pid1": "188709",
-      "p2": "Cat Mota",
-      "lic2": "18848",
-      "pid2": "231141",
-      "club": "Padel Factory",
-      "pts1": 4194.22,
-      "lvl1": 4,
-      "pts2": 155.42,
-      "lvl2": 6,
-      "total": 4349.64
-    },
-    {
-      "pos": 6,
       "p1": "Vera Pinto",
       "lic1": "9618",
       "pid1": "78884",
@@ -91,8 +46,53 @@
       "pts1": 18.75,
       "lvl1": 6,
       "pts2": 4236.13,
-      "lvl2": 4,
+      "lvl2": 3,
       "total": 4254.88
+    },
+    {
+      "pos": 4,
+      "p1": "Alexandra Simões",
+      "lic1": "4434",
+      "pid1": "36305",
+      "p2": "Vera Bernardez",
+      "lic2": "16925",
+      "pid2": "101163",
+      "club": "OeirasPadelAcademy",
+      "pts1": 568.09,
+      "lvl1": 6,
+      "pts2": 3619.36,
+      "lvl2": 4,
+      "total": 4187.45
+    },
+    {
+      "pos": 5,
+      "p1": "Joana Marinheiro",
+      "lic1": "5446",
+      "pid1": "90746",
+      "p2": "Ana Vilhena",
+      "lic2": "16927",
+      "pid2": "101152",
+      "club": "Quinta dos Lombos Padel",
+      "pts1": 2007.87,
+      "lvl1": 4,
+      "pts2": 2037.37,
+      "lvl2": 4,
+      "total": 4045.24
+    },
+    {
+      "pos": 6,
+      "p1": "Rita Carvalho",
+      "lic1": "16944",
+      "pid1": "188709",
+      "p2": "Cat Mota",
+      "lic2": "18848",
+      "pid2": "231141",
+      "club": "Padel Factory",
+      "pts1": 3808.59,
+      "lvl1": 4,
+      "pts2": 155.42,
+      "lvl2": 6,
+      "total": 3964.01
     },
     {
       "pos": 7,
@@ -118,11 +118,11 @@
       "lic2": "16363",
       "pid2": "186224",
       "club": "W Padel Country Club",
-      "pts1": 1987.72,
-      "lvl1": 5,
-      "pts2": 1428.78,
+      "pts1": 1990.84,
+      "lvl1": 4,
+      "pts2": 1435.03,
       "lvl2": 5,
-      "total": 3416.5
+      "total": 3425.87
     },
     {
       "pos": 9,
@@ -135,9 +135,9 @@
       "club": "Lisboa Racket Centre",
       "pts1": 752.11,
       "lvl1": 6,
-      "pts2": 2549.72,
+      "pts2": 2457.54,
       "lvl2": 4,
-      "total": 3301.83
+      "total": 3209.65
     },
     {
       "pos": 10,
@@ -148,29 +148,14 @@
       "lic2": "26685",
       "pid2": "269416",
       "club": "W Padel Country Club",
-      "pts1": 159.44,
+      "pts1": 168.81,
       "lvl1": 6,
-      "pts2": 2958.51,
+      "pts2": 2974.13,
       "lvl2": 4,
-      "total": 3117.9500000000003
+      "total": 3142.94
     },
     {
       "pos": 11,
-      "p1": "Mafalda Chambel",
-      "lic1": "21138",
-      "pid1": "72868",
-      "p2": "teresa adónis",
-      "lic2": "22012",
-      "pid2": "268162",
-      "club": "Carcavelos Ténis",
-      "pts1": 2218.32,
-      "lvl1": 4,
-      "pts2": 766.95,
-      "lvl2": 6,
-      "total": 2985.2700000000004
-    },
-    {
-      "pos": 12,
       "p1": "Paula Martins",
       "lic1": "3426",
       "pid1": "34364",
@@ -178,14 +163,14 @@
       "lic2": "11950",
       "pid2": "139546",
       "club": "Padel Factory",
-      "pts1": 602.81,
+      "pts1": 609.06,
       "lvl1": 6,
-      "pts2": 2309.05,
+      "pts2": 2312.17,
       "lvl2": 4,
-      "total": 2911.86
+      "total": 2921.23
     },
     {
-      "pos": 13,
+      "pos": 12,
       "p1": "Carla Bernardo",
       "lic1": "10948",
       "pid1": "101158",
@@ -193,14 +178,14 @@
       "lic2": "21204",
       "pid2": "241799",
       "club": "OeirasPadelAcademy",
-      "pts1": 747.11,
+      "pts1": 756.48,
       "lvl1": 6,
-      "pts2": 2054.8,
-      "lvl2": 4,
-      "total": 2801.9100000000003
+      "pts2": 1924.83,
+      "lvl2": 5,
+      "total": 2681.31
     },
     {
-      "pos": 14,
+      "pos": 13,
       "p1": "Inês Vitorino",
       "lic1": "21433",
       "pid1": "203789",
@@ -215,22 +200,22 @@
       "total": 2636.16
     },
     {
-      "pos": 15,
-      "p1": "Marisa Almeida",
-      "lic1": "24050",
-      "pid1": "175914",
-      "p2": "Cláudia Costa",
-      "lic2": "27601",
-      "pid2": "389198",
-      "club": "Lx Indoor Padel",
-      "pts1": 2245.27,
-      "lvl1": 4,
-      "pts2": 304.19,
+      "pos": 14,
+      "p1": "Mafalda Chambel",
+      "lic1": "21138",
+      "pid1": "72868",
+      "p2": "teresa adónis",
+      "lic2": "22012",
+      "pid2": "268162",
+      "club": "Carcavelos Ténis",
+      "pts1": 1823.32,
+      "lvl1": 5,
+      "pts2": 782.58,
       "lvl2": 6,
-      "total": 2549.46
+      "total": 2605.9
     },
     {
-      "pos": 16,
+      "pos": 15,
       "p1": "Luzi Reis",
       "lic1": "28438",
       "pid1": "156806",
@@ -238,11 +223,26 @@
       "lic2": "21395",
       "pid2": "232611",
       "club": "OeirasPadelAcademy",
-      "pts1": 2083.42,
+      "pts1": 2092.8,
       "lvl1": 4,
-      "pts2": 314.93,
+      "pts2": 318.05,
       "lvl2": 6,
-      "total": 2398.35
+      "total": 2410.8500000000004
+    },
+    {
+      "pos": 16,
+      "p1": "Marisa Almeida",
+      "lic1": "24050",
+      "pid1": "175914",
+      "p2": "Cláudia Costa",
+      "lic2": "27601",
+      "pid2": "389198",
+      "club": "Lx Indoor Padel",
+      "pts1": 2069.3,
+      "lvl1": 4,
+      "pts2": 310.44,
+      "lvl2": 6,
+      "total": 2379.7400000000002
     },
     {
       "pos": 17,
@@ -255,9 +255,9 @@
       "club": "Lisboa Racket Centre",
       "pts1": 0,
       "lvl1": 6,
-      "pts2": 1298.56,
+      "pts2": 1307.94,
       "lvl2": 5,
-      "total": 1298.56
+      "total": 1307.94
     }
   ]
 }

@@ -2,7 +2,7 @@
   "tournament": "2º Torneio Jovens Empower Talent Launch",
   "slug": "2torneioJovensEmpowerTalentLaunch26",
   "section": "Masculinos SUB14",
-  "generatedAt": "2026-04-13T22:11:52.852Z",
+  "generatedAt": "2026-04-14T10:28:14.401Z",
   "result": [
     {
       "pos": 1,
@@ -100,6 +100,21 @@
       "lic1": "",
       "pid1": "",
       "p2": "Roman Garcia",
+      "lic2": "",
+      "pid2": "",
+      "club": "",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 8,
+      "p1": "Gonçalo Santos",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Afonso Pinto",
       "lic2": "",
       "pid2": "",
       "club": "",

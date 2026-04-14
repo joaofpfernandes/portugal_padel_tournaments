@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Masculinos 6",
-  "generatedAt": "2026-04-13T22:04:16.460Z",
+  "generatedAt": "2026-04-14T10:20:13.124Z",
   "result": [
     {
       "pos": 1,
@@ -103,11 +103,11 @@
       "lic2": "24373",
       "pid2": "292992",
       "club": "MyCenter - Sports & Wellness",
-      "pts1": 68.75,
+      "pts1": 71.88,
       "lvl1": 6,
-      "pts2": 192.91,
+      "pts2": 196.03,
       "lvl2": 6,
-      "total": 261.65999999999997
+      "total": 267.90999999999997
     },
     {
       "pos": 8,
@@ -186,6 +186,36 @@
     },
     {
       "pos": 13,
+      "p1": "Bruno Araujo",
+      "lic1": "26973",
+      "pid1": "220668",
+      "p2": "Tiago Carmo",
+      "lic2": "32387",
+      "pid2": "240718",
+      "club": "Clube Ténis Padel de Portimão",
+      "pts1": 34.81,
+      "lvl1": 6,
+      "pts2": 58.13,
+      "lvl2": 6,
+      "total": 92.94
+    },
+    {
+      "pos": 14,
+      "p1": "Guilherme Henriques",
+      "lic1": "37256",
+      "pid1": "203737",
+      "p2": "David Vicente",
+      "lic2": "22927",
+      "pid2": "239200",
+      "club": "LagoaStation",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 79.5,
+      "lvl2": 6,
+      "total": 92
+    },
+    {
+      "pos": 15,
       "p1": "Beto Abreu",
       "lic1": "24417",
       "pid1": "247755",
@@ -200,36 +230,6 @@
       "total": 89.15
     },
     {
-      "pos": 14,
-      "p1": "Bruno Araujo",
-      "lic1": "26973",
-      "pid1": "220668",
-      "p2": "Tiago Carmo",
-      "lic2": "32387",
-      "pid2": "240718",
-      "club": "Clube Ténis Padel de Portimão",
-      "pts1": 27,
-      "lvl1": 6,
-      "pts2": 53.44,
-      "lvl2": 6,
-      "total": 80.44
-    },
-    {
-      "pos": 15,
-      "p1": "Guilherme Henriques",
-      "lic1": "37256",
-      "pid1": "203737",
-      "p2": "David Vicente",
-      "lic2": "22927",
-      "pid2": "239200",
-      "club": "LagoaStation",
-      "pts1": 9.38,
-      "lvl1": 6,
-      "pts2": 70.13,
-      "lvl2": 6,
-      "total": 79.50999999999999
-    },
-    {
       "pos": 16,
       "p1": "Carlos Salvador",
       "lic1": "22660",
@@ -238,11 +238,11 @@
       "lic2": "22822",
       "pid2": "91377",
       "club": "LagoaStation",
-      "pts1": 56.38,
+      "pts1": 65.75,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 12.5,
       "lvl2": 6,
-      "total": 59.510000000000005
+      "total": 78.25
     },
     {
       "pos": 17,
@@ -253,11 +253,11 @@
       "lic2": "",
       "pid2": "",
       "club": "Clube Ténis Padel de Portimão",
-      "pts1": 59.16,
+      "pts1": 63.84,
       "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 59.16
+      "total": 63.84
     },
     {
       "pos": 18,
@@ -268,14 +268,29 @@
       "lic2": "17532",
       "pid2": "184730",
       "club": "MyCenter - Sports & Wellness",
-      "pts1": 9.38,
+      "pts1": 18.75,
       "lvl1": 6,
-      "pts2": 41.25,
+      "pts2": 44.38,
       "lvl2": 6,
-      "total": 50.63
+      "total": 63.13
     },
     {
       "pos": 19,
+      "p1": "Afonso Quintas",
+      "lic1": "23210",
+      "pid1": "320814",
+      "p2": "Joao Pinto",
+      "lic2": "34940",
+      "pid2": "409067",
+      "club": "SportingClubeFarense",
+      "pts1": 42.5,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 51.88
+    },
+    {
+      "pos": 20,
       "p1": "Antonio Pereira",
       "lic1": "22532",
       "pid1": "211422",
@@ -288,21 +303,6 @@
       "pts2": 23.71,
       "lvl2": 6,
       "total": 48.97
-    },
-    {
-      "pos": 20,
-      "p1": "Afonso Quintas",
-      "lic1": "23210",
-      "pid1": "320814",
-      "p2": "Joao Pinto",
-      "lic2": "34940",
-      "pid2": "409067",
-      "club": "SportingClubeFarense",
-      "pts1": 36.25,
-      "lvl1": 6,
-      "pts2": 9.38,
-      "lvl2": 6,
-      "total": 45.63
     },
     {
       "pos": 21,

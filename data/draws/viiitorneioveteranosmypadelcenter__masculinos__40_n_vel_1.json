@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 1",
-  "generatedAt": "2026-04-13T22:12:34.220Z",
+  "generatedAt": "2026-04-14T10:28:58.046Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "FutebolClubedaFoz",
       "pts1": 3850.35,
       "lvl1": 4,
-      "pts2": 12011.56,
+      "pts2": 12755.31,
       "lvl2": 2,
-      "total": 15861.91
+      "total": 16605.66
     },
     {
       "pos": 2,
@@ -58,11 +58,11 @@
       "lic2": "6175",
       "pid2": "66621",
       "club": "Indoor Padel Center",
-      "pts1": 2956.57,
+      "pts1": 2680.95,
       "lvl1": 4,
-      "pts2": 735,
+      "pts2": 459.38,
       "lvl2": 6,
-      "total": 3691.57
+      "total": 3140.33
     },
     {
       "pos": 5,

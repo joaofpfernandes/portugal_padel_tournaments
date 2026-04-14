@@ -2,25 +2,10 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Ilhas",
   "slug": "CampRegJovlhas26",
   "section": "Masculinos SUB16",
-  "generatedAt": "2026-04-13T22:08:28.358Z",
+  "generatedAt": "2026-04-14T10:24:31.110Z",
   "result": [
     {
       "pos": 1,
-      "p1": "Henrique Maria Maia",
-      "lic1": "16719",
-      "pid1": "197016",
-      "p2": "Diego Jesús Goncalves castro",
-      "lic2": "16724",
-      "pid2": "197123",
-      "club": "PlayPadelMadeira",
-      "pts1": 3.13,
-      "lvl1": 6,
-      "pts2": 995.31,
-      "lvl2": 6,
-      "total": 998.4399999999999
-    },
-    {
-      "pos": 2,
       "p1": "Diego Silva",
       "lic1": "",
       "pid1": "",
@@ -30,12 +15,12 @@
       "club": "SCPS",
       "pts1": 0,
       "lvl1": 6,
-      "pts2": 4.69,
+      "pts2": 9.38,
       "lvl2": 6,
-      "total": 4.69
+      "total": 9.38
     },
     {
-      "pos": 3,
+      "pos": 2,
       "p1": "Santiago Melim",
       "lic1": "",
       "pid1": "",
@@ -50,7 +35,7 @@
       "total": 0
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "António Araújo",
       "lic1": "",
       "pid1": "",

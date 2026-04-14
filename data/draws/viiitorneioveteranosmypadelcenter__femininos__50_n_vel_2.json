@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +50 Nível 2",
-  "generatedAt": "2026-04-13T22:13:53.620Z",
+  "generatedAt": "2026-04-14T10:30:17.524Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "22012",
       "pid2": "268162",
       "club": "Padel Factory",
-      "pts1": 18.75,
+      "pts1": 25,
       "lvl1": 6,
-      "pts2": 766.95,
+      "pts2": 782.58,
       "lvl2": 6,
-      "total": 785.7
+      "total": 807.58
     }
   ]
 }

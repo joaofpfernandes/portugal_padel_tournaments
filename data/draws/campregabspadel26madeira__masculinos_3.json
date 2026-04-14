@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Madeira",
   "slug": "CampRegABSPadel26Madeira",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-13T21:53:13.844Z",
+  "generatedAt": "2026-04-14T10:08:23.649Z",
   "result": [
     {
       "pos": 1,
@@ -30,9 +30,9 @@
       "club": "PlayPadelMadeira",
       "pts1": 4485.63,
       "lvl1": 3,
-      "pts2": 857.5,
+      "pts2": 876.25,
       "lvl2": 6,
-      "total": 5343.13
+      "total": 5361.88
     }
   ]
 }

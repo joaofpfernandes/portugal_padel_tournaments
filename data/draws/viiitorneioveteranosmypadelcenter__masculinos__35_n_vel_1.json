@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +35 Nível 1",
-  "generatedAt": "2026-04-13T22:12:25.376Z",
+  "generatedAt": "2026-04-14T10:28:49.018Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Diogo Branco",
+      "lic1": "695",
+      "pid1": "33986",
+      "p2": "Simon Gaspar",
+      "lic2": "10354",
+      "pid2": "99359",
+      "club": "My Padel Center",
+      "pts1": 749.83,
+      "lvl1": 6,
+      "pts2": 7739.73,
+      "lvl2": 3,
+      "total": 8489.56
+    },
+    {
+      "pos": 3,
       "p1": "Rafa",
       "lic1": "15290",
       "pid1": "175916",
@@ -33,6 +48,21 @@
       "pts2": 14.31,
       "lvl2": 6,
       "total": 1077.05
+    },
+    {
+      "pos": 4,
+      "p1": "José Melo",
+      "lic1": "5670",
+      "pid1": "29603",
+      "p2": "Diogo Ferreira",
+      "lic2": "8947",
+      "pid2": "83971",
+      "club": "Clube de Padel Alcântara",
+      "pts1": 232.64,
+      "lvl1": 6,
+      "pts2": 582.81,
+      "lvl2": 6,
+      "total": 815.4499999999999
     }
   ]
 }

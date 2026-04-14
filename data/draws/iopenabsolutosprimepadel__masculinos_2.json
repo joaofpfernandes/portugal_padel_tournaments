@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T22:11:14.287Z",
+  "generatedAt": "2026-04-14T10:27:31.039Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "Padel XXL",
       "pts1": 9470.31,
       "lvl1": 3,
-      "pts2": 4436.55,
+      "pts2": 4387.8,
       "lvl2": 3,
-      "total": 13906.86
+      "total": 13858.11
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "22995",
       "pid2": "225527",
       "club": "Ultra Padel Club",
-      "pts1": 13234.38,
+      "pts1": 13111.88,
       "lvl1": 2,
       "pts2": 1885.89,
       "lvl2": 5,
-      "total": 15120.269999999999
+      "total": 14997.769999999999
     },
     {
       "pos": 3,

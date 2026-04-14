@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-13T21:55:42.440Z",
+  "generatedAt": "2026-04-14T10:11:00.104Z",
   "result": [
     {
       "pos": 1,
@@ -13,14 +13,29 @@
       "lic2": "22403",
       "pid2": "222783",
       "club": "",
-      "pts1": 6428.13,
+      "pts1": 7653.13,
       "lvl1": 3,
-      "pts2": 6675.94,
+      "pts2": 7900.94,
       "lvl2": 3,
-      "total": 13104.07
+      "total": 15554.07
     },
     {
       "pos": 2,
+      "p1": "Inês Couceiro da Costa",
+      "lic1": "3938",
+      "pid1": "73401",
+      "p2": "Inês Sá",
+      "lic2": "21164",
+      "pid2": "237954",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 2983.44,
+      "lvl1": 4,
+      "pts2": 5873.75,
+      "lvl2": 3,
+      "total": 8857.19
+    },
+    {
+      "pos": 3,
       "p1": "Matilde Ruão",
       "lic1": "19204",
       "pid1": "231877",
@@ -30,39 +45,24 @@
       "club": "M9PadelCenter",
       "pts1": 4570.31,
       "lvl1": 3,
-      "pts2": 3261.56,
+      "pts2": 3635.94,
       "lvl2": 4,
-      "total": 7831.870000000001
-    },
-    {
-      "pos": 3,
-      "p1": "Inês Couceiro da Costa",
-      "lic1": "3938",
-      "pid1": "73401",
-      "p2": "Inês Sá",
-      "lic2": "21164",
-      "pid2": "237954",
-      "club": "Top-padel Industrial Indoor",
-      "pts1": 2845.63,
-      "lvl1": 4,
-      "pts2": 4911.25,
-      "lvl2": 3,
-      "total": 7756.88
+      "total": 8206.25
     },
     {
       "pos": 4,
-      "p1": "Ana Sofia Araújo",
-      "lic1": "19071",
-      "pid1": "231641",
-      "p2": "Marta Almeida",
-      "lic2": "19344",
-      "pid2": "232146",
-      "club": "UrbanPadelTrofa",
-      "pts1": 4401.56,
-      "lvl1": 3,
-      "pts2": 2334.38,
+      "p1": "Francisca Braga",
+      "lic1": "19539",
+      "pid1": "164945",
+      "p2": "Débora Gonçalves",
+      "lic2": "27451",
+      "pid2": "373639",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 3850,
+      "lvl1": 4,
+      "pts2": 3367.19,
       "lvl2": 4,
-      "total": 6735.9400000000005
+      "total": 7217.1900000000005
     },
     {
       "pos": 5,
@@ -75,24 +75,24 @@
       "club": "QM / SCP",
       "pts1": 479.06,
       "lvl1": 6,
-      "pts2": 6137.75,
+      "pts2": 6427.38,
       "lvl2": 3,
-      "total": 6616.81
+      "total": 6906.4400000000005
     },
     {
       "pos": 6,
-      "p1": "Francisca Braga",
-      "lic1": "19539",
-      "pid1": "164945",
-      "p2": "Débora Gonçalves",
-      "lic2": "27451",
-      "pid2": "373639",
-      "club": "DOuroPadelPasteleira",
-      "pts1": 3237.5,
-      "lvl1": 4,
-      "pts2": 3329.69,
+      "p1": "Ana Sofia Araújo",
+      "lic1": "19071",
+      "pid1": "231641",
+      "p2": "Marta Almeida",
+      "lic2": "19344",
+      "pid2": "232146",
+      "club": "UrbanPadelTrofa",
+      "pts1": 4420.31,
+      "lvl1": 3,
+      "pts2": 2353.13,
       "lvl2": 4,
-      "total": 6567.1900000000005
+      "total": 6773.4400000000005
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "22678",
       "pid2": "319197",
       "club": "88PadelHouse",
-      "pts1": 871.22,
+      "pts1": 877.47,
       "lvl1": 6,
-      "pts2": 5225.63,
+      "pts2": 5256.88,
       "lvl2": 3,
-      "total": 6096.85
+      "total": 6134.35
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "29131",
       "pid2": "413294",
       "club": "QM / SCP",
-      "pts1": 728.28,
+      "pts1": 769.53,
       "lvl1": 6,
-      "pts2": 4331.27,
+      "pts2": 4337.52,
       "lvl2": 3,
-      "total": 5059.55
+      "total": 5107.05
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "13040",
       "pid2": "152367",
       "club": "",
-      "pts1": 1929.38,
-      "lvl1": 5,
-      "pts2": 1785.94,
+      "pts1": 1990.63,
+      "lvl1": 4,
+      "pts2": 1847.19,
       "lvl2": 5,
-      "total": 3715.32
+      "total": 3837.82
     }
   ]
 }

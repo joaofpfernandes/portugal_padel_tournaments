@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T22:05:35.430Z",
+  "generatedAt": "2026-04-14T10:21:34.578Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "19759",
       "pid2": "232802",
       "club": "Padel4move",
-      "pts1": 950.14,
+      "pts1": 953.27,
       "lvl1": 6,
-      "pts2": 1466.48,
+      "pts2": 1468.04,
       "lvl2": 5,
-      "total": 2416.62
+      "total": 2421.31
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "24503",
       "pid2": "296737",
       "club": "Padel4move",
-      "pts1": 1132.08,
+      "pts1": 1071.45,
       "lvl1": 5,
-      "pts2": 718.44,
+      "pts2": 727.81,
       "lvl2": 6,
-      "total": 1850.52
+      "total": 1799.26
     },
     {
       "pos": 3,
@@ -88,11 +88,11 @@
       "lic2": "29226",
       "pid2": "255764",
       "club": "Padel4move",
-      "pts1": 405.45,
+      "pts1": 414.83,
       "lvl1": 6,
-      "pts2": 653.31,
+      "pts2": 662.68,
       "lvl2": 6,
-      "total": 1058.76
+      "total": 1077.51
     },
     {
       "pos": 7,
@@ -118,11 +118,11 @@
       "lic2": "29110",
       "pid2": "390061",
       "club": "Clube Ténis Padel de Portimão",
-      "pts1": 370.2,
+      "pts1": 379.58,
       "lvl1": 6,
-      "pts2": 435.7,
+      "pts2": 445.08,
       "lvl2": 6,
-      "total": 805.9
+      "total": 824.66
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "21114",
       "pid2": "201915",
       "club": "Clube Ténis Padel de Portimão",
-      "pts1": 9.38,
+      "pts1": 18.75,
       "lvl1": 6,
-      "pts2": 650.64,
+      "pts2": 653.77,
       "lvl2": 6,
-      "total": 660.02
+      "total": 672.52
     },
     {
       "pos": 10,
@@ -171,21 +171,6 @@
     },
     {
       "pos": 12,
-      "p1": "Neuza Dias",
-      "lic1": "27797",
-      "pid1": "212263",
-      "p2": "Audrey",
-      "lic2": "22545",
-      "pid2": "316033",
-      "club": "MyCenter - Sports & Wellness",
-      "pts1": 404.02,
-      "lvl1": 6,
-      "pts2": 114.89,
-      "lvl2": 6,
-      "total": 518.91
-    },
-    {
-      "pos": 13,
       "p1": "Sarah Morris",
       "lic1": "22644",
       "pid1": "170013",
@@ -195,9 +180,24 @@
       "club": "Clube Ténis Padel de Portimão",
       "pts1": 239.66,
       "lvl1": 6,
-      "pts2": 276.45,
+      "pts2": 285.83,
       "lvl2": 6,
-      "total": 516.11
+      "total": 525.49
+    },
+    {
+      "pos": 13,
+      "p1": "Neuza Dias",
+      "lic1": "27797",
+      "pid1": "212263",
+      "p2": "Audrey",
+      "lic2": "22545",
+      "pid2": "316033",
+      "club": "MyCenter - Sports & Wellness",
+      "pts1": 340.27,
+      "lvl1": 6,
+      "pts2": 114.89,
+      "lvl2": 6,
+      "total": 455.15999999999997
     },
     {
       "pos": 14,
@@ -210,9 +210,9 @@
       "club": "Vilamoura Tennis & Padel Acade",
       "pts1": 3.13,
       "lvl1": 6,
-      "pts2": 341.9,
+      "pts2": 351.28,
       "lvl2": 6,
-      "total": 345.03
+      "total": 354.40999999999997
     },
     {
       "pos": 15,
@@ -270,9 +270,9 @@
       "club": "Clube Ténis Padel de Portimão",
       "pts1": 105.84,
       "lvl1": 6,
-      "pts2": 94.23,
+      "pts2": 97.36,
       "lvl2": 6,
-      "total": 200.07
+      "total": 203.2
     },
     {
       "pos": 19,
@@ -283,11 +283,11 @@
       "lic2": "28200",
       "pid2": "318440",
       "club": "Carvoeiro Clube de Ténis",
-      "pts1": 150.31,
+      "pts1": 155,
       "lvl1": 6,
-      "pts2": 24.88,
+      "pts2": 29.56,
       "lvl2": 6,
-      "total": 175.19
+      "total": 184.56
     }
   ]
 }

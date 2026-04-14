@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Femininos 1",
-  "generatedAt": "2026-04-13T22:00:59.579Z",
+  "generatedAt": "2026-04-14T10:16:32.726Z",
   "result": [
     {
       "pos": 1,
@@ -43,14 +43,29 @@
       "lic2": "18713",
       "pid2": "162161",
       "club": "OeirasPadelAcademy",
-      "pts1": 65875,
+      "pts1": 64750,
       "lvl1": 1,
-      "pts2": 51625,
+      "pts2": 51000,
       "lvl2": 1,
-      "total": 117500
+      "total": 115750
     },
     {
       "pos": 4,
+      "p1": "Inês Coelho",
+      "lic1": "15702",
+      "pid1": "177136",
+      "p2": "Maria Teresa Bica",
+      "lic2": "16871",
+      "pid2": "199833",
+      "club": "",
+      "pts1": 61875,
+      "lvl1": 1,
+      "pts2": 28662.5,
+      "lvl2": 2,
+      "total": 90537.5
+    },
+    {
+      "pos": 5,
       "p1": "Sofia Formigal",
       "lic1": "5999",
       "pid1": "76280",
@@ -60,24 +75,9 @@
       "club": "",
       "pts1": 66750,
       "lvl1": 1,
-      "pts2": 26025,
+      "pts2": 23775,
       "lvl2": 2,
-      "total": 92775
-    },
-    {
-      "pos": 5,
-      "p1": "Inês Coelho",
-      "lic1": "15702",
-      "pid1": "177136",
-      "p2": "Maria Teresa Bica",
-      "lic2": "16871",
-      "pid2": "199833",
-      "club": "",
-      "pts1": 62000,
-      "lvl1": 1,
-      "pts2": 29800,
-      "lvl2": 2,
-      "total": 91800
+      "total": 90525
     },
     {
       "pos": 6,

@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-13T21:55:33.415Z",
+  "generatedAt": "2026-04-14T10:10:51.162Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "17910",
       "pid2": "227530",
       "club": "Top-padelBragaCenter",
-      "pts1": 1504.66,
+      "pts1": 1510.91,
       "lvl1": 5,
-      "pts2": 3413.81,
+      "pts2": 3451.31,
       "lvl2": 4,
-      "total": 4918.47
+      "total": 4962.22
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "19080",
       "pid2": "231645",
       "club": "UrbanPadelTrofa",
-      "pts1": 2528.72,
+      "pts1": 2547.47,
       "lvl1": 4,
-      "pts2": 1954.38,
-      "lvl2": 5,
-      "total": 4483.1
+      "pts2": 1960.63,
+      "lvl2": 4,
+      "total": 4508.1
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "19580",
       "pid2": "232587",
       "club": "UrbanPadelTrofa",
-      "pts1": 3474.53,
+      "pts1": 3480.78,
       "lvl1": 4,
-      "pts2": 25,
+      "pts2": 43.75,
       "lvl2": 6,
-      "total": 3499.53
+      "total": 3524.53
     },
     {
       "pos": 4,
@@ -60,9 +60,9 @@
       "club": "",
       "pts1": 2404.72,
       "lvl1": 4,
-      "pts2": 275.94,
+      "pts2": 291.56,
       "lvl2": 6,
-      "total": 2680.66
+      "total": 2696.2799999999997
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "26754",
       "pid2": "352149",
       "club": "QM / SCP",
-      "pts1": 1422.8,
+      "pts1": 1454.67,
       "lvl1": 5,
-      "pts2": 1208.58,
+      "pts2": 1240.45,
       "lvl2": 5,
-      "total": 2631.38
+      "total": 2695.12
     },
     {
       "pos": 6,

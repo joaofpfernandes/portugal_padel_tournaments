@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
   "slug": "CampRegABS26Setubal",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T22:01:42.030Z",
+  "generatedAt": "2026-04-14T10:17:17.779Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "19698",
       "pid2": "232734",
       "club": "GameSetPadel",
-      "pts1": 3345.55,
+      "pts1": 3364.3,
       "lvl1": 4,
-      "pts2": 2045.94,
+      "pts2": 1544.06,
       "lvl2": 5,
-      "total": 5391.49
+      "total": 4908.360000000001
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "16258",
       "pid2": "184428",
       "club": "MrPadel",
-      "pts1": 1437.03,
+      "pts1": 1340.56,
       "lvl1": 5,
-      "pts2": 3567.88,
+      "pts2": 3551.03,
       "lvl2": 4,
-      "total": 5004.91
+      "total": 4891.59
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "22806",
       "pid2": "210933",
       "club": "A2N Padel Academy",
-      "pts1": 3003.01,
+      "pts1": 2963.63,
       "lvl1": 4,
-      "pts2": 1869.8,
+      "pts2": 1830.42,
       "lvl2": 5,
-      "total": 4872.81
+      "total": 4794.05
     },
     {
       "pos": 4,
@@ -75,9 +75,9 @@
       "club": "GrandeIndoorPadel",
       "pts1": 2559.19,
       "lvl1": 4,
-      "pts2": 1441.96,
+      "pts2": 1408.21,
       "lvl2": 5,
-      "total": 4001.15
+      "total": 3967.4
     },
     {
       "pos": 6,
@@ -90,9 +90,9 @@
       "club": "Arrábida Padel",
       "pts1": 2175.89,
       "lvl1": 4,
-      "pts2": 1584.46,
+      "pts2": 1563.58,
       "lvl2": 5,
-      "total": 3760.35
+      "total": 3739.47
     },
     {
       "pos": 7,
@@ -103,29 +103,14 @@
       "lic2": "14822",
       "pid2": "175460",
       "club": "GameSetPadel",
-      "pts1": 1600.8,
+      "pts1": 1607.05,
       "lvl1": 5,
-      "pts2": 1382,
+      "pts2": 1388.25,
       "lvl2": 5,
-      "total": 2982.8
+      "total": 2995.3
     },
     {
       "pos": 8,
-      "p1": "Albino Passos",
-      "lic1": "18455",
-      "pid1": "165105",
-      "p2": "Diogo Crispim",
-      "lic2": "23567",
-      "pid2": "186679",
-      "club": "Arrábida Padel",
-      "pts1": 337.5,
-      "lvl1": 6,
-      "pts2": 2539.08,
-      "lvl2": 4,
-      "total": 2876.58
-    },
-    {
-      "pos": 9,
       "p1": "Gabriel Craveiro",
       "lic1": "15844",
       "pid1": "179047",
@@ -138,6 +123,21 @@
       "pts2": 699.99,
       "lvl2": 6,
       "total": 2824.99
+    },
+    {
+      "pos": 9,
+      "p1": "Albino Passos",
+      "lic1": "18455",
+      "pid1": "165105",
+      "p2": "Diogo Crispim",
+      "lic2": "23567",
+      "pid2": "186679",
+      "club": "Arrábida Padel",
+      "pts1": 356.25,
+      "lvl1": 6,
+      "pts2": 2448.86,
+      "lvl2": 4,
+      "total": 2805.11
     }
   ]
 }

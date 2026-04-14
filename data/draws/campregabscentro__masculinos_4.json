@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T21:56:47.496Z",
+  "generatedAt": "2026-04-14T10:12:08.428Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "OsPadeleiros-CPCOR-ClubePadeld",
       "pts1": 3273.59,
       "lvl1": 4,
-      "pts2": 3819.7,
+      "pts2": 3613.75,
       "lvl2": 4,
-      "total": 7093.29
+      "total": 6887.34
     },
     {
       "pos": 2,
@@ -36,21 +36,6 @@
     },
     {
       "pos": 3,
-      "p1": "Tomás Melro",
-      "lic1": "10676",
-      "pid1": "118957",
-      "p2": "André Santos",
-      "lic2": "20843",
-      "pid2": "162669",
-      "club": "Dezporvinte",
-      "pts1": 3233.47,
-      "lvl1": 4,
-      "pts2": 967.5,
-      "lvl2": 6,
-      "total": 4200.969999999999
-    },
-    {
-      "pos": 4,
       "p1": "REINALDO MOURAO FERREIRA",
       "lic1": "18239",
       "pid1": "136374",
@@ -63,6 +48,21 @@
       "pts2": 3528.84,
       "lvl2": 4,
       "total": 4087.59
+    },
+    {
+      "pos": 4,
+      "p1": "Tomás Melro",
+      "lic1": "10676",
+      "pid1": "118957",
+      "p2": "André Santos",
+      "lic2": "20843",
+      "pid2": "162669",
+      "club": "Dezporvinte",
+      "pts1": 2835.34,
+      "lvl1": 4,
+      "pts2": 967.5,
+      "lvl2": 6,
+      "total": 3802.84
     },
     {
       "pos": 5,
@@ -88,11 +88,11 @@
       "lic2": "25948",
       "pid2": "333634",
       "club": "PadelCastelo",
-      "pts1": 2453.56,
+      "pts1": 2462.93,
       "lvl1": 4,
-      "pts2": 732.06,
+      "pts2": 707.68,
       "lvl2": 6,
-      "total": 3185.62
+      "total": 3170.6099999999997
     },
     {
       "pos": 7,

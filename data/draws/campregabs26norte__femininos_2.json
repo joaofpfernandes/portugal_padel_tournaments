@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T21:55:50.795Z",
+  "generatedAt": "2026-04-14T10:11:08.561Z",
   "result": [
     {
       "pos": 1,
@@ -28,11 +28,11 @@
       "lic2": "16468",
       "pid2": "188013",
       "club": "Top-padel Industrial Indoor",
-      "pts1": 9103.75,
+      "pts1": 10066.25,
       "lvl1": 3,
-      "pts2": 23677.5,
+      "pts2": 24640,
       "lvl2": 2,
-      "total": 32781.25
+      "total": 34706.25
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "32606",
       "pid2": "213649",
       "club": "",
-      "pts1": 25506.25,
+      "pts1": 25681.25,
       "lvl1": 2,
-      "pts2": 5282.5,
+      "pts2": 5656.88,
       "lvl2": 3,
-      "total": 30788.75
+      "total": 31338.13
     },
     {
       "pos": 4,
@@ -75,9 +75,9 @@
       "club": "GoldenPadel",
       "pts1": 15903.75,
       "lvl1": 2,
-      "pts2": 1920.19,
-      "lvl2": 5,
-      "total": 17823.94
+      "pts2": 1932.69,
+      "lvl2": 4,
+      "total": 17836.44
     },
     {
       "pos": 6,
@@ -88,11 +88,11 @@
       "lic2": "9310",
       "pid2": "86575",
       "club": "A-Z Padel Elite Barcelos",
-      "pts1": 8575,
+      "pts1": 9003.75,
       "lvl1": 3,
       "pts2": 7093.75,
       "lvl2": 3,
-      "total": 15668.75
+      "total": 16097.5
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "15532",
       "pid2": "176480",
       "club": "A-ZPadelFamalicao",
-      "pts1": 4998.44,
+      "pts1": 5023.44,
       "lvl1": 3,
-      "pts2": 4998.44,
+      "pts2": 5023.44,
       "lvl2": 3,
-      "total": 9996.88
+      "total": 10046.88
     }
   ]
 }

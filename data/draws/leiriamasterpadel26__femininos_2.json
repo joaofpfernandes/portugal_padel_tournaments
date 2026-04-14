@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T22:18:09.570Z",
+  "generatedAt": "2026-04-14T10:33:20.918Z",
   "result": [
     {
       "pos": 1,
@@ -28,11 +28,11 @@
       "lic2": "30692",
       "pid2": "416279",
       "club": "New Padel - Chão da Fonte",
-      "pts1": 30581.25,
-      "lvl1": 2,
-      "pts2": 8400,
+      "pts1": 31962.5,
+      "lvl1": 1,
+      "pts2": 10150,
       "lvl2": 3,
-      "total": 38981.25
+      "total": 42112.5
     },
     {
       "pos": 3,
@@ -58,11 +58,11 @@
       "lic2": "22668",
       "pid2": "319135",
       "club": "",
-      "pts1": 25506.25,
+      "pts1": 25681.25,
       "lvl1": 2,
-      "pts2": 4520.31,
+      "pts2": 4695.31,
       "lvl2": 3,
-      "total": 30026.56
+      "total": 30376.56
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "16642",
       "pid2": "190680",
       "club": "Padel Factory",
-      "pts1": 20720.31,
+      "pts1": 19801.56,
       "lvl1": 2,
-      "pts2": 6355.34,
+      "pts2": 6173.13,
       "lvl2": 3,
-      "total": 27075.65
+      "total": 25974.690000000002
     },
     {
       "pos": 6,
@@ -103,11 +103,11 @@
       "lic2": "17122",
       "pid2": "206507",
       "club": "Padel Factory",
-      "pts1": 11696.25,
+      "pts1": 11213.13,
       "lvl1": 2,
-      "pts2": 9670.47,
+      "pts2": 9570.16,
       "lvl2": 3,
-      "total": 21366.72
+      "total": 20783.29
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "21544",
       "pid2": "175293",
       "club": "Lisboa Racket Centre",
-      "pts1": 8335.94,
+      "pts1": 8373.44,
       "lvl1": 3,
-      "pts2": 11725,
+      "pts2": 11326.88,
       "lvl2": 2,
-      "total": 20060.940000000002
+      "total": 19700.32
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "9310",
       "pid2": "86575",
       "club": "A-Z Padel Elite Barcelos",
-      "pts1": 8575,
+      "pts1": 9003.75,
       "lvl1": 3,
       "pts2": 7093.75,
       "lvl2": 3,
-      "total": 15668.75
+      "total": 16097.5
     },
     {
       "pos": 10,

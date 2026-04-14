@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-13T21:57:47.037Z",
+  "generatedAt": "2026-04-14T10:13:12.342Z",
   "result": [
     {
       "pos": 1,
@@ -14,7 +14,7 @@
       "pid2": "189687",
       "club": "Ultra Padel Club",
       "pts1": 1986.54,
-      "lvl1": 5,
+      "lvl1": 4,
       "pts2": 3638.9,
       "lvl2": 4,
       "total": 5625.4400000000005
@@ -45,9 +45,9 @@
       "club": "ClubePadeldasCaldas",
       "pts1": 1884.52,
       "lvl1": 5,
-      "pts2": 1725,
+      "pts2": 1620,
       "lvl2": 5,
-      "total": 3609.52
+      "total": 3504.52
     },
     {
       "pos": 4,

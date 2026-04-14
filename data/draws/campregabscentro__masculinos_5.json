@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T21:56:39.061Z",
+  "generatedAt": "2026-04-14T10:11:59.234Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "30111",
       "pid2": "314365",
       "club": "Dezporvinte",
-      "pts1": 1085.12,
+      "pts1": 1094.49,
       "lvl1": 6,
-      "pts2": 965.12,
+      "pts2": 969.8,
       "lvl2": 6,
-      "total": 2050.24
+      "total": 2064.29
     },
     {
       "pos": 2,
@@ -66,21 +66,6 @@
     },
     {
       "pos": 5,
-      "p1": "Diogo Martins",
-      "lic1": "9687",
-      "pid1": "90862",
-      "p2": "Afonso Caetano",
-      "lic2": "28107",
-      "pid2": "389190",
-      "club": "AlmeirINNPadel",
-      "pts1": 1261.35,
-      "lvl1": 5,
-      "pts2": 132.75,
-      "lvl2": 6,
-      "total": 1394.1
-    },
-    {
-      "pos": 6,
       "p1": "Luís Ferreira",
       "lic1": "10705",
       "pid1": "119281",
@@ -93,6 +78,21 @@
       "pts2": 828.31,
       "lvl2": 6,
       "total": 1376.1399999999999
+    },
+    {
+      "pos": 6,
+      "p1": "Diogo Martins",
+      "lic1": "9687",
+      "pid1": "90862",
+      "p2": "Afonso Caetano",
+      "lic2": "28107",
+      "pid2": "389190",
+      "club": "AlmeirINNPadel",
+      "pts1": 1229.16,
+      "lvl1": 5,
+      "pts2": 137.44,
+      "lvl2": 6,
+      "total": 1366.6000000000001
     },
     {
       "pos": 7,
@@ -150,9 +150,9 @@
       "club": "Clube De Ténis De Santarém",
       "pts1": 349.03,
       "lvl1": 6,
-      "pts2": 899.06,
+      "pts2": 902.19,
       "lvl2": 6,
-      "total": 1248.09
+      "total": 1251.22
     },
     {
       "pos": 11,
@@ -208,14 +208,29 @@
       "lic2": "15411",
       "pid2": "147794",
       "club": "Dezporvinte",
-      "pts1": 438.75,
+      "pts1": 448.12,
       "lvl1": 6,
-      "pts2": 284.23,
+      "pts2": 293.61,
       "lvl2": 6,
-      "total": 722.98
+      "total": 741.73
     },
     {
       "pos": 15,
+      "p1": "Edgar Subtil",
+      "lic1": "19863",
+      "pid1": "189470",
+      "p2": "Ruben Carvalho",
+      "lic2": "19769",
+      "pid2": "207591",
+      "club": "Escola Ténis Padel Rio Maior",
+      "pts1": 407.14,
+      "lvl1": 6,
+      "pts2": 274.04,
+      "lvl2": 6,
+      "total": 681.1800000000001
+    },
+    {
+      "pos": 16,
       "p1": "Afonso Côrte-Real",
       "lic1": "16597",
       "pid1": "189917",
@@ -228,21 +243,6 @@
       "pts2": 264.2,
       "lvl2": 6,
       "total": 676.53
-    },
-    {
-      "pos": 16,
-      "p1": "Edgar Subtil",
-      "lic1": "19863",
-      "pid1": "189470",
-      "p2": "Ruben Carvalho",
-      "lic2": "19769",
-      "pid2": "207591",
-      "club": "Escola Ténis Padel Rio Maior",
-      "pts1": 407.14,
-      "lvl1": 6,
-      "pts2": 267.79,
-      "lvl2": 6,
-      "total": 674.9300000000001
     },
     {
       "pos": 17,
@@ -280,14 +280,14 @@
       "lic1": "17186",
       "pid1": "181462",
       "p2": "Angelo Oliveira",
-      "lic2": "",
-      "pid2": "",
+      "lic2": "17824",
+      "pid2": "208842",
       "club": "Dezporvinte",
-      "pts1": 510.66,
+      "pts1": 516.91,
       "lvl1": 6,
-      "pts2": 0,
+      "pts2": 9.38,
       "lvl2": 6,
-      "total": 510.66
+      "total": 526.29
     },
     {
       "pos": 20,
@@ -298,11 +298,11 @@
       "lic2": "23786",
       "pid2": "323514",
       "club": "WOWPadel",
-      "pts1": 364.95,
+      "pts1": 374.33,
       "lvl1": 6,
-      "pts2": 135.55,
+      "pts2": 138.67,
       "lvl2": 6,
-      "total": 500.5
+      "total": 513
     },
     {
       "pos": 21,
@@ -358,11 +358,11 @@
       "lic2": "27241",
       "pid2": "337651",
       "club": "AlmeirINNPadel",
-      "pts1": 96.13,
+      "pts1": 103.94,
       "lvl1": 6,
-      "pts2": 206.49,
+      "pts2": 214.31,
       "lvl2": 6,
-      "total": 302.62
+      "total": 318.25
     },
     {
       "pos": 25,
@@ -375,12 +375,27 @@
       "club": "AlmeirINNPadel",
       "pts1": 165.91,
       "lvl1": 6,
-      "pts2": 69.67,
+      "pts2": 72.8,
       "lvl2": 6,
-      "total": 235.57999999999998
+      "total": 238.70999999999998
     },
     {
       "pos": 26,
+      "p1": "Jorge Nogueira",
+      "lic1": "6004",
+      "pid1": "37266",
+      "p2": "Miguel Bliebernicht",
+      "lic2": "16339",
+      "pid2": "75062",
+      "club": "Dezporvinte",
+      "pts1": 113.13,
+      "lvl1": 6,
+      "pts2": 113.13,
+      "lvl2": 6,
+      "total": 226.26
+    },
+    {
+      "pos": 27,
       "p1": "Nelson Duarte",
       "lic1": "18403",
       "pid1": "186603",
@@ -393,21 +408,6 @@
       "pts2": 6.25,
       "lvl2": 6,
       "total": 220.63
-    },
-    {
-      "pos": 27,
-      "p1": "Jorge Nogueira",
-      "lic1": "6004",
-      "pid1": "37266",
-      "p2": "Miguel Bliebernicht",
-      "lic2": "16339",
-      "pid2": "75062",
-      "club": "Dezporvinte",
-      "pts1": 103.75,
-      "lvl1": 6,
-      "pts2": 103.75,
-      "lvl2": 6,
-      "total": 207.5
     },
     {
       "pos": 28,
@@ -433,11 +433,11 @@
       "lic2": "28924",
       "pid2": "329308",
       "club": "LeziriaPadel",
-      "pts1": 112.81,
+      "pts1": 114.38,
       "lvl1": 6,
-      "pts2": 33.75,
+      "pts2": 36.88,
       "lvl2": 6,
-      "total": 146.56
+      "total": 151.26
     },
     {
       "pos": 30,
@@ -463,14 +463,29 @@
       "lic2": "15053",
       "pid2": "175596",
       "club": "WOWPadel",
-      "pts1": 36.44,
+      "pts1": 45.82,
       "lvl1": 6,
       "pts2": 77.42,
       "lvl2": 6,
-      "total": 113.86
+      "total": 123.24000000000001
     },
     {
       "pos": 32,
+      "p1": "João Santos",
+      "lic1": "15053",
+      "pid1": "175596",
+      "p2": "Dani",
+      "lic2": "29134",
+      "pid2": "413299",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 77.42,
+      "lvl1": 6,
+      "pts2": 33.56,
+      "lvl2": 6,
+      "total": 110.98
+    },
+    {
+      "pos": 33,
       "p1": "Pedro M. S. Santos",
       "lic1": "12796",
       "pid1": "148057",
@@ -485,22 +500,22 @@
       "total": 109.31
     },
     {
-      "pos": 33,
-      "p1": "João Santos",
-      "lic1": "15053",
-      "pid1": "175596",
-      "p2": "Dani",
-      "lic2": "29134",
-      "pid2": "413299",
-      "club": "ClubePadeldasCaldas",
-      "pts1": 77.42,
+      "pos": 34,
+      "p1": "João Bento",
+      "lic1": "22172",
+      "pid1": "292053",
+      "p2": "Pedro Ricarte",
+      "lic2": "23657",
+      "pid2": "323211",
+      "club": "WOWPadel",
+      "pts1": 48.19,
       "lvl1": 6,
-      "pts2": 28.88,
+      "pts2": 38.13,
       "lvl2": 6,
-      "total": 106.3
+      "total": 86.32
     },
     {
-      "pos": 34,
+      "pos": 35,
       "p1": "Patiente",
       "lic1": "26686",
       "pid1": "293308",
@@ -513,21 +528,6 @@
       "pts2": 1.56,
       "lvl2": 6,
       "total": 85.87
-    },
-    {
-      "pos": 35,
-      "p1": "João Bento",
-      "lic1": "22172",
-      "pid1": "292053",
-      "p2": "Pedro Ricarte",
-      "lic2": "23657",
-      "pid2": "323211",
-      "club": "WOWPadel",
-      "pts1": 38.81,
-      "lvl1": 6,
-      "pts2": 35,
-      "lvl2": 6,
-      "total": 73.81
     },
     {
       "pos": 36,
@@ -568,11 +568,11 @@
       "lic2": "29134",
       "pid2": "413299",
       "club": "WOWPadel",
-      "pts1": 9.38,
+      "pts1": 18.75,
       "lvl1": 6,
-      "pts2": 28.88,
+      "pts2": 33.56,
       "lvl2": 6,
-      "total": 38.26
+      "total": 52.31
     },
     {
       "pos": 39,
@@ -585,9 +585,9 @@
       "club": "CasadoSportLisboaeBenficanasCa",
       "pts1": 3.13,
       "lvl1": 6,
-      "pts2": 34.97,
+      "pts2": 39.66,
       "lvl2": 6,
-      "total": 38.1
+      "total": 42.79
     }
   ]
 }

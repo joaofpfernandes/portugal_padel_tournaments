@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +45 Nível 1",
-  "generatedAt": "2026-04-13T22:13:40.157Z",
+  "generatedAt": "2026-04-14T10:30:04.028Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "Lisboa Racket Centre",
       "pts1": 25543.75,
       "lvl1": 2,
-      "pts2": 32481.25,
+      "pts2": 30031.25,
       "lvl2": 1,
-      "total": 58025
+      "total": 55575
     },
     {
       "pos": 2,
@@ -45,9 +45,9 @@
       "club": "Lisboa Racket Centre",
       "pts1": 722.81,
       "lvl1": 6,
-      "pts2": 2309.05,
+      "pts2": 2312.17,
       "lvl2": 4,
-      "total": 3031.86
+      "total": 3034.98
     }
   ]
 }

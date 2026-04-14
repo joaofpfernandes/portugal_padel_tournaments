@@ -2,25 +2,10 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-13T21:54:24.559Z",
+  "generatedAt": "2026-04-14T10:09:39.323Z",
   "result": [
     {
       "pos": 1,
-      "p1": "André Ferreira",
-      "lic1": "17422",
-      "pid1": "187794",
-      "p2": "Luis Miguel",
-      "lic2": "22247",
-      "pid2": "212392",
-      "club": "MeshPadelCenter",
-      "pts1": 1075.06,
-      "lvl1": 6,
-      "pts2": 1123.03,
-      "lvl2": 6,
-      "total": 2198.09
-    },
-    {
-      "pos": 2,
       "p1": "André Lima",
       "lic1": "10675",
       "pid1": "118952",
@@ -28,11 +13,26 @@
       "lic2": "21848",
       "pid2": "203428",
       "club": "Esposende Padel",
-      "pts1": 150,
+      "pts1": 386.56,
       "lvl1": 6,
-      "pts2": 1896.45,
+      "pts2": 1933.95,
       "lvl2": 5,
-      "total": 2046.45
+      "total": 2320.51
+    },
+    {
+      "pos": 2,
+      "p1": "André Ferreira",
+      "lic1": "17422",
+      "pid1": "187794",
+      "p2": "Luis Miguel",
+      "lic2": "22247",
+      "pid2": "212392",
+      "club": "MeshPadelCenter",
+      "pts1": 1125.69,
+      "lvl1": 5,
+      "pts2": 1171.27,
+      "lvl2": 5,
+      "total": 2296.96
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "23999",
       "pid2": "323975",
       "club": "OffPadel",
-      "pts1": 1151.05,
+      "pts1": 1157.3,
       "lvl1": 5,
-      "pts2": 782.78,
+      "pts2": 789.03,
       "lvl2": 6,
-      "total": 1933.83
+      "total": 1946.33
     },
     {
       "pos": 4,
@@ -75,9 +75,9 @@
       "club": "DOuroPadelPasteleira",
       "pts1": 1121.36,
       "lvl1": 6,
-      "pts2": 621.22,
+      "pts2": 630.59,
       "lvl2": 6,
-      "total": 1742.58
+      "total": 1751.9499999999998
     },
     {
       "pos": 6,
@@ -88,11 +88,11 @@
       "lic2": "28312",
       "pid2": "365869",
       "club": "A-ZPadelFamalicao",
-      "pts1": 1293.7,
+      "pts1": 1353.7,
       "lvl1": 5,
-      "pts2": 55.57,
+      "pts2": 115.57,
       "lvl2": 6,
-      "total": 1349.27
+      "total": 1469.27
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "29459",
       "pid2": "333861",
       "club": "A-ZPadelSantoTirso_0204144731",
-      "pts1": 704.3,
+      "pts1": 723.05,
       "lvl1": 6,
-      "pts2": 586.97,
+      "pts2": 593.22,
       "lvl2": 6,
-      "total": 1291.27
+      "total": 1316.27
     },
     {
       "pos": 8,
@@ -118,14 +118,29 @@
       "lic2": "18727",
       "pid2": "230729",
       "club": "MajorPadelClubDouro",
-      "pts1": 605.06,
+      "pts1": 614.44,
       "lvl1": 6,
-      "pts2": 593.86,
+      "pts2": 603.23,
       "lvl2": 6,
-      "total": 1198.92
+      "total": 1217.67
     },
     {
       "pos": 9,
+      "p1": "João Silva",
+      "lic1": "29726",
+      "pid1": "245843",
+      "p2": "Milton Jepik",
+      "lic2": "35115",
+      "pid2": "505795",
+      "club": "UrbanPadelTrofa",
+      "pts1": 1002.41,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 1011.79
+    },
+    {
+      "pos": 10,
       "p1": "Excelso",
       "lic1": "10459",
       "pid1": "105487",
@@ -135,24 +150,9 @@
       "club": "Top-padelBragaCenter",
       "pts1": 273.86,
       "lvl1": 6,
-      "pts2": 724.67,
+      "pts2": 727.98,
       "lvl2": 6,
-      "total": 998.53
-    },
-    {
-      "pos": 10,
-      "p1": "João Silva",
-      "lic1": "29726",
-      "pid1": "245843",
-      "p2": "Milton Jepik",
-      "lic2": "35115",
-      "pid2": "505795",
-      "club": "UrbanPadelTrofa",
-      "pts1": 983.66,
-      "lvl1": 6,
-      "pts2": 6.25,
-      "lvl2": 6,
-      "total": 989.91
+      "total": 1001.84
     },
     {
       "pos": 11,
@@ -163,11 +163,11 @@
       "lic2": "19695",
       "pid2": "232733",
       "club": "M9PadelCenter",
-      "pts1": 3.13,
+      "pts1": 6.25,
       "lvl1": 6,
-      "pts2": 981.81,
+      "pts2": 991.19,
       "lvl2": 6,
-      "total": 984.9399999999999
+      "total": 997.44
     },
     {
       "pos": 12,
@@ -193,11 +193,11 @@
       "lic2": "18732",
       "pid2": "184510",
       "club": "MeshPadelCenter",
-      "pts1": 487.31,
+      "pts1": 488.88,
       "lvl1": 6,
-      "pts2": 452.64,
+      "pts2": 462.02,
       "lvl2": 6,
-      "total": 939.95
+      "total": 950.9
     },
     {
       "pos": 14,
@@ -208,14 +208,29 @@
       "lic2": "9733",
       "pid2": "92135",
       "club": "FutebolClubedaFoz",
-      "pts1": 6.25,
+      "pts1": 12.5,
       "lvl1": 6,
-      "pts2": 885.73,
+      "pts2": 904.48,
       "lvl2": 6,
-      "total": 891.98
+      "total": 916.98
     },
     {
       "pos": 15,
+      "p1": "Nuno Alves",
+      "lic1": "31605",
+      "pid1": "216200",
+      "p2": "Goncalo Cardoso",
+      "lic2": "29747",
+      "pid2": "373851",
+      "club": "UrbanPadelTrofa",
+      "pts1": 349.7,
+      "lvl1": 6,
+      "pts2": 526.02,
+      "lvl2": 6,
+      "total": 875.72
+    },
+    {
+      "pos": 16,
       "p1": "Magalhães, Pedro",
       "lic1": "20175",
       "pid1": "232633",
@@ -230,7 +245,7 @@
       "total": 867.41
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Nuno Carvalho",
       "lic1": "21988",
       "pid1": "258001",
@@ -240,24 +255,9 @@
       "club": "M9PadelCenter",
       "pts1": 848.78,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 12.5,
       "lvl2": 6,
-      "total": 851.91
-    },
-    {
-      "pos": 17,
-      "p1": "Nuno Alves",
-      "lic1": "31605",
-      "pid1": "216200",
-      "p2": "Goncalo Cardoso",
-      "lic2": "29747",
-      "pid2": "373851",
-      "club": "UrbanPadelTrofa",
-      "pts1": 330.95,
-      "lvl1": 6,
-      "pts2": 507.27,
-      "lvl2": 6,
-      "total": 838.22
+      "total": 861.28
     },
     {
       "pos": 18,
@@ -268,11 +268,11 @@
       "lic2": "29916",
       "pid2": "326904",
       "club": "M9PadelCenter",
-      "pts1": 339.06,
+      "pts1": 342.19,
       "lvl1": 6,
-      "pts2": 423.22,
+      "pts2": 432.59,
       "lvl2": 6,
-      "total": 762.28
+      "total": 774.78
     },
     {
       "pos": 19,
@@ -283,11 +283,11 @@
       "lic2": "31270",
       "pid2": "417369",
       "club": "A-ZPadelSantoTirso_0204144731",
-      "pts1": 440.2,
+      "pts1": 446.45,
       "lvl1": 6,
-      "pts2": 229.34,
+      "pts2": 248.09,
       "lvl2": 6,
-      "total": 669.54
+      "total": 694.54
     },
     {
       "pos": 20,
@@ -298,11 +298,11 @@
       "lic2": "23460",
       "pid2": "322821",
       "club": "A-ZPadelFamalicao",
-      "pts1": 472.88,
+      "pts1": 485.38,
       "lvl1": 6,
-      "pts2": 154.97,
+      "pts2": 161.22,
       "lvl2": 6,
-      "total": 627.85
+      "total": 646.6
     },
     {
       "pos": 21,
@@ -313,11 +313,11 @@
       "lic2": "20031",
       "pid2": "233112",
       "club": "A-ZPadelSantoTirso_0204144731",
-      "pts1": 223.2,
+      "pts1": 232.58,
       "lvl1": 6,
-      "pts2": 349.28,
+      "pts2": 368.03,
       "lvl2": 6,
-      "total": 572.48
+      "total": 600.61
     },
     {
       "pos": 22,
@@ -328,11 +328,11 @@
       "lic2": "29402",
       "pid2": "413741",
       "club": "A-ZPadelFamalicao",
-      "pts1": 516.89,
+      "pts1": 523.14,
       "lvl1": 6,
-      "pts2": 6.25,
+      "pts2": 18.75,
       "lvl2": 6,
-      "total": 523.14
+      "total": 541.89
     },
     {
       "pos": 23,
@@ -343,14 +343,44 @@
       "lic2": "27437",
       "pid2": "408485",
       "club": "Padel Academy",
-      "pts1": 227.21,
+      "pts1": 231.9,
       "lvl1": 6,
-      "pts2": 232.24,
+      "pts2": 238.49,
       "lvl2": 6,
-      "total": 459.45000000000005
+      "total": 470.39
     },
     {
       "pos": 24,
+      "p1": "Bernardo Silva",
+      "lic1": "30311",
+      "pid1": "186407",
+      "p2": "Luís Caldeira",
+      "lic2": "29955",
+      "pid2": "371062",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 216.28,
+      "lvl1": 6,
+      "pts2": 242.47,
+      "lvl2": 6,
+      "total": 458.75
+    },
+    {
+      "pos": 25,
+      "p1": "João Sousa",
+      "lic1": "21674",
+      "pid1": "66256",
+      "p2": "João Brito",
+      "lic2": "29744",
+      "pid2": "414236",
+      "club": "A-Z Padel Elite Barcelos",
+      "pts1": 240.31,
+      "lvl1": 6,
+      "pts2": 209.69,
+      "lvl2": 6,
+      "total": 450
+    },
+    {
+      "pos": 26,
       "p1": "José Sá",
       "lic1": "9940",
       "pid1": "93469",
@@ -365,36 +395,6 @@
       "total": 416.24
     },
     {
-      "pos": 25,
-      "p1": "João Sousa",
-      "lic1": "21674",
-      "pid1": "66256",
-      "p2": "João Brito",
-      "lic2": "29744",
-      "pid2": "414236",
-      "club": "A-Z Padel Elite Barcelos",
-      "pts1": 204.69,
-      "lvl1": 6,
-      "pts2": 203.44,
-      "lvl2": 6,
-      "total": 408.13
-    },
-    {
-      "pos": 26,
-      "p1": "Bernardo Silva",
-      "lic1": "30311",
-      "pid1": "186407",
-      "p2": "Luís Caldeira",
-      "lic2": "29955",
-      "pid2": "371062",
-      "club": "DOuroPadelPasteleira",
-      "pts1": 197.53,
-      "lvl1": 6,
-      "pts2": 191.84,
-      "lvl2": 6,
-      "total": 389.37
-    },
-    {
       "pos": 27,
       "p1": "EduTavares",
       "lic1": "14893",
@@ -403,14 +403,29 @@
       "lic2": "31207",
       "pid2": "318562",
       "club": "QM / SCP - Gaia",
-      "pts1": 79.05,
+      "pts1": 97.8,
       "lvl1": 6,
-      "pts2": 307.9,
+      "pts2": 314.15,
       "lvl2": 6,
-      "total": 386.95
+      "total": 411.95
     },
     {
       "pos": 28,
+      "p1": "Tiago Oliveira",
+      "lic1": "22829",
+      "pid1": "319801",
+      "p2": "David Azevedo",
+      "lic2": "23239",
+      "pid2": "320900",
+      "club": "Mar Padel",
+      "pts1": 150.17,
+      "lvl1": 6,
+      "pts2": 134.85,
+      "lvl2": 6,
+      "total": 285.02
+    },
+    {
+      "pos": 29,
       "p1": "vitor hugo",
       "lic1": "23568",
       "pid1": "294200",
@@ -425,21 +440,6 @@
       "total": 279.44
     },
     {
-      "pos": 29,
-      "p1": "Tiago Oliveira",
-      "lic1": "22829",
-      "pid1": "319801",
-      "p2": "David Azevedo",
-      "lic2": "23239",
-      "pid2": "320900",
-      "club": "Mar Padel",
-      "pts1": 140.79,
-      "lvl1": 6,
-      "pts2": 119.23,
-      "lvl2": 6,
-      "total": 260.02
-    },
-    {
       "pos": 30,
       "p1": "Francisco Oliveira",
       "lic1": "28035",
@@ -448,11 +448,11 @@
       "lic2": "29633",
       "pid2": "357870",
       "club": "Padel Academy",
-      "pts1": 207.16,
+      "pts1": 211.84,
       "lvl1": 6,
-      "pts2": 41.56,
+      "pts2": 60.31,
       "lvl2": 6,
-      "total": 248.72
+      "total": 272.15
     },
     {
       "pos": 31,
@@ -463,11 +463,11 @@
       "lic2": "30204",
       "pid2": "389512",
       "club": "MaiaPadelClube",
-      "pts1": 78.38,
+      "pts1": 104.63,
       "lvl1": 6,
       "pts2": 139.34,
       "lvl2": 6,
-      "total": 217.72
+      "total": 243.97
     },
     {
       "pos": 32,
@@ -478,14 +478,29 @@
       "lic2": "31232",
       "pid2": "419210",
       "club": "A-ZPadelFamalicao",
-      "pts1": 134.06,
+      "pts1": 137.19,
       "lvl1": 6,
-      "pts2": 23.44,
+      "pts2": 26.56,
       "lvl2": 6,
-      "total": 157.5
+      "total": 163.75
     },
     {
       "pos": 33,
+      "p1": "Gil Martins",
+      "lic1": "14882",
+      "pid1": "175517",
+      "p2": "Vitor Costa",
+      "lic2": "29965",
+      "pid2": "414527",
+      "club": "TieBreakPadel",
+      "pts1": 25,
+      "lvl1": 6,
+      "pts2": 131.36,
+      "lvl2": 6,
+      "total": 156.36
+    },
+    {
+      "pos": 34,
       "p1": "Cajó",
       "lic1": "",
       "pid1": "",
@@ -500,21 +515,6 @@
       "total": 136.31
     },
     {
-      "pos": 34,
-      "p1": "Gil Martins",
-      "lic1": "14882",
-      "pid1": "175517",
-      "p2": "Vitor Costa",
-      "lic2": "29965",
-      "pid2": "414527",
-      "club": "TieBreakPadel",
-      "pts1": 9.38,
-      "lvl1": 6,
-      "pts2": 91.36,
-      "lvl2": 6,
-      "total": 100.74
-    },
-    {
       "pos": 35,
       "p1": "Pedro Almeida",
       "lic1": "7973",
@@ -523,11 +523,11 @@
       "lic2": "35201",
       "pid2": "505893",
       "club": "A-ZPadelSantoTirso_0204144731",
-      "pts1": 32.19,
+      "pts1": 35.31,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 6.25,
       "lvl2": 6,
-      "total": 35.32
+      "total": 41.56
     },
     {
       "pos": 36,

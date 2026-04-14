@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
   "slug": "CampRegABS26Setubal",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T22:02:02.254Z",
+  "generatedAt": "2026-04-14T10:17:39.465Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "MrPadel",
       "pts1": 10675,
       "lvl1": 2,
-      "pts2": 13274.69,
+      "pts2": 12487.19,
       "lvl2": 2,
-      "total": 23949.690000000002
+      "total": 23162.190000000002
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "23849",
       "pid2": "266861",
       "club": "",
-      "pts1": 14074.06,
+      "pts1": 14043.44,
       "lvl1": 2,
       "pts2": 2778.78,
       "lvl2": 4,
-      "total": 16852.84
+      "total": 16822.22
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "13143",
       "pid2": "155545",
       "club": "NovoPadelClubSetubal",
-      "pts1": 6170.22,
+      "pts1": 6073.75,
       "lvl1": 3,
       "pts2": 9171.72,
       "lvl2": 3,
-      "total": 15341.939999999999
+      "total": 15245.47
     },
     {
       "pos": 4,
@@ -60,9 +60,9 @@
       "club": "DreamPadelCenterSetubal",
       "pts1": 6265.02,
       "lvl1": 3,
-      "pts2": 8369.03,
+      "pts2": 8068.91,
       "lvl2": 3,
-      "total": 14634.050000000001
+      "total": 14333.93
     },
     {
       "pos": 5,
@@ -75,9 +75,9 @@
       "club": "MrPadel",
       "pts1": 8712.5,
       "lvl1": 3,
-      "pts2": 5385.53,
+      "pts2": 5523.34,
       "lvl2": 3,
-      "total": 14098.029999999999
+      "total": 14235.84
     },
     {
       "pos": 6,
@@ -126,21 +126,6 @@
     },
     {
       "pos": 9,
-      "p1": "Tiago Gonçalves",
-      "lic1": "7183",
-      "pid1": "79331",
-      "p2": "Ricardo #1 Ribas",
-      "lic2": "7186",
-      "pid2": "84391",
-      "club": "",
-      "pts1": 3497.28,
-      "lvl1": 4,
-      "pts2": 1462.23,
-      "lvl2": 5,
-      "total": 4959.51
-    },
-    {
-      "pos": 10,
       "p1": "DUARTE VIRGOLINO",
       "lic1": "7971",
       "pid1": "60500",
@@ -155,6 +140,21 @@
       "total": 4147.23
     },
     {
+      "pos": 10,
+      "p1": "Tiago Gonçalves",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Ricardo #1 Ribas",
+      "lic2": "7186",
+      "pid2": "84391",
+      "club": "A2N Padel Academy",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 1462.23,
+      "lvl2": 5,
+      "total": 1462.23
+    },
+    {
       "pos": 11,
       "p1": "Ivo Lapão",
       "lic1": "24186",
@@ -165,9 +165,9 @@
       "club": "Rackets Pro Nacional Padel",
       "pts1": 700,
       "lvl1": 6,
-      "pts2": 75,
+      "pts2": 87.5,
       "lvl2": 6,
-      "total": 775
+      "total": 787.5
     }
   ]
 }

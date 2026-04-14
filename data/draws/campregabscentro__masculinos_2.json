@@ -2,25 +2,10 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T21:57:07.528Z",
+  "generatedAt": "2026-04-14T10:12:30.368Z",
   "result": [
     {
       "pos": 1,
-      "p1": "Henrique Costa",
-      "lic1": "12247",
-      "pid1": "85506",
-      "p2": "Diogo Brito",
-      "lic2": "13422",
-      "pid2": "157339",
-      "club": "Ultra Padel Club",
-      "pts1": 15768.75,
-      "lvl1": 2,
-      "pts2": 21281.25,
-      "lvl2": 2,
-      "total": 37050
-    },
-    {
-      "pos": 2,
       "p1": "Gabriel Machado",
       "lic1": "22635",
       "pid1": "14934",
@@ -29,10 +14,25 @@
       "pid2": "76297",
       "club": "",
       "pts1": 10480.31,
-      "lvl1": 3,
+      "lvl1": 2,
       "pts2": 25156.25,
       "lvl2": 2,
       "total": 35636.56
+    },
+    {
+      "pos": 2,
+      "p1": "Henrique Costa",
+      "lic1": "12247",
+      "pid1": "85506",
+      "p2": "Diogo Brito",
+      "lic2": "13422",
+      "pid2": "157339",
+      "club": "Ultra Padel Club",
+      "pts1": 14981.25,
+      "lvl1": 2,
+      "pts2": 20493.75,
+      "lvl2": 2,
+      "total": 35475
     },
     {
       "pos": 3,
@@ -60,9 +60,9 @@
       "club": "ClubePadeldasCaldas",
       "pts1": 9627.19,
       "lvl1": 3,
-      "pts2": 18068.75,
+      "pts2": 17850,
       "lvl2": 2,
-      "total": 27695.940000000002
+      "total": 27477.190000000002
     },
     {
       "pos": 5,
@@ -74,10 +74,10 @@
       "pid2": "175629",
       "club": "Padel XXL",
       "pts1": 10480.94,
-      "lvl1": 3,
-      "pts2": 13234.38,
+      "lvl1": 2,
+      "pts2": 13111.88,
       "lvl2": 2,
-      "total": 23715.32
+      "total": 23592.82
     },
     {
       "pos": 6,
@@ -89,7 +89,7 @@
       "pid2": "93070",
       "club": "PRIMEPADEL",
       "pts1": 10193.75,
-      "lvl1": 3,
+      "lvl1": 2,
       "pts2": 7214.38,
       "lvl2": 3,
       "total": 17408.13
@@ -105,9 +105,9 @@
       "club": "WOWPadel",
       "pts1": 4900,
       "lvl1": 3,
-      "pts2": 11962.5,
+      "pts2": 11218.75,
       "lvl2": 2,
-      "total": 16862.5
+      "total": 16118.75
     },
     {
       "pos": 8,
@@ -120,9 +120,9 @@
       "club": "Padel XXL",
       "pts1": 4589.38,
       "lvl1": 3,
-      "pts2": 11851.88,
+      "pts2": 11331.25,
       "lvl2": 2,
-      "total": 16441.26
+      "total": 15920.630000000001
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "13420",
       "pid2": "151996",
       "club": "Padel XXL",
-      "pts1": 7745,
+      "pts1": 6957.5,
       "lvl1": 3,
-      "pts2": 6855,
+      "pts2": 6334.38,
       "lvl2": 3,
-      "total": 14600
+      "total": 13291.880000000001
     },
     {
       "pos": 10,

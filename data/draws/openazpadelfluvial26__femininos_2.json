@@ -2,22 +2,22 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T22:10:30.152Z",
+  "generatedAt": "2026-04-14T10:26:40.400Z",
   "result": [
     {
       "pos": 1,
-      "p1": "Liliana Nicolau",
-      "lic1": "4148",
-      "pid1": "78375",
-      "p2": "Sara Machado",
-      "lic2": "13040",
-      "pid2": "152367",
-      "club": "",
-      "pts1": 1929.38,
+      "p1": "Leonor Silva",
+      "lic1": "11119",
+      "pid1": "136992",
+      "p2": "Leonor Oliveira",
+      "lic2": "18191",
+      "pid2": "228770",
+      "club": "Top-padel Industrial Indoor",
+      "pts1": 1068.75,
       "lvl1": 5,
-      "pts2": 1785.94,
-      "lvl2": 5,
-      "total": 3715.32
+      "pts2": 19950,
+      "lvl2": 2,
+      "total": 21018.75
     },
     {
       "pos": 2,
@@ -36,18 +36,18 @@
     },
     {
       "pos": 3,
-      "p1": "PAULA ARAÚJO",
-      "lic1": "7303",
-      "pid1": "74740",
-      "p2": "Ana Monteiro",
-      "lic2": "32502",
-      "pid2": "443430",
-      "club": "GoldenPadel",
-      "pts1": 15903.75,
-      "lvl1": 2,
-      "pts2": 1920.19,
+      "p1": "Liliana Nicolau",
+      "lic1": "4148",
+      "pid1": "78375",
+      "p2": "Sara Machado",
+      "lic2": "13040",
+      "pid2": "152367",
+      "club": "",
+      "pts1": 1990.63,
+      "lvl1": 4,
+      "pts2": 1847.19,
       "lvl2": 5,
-      "total": 17823.94
+      "total": 3837.82
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "16468",
       "pid2": "188013",
       "club": "Top-padel Industrial Indoor",
-      "pts1": 9103.75,
+      "pts1": 10066.25,
       "lvl1": 3,
-      "pts2": 23677.5,
+      "pts2": 24640,
       "lvl2": 2,
-      "total": 32781.25
+      "total": 34706.25
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "32606",
       "pid2": "213649",
       "club": "",
-      "pts1": 25506.25,
+      "pts1": 25681.25,
       "lvl1": 2,
-      "pts2": 5282.5,
+      "pts2": 5656.88,
       "lvl2": 3,
-      "total": 30788.75
+      "total": 31338.13
     },
     {
       "pos": 6,
@@ -105,9 +105,9 @@
       "club": "",
       "pts1": 16406.25,
       "lvl1": 2,
-      "pts2": 4911.25,
+      "pts2": 5873.75,
       "lvl2": 3,
-      "total": 21317.5
+      "total": 22280
     },
     {
       "pos": 8,
@@ -118,14 +118,29 @@
       "lic2": "11065",
       "pid2": "136892",
       "club": "",
-      "pts1": 9125,
+      "pts1": 9518.75,
       "lvl1": 3,
-      "pts2": 10631.25,
-      "lvl2": 3,
-      "total": 19756.25
+      "pts2": 11025,
+      "lvl2": 2,
+      "total": 20543.75
     },
     {
       "pos": 9,
+      "p1": "Joana Caldas",
+      "lic1": "4158",
+      "pid1": "74117",
+      "p2": "Margarida Correia",
+      "lic2": "27985",
+      "pid2": "379900",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 12818.75,
+      "lvl1": 2,
+      "pts2": 6609.38,
+      "lvl2": 3,
+      "total": 19428.13
+    },
+    {
+      "pos": 10,
       "p1": "Leonor Renda",
       "lic1": "9749",
       "pid1": "25030",
@@ -140,7 +155,22 @@
       "total": 17984.690000000002
     },
     {
-      "pos": 10,
+      "pos": 11,
+      "p1": "PAULA ARAÚJO",
+      "lic1": "7303",
+      "pid1": "74740",
+      "p2": "Ana Monteiro",
+      "lic2": "32502",
+      "pid2": "443430",
+      "club": "GoldenPadel",
+      "pts1": 15903.75,
+      "lvl1": 2,
+      "pts2": 1932.69,
+      "lvl2": 4,
+      "total": 17836.44
+    },
+    {
+      "pos": 12,
       "p1": "Joana Melo",
       "lic1": "12350",
       "pid1": "137605",
@@ -150,39 +180,9 @@
       "club": "New Padel - Chão da Fonte",
       "pts1": 12731.25,
       "lvl1": 2,
-      "pts2": 3237.5,
+      "pts2": 3850,
       "lvl2": 4,
-      "total": 15968.75
-    },
-    {
-      "pos": 11,
-      "p1": "Beatriz Alves",
-      "lic1": "23124",
-      "pid1": "223955",
-      "p2": "Florencia Vara",
-      "lic2": "30692",
-      "pid2": "416279",
-      "club": "Pac-PadelAthleticClub",
-      "pts1": 5962.5,
-      "lvl1": 3,
-      "pts2": 8400,
-      "lvl2": 3,
-      "total": 14362.5
-    },
-    {
-      "pos": 12,
-      "p1": "Joana Caldas",
-      "lic1": "4158",
-      "pid1": "74117",
-      "p2": "Margarida Correia",
-      "lic2": "",
-      "pid2": "",
-      "club": "ClubePadeldasCaldas",
-      "pts1": 12818.75,
-      "lvl1": 2,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 12818.75
+      "total": 16581.25
     }
   ]
 }

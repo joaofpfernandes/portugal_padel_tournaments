@@ -2,10 +2,25 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 6",
-  "generatedAt": "2026-04-13T22:10:00.865Z",
+  "generatedAt": "2026-04-14T10:26:07.301Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Natalia Carvalho",
+      "lic1": "30857",
+      "pid1": "417113",
+      "p2": "Isabel Loureiro",
+      "lic2": "34396",
+      "pid2": "504728",
+      "club": "4OURPADELSobrosa",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 12.5,
+      "lvl2": 6,
+      "total": 25
+    },
+    {
+      "pos": 2,
       "p1": "Katerina Skripnik",
       "lic1": "34407",
       "pid1": "482086",
@@ -15,24 +30,9 @@
       "club": "88PadelHouse",
       "pts1": 9.38,
       "lvl1": 6,
-      "pts2": 1.56,
+      "pts2": 7.81,
       "lvl2": 6,
-      "total": 10.940000000000001
-    },
-    {
-      "pos": 2,
-      "p1": "Natalia Carvalho",
-      "lic1": "30857",
-      "pid1": "417113",
-      "p2": "Isabel Loureiro",
-      "lic2": "34396",
-      "pid2": "504728",
-      "club": "4OURPADELSobrosa",
-      "pts1": 3.13,
-      "lvl1": 6,
-      "pts2": 3.13,
-      "lvl2": 6,
-      "total": 6.26
+      "total": 17.19
     }
   ]
 }

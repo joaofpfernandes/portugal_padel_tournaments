@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T22:00:50.262Z",
+  "generatedAt": "2026-04-14T10:16:23.897Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "3352",
       "pid2": "84393",
       "club": "Rackets Pro EUL",
-      "pts1": 21150,
+      "pts1": 19662.5,
       "lvl1": 2,
       "pts2": 27925,
       "lvl2": 2,
-      "total": 49075
+      "total": 47587.5
     },
     {
       "pos": 2,
@@ -60,9 +60,9 @@
       "club": "Rackets Pro EUL",
       "pts1": 5459.38,
       "lvl1": 3,
-      "pts2": 20720.31,
+      "pts2": 19801.56,
       "lvl2": 2,
-      "total": 26179.690000000002
+      "total": 25260.940000000002
     },
     {
       "pos": 5,
@@ -88,11 +88,11 @@
       "lic2": "9381",
       "pid2": "87559",
       "club": "Padel Factory",
-      "pts1": 20381.25,
+      "pts1": 19243.75,
       "lvl1": 2,
-      "pts2": 1718.75,
+      "pts2": 1731.25,
       "lvl2": 5,
-      "total": 22100
+      "total": 20975
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "17122",
       "pid2": "206507",
       "club": "Padel Factory",
-      "pts1": 11696.25,
+      "pts1": 11213.13,
       "lvl1": 2,
-      "pts2": 9670.47,
+      "pts2": 9570.16,
       "lvl2": 3,
-      "total": 21366.72
+      "total": 20783.29
     },
     {
       "pos": 8,
@@ -120,9 +120,9 @@
       "club": "Padel Factory",
       "pts1": 5471.25,
       "lvl1": 3,
-      "pts2": 11156.56,
+      "pts2": 11181.56,
       "lvl2": 2,
-      "total": 16627.809999999998
+      "total": 16652.809999999998
     },
     {
       "pos": 9,
@@ -135,9 +135,9 @@
       "club": "Carcavelos Ténis",
       "pts1": 3075.38,
       "lvl1": 4,
-      "pts2": 10553.13,
+      "pts2": 10590.63,
       "lvl2": 3,
-      "total": 13628.509999999998
+      "total": 13666.009999999998
     },
     {
       "pos": 10,
@@ -149,7 +149,7 @@
       "pid2": "136886",
       "club": "OeirasPadelAcademy",
       "pts1": 11062.5,
-      "lvl1": 3,
+      "lvl1": 2,
       "pts2": 1700,
       "lvl2": 5,
       "total": 12762.5

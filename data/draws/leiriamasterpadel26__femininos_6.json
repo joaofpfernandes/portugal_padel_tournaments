@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 6",
-  "generatedAt": "2026-04-13T22:17:27.736Z",
+  "generatedAt": "2026-04-14T10:32:37.442Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "32130",
       "pid2": "272827",
       "club": "Indoor Padel Center",
-      "pts1": 416.05,
+      "pts1": 417.62,
       "lvl1": 6,
-      "pts2": 461.88,
+      "pts2": 466.56,
       "lvl2": 6,
-      "total": 877.9300000000001
+      "total": 884.1800000000001
     },
     {
       "pos": 2,
@@ -36,21 +36,6 @@
     },
     {
       "pos": 3,
-      "p1": "Bruna Santos",
-      "lic1": "21307",
-      "pid1": "243015",
-      "p2": "Filipa Gonçalves",
-      "lic2": "",
-      "pid2": "",
-      "club": "SmashPadelAlmada",
-      "pts1": 389.25,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 389.25
-    },
-    {
-      "pos": 4,
       "p1": "Beatriz Guerra",
       "lic1": "29713",
       "pid1": "357432",
@@ -58,14 +43,14 @@
       "lic2": "30696",
       "pid2": "374324",
       "club": "UrbanPadelTrofa",
-      "pts1": 225.34,
+      "pts1": 228.47,
       "lvl1": 6,
-      "pts2": 161.38,
+      "pts2": 170.75,
       "lvl2": 6,
-      "total": 386.72
+      "total": 399.22
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "Mathilde Prates",
       "lic1": "29296",
       "pid1": "302118",
@@ -73,11 +58,26 @@
       "lic2": "33294",
       "pid2": "403302",
       "club": "Indoor Padel Center",
-      "pts1": 331.31,
+      "pts1": 339.13,
       "lvl1": 6,
       "pts2": 32.34,
       "lvl2": 6,
-      "total": 363.65
+      "total": 371.47
+    },
+    {
+      "pos": 5,
+      "p1": "Bruna Santos",
+      "lic1": "21307",
+      "pid1": "243015",
+      "p2": "Filipa Gonçalves",
+      "lic2": "",
+      "pid2": "",
+      "club": "SmashPadelAlmada",
+      "pts1": 366.94,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 366.94
     },
     {
       "pos": 6,
@@ -148,11 +148,11 @@
       "lic2": "32832",
       "pid2": "474072",
       "club": "Rackets Pro EUL",
-      "pts1": 87.19,
+      "pts1": 90.31,
       "lvl1": 6,
-      "pts2": 97.19,
+      "pts2": 106.56,
       "lvl2": 6,
-      "total": 184.38
+      "total": 196.87
     },
     {
       "pos": 11,
@@ -171,6 +171,21 @@
     },
     {
       "pos": 12,
+      "p1": "Fabiana Jorge Seco",
+      "lic1": "22849",
+      "pid1": "69522",
+      "p2": "Daniela Ferreira",
+      "lic2": "24282",
+      "pid2": "324618",
+      "club": "PadCampus",
+      "pts1": 84.38,
+      "lvl1": 6,
+      "pts2": 77.77,
+      "lvl2": 6,
+      "total": 162.14999999999998
+    },
+    {
+      "pos": 13,
       "p1": "Sofia Marques",
       "lic1": "22735",
       "pid1": "319533",
@@ -185,7 +200,7 @@
       "total": 161.32
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Inês Costa",
       "lic1": "23198",
       "pid1": "71450",
@@ -200,7 +215,7 @@
       "total": 155.81
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Mariana Domingues",
       "lic1": "",
       "pid1": "",
@@ -215,7 +230,7 @@
       "total": 154.05
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "Teresa Gomez",
       "lic1": "27532",
       "pid1": "318717",
@@ -230,7 +245,7 @@
       "total": 153.85
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Ana Luísa Marques",
       "lic1": "29548",
       "pid1": "189774",
@@ -245,7 +260,22 @@
       "total": 149.95
     },
     {
-      "pos": 17,
+      "pos": 18,
+      "p1": "Maria Assunção Magro Sequeira",
+      "lic1": "19016",
+      "pid1": "203113",
+      "p2": "Carla Ferreira",
+      "lic2": "18947",
+      "pid2": "231365",
+      "club": "FinePadel",
+      "pts1": 65.44,
+      "lvl1": 6,
+      "pts2": 74.34,
+      "lvl2": 6,
+      "total": 139.78
+    },
+    {
+      "pos": 19,
       "p1": "Marisa Lopes",
       "lic1": "27455",
       "pid1": "361111",
@@ -260,7 +290,7 @@
       "total": 96.82
     },
     {
-      "pos": 18,
+      "pos": 20,
       "p1": "Carina Fragoso",
       "lic1": "27457",
       "pid1": "350695",
@@ -275,7 +305,7 @@
       "total": 73.03
     },
     {
-      "pos": 19,
+      "pos": 21,
       "p1": "Carla Neves",
       "lic1": "31885",
       "pid1": "278088",
@@ -283,14 +313,29 @@
       "lic2": "32047",
       "pid2": "403338",
       "club": "Indoor Padel Center",
-      "pts1": 22.03,
+      "pts1": 26.72,
       "lvl1": 6,
-      "pts2": 26.09,
+      "pts2": 30.78,
       "lvl2": 6,
-      "total": 48.120000000000005
+      "total": 57.5
     },
     {
-      "pos": 20,
+      "pos": 22,
+      "p1": "Patricia Castilho",
+      "lic1": "34291",
+      "pid1": "504445",
+      "p2": "Pipa",
+      "lic2": "34292",
+      "pid2": "504477",
+      "club": "Quinta dos Lombos Padel",
+      "pts1": 17.91,
+      "lvl1": 6,
+      "pts2": 24.16,
+      "lvl2": 6,
+      "total": 42.07
+    },
+    {
+      "pos": 23,
       "p1": "Joana Ferreira Costa",
       "lic1": "19849",
       "pid1": "189571",
@@ -305,7 +350,7 @@
       "total": 38.900000000000006
     },
     {
-      "pos": 21,
+      "pos": 24,
       "p1": "Ana marques(nita)",
       "lic1": "32076",
       "pid1": "383101",
@@ -320,22 +365,7 @@
       "total": 37.65
     },
     {
-      "pos": 22,
-      "p1": "Patricia Castilho",
-      "lic1": "34291",
-      "pid1": "504445",
-      "p2": "Pipa",
-      "lic2": "34292",
-      "pid2": "504477",
-      "club": "Quinta dos Lombos Padel",
-      "pts1": 11.66,
-      "lvl1": 6,
-      "pts2": 17.91,
-      "lvl2": 6,
-      "total": 29.57
-    },
-    {
-      "pos": 23,
+      "pos": 25,
       "p1": "Catarina Caneira",
       "lic1": "34203",
       "pid1": "238677",
@@ -350,7 +380,7 @@
       "total": 15.170000000000002
     },
     {
-      "pos": 24,
+      "pos": 26,
       "p1": "Jamila Portilha",
       "lic1": "31712",
       "pid1": "215040",
@@ -365,7 +395,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 25,
+      "pos": 27,
       "p1": "Joana Pedro",
       "lic1": "33579",
       "pid1": "359069",
@@ -380,7 +410,7 @@
       "total": 12.5
     },
     {
-      "pos": 26,
+      "pos": 28,
       "p1": "Natasha Costa",
       "lic1": "33316",
       "pid1": "471108",

@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-13T22:09:45.940Z",
+  "generatedAt": "2026-04-14T10:25:52.597Z",
   "result": [
     {
       "pos": 1,
@@ -13,29 +13,14 @@
       "lic2": "4943",
       "pid2": "89953",
       "club": "QM / SCP",
-      "pts1": 1248.04,
+      "pts1": 1279.91,
       "lvl1": 5,
       "pts2": 30162.5,
       "lvl2": 2,
-      "total": 31410.54
+      "total": 31442.41
     },
     {
       "pos": 2,
-      "p1": "Duarte Mota",
-      "lic1": "22113",
-      "pid1": "176282",
-      "p2": "Tiago Pereira",
-      "lic2": "15714",
-      "pid2": "177352",
-      "club": "VILLAEVERDASCA-TourismSport",
-      "pts1": 2028.13,
-      "lvl1": 5,
-      "pts2": 18181.25,
-      "lvl2": 2,
-      "total": 20209.38
-    },
-    {
-      "pos": 3,
       "p1": "Joao Vieira",
       "lic1": "19443",
       "pid1": "182847",
@@ -50,7 +35,7 @@
       "total": 37746.88
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "Miguel Duarte Caldas",
       "lic1": "15743",
       "pid1": "177816",
@@ -58,14 +43,14 @@
       "lic2": "19451",
       "pid2": "232020",
       "club": "BlackPadel",
-      "pts1": 13090,
+      "pts1": 14840,
       "lvl1": 2,
       "pts2": 21400,
       "lvl2": 2,
-      "total": 34490
+      "total": 36240
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "Manú",
       "lic1": "4249",
       "pid1": "74374",
@@ -73,11 +58,26 @@
       "lic2": "4396",
       "pid2": "76297",
       "club": "Top-padel Quinta do Fojo",
-      "pts1": 5700,
+      "pts1": 5737.5,
       "lvl1": 3,
       "pts2": 25156.25,
       "lvl2": 2,
-      "total": 30856.25
+      "total": 30893.75
+    },
+    {
+      "pos": 5,
+      "p1": "Diogo Teixeira",
+      "lic1": "8019",
+      "pid1": "81837",
+      "p2": "Tiago Pereira",
+      "lic2": "21754",
+      "pid2": "251314",
+      "club": "",
+      "pts1": 17106.25,
+      "lvl1": 2,
+      "pts2": 13485.94,
+      "lvl2": 2,
+      "total": 30592.190000000002
     },
     {
       "pos": 6,
@@ -90,9 +90,9 @@
       "club": "Flypadel",
       "pts1": 10745,
       "lvl1": 2,
-      "pts2": 11284.06,
+      "pts2": 11459.06,
       "lvl2": 2,
-      "total": 22029.059999999998
+      "total": 22204.059999999998
     },
     {
       "pos": 7,
@@ -111,6 +111,21 @@
     },
     {
       "pos": 8,
+      "p1": "Duarte Mota",
+      "lic1": "22113",
+      "pid1": "176282",
+      "p2": "Tiago Pereira",
+      "lic2": "21754",
+      "pid2": "251314",
+      "club": "VILLAEVERDASCA-TourismSport",
+      "pts1": 2606.25,
+      "lvl1": 4,
+      "pts2": 13485.94,
+      "lvl2": 2,
+      "total": 16092.19
+    },
+    {
+      "pos": 9,
       "p1": "Guilherme Moreira",
       "lic1": "9855",
       "pid1": "85020",
@@ -120,12 +135,12 @@
       "club": "",
       "pts1": 8618.75,
       "lvl1": 3,
-      "pts2": 6860,
+      "pts2": 7428.75,
       "lvl2": 3,
-      "total": 15478.75
+      "total": 16047.5
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Tiago Moreira",
       "lic1": "13831",
       "pid1": "173832",
@@ -135,12 +150,42 @@
       "club": "",
       "pts1": 5180,
       "lvl1": 3,
-      "pts2": 8514.06,
+      "pts2": 8837.81,
       "lvl2": 3,
-      "total": 13694.06
+      "total": 14017.81
     },
     {
-      "pos": 10,
+      "pos": 11,
+      "p1": "Rodrigo Viana",
+      "lic1": "21814",
+      "pid1": "16494",
+      "p2": "Nuno Figueiredo",
+      "lic2": "21241",
+      "pid2": "242172",
+      "club": "Top-padel Quinta do Fojo",
+      "pts1": 4697.41,
+      "lvl1": 3,
+      "pts2": 8437.54,
+      "lvl2": 3,
+      "total": 13134.95
+    },
+    {
+      "pos": 12,
+      "p1": "Duarte Durão",
+      "lic1": "26797",
+      "pid1": "44115",
+      "p2": "Afonso Pissarra",
+      "lic2": "6618",
+      "pid2": "93065",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 6418.44,
+      "lvl1": 3,
+      "pts2": 6265.94,
+      "lvl2": 3,
+      "total": 12684.38
+    },
+    {
+      "pos": 13,
       "p1": "Gustavo Fleming",
       "lic1": "12024",
       "pid1": "31232",
@@ -155,22 +200,22 @@
       "total": 11875
     },
     {
-      "pos": 11,
-      "p1": "Duarte Durão",
-      "lic1": "26797",
-      "pid1": "44115",
-      "p2": "Afonso Pissarra",
-      "lic2": "6618",
-      "pid2": "93065",
-      "club": "DOuroPadelPasteleira",
-      "pts1": 5674.69,
-      "lvl1": 3,
-      "pts2": 5522.19,
-      "lvl2": 3,
-      "total": 11196.88
+      "pos": 14,
+      "p1": "Ricardo Coelho",
+      "lic1": "8078",
+      "pid1": "6609",
+      "p2": "Afonso Trigo",
+      "lic2": "20601",
+      "pid2": "224645",
+      "club": "QM / SCP",
+      "pts1": 11475,
+      "lvl1": 2,
+      "pts2": 324.06,
+      "lvl2": 6,
+      "total": 11799.06
     },
     {
-      "pos": 12,
+      "pos": 15,
       "p1": "Guigas",
       "lic1": "11329",
       "pid1": "137360",
@@ -180,9 +225,9 @@
       "club": "DOuroPadelPasteleira",
       "pts1": 2218.13,
       "lvl1": 4,
-      "pts2": 3414.72,
+      "pts2": 3675.03,
       "lvl2": 4,
-      "total": 5632.85
+      "total": 5893.16
     }
   ]
 }

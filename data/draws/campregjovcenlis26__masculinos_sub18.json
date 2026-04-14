@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Centro e Lisboa",
   "slug": "CampRegJovCenLis26",
   "section": "Masculinos SUB18",
-  "generatedAt": "2026-04-13T22:07:13.297Z",
+  "generatedAt": "2026-04-14T10:23:15.987Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "15958",
       "pid2": "180402",
       "club": "Rackets Pro Saldanha",
-      "pts1": 28018.75,
+      "pts1": 28056.25,
       "lvl1": 2,
-      "pts2": 9499.38,
+      "pts2": 9536.88,
       "lvl2": 3,
-      "total": 37518.13
+      "total": 37593.13
     },
     {
       "pos": 2,
@@ -30,9 +30,9 @@
       "club": "A-ZPadelSintra",
       "pts1": 12150,
       "lvl1": 2,
-      "pts2": 97.54,
+      "pts2": 116.29,
       "lvl2": 6,
-      "total": 12247.54
+      "total": 12266.29
     },
     {
       "pos": 3,
@@ -60,9 +60,9 @@
       "club": "A-ZPadelSintra",
       "pts1": 146.23,
       "lvl1": 6,
-      "pts2": 200.63,
+      "pts2": 202.19,
       "lvl2": 6,
-      "total": 346.86
+      "total": 348.41999999999996
     },
     {
       "pos": 5,
@@ -75,12 +75,27 @@
       "club": "Dezporvinte",
       "pts1": 0,
       "lvl1": 6,
-      "pts2": 56.05,
+      "pts2": 65.42,
       "lvl2": 6,
-      "total": 56.05
+      "total": 65.42
     },
     {
       "pos": 6,
+      "p1": "Duarte Mendes",
+      "lic1": "21527",
+      "pid1": "238812",
+      "p2": "Tomás Ministro",
+      "lic2": "21541",
+      "pid2": "239186",
+      "club": "Padel Expo",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 14.86,
+      "lvl2": 6,
+      "total": 27.36
+    },
+    {
+      "pos": 7,
       "p1": "Martim Alves Pinheiro",
       "lic1": "",
       "pid1": "",
@@ -90,12 +105,12 @@
       "club": "",
       "pts1": 0,
       "lvl1": 6,
-      "pts2": 18.75,
+      "pts2": 21.88,
       "lvl2": 6,
-      "total": 18.75
+      "total": 21.88
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Francisco Dias",
       "lic1": "30846",
       "pid1": "294285",
@@ -108,21 +123,6 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 9.38
-    },
-    {
-      "pos": 8,
-      "p1": "Duarte Mendes",
-      "lic1": "21527",
-      "pid1": "238812",
-      "p2": "Tomás Ministro",
-      "lic2": "21541",
-      "pid2": "239186",
-      "club": "Padel Expo",
-      "pts1": 3.13,
-      "lvl1": 6,
-      "pts2": 5.49,
-      "lvl2": 6,
-      "total": 8.620000000000001
     }
   ]
 }

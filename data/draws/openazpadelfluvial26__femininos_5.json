@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T22:10:08.953Z",
+  "generatedAt": "2026-04-14T10:26:15.468Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "30132",
       "pid2": "350368",
       "club": "QM / SCP",
-      "pts1": 1503.03,
+      "pts1": 1544.28,
       "lvl1": 5,
-      "pts2": 728.28,
+      "pts2": 769.53,
       "lvl2": 6,
-      "total": 2231.31
+      "total": 2313.81
     },
     {
       "pos": 2,
@@ -30,9 +30,9 @@
       "club": "QM / SCP",
       "pts1": 34.38,
       "lvl1": 6,
-      "pts2": 1422.8,
+      "pts2": 1454.67,
       "lvl2": 5,
-      "total": 1457.18
+      "total": 1489.0500000000002
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "24790",
       "pid2": "325424",
       "club": "Padel Beat",
-      "pts1": 365.2,
+      "pts1": 383.95,
       "lvl1": 6,
-      "pts2": 601.02,
+      "pts2": 619.77,
       "lvl2": 6,
-      "total": 966.22
+      "total": 1003.72
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "31333",
       "pid2": "420099",
       "club": "Top-padel Fluvial Indoor",
-      "pts1": 456.7,
+      "pts1": 461.39,
       "lvl1": 6,
       "pts2": 216.5,
       "lvl2": 6,
-      "total": 673.2
+      "total": 677.89
     },
     {
       "pos": 5,
@@ -70,14 +70,14 @@
       "lic1": "19818",
       "pid1": "232896",
       "p2": "Eva Peixoto",
-      "lic2": "",
-      "pid2": "",
+      "lic2": "37708",
+      "pid2": "515654",
       "club": "MeshPadelCenter",
-      "pts1": 486.89,
+      "pts1": 496.27,
       "lvl1": 6,
-      "pts2": 0,
+      "pts2": 9.38,
       "lvl2": 6,
-      "total": 486.89
+      "total": 505.65
     },
     {
       "pos": 6,
@@ -88,11 +88,11 @@
       "lic2": "28686",
       "pid2": "412687",
       "club": "A-ZPadelFamalicao",
-      "pts1": 211.22,
+      "pts1": 220.59,
       "lvl1": 6,
-      "pts2": 270.81,
+      "pts2": 280.19,
       "lvl2": 6,
-      "total": 482.03
+      "total": 500.78
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "27867",
       "pid2": "410795",
       "club": "PadeLovers Matosinhos",
-      "pts1": 244.44,
+      "pts1": 253.81,
       "lvl1": 6,
-      "pts2": 7.81,
+      "pts2": 17.19,
       "lvl2": 6,
-      "total": 252.25
+      "total": 271
     },
     {
       "pos": 8,
@@ -118,26 +118,26 @@
       "lic2": "34065",
       "pid2": "503914",
       "club": "DOuroPadelPasteleira",
-      "pts1": 114.38,
+      "pts1": 120.63,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 21.88,
       "lvl2": 6,
-      "total": 117.50999999999999
+      "total": 142.51
     },
     {
       "pos": 9,
       "p1": "Joana Casanova",
-      "lic1": "",
-      "pid1": "",
+      "lic1": "24464",
+      "pid1": "86623",
       "p2": "Leonor Mendonça",
       "lic2": "32796",
       "pid2": "453705",
       "club": "Italgreen Padel Ageas Seguros",
-      "pts1": 0,
+      "pts1": 4.69,
       "lvl1": 6,
-      "pts2": 6.25,
+      "pts2": 12.5,
       "lvl2": 6,
-      "total": 6.25
+      "total": 17.19
     }
   ]
 }

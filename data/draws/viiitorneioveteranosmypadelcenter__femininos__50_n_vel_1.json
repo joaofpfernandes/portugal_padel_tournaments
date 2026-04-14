@@ -2,10 +2,25 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +50 Nível 1",
-  "generatedAt": "2026-04-13T22:13:49.069Z",
+  "generatedAt": "2026-04-14T10:30:13.096Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Joana Melo Gouveia",
+      "lic1": "2474",
+      "pid1": "57233",
+      "p2": "Raquel Magalhães",
+      "lic2": "2712",
+      "pid2": "73319",
+      "club": "Clube VII",
+      "pts1": 438.5,
+      "lvl1": 6,
+      "pts2": 3862.97,
+      "lvl2": 4,
+      "total": 4301.469999999999
+    },
+    {
+      "pos": 2,
       "p1": "Alina Nogueira",
       "lic1": "4987",
       "pid1": "72368",
@@ -15,9 +30,24 @@
       "club": "Lisboa Racket Centre",
       "pts1": 1010.78,
       "lvl1": 6,
-      "pts2": 890.09,
+      "pts2": 893.22,
       "lvl2": 6,
-      "total": 1900.87
+      "total": 1904
+    },
+    {
+      "pos": 3,
+      "p1": "Mariana Mexia",
+      "lic1": "4760",
+      "pid1": "74050",
+      "p2": "Carla Bernardo",
+      "lic2": "10948",
+      "pid2": "101158",
+      "club": "Carcavelos Ténis",
+      "pts1": 210.58,
+      "lvl1": 6,
+      "pts2": 756.48,
+      "lvl2": 6,
+      "total": 967.0600000000001
     }
   ]
 }

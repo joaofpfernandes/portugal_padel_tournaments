@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-13T22:10:21.956Z",
+  "generatedAt": "2026-04-14T10:26:31.285Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "27262",
       "pid2": "387033",
       "club": "QM / SCP",
-      "pts1": 6137.75,
+      "pts1": 6427.38,
       "lvl1": 3,
-      "pts2": 108.56,
+      "pts2": 113.25,
       "lvl2": 6,
-      "total": 6246.31
+      "total": 6540.63
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "22678",
       "pid2": "319197",
       "club": "88PadelHouse",
-      "pts1": 871.22,
+      "pts1": 877.47,
       "lvl1": 6,
-      "pts2": 5225.63,
+      "pts2": 5256.88,
       "lvl2": 3,
-      "total": 6096.85
+      "total": 6134.35
     }
   ]
 }

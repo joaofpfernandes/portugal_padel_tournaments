@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-13T22:09:36.422Z",
+  "generatedAt": "2026-04-14T10:25:42.327Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "Total Padel",
       "pts1": 931.56,
       "lvl1": 6,
-      "pts2": 1280.88,
+      "pts2": 1305.88,
       "lvl2": 5,
-      "total": 2212.44
+      "total": 2237.44
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "26251",
       "pid2": "184237",
       "club": "OffPadel",
-      "pts1": 1237.19,
+      "pts1": 1255.94,
       "lvl1": 5,
-      "pts2": 52.5,
+      "pts2": 58.75,
       "lvl2": 6,
-      "total": 1289.69
+      "total": 1314.69
     },
     {
       "pos": 3,
@@ -43,26 +43,26 @@
       "lic2": "23907",
       "pid2": "78325",
       "club": "MeshPadelCenter",
-      "pts1": 275.63,
+      "pts1": 432.19,
       "lvl1": 6,
-      "pts2": 473.47,
+      "pts2": 630.03,
       "lvl2": 6,
-      "total": 749.1
+      "total": 1062.22
     },
     {
       "pos": 4,
-      "p1": "Afonso Neves",
-      "lic1": "26020",
-      "pid1": "242000",
-      "p2": "José Pedro Padrão",
-      "lic2": "26761",
-      "pid2": "352426",
-      "club": "QM / SCP",
-      "pts1": 1822.81,
-      "lvl1": 5,
-      "pts2": 4933.67,
-      "lvl2": 3,
-      "total": 6756.48
+      "p1": "Duarte Pinto",
+      "lic1": "21225",
+      "pid1": "210372",
+      "p2": "Telmo Oliveira",
+      "lic2": "23884",
+      "pid2": "293174",
+      "club": "Chaves Padel Center",
+      "pts1": 68.75,
+      "lvl1": 6,
+      "pts2": 745.31,
+      "lvl2": 6,
+      "total": 814.06
     },
     {
       "pos": 5,
@@ -75,9 +75,9 @@
       "club": "Top-padel Industrial Indoor",
       "pts1": 4281.88,
       "lvl1": 3,
-      "pts2": 1804.88,
+      "pts2": 1817.38,
       "lvl2": 5,
-      "total": 6086.76
+      "total": 6099.26
     },
     {
       "pos": 6,
@@ -88,14 +88,29 @@
       "lic2": "21390",
       "pid2": "204370",
       "club": "DOuroPadelPasteleira",
-      "pts1": 6508.13,
+      "pts1": 6768.44,
       "lvl1": 3,
-      "pts2": 2667.5,
+      "pts2": 2927.81,
       "lvl2": 4,
-      "total": 9175.630000000001
+      "total": 9696.25
     },
     {
       "pos": 7,
+      "p1": "Huguito Ferraro",
+      "lic1": "18606",
+      "pid1": "224803",
+      "p2": "Guilherme Plácido",
+      "lic2": "21529",
+      "pid2": "242705",
+      "club": "Top-padel Guimarães",
+      "pts1": 6566.94,
+      "lvl1": 3,
+      "pts2": 2957.81,
+      "lvl2": 4,
+      "total": 9524.75
+    },
+    {
+      "pos": 8,
       "p1": "“Tolito” Magalhães",
       "lic1": "4755",
       "pid1": "74217",
@@ -110,22 +125,22 @@
       "total": 8939.69
     },
     {
-      "pos": 8,
-      "p1": "Huguito Ferraro",
-      "lic1": "18606",
-      "pid1": "224803",
-      "p2": "Guilherme Plácido",
-      "lic2": "21529",
-      "pid2": "242705",
-      "club": "Top-padel Guimarães",
-      "pts1": 5954.44,
+      "pos": 9,
+      "p1": "João Bessa",
+      "lic1": "12175",
+      "pid1": "141569",
+      "p2": "Gonçalo",
+      "lic2": "21212",
+      "pid2": "241881",
+      "club": "TheHyveAcademy",
+      "pts1": 4324.47,
       "lvl1": 3,
-      "pts2": 2345.31,
+      "pts2": 3512.08,
       "lvl2": 4,
-      "total": 8299.75
+      "total": 7836.55
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Diogo Miranda",
       "lic1": "16745",
       "pid1": "197441",
@@ -140,22 +155,22 @@
       "total": 7792.8099999999995
     },
     {
-      "pos": 10,
-      "p1": "João Bessa",
-      "lic1": "12175",
-      "pid1": "141569",
-      "p2": "Gonçalo",
-      "lic2": "21212",
-      "pid2": "241881",
-      "club": "TheHyveAcademy",
-      "pts1": 4203.13,
+      "pos": 11,
+      "p1": "Afonso Neves",
+      "lic1": "26020",
+      "pid1": "242000",
+      "p2": "José Pedro Padrão",
+      "lic2": "26761",
+      "pid2": "352426",
+      "club": "QM / SCP",
+      "pts1": 2391.56,
       "lvl1": 4,
-      "pts2": 3390.73,
-      "lvl2": 4,
-      "total": 7593.860000000001
+      "pts2": 5077.73,
+      "lvl2": 3,
+      "total": 7469.289999999999
     },
     {
-      "pos": 11,
+      "pos": 12,
       "p1": "André Silva",
       "lic1": "18758",
       "pid1": "95222",
@@ -170,7 +185,7 @@
       "total": 7057.25
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Lourenço Rodrigues",
       "lic1": "15697",
       "pid1": "177042",
@@ -185,7 +200,7 @@
       "total": 6365.9400000000005
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Simoes17",
       "lic1": "14143",
       "pid1": "174555",
@@ -193,14 +208,14 @@
       "lic2": "18668",
       "pid2": "230526",
       "club": "A-ZPadelFamalicao",
-      "pts1": 2883.06,
+      "pts1": 3107.13,
       "lvl1": 4,
-      "pts2": 2620.56,
+      "pts2": 2832.13,
       "lvl2": 4,
-      "total": 5503.62
+      "total": 5939.26
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Ivo Oliveira",
       "lic1": "6692",
       "pid1": "69395",
@@ -215,7 +230,7 @@
       "total": 5282.8099999999995
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "Andres Rodriguez",
       "lic1": "7763",
       "pid1": "96879",
@@ -230,7 +245,7 @@
       "total": 4036.88
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Pedro Lopes",
       "lic1": "8654",
       "pid1": "81305",
@@ -238,11 +253,11 @@
       "lic2": "31980",
       "pid2": "427375",
       "club": "TheHyveAcademy",
-      "pts1": 2155.02,
+      "pts1": 2354.08,
       "lvl1": 4,
-      "pts2": 220.31,
+      "pts2": 419.38,
       "lvl2": 6,
-      "total": 2375.33
+      "total": 2773.46
     }
   ]
 }

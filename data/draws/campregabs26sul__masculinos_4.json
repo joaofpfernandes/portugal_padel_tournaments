@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T22:04:42.187Z",
+  "generatedAt": "2026-04-14T10:20:43.317Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "17851",
       "pid2": "141687",
       "club": "SportingClubeFarense",
-      "pts1": 2177.51,
+      "pts1": 2190.01,
       "lvl1": 4,
-      "pts2": 2250.01,
-      "lvl2": 4,
-      "total": 4427.52
+      "pts2": 1867.51,
+      "lvl2": 5,
+      "total": 4057.5200000000004
     },
     {
       "pos": 2,
@@ -31,7 +31,7 @@
       "pts1": 1894.22,
       "lvl1": 5,
       "pts2": 2101.98,
-      "lvl2": 5,
+      "lvl2": 4,
       "total": 3996.2
     },
     {
@@ -45,9 +45,9 @@
       "club": "Vilamoura Tennis & Padel Acade",
       "pts1": 833.19,
       "lvl1": 6,
-      "pts2": 3114.63,
+      "pts2": 2932.41,
       "lvl2": 4,
-      "total": 3947.82
+      "total": 3765.6
     },
     {
       "pos": 4,
@@ -60,9 +60,9 @@
       "club": "SportingClubeFarense",
       "pts1": 100.05,
       "lvl1": 6,
-      "pts2": 3641.31,
+      "pts2": 3598.81,
       "lvl2": 4,
-      "total": 3741.36
+      "total": 3698.86
     },
     {
       "pos": 5,
@@ -75,9 +75,9 @@
       "club": "PadelBLU",
       "pts1": 2065.97,
       "lvl1": 5,
-      "pts2": 1531.05,
+      "pts2": 1537.3,
       "lvl2": 5,
-      "total": 3597.0199999999995
+      "total": 3603.2699999999995
     },
     {
       "pos": 6,

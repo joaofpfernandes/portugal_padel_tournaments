@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-13T22:17:42.714Z",
+  "generatedAt": "2026-04-14T10:32:52.846Z",
   "result": [
     {
       "pos": 1,
@@ -14,7 +14,7 @@
       "pid2": "189416",
       "club": "Ultra Padel Club",
       "pts1": 1986.54,
-      "lvl1": 5,
+      "lvl1": 4,
       "pts2": 499.36,
       "lvl2": 6,
       "total": 2485.9
@@ -28,11 +28,11 @@
       "lic2": "32385",
       "pid2": "439548",
       "club": "W Padel Country Club",
-      "pts1": 1428.78,
+      "pts1": 1435.03,
       "lvl1": 5,
-      "pts2": 970.31,
+      "pts2": 978.13,
       "lvl2": 6,
-      "total": 2399.09
+      "total": 2413.16
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "19565",
       "pid2": "232562",
       "club": "Padel4move",
-      "pts1": 418.03,
+      "pts1": 421.16,
       "lvl1": 6,
-      "pts2": 1665.8,
+      "pts2": 1672.05,
       "lvl2": 5,
-      "total": 2083.83
+      "total": 2093.21
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "16542",
       "pid2": "189148",
       "club": "Ace Team",
-      "pts1": 953.77,
+      "pts1": 955.34,
       "lvl1": 6,
-      "pts2": 1092.96,
-      "lvl2": 6,
-      "total": 2046.73
+      "pts2": 1100.77,
+      "lvl2": 5,
+      "total": 2056.11
     },
     {
       "pos": 5,
@@ -90,9 +90,9 @@
       "club": "A-ZPadelSintra",
       "pts1": 96.38,
       "lvl1": 6,
-      "pts2": 1733.46,
+      "pts2": 1736.59,
       "lvl2": 5,
-      "total": 1829.8400000000001
+      "total": 1832.9699999999998
     },
     {
       "pos": 7,
@@ -105,9 +105,9 @@
       "club": "AlmadaPadelAcademy",
       "pts1": 9.75,
       "lvl1": 6,
-      "pts2": 1735.09,
+      "pts2": 1739.78,
       "lvl2": 5,
-      "total": 1744.84
+      "total": 1749.53
     },
     {
       "pos": 8,
@@ -133,11 +133,11 @@
       "lic2": "23149",
       "pid2": "225830",
       "club": "Padel4move",
-      "pts1": 1132.08,
+      "pts1": 1071.45,
       "lvl1": 5,
-      "pts2": 405.45,
+      "pts2": 414.83,
       "lvl2": 6,
-      "total": 1537.53
+      "total": 1486.28
     },
     {
       "pos": 10,
@@ -163,11 +163,11 @@
       "lic2": "26094",
       "pid2": "310984",
       "club": "PadelExperienceCenter",
-      "pts1": 1225.45,
+      "pts1": 1230.13,
       "lvl1": 5,
-      "pts2": 223.8,
+      "pts2": 225.36,
       "lvl2": 6,
-      "total": 1449.25
+      "total": 1455.4900000000002
     },
     {
       "pos": 12,
@@ -208,11 +208,11 @@
       "lic2": "31571",
       "pid2": "328782",
       "club": "NovoPadelClubSetubal",
-      "pts1": 908.52,
+      "pts1": 908.33,
       "lvl1": 6,
-      "pts2": 292.69,
+      "pts2": 275.63,
       "lvl2": 6,
-      "total": 1201.21
+      "total": 1183.96
     },
     {
       "pos": 15,
@@ -238,29 +238,14 @@
       "lic2": "24250",
       "pid2": "271275",
       "club": "Indoor Padel Center",
-      "pts1": 306.67,
+      "pts1": 325.42,
       "lvl1": 6,
-      "pts2": 841.63,
+      "pts2": 847.88,
       "lvl2": 6,
-      "total": 1148.3
+      "total": 1173.3
     },
     {
       "pos": 17,
-      "p1": "Vera Laurentino",
-      "lic1": "22335",
-      "pid1": "317447",
-      "p2": "Carla Sofia Saturnino Batista",
-      "lic2": "23199",
-      "pid2": "320787",
-      "club": "ClubePadeldasCaldas",
-      "pts1": 1041.22,
-      "lvl1": 6,
-      "pts2": 73.13,
-      "lvl2": 6,
-      "total": 1114.35
-    },
-    {
-      "pos": 18,
       "p1": "Catarina Melo",
       "lic1": "14018",
       "pid1": "174348",
@@ -275,7 +260,7 @@
       "total": 1112.12
     },
     {
-      "pos": 19,
+      "pos": 18,
       "p1": "Patrícia Salvador",
       "lic1": "19223",
       "pid1": "231978",
@@ -283,14 +268,14 @@
       "lic2": "29628",
       "pid2": "280051",
       "club": "PadelExperienceCenter",
-      "pts1": 853.18,
+      "pts1": 862.55,
       "lvl1": 6,
-      "pts2": 229.23,
+      "pts2": 230.8,
       "lvl2": 6,
-      "total": 1082.4099999999999
+      "total": 1093.35
     },
     {
-      "pos": 20,
+      "pos": 19,
       "p1": "Marta Cabral",
       "lic1": "33600",
       "pid1": "325181",
@@ -298,11 +283,26 @@
       "lic2": "33598",
       "pid2": "401180",
       "club": "Rackets Pro EUL",
-      "pts1": 526.66,
+      "pts1": 529.78,
       "lvl1": 6,
-      "pts2": 526.66,
+      "pts2": 536.03,
       "lvl2": 6,
-      "total": 1053.32
+      "total": 1065.81
+    },
+    {
+      "pos": 20,
+      "p1": "Vera Laurentino",
+      "lic1": "22335",
+      "pid1": "317447",
+      "p2": "Carla Sofia Saturnino Batista",
+      "lic2": "23199",
+      "pid2": "320787",
+      "club": "ClubePadeldasCaldas",
+      "pts1": 936.22,
+      "lvl1": 6,
+      "pts2": 73.13,
+      "lvl2": 6,
+      "total": 1009.35
     },
     {
       "pos": 21,
@@ -315,9 +315,9 @@
       "club": "Lisboa Racket Centre",
       "pts1": 352.5,
       "lvl1": 6,
-      "pts2": 642.19,
+      "pts2": 646.88,
       "lvl2": 6,
-      "total": 994.69
+      "total": 999.38
     },
     {
       "pos": 22,
@@ -433,11 +433,11 @@
       "lic2": "32821",
       "pid2": "416259",
       "club": "OeirasPadelAcademy",
-      "pts1": 384.3,
+      "pts1": 396.8,
       "lvl1": 6,
       "pts2": 153.75,
       "lvl2": 6,
-      "total": 538.05
+      "total": 550.55
     },
     {
       "pos": 30,
@@ -450,9 +450,9 @@
       "club": "PadCampus",
       "pts1": 530.52,
       "lvl1": 6,
-      "pts2": 1.56,
+      "pts2": 10.94,
       "lvl2": 6,
-      "total": 532.0799999999999
+      "total": 541.46
     },
     {
       "pos": 31,
@@ -463,11 +463,11 @@
       "lic2": "23501",
       "pid2": "248655",
       "club": "OeirasPadelAcademy",
-      "pts1": 7.81,
+      "pts1": 9.38,
       "lvl1": 6,
       "pts2": 482.83,
       "lvl2": 6,
-      "total": 490.64
+      "total": 492.21
     },
     {
       "pos": 32,
@@ -478,11 +478,11 @@
       "lic2": "22345",
       "pid2": "213963",
       "club": "W Padel Country Club",
-      "pts1": 335.81,
+      "pts1": 345.19,
       "lvl1": 6,
-      "pts2": 126.34,
+      "pts2": 129.47,
       "lvl2": 6,
-      "total": 462.15
+      "total": 474.65999999999997
     },
     {
       "pos": 33,
@@ -531,6 +531,21 @@
     },
     {
       "pos": 36,
+      "p1": "Sara Carpinteiro",
+      "lic1": "13774",
+      "pid1": "173488",
+      "p2": "Ekaterina Borkova",
+      "lic2": "32231",
+      "pid2": "433373",
+      "club": "Padel Campo Grande",
+      "pts1": 167.97,
+      "lvl1": 6,
+      "pts2": 26.25,
+      "lvl2": 6,
+      "total": 194.22
+    },
+    {
+      "pos": 37,
       "p1": "Ana Santos",
       "lic1": "19665",
       "pid1": "104578",
@@ -545,7 +560,7 @@
       "total": 189.38
     },
     {
-      "pos": 37,
+      "pos": 38,
       "p1": "Andreia Migueis",
       "lic1": "31080",
       "pid1": "311378",
@@ -560,37 +575,7 @@
       "total": 183.88
     },
     {
-      "pos": 38,
-      "p1": "Sara Carpinteiro",
-      "lic1": "13774",
-      "pid1": "173488",
-      "p2": "Ekaterina Borkova",
-      "lic2": "32231",
-      "pid2": "433373",
-      "club": "Padel Campo Grande",
-      "pts1": 158.59,
-      "lvl1": 6,
-      "pts2": 23.13,
-      "lvl2": 6,
-      "total": 181.72
-    },
-    {
       "pos": 39,
-      "p1": "Fabiana Jorge Seco",
-      "lic1": "22849",
-      "pid1": "69522",
-      "p2": "Daniela Ferreira",
-      "lic2": "24282",
-      "pid2": "324618",
-      "club": "PadCampus",
-      "pts1": 84.38,
-      "lvl1": 6,
-      "pts2": 77.77,
-      "lvl2": 6,
-      "total": 162.14999999999998
-    },
-    {
-      "pos": 40,
       "p1": "Matilde Casqueiro",
       "lic1": "36662",
       "pid1": "101731",
@@ -598,14 +583,14 @@
       "lic2": "31787",
       "pid2": "385417",
       "club": "Rackets Pro EUL",
-      "pts1": 15.88,
+      "pts1": 19,
       "lvl1": 6,
-      "pts2": 144.88,
+      "pts2": 148.01,
       "lvl2": 6,
-      "total": 160.76
+      "total": 167.01
     },
     {
-      "pos": 41,
+      "pos": 40,
       "p1": "Patricia Franquinho",
       "lic1": "",
       "pid1": "",
@@ -620,7 +605,7 @@
       "total": 91.88
     },
     {
-      "pos": 42,
+      "pos": 41,
       "p1": "Inês Alves",
       "lic1": "15130",
       "pid1": "175750",
@@ -635,7 +620,7 @@
       "total": 87.66
     },
     {
-      "pos": 43,
+      "pos": 42,
       "p1": "Daniela Santos",
       "lic1": "29831",
       "pid1": "414356",
@@ -643,11 +628,11 @@
       "lic2": "29835",
       "pid2": "414361",
       "club": "MajorPadelClubDouro",
-      "pts1": 9.38,
+      "pts1": 18.75,
       "lvl1": 6,
-      "pts2": 9.38,
+      "pts2": 18.75,
       "lvl2": 6,
-      "total": 18.76
+      "total": 37.5
     }
   ]
 }

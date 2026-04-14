@@ -2,22 +2,22 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +40 Nível 2",
-  "generatedAt": "2026-04-13T22:12:38.552Z",
+  "generatedAt": "2026-04-14T10:29:02.306Z",
   "result": [
     {
       "pos": 1,
       "p1": "Luis Rolhas",
-      "lic1": "",
-      "pid1": "",
+      "lic1": "27765",
+      "pid1": "410449",
       "p2": "Amilcar Feliciano",
-      "lic2": "",
-      "pid2": "",
+      "lic2": "33369",
+      "pid2": "464173",
       "club": "OestePadel-ClubIndoor",
-      "pts1": 0,
+      "pts1": 6.25,
       "lvl1": 6,
-      "pts2": 0,
+      "pts2": 9.38,
       "lvl2": 6,
-      "total": 0
+      "total": 15.63
     }
   ]
 }

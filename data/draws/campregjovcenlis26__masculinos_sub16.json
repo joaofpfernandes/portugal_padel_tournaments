@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Centro e Lisboa",
   "slug": "CampRegJovCenLis26",
   "section": "Masculinos SUB16",
-  "generatedAt": "2026-04-13T22:07:06.788Z",
+  "generatedAt": "2026-04-14T10:23:07.970Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "",
       "pts1": 6605.16,
       "lvl1": 3,
-      "pts2": 1.56,
+      "pts2": 6.25,
       "lvl2": 6,
-      "total": 6606.72
+      "total": 6611.41
     },
     {
       "pos": 2,
@@ -60,9 +60,9 @@
       "club": "Lx Indoor Padel",
       "pts1": 1.56,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 9.38,
       "lvl2": 6,
-      "total": 4.6899999999999995
+      "total": 10.940000000000001
     },
     {
       "pos": 5,

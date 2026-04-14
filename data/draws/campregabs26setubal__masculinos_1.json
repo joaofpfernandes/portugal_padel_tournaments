@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
   "slug": "CampRegABS26Setubal",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T22:02:13.809Z",
+  "generatedAt": "2026-04-14T10:17:50.544Z",
   "result": [
     {
       "pos": 1,
@@ -30,9 +30,9 @@
       "club": "DreamPadelCenterSetubal",
       "pts1": 53187.5,
       "lvl1": 1,
-      "pts2": 56750,
+      "pts2": 56625,
       "lvl2": 1,
-      "total": 109937.5
+      "total": 109812.5
     },
     {
       "pos": 3,
@@ -58,11 +58,11 @@
       "lic2": "16266",
       "pid2": "184548",
       "club": "",
-      "pts1": 33850,
+      "pts1": 33050,
       "lvl1": 2,
-      "pts2": 37981.25,
+      "pts2": 37193.75,
       "lvl2": 2,
-      "total": 71831.25
+      "total": 70243.75
     },
     {
       "pos": 5,
@@ -88,11 +88,11 @@
       "lic2": "17015",
       "pid2": "161720",
       "club": "MastersPremiumPadel",
-      "pts1": 19650,
+      "pts1": 18862.5,
       "lvl1": 2,
-      "pts2": 27900,
+      "pts2": 27331.25,
       "lvl2": 2,
-      "total": 47550
+      "total": 46193.75
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "23503",
       "pid2": "183229",
       "club": "MastersPremiumPadel",
-      "pts1": 17534.38,
+      "pts1": 17315.63,
       "lvl1": 2,
-      "pts2": 15334.69,
+      "pts2": 15054.69,
       "lvl2": 2,
-      "total": 32869.07
+      "total": 32370.32
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "12277",
       "pid2": "83104",
       "club": "MastersPremiumPadel",
-      "pts1": 17400,
+      "pts1": 16262.5,
       "lvl1": 2,
       "pts2": 14868.75,
       "lvl2": 2,
-      "total": 32268.75
+      "total": 31131.25
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "9785",
       "pid2": "92484",
       "club": "MastersPremiumPadel",
-      "pts1": 13975,
+      "pts1": 12475,
       "lvl1": 2,
-      "pts2": 15143.75,
+      "pts2": 13643.75,
       "lvl2": 2,
-      "total": 29118.75
+      "total": 26118.75
     }
   ]
 }

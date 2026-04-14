@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-13T21:57:17.205Z",
+  "generatedAt": "2026-04-14T10:12:40.799Z",
   "result": [
     {
       "pos": 1,
@@ -28,11 +28,11 @@
       "lic2": "16392",
       "pid2": "186729",
       "club": "Dezporvinte",
-      "pts1": 62687.5,
+      "pts1": 63187.5,
       "lvl1": 1,
       "pts2": 47425,
       "lvl2": 1,
-      "total": 110112.5
+      "total": 110612.5
     },
     {
       "pos": 3,
@@ -75,9 +75,9 @@
       "club": "Dezporvinte",
       "pts1": 29937.5,
       "lvl1": 2,
-      "pts2": 26468.75,
+      "pts2": 26031.25,
       "lvl2": 2,
-      "total": 56406.25
+      "total": 55968.75
     },
     {
       "pos": 6,
@@ -105,9 +105,9 @@
       "club": "ClubePadeldasCaldas",
       "pts1": 26456.25,
       "lvl1": 2,
-      "pts2": 26500,
+      "pts2": 25700,
       "lvl2": 2,
-      "total": 52956.25
+      "total": 52156.25
     },
     {
       "pos": 8,

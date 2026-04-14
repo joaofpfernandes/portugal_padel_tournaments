@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-13T22:05:53.419Z",
+  "generatedAt": "2026-04-14T10:21:53.626Z",
   "result": [
     {
       "pos": 1,
@@ -28,11 +28,11 @@
       "lic2": "12867",
       "pid2": "103640",
       "club": "Clube Ténis Padel de Portimão",
-      "pts1": 5510.31,
+      "pts1": 5112.19,
       "lvl1": 3,
       "pts2": 7984.22,
       "lvl2": 3,
-      "total": 13494.53
+      "total": 13096.41
     }
   ]
 }

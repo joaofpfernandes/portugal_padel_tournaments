@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +55 Nível 1",
-  "generatedAt": "2026-04-13T22:13:58.117Z",
+  "generatedAt": "2026-04-14T10:30:22.027Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "16085",
       "pid2": "145042",
       "club": "Padel Factory",
-      "pts1": 178.5,
+      "pts1": 184.75,
       "lvl1": 6,
       "pts2": 1967.41,
-      "lvl2": 5,
-      "total": 2145.91
+      "lvl2": 4,
+      "total": 2152.16
     },
     {
       "pos": 2,
@@ -30,9 +30,9 @@
       "club": "Clube De Ténis De Santarém",
       "pts1": 1153.8,
       "lvl1": 5,
-      "pts2": 273.73,
+      "pts2": 275.29,
       "lvl2": 6,
-      "total": 1427.53
+      "total": 1429.09
     }
   ]
 }

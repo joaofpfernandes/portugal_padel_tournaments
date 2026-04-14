@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Norte",
   "slug": "CampRegABS26Norte",
   "section": "Femininos 1",
-  "generatedAt": "2026-04-13T21:55:57.732Z",
+  "generatedAt": "2026-04-14T10:11:15.887Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "",
       "pts1": 110750,
       "lvl1": 1,
-      "pts2": 77625,
+      "pts2": 77125,
       "lvl2": 1,
-      "total": 188375
+      "total": 187875
     },
     {
       "pos": 2,
@@ -28,14 +28,29 @@
       "lic2": "13633",
       "pid2": "170934",
       "club": "",
-      "pts1": 85750,
+      "pts1": 86250,
       "lvl1": 1,
       "pts2": 85625,
       "lvl2": 1,
-      "total": 171375
+      "total": 171875
     },
     {
       "pos": 3,
+      "p1": "Beatriz Ferreira",
+      "lic1": "6663",
+      "pid1": "91945",
+      "p2": "Leonor Teixeira",
+      "lic2": "15753",
+      "pid2": "177384",
+      "club": "BlackPadel",
+      "pts1": 97625,
+      "lvl1": 1,
+      "pts2": 73000,
+      "lvl2": 1,
+      "total": 170625
+    },
+    {
+      "pos": 4,
       "p1": "Joana Cubal",
       "lic1": "12075",
       "pid1": "140853",
@@ -43,26 +58,11 @@
       "lic2": "12196",
       "pid2": "141696",
       "club": "",
-      "pts1": 32000,
+      "pts1": 34125,
       "lvl1": 1,
-      "pts2": 77000,
+      "pts2": 76875,
       "lvl2": 1,
-      "total": 109000
-    },
-    {
-      "pos": 4,
-      "p1": "Beatriz Ferreira",
-      "lic1": "",
-      "pid1": "",
-      "p2": "Leonor Teixeira",
-      "lic2": "15753",
-      "pid2": "177384",
-      "club": "BlackPadel",
-      "pts1": 0,
-      "lvl1": 6,
-      "pts2": 73000,
-      "lvl2": 1,
-      "total": 73000
+      "total": 111000
     },
     {
       "pos": 5,
@@ -73,11 +73,11 @@
       "lic2": "10274",
       "pid2": "101418",
       "club": "",
-      "pts1": 37500,
+      "pts1": 35250,
       "lvl1": 1,
       "pts2": 32325,
       "lvl2": 1,
-      "total": 69825
+      "total": 67575
     },
     {
       "pos": 6,

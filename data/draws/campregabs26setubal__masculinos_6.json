@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
   "slug": "CampRegABS26Setubal",
   "section": "Masculinos 6",
-  "generatedAt": "2026-04-13T22:01:16.517Z",
+  "generatedAt": "2026-04-14T10:16:50.178Z",
   "result": [
     {
       "pos": 1,
@@ -43,29 +43,14 @@
       "lic2": "18944",
       "pid2": "231152",
       "club": "MastersPremiumPadel",
-      "pts1": 250.91,
+      "pts1": 239.09,
       "lvl1": 6,
       "pts2": 81.44,
       "lvl2": 6,
-      "total": 332.35
+      "total": 320.53
     },
     {
       "pos": 4,
-      "p1": "Raúl Rita",
-      "lic1": "17639",
-      "pid1": "11878",
-      "p2": "André Soares",
-      "lic2": "9632",
-      "pid2": "90170",
-      "club": "SmashPadelAlmada",
-      "pts1": 9.38,
-      "lvl1": 6,
-      "pts2": 296.26,
-      "lvl2": 6,
-      "total": 305.64
-    },
-    {
-      "pos": 5,
       "p1": "Fabio Gomes",
       "lic1": "22361",
       "pid1": "76332",
@@ -80,7 +65,7 @@
       "total": 288.56
     },
     {
-      "pos": 6,
+      "pos": 5,
       "p1": "Marco Canuto",
       "lic1": "24896",
       "pid1": "313846",
@@ -93,6 +78,21 @@
       "pts2": 186.85,
       "lvl2": 6,
       "total": 279.84
+    },
+    {
+      "pos": 6,
+      "p1": "Raúl Rita",
+      "lic1": "17639",
+      "pid1": "11878",
+      "p2": "André Soares",
+      "lic2": "9632",
+      "pid2": "90170",
+      "club": "SmashPadelAlmada",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 262.51,
+      "lvl2": 6,
+      "total": 271.89
     },
     {
       "pos": 7,
@@ -133,29 +133,14 @@
       "lic2": "35911",
       "pid2": "345843",
       "club": "",
-      "pts1": 91.88,
+      "pts1": 80.06,
       "lvl1": 6,
       "pts2": 9.38,
       "lvl2": 6,
-      "total": 101.25999999999999
+      "total": 89.44
     },
     {
       "pos": 10,
-      "p1": "Nelson Santos",
-      "lic1": "9555",
-      "pid1": "85636",
-      "p2": "Bruno Bilro Pereira",
-      "lic2": "18680",
-      "pid2": "230564",
-      "club": "MrPadel",
-      "pts1": 3.13,
-      "lvl1": 6,
-      "pts2": 68.44,
-      "lvl2": 6,
-      "total": 71.57
-    },
-    {
-      "pos": 11,
       "p1": "Ângelo Dias",
       "lic1": "25062",
       "pid1": "234980",
@@ -168,6 +153,21 @@
       "pts2": 32,
       "lvl2": 6,
       "total": 70.25
+    },
+    {
+      "pos": 11,
+      "p1": "Nelson Santos",
+      "lic1": "9555",
+      "pid1": "85636",
+      "p2": "Bruno Bilro Pereira",
+      "lic2": "18680",
+      "pid2": "230564",
+      "club": "MrPadel",
+      "pts1": 3.13,
+      "lvl1": 6,
+      "pts2": 56.63,
+      "lvl2": 6,
+      "total": 59.760000000000005
     },
     {
       "pos": 12,
@@ -186,6 +186,36 @@
     },
     {
       "pos": 13,
+      "p1": "Rui Leite",
+      "lic1": "27348",
+      "pid1": "325950",
+      "p2": "Roberto.Silva",
+      "lic2": "35216",
+      "pid2": "505913",
+      "club": "AIP Alcochete Indoor Padel",
+      "pts1": 35.34,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 44.720000000000006
+    },
+    {
+      "pos": 14,
+      "p1": "Joao Rocha",
+      "lic1": "35698",
+      "pid1": "377158",
+      "p2": "Bernardo Silva",
+      "lic2": "32789",
+      "pid2": "456492",
+      "club": "VitoriaClubeQuintinhas",
+      "pts1": 14.06,
+      "lvl1": 6,
+      "pts2": 24.96,
+      "lvl2": 6,
+      "total": 39.02
+    },
+    {
+      "pos": 15,
       "p1": "Luis Teodoro",
       "lic1": "34154",
       "pid1": "385594",
@@ -200,22 +230,7 @@
       "total": 38.26
     },
     {
-      "pos": 14,
-      "p1": "Rui Leite",
-      "lic1": "27348",
-      "pid1": "325950",
-      "p2": "Roberto.Silva",
-      "lic2": "35216",
-      "pid2": "505913",
-      "club": "AIP Alcochete Indoor Padel",
-      "pts1": 35.34,
-      "lvl1": 6,
-      "pts2": 1.56,
-      "lvl2": 6,
-      "total": 36.900000000000006
-    },
-    {
-      "pos": 15,
+      "pos": 16,
       "p1": "Afonso Ferreira",
       "lic1": "32643",
       "pid1": "27236",
@@ -228,21 +243,6 @@
       "pts2": 14.28,
       "lvl2": 6,
       "total": 34.81
-    },
-    {
-      "pos": 16,
-      "p1": "Joao Rocha",
-      "lic1": "35698",
-      "pid1": "377158",
-      "p2": "Bernardo Silva",
-      "lic2": "32789",
-      "pid2": "456492",
-      "club": "VitoriaClubeQuintinhas",
-      "pts1": 4.69,
-      "lvl1": 6,
-      "pts2": 15.58,
-      "lvl2": 6,
-      "total": 20.27
     },
     {
       "pos": 17,
@@ -276,6 +276,21 @@
     },
     {
       "pos": 19,
+      "p1": "David Martins",
+      "lic1": "18260",
+      "pid1": "159174",
+      "p2": "Miguel Gonçalves",
+      "lic2": "35193",
+      "pid2": "505886",
+      "club": "OnePadelClub",
+      "pts1": 6.25,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 15.63
+    },
+    {
+      "pos": 20,
       "p1": "Vitor Oliveira",
       "lic1": "28019",
       "pid1": "214768",
@@ -290,7 +305,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 20,
+      "pos": 21,
       "p1": "Armando Alecu",
       "lic1": "32909",
       "pid1": "404344",
@@ -303,21 +318,6 @@
       "pts2": 9.38,
       "lvl2": 6,
       "total": 12.510000000000002
-    },
-    {
-      "pos": 21,
-      "p1": "David Martins",
-      "lic1": "18260",
-      "pid1": "159174",
-      "p2": "Miguel Gonçalves",
-      "lic2": "35193",
-      "pid2": "505886",
-      "club": "OnePadelClub",
-      "pts1": 4.69,
-      "lvl1": 6,
-      "pts2": 4.69,
-      "lvl2": 6,
-      "total": 9.38
     },
     {
       "pos": 22,

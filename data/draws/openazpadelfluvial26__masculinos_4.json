@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T22:09:25.522Z",
+  "generatedAt": "2026-04-14T10:25:30.451Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "23999",
       "pid2": "323975",
       "club": "OffPadel",
-      "pts1": 1151.05,
+      "pts1": 1157.3,
       "lvl1": 5,
-      "pts2": 782.78,
+      "pts2": 789.03,
       "lvl2": 6,
-      "total": 1933.83
+      "total": 1946.33
     },
     {
       "pos": 2,
@@ -28,14 +28,29 @@
       "lic2": "26912",
       "pid2": "360518",
       "club": "TheHyveAcademy",
-      "pts1": 55.19,
+      "pts1": 64.57,
       "lvl1": 6,
-      "pts2": 1167.41,
+      "pts2": 1170.53,
       "lvl2": 5,
-      "total": 1222.6000000000001
+      "total": 1235.1
     },
     {
       "pos": 3,
+      "p1": "Miguel Janson",
+      "lic1": "3150",
+      "pid1": "74218",
+      "p2": "José Nuno Sousa",
+      "lic2": "5800",
+      "pid2": "78302",
+      "club": "FutebolClubedaFoz",
+      "pts1": 784.22,
+      "lvl1": 6,
+      "pts2": 23.44,
+      "lvl2": 6,
+      "total": 807.6600000000001
+    },
+    {
+      "pos": 4,
       "p1": "Bernardo Faria",
       "lic1": "9300",
       "pid1": "136878",
@@ -43,14 +58,14 @@
       "lic2": "32753",
       "pid2": "425456",
       "club": "LIFEPADEL",
-      "pts1": 82.67,
+      "pts1": 101.42,
       "lvl1": 6,
-      "pts2": 612.8,
+      "pts2": 615.92,
       "lvl2": 6,
-      "total": 695.4699999999999
+      "total": 717.3399999999999
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Paulo Marques",
       "lic1": "21422",
       "pid1": "178319",
@@ -58,14 +73,14 @@
       "lic2": "31207",
       "pid2": "318562",
       "club": "QM / SCP - Gaia",
-      "pts1": 135.09,
+      "pts1": 153.84,
       "lvl1": 6,
-      "pts2": 307.9,
+      "pts2": 314.15,
       "lvl2": 6,
-      "total": 442.99
+      "total": 467.99
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Ricardo Branquinho",
       "lic1": "10739",
       "pid1": "36724",
@@ -73,14 +88,14 @@
       "lic2": "4167",
       "pid2": "70945",
       "club": "Top-padel Industrial Indoor",
-      "pts1": 52.19,
+      "pts1": 55.31,
       "lvl1": 6,
-      "pts2": 7.81,
+      "pts2": 10.94,
       "lvl2": 6,
-      "total": 60
+      "total": 66.25
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Hélder Lopes",
       "lic1": "7287",
       "pid1": "74807",
@@ -88,14 +103,14 @@
       "lic2": "",
       "pid2": "",
       "club": "Top-padel Industrial Indoor",
-      "pts1": 49.06,
+      "pts1": 58.44,
       "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 49.06
+      "total": 58.44
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Tiago Loureiro",
       "lic1": "13915",
       "pid1": "174059",

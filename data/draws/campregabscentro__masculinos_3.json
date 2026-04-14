@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-13T21:56:57.719Z",
+  "generatedAt": "2026-04-14T10:12:19.621Z",
   "result": [
     {
       "pos": 1,
@@ -58,11 +58,11 @@
       "lic2": "14813",
       "pid2": "175457",
       "club": "Padel XXL",
-      "pts1": 2800,
+      "pts1": 2524.38,
       "lvl1": 4,
       "pts2": 6941.63,
       "lvl2": 3,
-      "total": 9741.630000000001
+      "total": 9466.01
     },
     {
       "pos": 5,
@@ -105,9 +105,9 @@
       "club": "AdhocClubCoimbra",
       "pts1": 3567.39,
       "lvl1": 4,
-      "pts2": 5445.23,
+      "pts2": 5306.01,
       "lvl2": 3,
-      "total": 9012.619999999999
+      "total": 8873.4
     },
     {
       "pos": 8,
@@ -141,21 +141,6 @@
     },
     {
       "pos": 10,
-      "p1": "Tiago Araújo",
-      "lic1": "26675",
-      "pid1": "237943",
-      "p2": "Diogo Vieira",
-      "lic2": "26676",
-      "pid2": "315246",
-      "club": "Padel XXL",
-      "pts1": 913.63,
-      "lvl1": 6,
-      "pts2": 5184.92,
-      "lvl2": 3,
-      "total": 6098.55
-    },
-    {
-      "pos": 11,
       "p1": "Sharan",
       "lic1": "19516",
       "pid1": "22653",
@@ -170,6 +155,21 @@
       "total": 5844.41
     },
     {
+      "pos": 11,
+      "p1": "Tiago Araújo",
+      "lic1": "26675",
+      "pid1": "237943",
+      "p2": "Diogo Vieira",
+      "lic2": "26676",
+      "pid2": "315246",
+      "club": "Padel XXL",
+      "pts1": 913.63,
+      "lvl1": 6,
+      "pts2": 4786.8,
+      "lvl2": 3,
+      "total": 5700.43
+    },
+    {
       "pos": 12,
       "p1": "Mahieu",
       "lic1": "10820",
@@ -180,9 +180,9 @@
       "club": "ClubePadeldasCaldas",
       "pts1": 780.94,
       "lvl1": 6,
-      "pts2": 4436.55,
+      "pts2": 4387.8,
       "lvl2": 3,
-      "total": 5217.49
+      "total": 5168.74
     },
     {
       "pos": 13,
@@ -195,9 +195,9 @@
       "club": "Clube De Ténis De Santarém",
       "pts1": 154.59,
       "lvl1": 6,
-      "pts2": 4683.56,
+      "pts2": 4407.94,
       "lvl2": 3,
-      "total": 4838.150000000001
+      "total": 4562.53
     }
   ]
 }

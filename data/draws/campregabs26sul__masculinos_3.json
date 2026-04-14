@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Sul",
   "slug": "CampRegABS26Sul",
   "section": "Masculinos 3",
-  "generatedAt": "2026-04-13T22:04:52.575Z",
+  "generatedAt": "2026-04-14T10:20:53.531Z",
   "result": [
     {
       "pos": 1,
@@ -21,21 +21,6 @@
     },
     {
       "pos": 2,
-      "p1": "Carlos Pinto",
-      "lic1": "16116",
-      "pid1": "182587",
-      "p2": "Diogo Mealha",
-      "lic2": "18954",
-      "pid2": "231375",
-      "club": "Vilamoura Tennis & Padel Acade",
-      "pts1": 6951.88,
-      "lvl1": 3,
-      "pts2": 1265.09,
-      "lvl2": 5,
-      "total": 8216.97
-    },
-    {
-      "pos": 3,
       "p1": "Dario Silva",
       "lic1": "7907",
       "pid1": "65623",
@@ -43,11 +28,26 @@
       "lic2": "6606",
       "pid2": "91846",
       "club": "Clube Ténis Padel de Portimão",
-      "pts1": 3426.88,
+      "pts1": 3439.38,
       "lvl1": 4,
       "pts2": 4768.75,
       "lvl2": 3,
-      "total": 8195.630000000001
+      "total": 8208.130000000001
+    },
+    {
+      "pos": 3,
+      "p1": "Carlos Pinto",
+      "lic1": "16116",
+      "pid1": "182587",
+      "p2": "Diogo Mealha",
+      "lic2": "18954",
+      "pid2": "231375",
+      "club": "Vilamoura Tennis & Padel Acade",
+      "pts1": 6094.38,
+      "lvl1": 3,
+      "pts2": 1265.09,
+      "lvl2": 5,
+      "total": 7359.47
     },
     {
       "pos": 4,
@@ -60,9 +60,9 @@
       "club": "Padel4move",
       "pts1": 4476.25,
       "lvl1": 3,
-      "pts2": 2752.48,
+      "pts2": 2671.64,
       "lvl2": 4,
-      "total": 7228.73
+      "total": 7147.889999999999
     },
     {
       "pos": 5,
@@ -75,9 +75,9 @@
       "club": "TenisPadelSaoBras",
       "pts1": 18.75,
       "lvl1": 6,
-      "pts2": 7135.63,
+      "pts2": 6860,
       "lvl2": 3,
-      "total": 7154.38
+      "total": 6878.75
     },
     {
       "pos": 6,
@@ -96,6 +96,21 @@
     },
     {
       "pos": 7,
+      "p1": "André Sopa",
+      "lic1": "4978",
+      "pid1": "76136",
+      "p2": "André Lopes",
+      "lic2": "11599",
+      "pid2": "136836",
+      "club": "Vilamoura Tennis & Padel Acade",
+      "pts1": 4812.5,
+      "lvl1": 3,
+      "pts2": 1925,
+      "lvl2": 5,
+      "total": 6737.5
+    },
+    {
+      "pos": 8,
       "p1": "Dan Robinson",
       "lic1": "15286",
       "pid1": "175898",
@@ -110,7 +125,7 @@
       "total": 6562.5
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Luís Loureiro",
       "lic1": "13379",
       "pid1": "93375",
@@ -118,44 +133,14 @@
       "lic2": "14023",
       "pid2": "103792",
       "club": "Padel4move",
-      "pts1": 3491.38,
+      "pts1": 3404.28,
       "lvl1": 4,
-      "pts2": 2924.53,
+      "pts2": 2658.28,
       "lvl2": 4,
-      "total": 6415.91
-    },
-    {
-      "pos": 9,
-      "p1": "Jorge Moleiro",
-      "lic1": "16420",
-      "pid1": "182582",
-      "p2": "Daniel Silvestre",
-      "lic2": "16697",
-      "pid2": "191497",
-      "club": "SportingClubeFarense",
-      "pts1": 4319.79,
-      "lvl1": 3,
-      "pts2": 541.76,
-      "lvl2": 6,
-      "total": 4861.55
+      "total": 6062.56
     },
     {
       "pos": 10,
-      "p1": "André Sopa",
-      "lic1": "4978",
-      "pid1": "76136",
-      "p2": "André Lopes",
-      "lic2": "",
-      "pid2": "",
-      "club": "Vilamoura Tennis & Padel Acade",
-      "pts1": 4812.5,
-      "lvl1": 3,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 4812.5
-    },
-    {
-      "pos": 11,
       "p1": "Rodrigo Farrajota",
       "lic1": "11564",
       "pid1": "19423",
@@ -168,6 +153,21 @@
       "pts2": 0,
       "lvl2": 6,
       "total": 4768.75
+    },
+    {
+      "pos": 11,
+      "p1": "Jorge Moleiro",
+      "lic1": "16420",
+      "pid1": "182582",
+      "p2": "Daniel Silvestre",
+      "lic2": "16697",
+      "pid2": "191497",
+      "club": "SportingClubeFarense",
+      "pts1": 4062.91,
+      "lvl1": 4,
+      "pts2": 445.29,
+      "lvl2": 6,
+      "total": 4508.2
     }
   ]
 }

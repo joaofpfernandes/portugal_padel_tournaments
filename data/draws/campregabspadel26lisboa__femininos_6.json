@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Grande Lisboa",
   "slug": "CampRegABSPadel26Lisboa",
   "section": "Femininos 6",
-  "generatedAt": "2026-04-13T22:00:04.110Z",
+  "generatedAt": "2026-04-14T10:15:37.204Z",
   "result": [
     {
       "pos": 1,
@@ -28,11 +28,11 @@
       "lic2": "10338",
       "pid2": "75766",
       "club": "Rackets Pro Saldanha",
-      "pts1": 543.24,
+      "pts1": 549.49,
       "lvl1": 6,
-      "pts2": 809.39,
+      "pts2": 810.95,
       "lvl2": 6,
-      "total": 1352.63
+      "total": 1360.44
     },
     {
       "pos": 3,
@@ -43,11 +43,11 @@
       "lic2": "19730",
       "pid2": "223167",
       "club": "SociedadedeEducacaoeRecreio“Os",
-      "pts1": 556.13,
+      "pts1": 565.5,
       "lvl1": 6,
-      "pts2": 322.75,
+      "pts2": 327.44,
       "lvl2": 6,
-      "total": 878.88
+      "total": 892.94
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "24250",
       "pid2": "271275",
       "club": "W Padel Country Club",
-      "pts1": 10.48,
+      "pts1": 19.85,
       "lvl1": 6,
-      "pts2": 841.63,
+      "pts2": 847.88,
       "lvl2": 6,
-      "total": 852.11
+      "total": 867.73
     },
     {
       "pos": 5,
@@ -88,11 +88,11 @@
       "lic2": "19068",
       "pid2": "231630",
       "club": "Indoor Padel Center",
-      "pts1": 339.56,
+      "pts1": 344.24,
       "lvl1": 6,
-      "pts2": 130.48,
+      "pts2": 135.16,
       "lvl2": 6,
-      "total": 470.03999999999996
+      "total": 479.4
     },
     {
       "pos": 7,
@@ -103,11 +103,11 @@
       "lic2": "22742",
       "pid2": "244223",
       "club": "Padel Expo",
-      "pts1": 313.16,
+      "pts1": 322.53,
       "lvl1": 6,
-      "pts2": 117.34,
+      "pts2": 126.72,
       "lvl2": 6,
-      "total": 430.5
+      "total": 449.25
     },
     {
       "pos": 8,
@@ -118,11 +118,11 @@
       "lic2": "22522",
       "pid2": "261572",
       "club": "OeirasPadelAcademy",
-      "pts1": 191.29,
+      "pts1": 200.66,
       "lvl1": 6,
-      "pts2": 186,
+      "pts2": 189.13,
       "lvl2": 6,
-      "total": 377.28999999999996
+      "total": 389.78999999999996
     },
     {
       "pos": 9,
@@ -133,11 +133,11 @@
       "lic2": "28890",
       "pid2": "268983",
       "club": "BSJoao Padel",
-      "pts1": 128.48,
+      "pts1": 130.04,
       "lvl1": 6,
-      "pts2": 101.41,
+      "pts2": 102.97,
       "lvl2": 6,
-      "total": 229.89
+      "total": 233.01
     },
     {
       "pos": 10,
@@ -148,11 +148,11 @@
       "lic2": "32649",
       "pid2": "250636",
       "club": "Blue Padel Kourts",
-      "pts1": 193.23,
+      "pts1": 197.91,
       "lvl1": 6,
-      "pts2": 22.67,
+      "pts2": 24.23,
       "lvl2": 6,
-      "total": 215.89999999999998
+      "total": 222.14
     },
     {
       "pos": 11,
@@ -163,11 +163,11 @@
       "lic2": "32632",
       "pid2": "324481",
       "club": "Padel Factory",
-      "pts1": 25.03,
+      "pts1": 34.4,
       "lvl1": 6,
-      "pts2": 122.64,
+      "pts2": 132.02,
       "lvl2": 6,
-      "total": 147.67000000000002
+      "total": 166.42000000000002
     },
     {
       "pos": 12,
@@ -178,11 +178,11 @@
       "lic2": "27447",
       "pid2": "377170",
       "club": "W Padel Country Club",
-      "pts1": 22.37,
+      "pts1": 31.74,
       "lvl1": 6,
-      "pts2": 112.22,
+      "pts2": 121.59,
       "lvl2": 6,
-      "total": 134.59
+      "total": 153.33
     },
     {
       "pos": 13,
@@ -193,11 +193,11 @@
       "lic2": "34890",
       "pid2": "505479",
       "club": "Clube de Padel Alcântara",
-      "pts1": 102.5,
+      "pts1": 105.63,
       "lvl1": 6,
-      "pts2": 13.72,
+      "pts2": 16.84,
       "lvl2": 6,
-      "total": 116.22
+      "total": 122.47
     },
     {
       "pos": 14,
@@ -208,11 +208,11 @@
       "lic2": "32551",
       "pid2": "326445",
       "club": "Indoor Padel Center",
-      "pts1": 44.78,
+      "pts1": 46.34,
       "lvl1": 6,
-      "pts2": 55.94,
+      "pts2": 57.5,
       "lvl2": 6,
-      "total": 100.72
+      "total": 103.84
     },
     {
       "pos": 15,
@@ -238,11 +238,11 @@
       "lic2": "28479",
       "pid2": "412339",
       "club": "Rackets Pro EUL",
-      "pts1": 33.13,
+      "pts1": 36.25,
       "lvl1": 6,
-      "pts2": 53.34,
+      "pts2": 56.46,
       "lvl2": 6,
-      "total": 86.47
+      "total": 92.71000000000001
     },
     {
       "pos": 17,
@@ -253,11 +253,11 @@
       "lic2": "33629",
       "pid2": "327878",
       "club": "Indoor Padel Center",
-      "pts1": 44.63,
+      "pts1": 52.44,
       "lvl1": 6,
-      "pts2": 27.75,
+      "pts2": 29.31,
       "lvl2": 6,
-      "total": 72.38
+      "total": 81.75
     },
     {
       "pos": 18,
@@ -283,11 +283,11 @@
       "lic2": "23074",
       "pid2": "276717",
       "club": "OeirasPadelAcademy",
-      "pts1": 7.81,
+      "pts1": 10.94,
       "lvl1": 6,
-      "pts2": 36.69,
+      "pts2": 39.81,
       "lvl2": 6,
-      "total": 44.5
+      "total": 50.75
     },
     {
       "pos": 20,
@@ -321,6 +321,21 @@
     },
     {
       "pos": 22,
+      "p1": "Margarida Mateus",
+      "lic1": "29270",
+      "pid1": "327961",
+      "p2": "Mariana Mateus",
+      "lic2": "32896",
+      "pid2": "497083",
+      "club": "Rackets Pro EUL",
+      "pts1": 26.44,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 35.82
+    },
+    {
+      "pos": 23,
       "p1": "Shaki",
       "lic1": "25657",
       "pid1": "269054",
@@ -328,26 +343,11 @@
       "lic2": "33117",
       "pid2": "323697",
       "club": "OeirasPadelAcademy",
-      "pts1": 7.34,
+      "pts1": 12.03,
       "lvl1": 6,
-      "pts2": 18.99,
+      "pts2": 23.68,
       "lvl2": 6,
-      "total": 26.33
-    },
-    {
-      "pos": 23,
-      "p1": "Margarida Mateus",
-      "lic1": "29270",
-      "pid1": "327961",
-      "p2": "Mariana Mateus",
-      "lic2": "",
-      "pid2": "",
-      "club": "Rackets Pro EUL",
-      "pts1": 17.06,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 17.06
+      "total": 35.71
     },
     {
       "pos": 24,
@@ -358,26 +358,26 @@
       "lic2": "34284",
       "pid2": "419820",
       "club": "Arruda Fun Padel",
-      "pts1": 4.69,
+      "pts1": 17.19,
       "lvl1": 6,
-      "pts2": 3.13,
+      "pts2": 4.69,
       "lvl2": 6,
-      "total": 7.82
+      "total": 21.880000000000003
     },
     {
       "pos": 25,
       "p1": "Guedes",
-      "lic1": "",
-      "pid1": "",
+      "lic1": "36122",
+      "pid1": "396528",
       "p2": "Sílvia Alves",
-      "lic2": "",
-      "pid2": "",
+      "lic2": "37564",
+      "pid2": "519371",
       "club": "Rackets Pro EUL",
-      "pts1": 0,
+      "pts1": 9.38,
       "lvl1": 6,
-      "pts2": 0,
+      "pts2": 3.13,
       "lvl2": 6,
-      "total": 0
+      "total": 12.510000000000002
     }
   ]
 }

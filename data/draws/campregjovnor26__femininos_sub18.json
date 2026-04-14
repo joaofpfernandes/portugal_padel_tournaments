@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Norte",
   "slug": "CampRegJovNor26",
   "section": "Femininos SUB18",
-  "generatedAt": "2026-04-13T22:06:44.902Z",
+  "generatedAt": "2026-04-14T10:22:45.463Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "18191",
       "pid2": "228770",
       "club": "New Padel - Chão da Fonte",
-      "pts1": 30581.25,
-      "lvl1": 2,
+      "pts1": 31962.5,
+      "lvl1": 1,
       "pts2": 19950,
       "lvl2": 2,
-      "total": 50531.25
+      "total": 51912.5
     }
   ]
 }

@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Centro",
   "slug": "CampRegABSCentro",
   "section": "Femininos 1",
-  "generatedAt": "2026-04-13T21:58:07.463Z",
+  "generatedAt": "2026-04-14T10:13:33.711Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "",
       "pts1": 138875,
       "lvl1": 1,
-      "pts2": 107500,
+      "pts2": 108250,
       "lvl2": 1,
-      "total": 246375
+      "total": 247125
     },
     {
       "pos": 2,
@@ -43,11 +43,11 @@
       "lic2": "26786",
       "pid2": "314446",
       "club": "Loop Padel Club",
-      "pts1": 63625,
+      "pts1": 63500,
       "lvl1": 1,
-      "pts2": 30325,
+      "pts2": 28837.5,
       "lvl2": 2,
-      "total": 93950
+      "total": 92337.5
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "18917",
       "pid2": "230216",
       "club": "Ultra Padel Club",
-      "pts1": 53125,
+      "pts1": 52500,
       "lvl1": 1,
       "pts2": 32181.25,
       "lvl2": 1,
-      "total": 85306.25
+      "total": 84681.25
     }
   ]
 }

@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Jovens (4 regiões) - Centro e Lisboa",
   "slug": "CampRegJovCenLis26",
   "section": "Femininos SUB18",
-  "generatedAt": "2026-04-13T22:07:32.355Z",
+  "generatedAt": "2026-04-14T10:23:34.836Z",
   "result": [
     {
       "pos": 1,
@@ -13,11 +13,11 @@
       "lic2": "",
       "pid2": "",
       "club": "Dezporvinte",
-      "pts1": 178.5,
+      "pts1": 184.75,
       "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 178.5
+      "total": 184.75
     }
   ]
 }

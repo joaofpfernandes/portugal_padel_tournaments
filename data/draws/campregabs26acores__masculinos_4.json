@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Açores",
   "slug": "CampRegABS26Acores",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-13T21:51:57.244Z",
+  "generatedAt": "2026-04-14T10:07:04.676Z",
   "result": [
     {
       "pos": 1,
@@ -22,17 +22,17 @@
     {
       "pos": 2,
       "p1": "João Rocha",
-      "lic1": "18151",
-      "pid1": "211481",
+      "lic1": "35605",
+      "pid1": "506497",
       "p2": "Whit Hansen",
       "lic2": "",
       "pid2": "",
       "club": "",
-      "pts1": 2250,
-      "lvl1": 4,
+      "pts1": 3.13,
+      "lvl1": 6,
       "pts2": 0,
       "lvl2": 6,
-      "total": 2250
+      "total": 3.13
     }
   ]
 }

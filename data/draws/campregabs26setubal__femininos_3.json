@@ -2,7 +2,7 @@
   "tournament": "Camp. Regional Absolutos (8 regiões) - Setúbal",
   "slug": "CampRegABS26Setubal",
   "section": "Femininos 3",
-  "generatedAt": "2026-04-13T22:02:43.914Z",
+  "generatedAt": "2026-04-14T10:18:18.706Z",
   "result": [
     {
       "pos": 1,
@@ -15,9 +15,9 @@
       "club": "SmashPadelAlmada",
       "pts1": 5775,
       "lvl1": 3,
-      "pts2": 6355.34,
+      "pts2": 6173.13,
       "lvl2": 3,
-      "total": 12130.34
+      "total": 11948.130000000001
     },
     {
       "pos": 2,
@@ -28,11 +28,11 @@
       "lic2": "16514",
       "pid2": "188748",
       "club": "MrPadel",
-      "pts1": 5473.13,
+      "pts1": 4799.38,
       "lvl1": 3,
       "pts2": 3411.63,
       "lvl2": 4,
-      "total": 8884.76
+      "total": 8211.01
     },
     {
       "pos": 3,
@@ -45,9 +45,9 @@
       "club": "Arrábida Padel",
       "pts1": 1099.38,
       "lvl1": 5,
-      "pts2": 6816.25,
+      "pts2": 5328.75,
       "lvl2": 3,
-      "total": 7915.63
+      "total": 6428.13
     },
     {
       "pos": 4,
@@ -58,11 +58,11 @@
       "lic2": "24804",
       "pid2": "302639",
       "club": "MrPadel",
-      "pts1": 1282.5,
-      "lvl1": 5,
+      "pts1": 1010,
+      "lvl1": 6,
       "pts2": 3.13,
       "lvl2": 6,
-      "total": 1285.63
+      "total": 1013.13
     }
   ]
 }
