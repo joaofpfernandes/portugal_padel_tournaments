@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-15T10:35:42.011Z",
+  "generatedAt": "2026-04-15T22:16:40.118Z",
   "result": [
     {
       "pos": 1,
@@ -51,6 +51,21 @@
     },
     {
       "pos": 4,
+      "p1": "Filipe M. Ferreira",
+      "lic1": "10933",
+      "pid1": "136576",
+      "p2": "Gonçalo Gomes",
+      "lic2": "16948",
+      "pid2": "201131",
+      "club": "Lisboa Racket Centre",
+      "pts1": 2293.79,
+      "lvl1": 4,
+      "pts2": 3134.38,
+      "lvl2": 4,
+      "total": 5428.17
+    },
+    {
+      "pos": 5,
       "p1": "Pedro Rafael",
       "lic1": "10303",
       "pid1": "102763",
@@ -65,7 +80,7 @@
       "total": 5387.89
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Maike Carmo",
       "lic1": "6017",
       "pid1": "64294",
@@ -80,7 +95,7 @@
       "total": 5223.33
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Samuel Felício",
       "lic1": "16293",
       "pid1": "184935",
@@ -95,7 +110,7 @@
       "total": 5204.47
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Diogo Cartaxo",
       "lic1": "2585",
       "pid1": "77357",
@@ -110,7 +125,7 @@
       "total": 5047.9
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Raphaël GIOANNI",
       "lic1": "15703",
       "pid1": "177221",
@@ -125,7 +140,7 @@
       "total": 5005.39
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Renato Mello",
       "lic1": "22356",
       "pid1": "210932",
@@ -140,7 +155,22 @@
       "total": 4794.05
     },
     {
-      "pos": 10,
+      "pos": 11,
+      "p1": "Ricardo Neto",
+      "lic1": "10321",
+      "pid1": "103889",
+      "p2": "Rodrigo Marques",
+      "lic2": "22016",
+      "pid2": "259295",
+      "club": "AlvercaPadelClub",
+      "pts1": 1759.47,
+      "lvl1": 5,
+      "pts2": 2494.72,
+      "lvl2": 4,
+      "total": 4254.19
+    },
+    {
+      "pos": 12,
       "p1": "Paulinho Gugo",
       "lic1": "18678",
       "pid1": "93160",
@@ -155,7 +185,7 @@
       "total": 4241.4400000000005
     },
     {
-      "pos": 11,
+      "pos": 13,
       "p1": "Daniel Teodoro",
       "lic1": "12016",
       "pid1": "76705",
@@ -170,7 +200,7 @@
       "total": 4086.38
     },
     {
-      "pos": 12,
+      "pos": 14,
       "p1": "Luis Oliveira",
       "lic1": "17677",
       "pid1": "60214",
@@ -185,7 +215,7 @@
       "total": 4047.1099999999997
     },
     {
-      "pos": 13,
+      "pos": 15,
       "p1": "Luis Marto",
       "lic1": "12748",
       "pid1": "144957",
@@ -200,7 +230,7 @@
       "total": 3953.26
     },
     {
-      "pos": 14,
+      "pos": 16,
       "p1": "Victor Morais",
       "lic1": "17688",
       "pid1": "30133",
@@ -215,7 +245,7 @@
       "total": 3900.7200000000003
     },
     {
-      "pos": 15,
+      "pos": 17,
       "p1": "Pedro Cândido",
       "lic1": "12550",
       "pid1": "144610",
@@ -230,7 +260,7 @@
       "total": 3899.75
     },
     {
-      "pos": 16,
+      "pos": 18,
       "p1": "João Pereira",
       "lic1": "4331",
       "pid1": "80957",
@@ -245,7 +275,7 @@
       "total": 3828.51
     },
     {
-      "pos": 17,
+      "pos": 19,
       "p1": "Joao Facas",
       "lic1": "6233",
       "pid1": "74875",
@@ -260,7 +290,7 @@
       "total": 3803.5
     },
     {
-      "pos": 18,
+      "pos": 20,
       "p1": "Tomás Melro",
       "lic1": "10676",
       "pid1": "118957",
@@ -275,7 +305,7 @@
       "total": 3802.84
     },
     {
-      "pos": 19,
+      "pos": 21,
       "p1": "Miguel Leitão Amaro",
       "lic1": "14024",
       "pid1": "101401",
@@ -290,7 +320,7 @@
       "total": 3756.09
     },
     {
-      "pos": 20,
+      "pos": 22,
       "p1": "Renato Vale",
       "lic1": "17482",
       "pid1": "217123",
@@ -305,7 +335,7 @@
       "total": 3534.69
     },
     {
-      "pos": 21,
+      "pos": 23,
       "p1": "Filipe Franco Frazão",
       "lic1": "29720",
       "pid1": "227950",
@@ -320,7 +350,7 @@
       "total": 3170.6099999999997
     },
     {
-      "pos": 22,
+      "pos": 24,
       "p1": "Raul Serra",
       "lic1": "6851",
       "pid1": "66582",
@@ -335,7 +365,7 @@
       "total": 3140.33
     },
     {
-      "pos": 23,
+      "pos": 25,
       "p1": "João Queiroz",
       "lic1": "22913",
       "pid1": "245707",
@@ -350,7 +380,7 @@
       "total": 3090.21
     },
     {
-      "pos": 24,
+      "pos": 26,
       "p1": "António Afonso",
       "lic1": "10386",
       "pid1": "77343",
@@ -365,7 +395,7 @@
       "total": 2749.3
     },
     {
-      "pos": 25,
+      "pos": 27,
       "p1": "Bruno Emerenciano",
       "lic1": "18048",
       "pid1": "209424",
@@ -380,7 +410,7 @@
       "total": 2583.05
     },
     {
-      "pos": 26,
+      "pos": 28,
       "p1": "Joel Santos",
       "lic1": "25697",
       "pid1": "157018",
@@ -395,7 +425,7 @@
       "total": 2552.9700000000003
     },
     {
-      "pos": 27,
+      "pos": 29,
       "p1": "Rafael Abreu",
       "lic1": "10396",
       "pid1": "103986",
@@ -410,7 +440,7 @@
       "total": 2491.26
     },
     {
-      "pos": 28,
+      "pos": 30,
       "p1": "Ricardo Verdugo",
       "lic1": "24064",
       "pid1": "178871",
@@ -425,7 +455,7 @@
       "total": 2481.56
     },
     {
-      "pos": 29,
+      "pos": 31,
       "p1": "Luís Soares",
       "lic1": "14690",
       "pid1": "101802",
@@ -440,7 +470,7 @@
       "total": 2455.53
     },
     {
-      "pos": 30,
+      "pos": 32,
       "p1": "Jose Marchant",
       "lic1": "17902",
       "pid1": "208157",
@@ -455,7 +485,7 @@
       "total": 1533.79
     },
     {
-      "pos": 31,
+      "pos": 33,
       "p1": "Manuel Esperto",
       "lic1": "16675",
       "pid1": "169524",
@@ -470,7 +500,7 @@
       "total": 1415.79
     },
     {
-      "pos": 32,
+      "pos": 34,
       "p1": "Diogo Gomes",
       "lic1": "17679",
       "pid1": "146704",
@@ -485,7 +515,7 @@
       "total": 761.8
     },
     {
-      "pos": 33,
+      "pos": 35,
       "p1": "Tiago Gonçalves",
       "lic1": "",
       "pid1": "",
@@ -500,7 +530,7 @@
       "total": 430.84
     },
     {
-      "pos": 34,
+      "pos": 36,
       "p1": "Marco Custódio",
       "lic1": "15168",
       "pid1": "160718",

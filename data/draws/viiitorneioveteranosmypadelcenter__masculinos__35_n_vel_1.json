@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +35 Nível 1",
-  "generatedAt": "2026-04-15T10:32:13.006Z",
+  "generatedAt": "2026-04-15T22:13:48.259Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "JP Gago",
+      "lic1": "2489",
+      "pid1": "34011",
+      "p2": "Hugo Mouta",
+      "lic2": "13872",
+      "pid2": "65680",
+      "club": "",
+      "pts1": 205.31,
+      "lvl1": 6,
+      "pts2": 3962.62,
+      "lvl2": 4,
+      "total": 4167.93
+    },
+    {
+      "pos": 4,
       "p1": "John ilies",
       "lic1": "12019",
       "pid1": "72517",
@@ -50,7 +65,7 @@
       "total": 3064.61
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Rafa",
       "lic1": "15290",
       "pid1": "175916",
@@ -65,7 +80,7 @@
       "total": 1077.05
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "José Melo",
       "lic1": "5670",
       "pid1": "29603",
@@ -80,7 +95,7 @@
       "total": 815.4499999999999
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Tomás Pires",
       "lic1": "227",
       "pid1": "26266",

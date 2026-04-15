@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-15T10:35:24.237Z",
+  "generatedAt": "2026-04-15T22:16:26.523Z",
   "result": [
     {
       "pos": 1,
@@ -891,6 +891,21 @@
     },
     {
       "pos": 60,
+      "p1": "Alan Ferreira",
+      "lic1": "27597",
+      "pid1": "302274",
+      "p2": "Elvis Santos",
+      "lic2": "31411",
+      "pid2": "307656",
+      "club": "CasadoSportLisboaeBenficanasCa",
+      "pts1": 234.53,
+      "lvl1": 6,
+      "pts2": 39.66,
+      "lvl2": 6,
+      "total": 274.19
+    },
+    {
+      "pos": 61,
       "p1": "Pedro Ribeiro",
       "lic1": "24708",
       "pid1": "259206",
@@ -905,7 +920,7 @@
       "total": 229.72
     },
     {
-      "pos": 61,
+      "pos": 62,
       "p1": "Duarte Henriques",
       "lic1": "17081",
       "pid1": "160748",
@@ -920,7 +935,7 @@
       "total": 215.62
     },
     {
-      "pos": 62,
+      "pos": 63,
       "p1": "Leandro Neves",
       "lic1": "4114",
       "pid1": "79812",
@@ -935,7 +950,7 @@
       "total": 188.75
     },
     {
-      "pos": 63,
+      "pos": 64,
       "p1": "Helder de Sousa",
       "lic1": "3062",
       "pid1": "36835",
@@ -950,7 +965,7 @@
       "total": 187.09
     },
     {
-      "pos": 64,
+      "pos": 65,
       "p1": "Hugo Libório",
       "lic1": "5196",
       "pid1": "79353",
@@ -965,7 +980,7 @@
       "total": 128.97
     },
     {
-      "pos": 65,
+      "pos": 66,
       "p1": "Antonio Ferraz",
       "lic1": "26164",
       "pid1": "299841",
@@ -980,7 +995,7 @@
       "total": 125.63
     },
     {
-      "pos": 66,
+      "pos": 67,
       "p1": "Élio Mouzinho",
       "lic1": "21886",
       "pid1": "225508",
@@ -995,7 +1010,7 @@
       "total": 105.3
     },
     {
-      "pos": 67,
+      "pos": 68,
       "p1": "João Pinto",
       "lic1": "4844",
       "pid1": "89215",
@@ -1010,7 +1025,7 @@
       "total": 87.19
     },
     {
-      "pos": 68,
+      "pos": 69,
       "p1": "Tomás Silva",
       "lic1": "27097",
       "pid1": "242504",
@@ -1025,7 +1040,7 @@
       "total": 80.4
     },
     {
-      "pos": 69,
+      "pos": 70,
       "p1": "Lucas Afonso",
       "lic1": "31337",
       "pid1": "160695",
@@ -1040,7 +1055,7 @@
       "total": 53.96
     },
     {
-      "pos": 70,
+      "pos": 71,
       "p1": "Michael Aparício",
       "lic1": "30072",
       "pid1": "348690",
@@ -1055,7 +1070,7 @@
       "total": 48.63
     },
     {
-      "pos": 71,
+      "pos": 72,
       "p1": "Paulo Luis",
       "lic1": "26930",
       "pid1": "94065",
@@ -1070,7 +1085,7 @@
       "total": 43.49
     },
     {
-      "pos": 72,
+      "pos": 73,
       "p1": "Pedro Serralheiro",
       "lic1": "29682",
       "pid1": "315833",
@@ -1083,6 +1098,36 @@
       "pts2": 21.5,
       "lvl2": 6,
       "total": 30.880000000000003
+    },
+    {
+      "pos": 74,
+      "p1": "Leonel Alves",
+      "lic1": "23512",
+      "pid1": "151704",
+      "p2": "Miguel Oliveira",
+      "lic2": "",
+      "pid2": "",
+      "club": "MCPADEL",
+      "pts1": 21.56,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 21.56
+    },
+    {
+      "pos": 75,
+      "p1": "Alex LINK",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Nicola Munno",
+      "lic2": "",
+      "pid2": "",
+      "club": "Blue Padel Kourts",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
     }
   ]
 }

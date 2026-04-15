@@ -2,10 +2,25 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Femininos +55 Nível 1",
-  "generatedAt": "2026-04-15T10:34:01.373Z",
+  "generatedAt": "2026-04-15T22:15:19.198Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Paola Graça",
+      "lic1": "2584",
+      "pid1": "74528",
+      "p2": "Sónia Gonçalves",
+      "lic2": "17558",
+      "pid2": "225763",
+      "club": "Lisboa Racket Centre",
+      "pts1": 919.69,
+      "lvl1": 6,
+      "pts2": 3134.53,
+      "lvl2": 4,
+      "total": 4054.2200000000003
+    },
+    {
+      "pos": 2,
       "p1": "Margarida Oliveira",
       "lic1": "8086",
       "pid1": "72998",
@@ -20,7 +35,7 @@
       "total": 2152.16
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Cláudia Serrano",
       "lic1": "7012",
       "pid1": "5186",

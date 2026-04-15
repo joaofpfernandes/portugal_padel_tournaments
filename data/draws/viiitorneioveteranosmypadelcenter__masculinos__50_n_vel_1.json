@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +50 Nível 1",
-  "generatedAt": "2026-04-15T10:32:45.152Z",
+  "generatedAt": "2026-04-15T22:14:16.391Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "José CB",
+      "lic1": "4325",
+      "pid1": "84540",
+      "p2": "Gonçalo Galvão Teles",
+      "lic2": "21576",
+      "pid2": "246893",
+      "club": "My Padel Center",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 972.81,
+      "lvl2": 6,
+      "total": 982.1899999999999
+    },
+    {
+      "pos": 3,
       "p1": "Pedro Oliveira",
       "lic1": "10059",
       "pid1": "95089",
@@ -35,7 +50,7 @@
       "total": 929.86
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "Hugo Vasques",
       "lic1": "21861",
       "pid1": "4882",

@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-15T10:29:29.028Z",
+  "generatedAt": "2026-04-15T22:11:33.518Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,51 @@
     },
     {
       "pos": 2,
+      "p1": "Inês Bastos",
+      "lic1": "10997",
+      "pid1": "136761",
+      "p2": "Kika Carvalho",
+      "lic2": "21575",
+      "pid2": "246871",
+      "club": "4OURPADELSobrosa",
+      "pts1": 482.47,
+      "lvl1": 6,
+      "pts2": 1461.98,
+      "lvl2": 5,
+      "total": 1944.45
+    },
+    {
+      "pos": 3,
+      "p1": "Joana Casais",
+      "lic1": "25762",
+      "pid1": "304545",
+      "p2": "Leonor Pereira Leite",
+      "lic2": "24339",
+      "pid2": "324722",
+      "club": "QM / SCP",
+      "pts1": 1531.28,
+      "lvl1": 5,
+      "pts2": 188.47,
+      "lvl2": 6,
+      "total": 1719.75
+    },
+    {
+      "pos": 4,
+      "p1": "Sara Felix da Costa",
+      "lic1": "17602",
+      "pid1": "208653",
+      "p2": "Marta Azevedo",
+      "lic2": "30591",
+      "pid2": "415824",
+      "club": "Padel Beat",
+      "pts1": 70.63,
+      "lvl1": 6,
+      "pts2": 1461.25,
+      "lvl2": 5,
+      "total": 1531.88
+    },
+    {
+      "pos": 5,
       "p1": "Inês Fernandes",
       "lic1": "16790",
       "pid1": "118448",
@@ -35,7 +80,22 @@
       "total": 1489.0500000000002
     },
     {
-      "pos": 3,
+      "pos": 6,
+      "p1": "Luísa Salgueiro",
+      "lic1": "1768",
+      "pid1": "78317",
+      "p2": "Mafalda Cerquinho",
+      "lic2": "30239",
+      "pid2": "400869",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 533.13,
+      "lvl1": 6,
+      "pts2": 535.86,
+      "lvl2": 6,
+      "total": 1068.99
+    },
+    {
+      "pos": 7,
       "p1": "Carolina Tam",
       "lic1": "18846",
       "pid1": "231133",
@@ -50,7 +110,22 @@
       "total": 1003.72
     },
     {
-      "pos": 4,
+      "pos": 8,
+      "p1": "Francisca Bessa",
+      "lic1": "23314",
+      "pid1": "186134",
+      "p2": "Chabeli Ortega",
+      "lic2": "22794",
+      "pid2": "229540",
+      "club": "",
+      "pts1": 420.89,
+      "lvl1": 6,
+      "pts2": 363.73,
+      "lvl2": 6,
+      "total": 784.62
+    },
+    {
+      "pos": 9,
       "p1": "Angela Alejo",
       "lic1": "30358",
       "pid1": "297578",
@@ -65,7 +140,7 @@
       "total": 677.89
     },
     {
-      "pos": 5,
+      "pos": 10,
       "p1": "Margarida Silva",
       "lic1": "19818",
       "pid1": "232896",
@@ -80,7 +155,7 @@
       "total": 505.65
     },
     {
-      "pos": 6,
+      "pos": 11,
       "p1": "Sara Carvalho",
       "lic1": "27323",
       "pid1": "406913",
@@ -95,7 +170,7 @@
       "total": 500.78
     },
     {
-      "pos": 7,
+      "pos": 12,
       "p1": "Inês Pestana",
       "lic1": "10807",
       "pid1": "136108",
@@ -110,7 +185,7 @@
       "total": 304.06
     },
     {
-      "pos": 8,
+      "pos": 13,
       "p1": "Inês Camões",
       "lic1": "27406",
       "pid1": "407914",
@@ -125,7 +200,7 @@
       "total": 271
     },
     {
-      "pos": 9,
+      "pos": 14,
       "p1": "Tatiana Donnikova",
       "lic1": "33962",
       "pid1": "503708",
@@ -140,7 +215,7 @@
       "total": 142.51
     },
     {
-      "pos": 10,
+      "pos": 15,
       "p1": "Mafalda Mendes",
       "lic1": "32996",
       "pid1": "206094",
@@ -155,7 +230,52 @@
       "total": 68.76
     },
     {
-      "pos": 11,
+      "pos": 16,
+      "p1": "MJF",
+      "lic1": "9048",
+      "pid1": "84869",
+      "p2": "Rita Fernandes",
+      "lic2": "29366",
+      "pid2": "334858",
+      "club": "MeshPadelCenter",
+      "pts1": 18.75,
+      "lvl1": 6,
+      "pts2": 25,
+      "lvl2": 6,
+      "total": 43.75
+    },
+    {
+      "pos": 17,
+      "p1": "Goreti Costa",
+      "lic1": "23405",
+      "pid1": "322569",
+      "p2": "Inês Gomes",
+      "lic2": "23413",
+      "pid2": "322593",
+      "club": "4OURPADELSobrosa",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 12.5,
+      "lvl2": 6,
+      "total": 25
+    },
+    {
+      "pos": 18,
+      "p1": "Natalia Carvalho",
+      "lic1": "30857",
+      "pid1": "417113",
+      "p2": "Isabel Loureiro",
+      "lic2": "34396",
+      "pid2": "504728",
+      "club": "4OURPADELSobrosa",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 12.5,
+      "lvl2": 6,
+      "total": 25
+    },
+    {
+      "pos": 19,
       "p1": "Joana Casanova",
       "lic1": "24464",
       "pid1": "86623",
@@ -166,6 +286,21 @@
       "pts1": 4.69,
       "lvl1": 6,
       "pts2": 12.5,
+      "lvl2": 6,
+      "total": 17.19
+    },
+    {
+      "pos": 20,
+      "p1": "Katerina Skripnik",
+      "lic1": "34407",
+      "pid1": "482086",
+      "p2": "Marina Panova",
+      "lic2": "34708",
+      "pid2": "504987",
+      "club": "88PadelHouse",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 7.81,
       "lvl2": 6,
       "total": 17.19
     }

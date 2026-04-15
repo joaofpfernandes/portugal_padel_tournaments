@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-15T10:37:25.492Z",
+  "generatedAt": "2026-04-15T22:18:00.724Z",
   "result": [
     {
       "pos": 1,
@@ -96,6 +96,21 @@
     },
     {
       "pos": 7,
+      "p1": "Rita Gueiral",
+      "lic1": "10726",
+      "pid1": "71967",
+      "p2": "Joana Campos Cunha",
+      "lic2": "3034",
+      "pid2": "74047",
+      "club": "GoldenPadel",
+      "pts1": 18301.25,
+      "lvl1": 2,
+      "pts2": 1520,
+      "lvl2": 5,
+      "total": 19821.25
+    },
+    {
+      "pos": 8,
       "p1": "Maria Rodrigues",
       "lic1": "18004",
       "pid1": "23233",
@@ -110,7 +125,7 @@
       "total": 19700.32
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Cristina Gomes",
       "lic1": "4603",
       "pid1": "74046",
@@ -125,7 +140,7 @@
       "total": 16097.5
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Betina Beirão",
       "lic1": "8930",
       "pid1": "75743",
@@ -140,7 +155,7 @@
       "total": 15206.25
     },
     {
-      "pos": 10,
+      "pos": 11,
       "p1": "Tânia Mendes",
       "lic1": "5898",
       "pid1": "74738",
