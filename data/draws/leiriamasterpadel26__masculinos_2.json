@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-15T10:36:22.596Z",
+  "generatedAt": "2026-04-15T22:17:10.179Z",
   "result": [
     {
       "pos": 1,
@@ -306,6 +306,21 @@
     },
     {
       "pos": 21,
+      "p1": "Salvador Kendall",
+      "lic1": "20441",
+      "pid1": "233705",
+      "p2": "Francisco Amorim",
+      "lic2": "26934",
+      "pid2": "352074",
+      "club": "OeirasPadelAcademy",
+      "pts1": 14168.75,
+      "lvl1": 2,
+      "pts2": 14514.22,
+      "lvl2": 2,
+      "total": 28682.97
+    },
+    {
+      "pos": 22,
       "p1": "Ricardo Azurara",
       "lic1": "4437",
       "pid1": "54234",
@@ -320,7 +335,7 @@
       "total": 28262.85
     },
     {
-      "pos": 22,
+      "pos": 23,
       "p1": "João Azevedo",
       "lic1": "8801",
       "pid1": "50512",
@@ -335,7 +350,7 @@
       "total": 27946.879999999997
     },
     {
-      "pos": 23,
+      "pos": 24,
       "p1": "Eduardo Costa",
       "lic1": "12317",
       "pid1": "11515",
@@ -350,7 +365,7 @@
       "total": 27866.88
     },
     {
-      "pos": 24,
+      "pos": 25,
       "p1": "João Fiúza",
       "lic1": "13289",
       "pid1": "152600",
@@ -365,7 +380,7 @@
       "total": 27477.190000000002
     },
     {
-      "pos": 25,
+      "pos": 26,
       "p1": "Diogo Marques",
       "lic1": "6613",
       "pid1": "54022",
@@ -380,7 +395,7 @@
       "total": 26937.5
     },
     {
-      "pos": 26,
+      "pos": 27,
       "p1": "Luís Carrasqueira",
       "lic1": "16844",
       "pid1": "199306",
@@ -395,7 +410,7 @@
       "total": 26753.129999999997
     },
     {
-      "pos": 27,
+      "pos": 28,
       "p1": "Gabriel Machado",
       "lic1": "22635",
       "pid1": "14934",
@@ -410,7 +425,7 @@
       "total": 25535
     },
     {
-      "pos": 28,
+      "pos": 29,
       "p1": "Vicente Veloso",
       "lic1": "13222",
       "pid1": "28423",
@@ -425,7 +440,7 @@
       "total": 25072.5
     },
     {
-      "pos": 29,
+      "pos": 30,
       "p1": "Alexandre Belchior",
       "lic1": "16892",
       "pid1": "200226",
@@ -440,7 +455,7 @@
       "total": 24058.81
     },
     {
-      "pos": 30,
+      "pos": 31,
       "p1": "Alexandre Moreira",
       "lic1": "5316",
       "pid1": "26587",
@@ -455,7 +470,7 @@
       "total": 23592.82
     },
     {
-      "pos": 31,
+      "pos": 32,
       "p1": "João Ambrósio",
       "lic1": "558",
       "pid1": "86880",
@@ -470,7 +485,7 @@
       "total": 23448.75
     },
     {
-      "pos": 32,
+      "pos": 33,
       "p1": "Eduardo Bonneville Carona",
       "lic1": "15",
       "pid1": "7544",
@@ -485,7 +500,7 @@
       "total": 23324.23
     },
     {
-      "pos": 33,
+      "pos": 34,
       "p1": "Manel Riley",
       "lic1": "11064",
       "pid1": "72189",
@@ -500,7 +515,7 @@
       "total": 22825
     },
     {
-      "pos": 34,
+      "pos": 35,
       "p1": "David Pinto",
       "lic1": "7371",
       "pid1": "81583",
@@ -515,7 +530,7 @@
       "total": 22112.75
     },
     {
-      "pos": 35,
+      "pos": 36,
       "p1": "Tiago Pratas",
       "lic1": "2963",
       "pid1": "23639",
@@ -530,7 +545,22 @@
       "total": 18587.5
     },
     {
-      "pos": 36,
+      "pos": 37,
+      "p1": "Carlos Coutinho",
+      "lic1": "13072",
+      "pid1": "153375",
+      "p2": "Tiago Lima",
+      "lic2": "27206",
+      "pid2": "382731",
+      "club": "BSJoao Padel",
+      "pts1": 14994.38,
+      "lvl1": 2,
+      "pts2": 3506.25,
+      "lvl2": 4,
+      "total": 18500.629999999997
+    },
+    {
+      "pos": 38,
       "p1": "Paulo Paulos",
       "lic1": "17272",
       "pid1": "183223",
@@ -545,7 +575,7 @@
       "total": 16936.309999999998
     },
     {
-      "pos": 37,
+      "pos": 39,
       "p1": "Nico Amarilla",
       "lic1": "26859",
       "pid1": "337825",
@@ -560,7 +590,7 @@
       "total": 16030.94
     },
     {
-      "pos": 38,
+      "pos": 40,
       "p1": "Rodrigo Confraria",
       "lic1": "11730",
       "pid1": "138061",
@@ -575,7 +605,7 @@
       "total": 15920.630000000001
     },
     {
-      "pos": 39,
+      "pos": 41,
       "p1": "Rui Almada",
       "lic1": "25133",
       "pid1": "18263",
@@ -590,7 +620,7 @@
       "total": 15245.47
     },
     {
-      "pos": 40,
+      "pos": 42,
       "p1": "José Duarte",
       "lic1": "3477",
       "pid1": "27205",
@@ -605,7 +635,7 @@
       "total": 15065.7
     },
     {
-      "pos": 41,
+      "pos": 43,
       "p1": "Gonçalo Guerra",
       "lic1": "817",
       "pid1": "40723",

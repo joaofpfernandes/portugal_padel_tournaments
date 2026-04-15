@@ -2,10 +2,55 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Femininos 5",
-  "generatedAt": "2026-04-15T10:30:58.284Z",
+  "generatedAt": "2026-04-15T22:12:43.774Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Mafalda Teles",
+      "lic1": "2707",
+      "pid1": "74079",
+      "p2": "Ana Porto",
+      "lic2": "18770",
+      "pid2": "205587",
+      "club": "PRIMEPADEL",
+      "pts1": 1414.42,
+      "lvl1": 5,
+      "pts2": 1414.42,
+      "lvl2": 5,
+      "total": 2828.84
+    },
+    {
+      "pos": 2,
+      "p1": "Martine Gonçalves",
+      "lic1": "16163",
+      "pid1": "182877",
+      "p2": "Carolina Dias",
+      "lic2": "31785",
+      "pid2": "330798",
+      "club": "Ultra Padel Club",
+      "pts1": 1162.04,
+      "lvl1": 5,
+      "pts2": 535.22,
+      "lvl2": 6,
+      "total": 1697.26
+    },
+    {
+      "pos": 3,
+      "p1": "Marta Fernandes",
+      "lic1": "32755",
+      "pid1": "11358",
+      "p2": "Rita Guedes",
+      "lic2": "12976",
+      "pid2": "150812",
+      "club": "PRIMEPADEL",
+      "pts1": 486.88,
+      "lvl1": 6,
+      "pts2": 995.94,
+      "lvl2": 6,
+      "total": 1482.8200000000002
+    },
+    {
+      "pos": 4,
       "p1": "Carla Jesus",
       "lic1": "27785",
       "pid1": "223686",
@@ -20,7 +65,7 @@
       "total": 723.85
     },
     {
-      "pos": 2,
+      "pos": 5,
       "p1": "Patrícia Jordão",
       "lic1": "20067",
       "pid1": "233141",
@@ -35,7 +80,7 @@
       "total": 510.99
     },
     {
-      "pos": 3,
+      "pos": 6,
       "p1": "Alexandra Silva",
       "lic1": "26913",
       "pid1": "305289",
@@ -50,7 +95,37 @@
       "total": 242.84
     },
     {
-      "pos": 4,
+      "pos": 7,
+      "p1": "Joana Lopes",
+      "lic1": "36099",
+      "pid1": "442242",
+      "p2": "Rita Côrte-Real Lucena",
+      "lic2": "36677",
+      "pid2": "462896",
+      "club": "OBAIRROPADEL",
+      "pts1": 32,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 35.13
+    },
+    {
+      "pos": 8,
+      "p1": "Ana Campos",
+      "lic1": "1834",
+      "pid1": "69169",
+      "p2": "Teresa De Santis",
+      "lic2": "",
+      "pid2": "",
+      "club": "PRIMEPADEL",
+      "pts1": 31.25,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 31.25
+    },
+    {
+      "pos": 9,
       "p1": "Telma Lima Mendes",
       "lic1": "35940",
       "pid1": "424637",

@@ -2,10 +2,25 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 6",
-  "generatedAt": "2026-04-15T10:28:05.403Z",
+  "generatedAt": "2026-04-15T22:10:22.485Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Fábio Pereira",
+      "lic1": "10178",
+      "pid1": "97100",
+      "p2": "Pereirinha",
+      "lic2": "30253",
+      "pid2": "360886",
+      "club": "",
+      "pts1": 369.55,
+      "lvl1": 6,
+      "pts2": 195.63,
+      "lvl2": 6,
+      "total": 565.1800000000001
+    },
+    {
+      "pos": 2,
       "p1": "André Silva",
       "lic1": "31429",
       "pid1": "420977",
@@ -20,7 +35,7 @@
       "total": 439.3
     },
     {
-      "pos": 2,
+      "pos": 3,
       "p1": "Magalhães, Pedro",
       "lic1": "20175",
       "pid1": "232633",
@@ -35,7 +50,7 @@
       "total": 435.27
     },
     {
-      "pos": 3,
+      "pos": 4,
       "p1": "João Moreira",
       "lic1": "18442",
       "pid1": "162546",
@@ -50,7 +65,7 @@
       "total": 346.7
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Hugo Costa",
       "lic1": "31445",
       "pid1": "385780",
@@ -65,7 +80,7 @@
       "total": 274.40999999999997
     },
     {
-      "pos": 5,
+      "pos": 6,
       "p1": "Emilio Golão",
       "lic1": "29096",
       "pid1": "180660",
@@ -80,7 +95,7 @@
       "total": 187.29
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Nuno Campelo Guimarães",
       "lic1": "28999",
       "pid1": "367087",
@@ -95,7 +110,7 @@
       "total": 186.12
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Dani Cerqueira",
       "lic1": "28083",
       "pid1": "411449",
@@ -110,7 +125,7 @@
       "total": 142.75
     },
     {
-      "pos": 8,
+      "pos": 9,
       "p1": "Fernando Lourenço",
       "lic1": "4504",
       "pid1": "54148",
@@ -125,7 +140,7 @@
       "total": 58.349999999999994
     },
     {
-      "pos": 9,
+      "pos": 10,
       "p1": "Bruno Sousa",
       "lic1": "32536",
       "pid1": "442679",
@@ -140,7 +155,7 @@
       "total": 46.59
     },
     {
-      "pos": 10,
+      "pos": 11,
       "p1": "Chen",
       "lic1": "32819",
       "pid1": "318683",
@@ -155,7 +170,7 @@
       "total": 40.05
     },
     {
-      "pos": 11,
+      "pos": 12,
       "p1": "Leandro Teixeira",
       "lic1": "36815",
       "pid1": "445253",
@@ -170,7 +185,7 @@
       "total": 37.69
     },
     {
-      "pos": 12,
+      "pos": 13,
       "p1": "Gonzalo Hoepelman",
       "lic1": "37329",
       "pid1": "478496",
@@ -185,7 +200,7 @@
       "total": 37.5
     },
     {
-      "pos": 13,
+      "pos": 14,
       "p1": "Aquiles",
       "lic1": "31449",
       "pid1": "351453",
@@ -200,7 +215,7 @@
       "total": 36.82
     },
     {
-      "pos": 14,
+      "pos": 15,
       "p1": "Luís Brito",
       "lic1": "30029",
       "pid1": "265548",
@@ -215,7 +230,7 @@
       "total": 32.82
     },
     {
-      "pos": 15,
+      "pos": 16,
       "p1": "João Magalhães",
       "lic1": "33256",
       "pid1": "500923",
@@ -230,7 +245,7 @@
       "total": 31.68
     },
     {
-      "pos": 16,
+      "pos": 17,
       "p1": "Pedinesi",
       "lic1": "34756",
       "pid1": "505283",
@@ -245,7 +260,7 @@
       "total": 28.12
     },
     {
-      "pos": 17,
+      "pos": 18,
       "p1": "Tomás Machado Cruz",
       "lic1": "33524",
       "pid1": "469764",
@@ -260,7 +275,7 @@
       "total": 21.87
     },
     {
-      "pos": 18,
+      "pos": 19,
       "p1": "Igor S",
       "lic1": "36016",
       "pid1": "461103",
@@ -275,7 +290,7 @@
       "total": 18.75
     },
     {
-      "pos": 19,
+      "pos": 20,
       "p1": "Paulo Miguel Caldeira",
       "lic1": "23268",
       "pid1": "300122",
@@ -290,7 +305,7 @@
       "total": 17.189999999999998
     },
     {
-      "pos": 20,
+      "pos": 21,
       "p1": "JoaoPereira",
       "lic1": "33571",
       "pid1": "466458",
@@ -305,7 +320,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 21,
+      "pos": 22,
       "p1": "Leonardo Pinho",
       "lic1": "37086",
       "pid1": "170307",
@@ -320,7 +335,7 @@
       "total": 12.5
     },
     {
-      "pos": 22,
+      "pos": 23,
       "p1": "Paulo Alves",
       "lic1": "34252",
       "pid1": "422624",

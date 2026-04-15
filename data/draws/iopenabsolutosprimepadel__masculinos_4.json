@@ -2,10 +2,40 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-15T10:30:33.408Z",
+  "generatedAt": "2026-04-15T22:12:25.351Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Joao Facas",
+      "lic1": "6233",
+      "pid1": "74875",
+      "p2": "José Pedro Cavaleiro",
+      "lic2": "9927",
+      "pid2": "93289",
+      "club": "PRIMEPADEL",
+      "pts1": 2852.53,
+      "lvl1": 4,
+      "pts2": 950.97,
+      "lvl2": 6,
+      "total": 3803.5
+    },
+    {
+      "pos": 2,
+      "p1": "Rui António",
+      "lic1": "10724",
+      "pid1": "119458",
+      "p2": "Pedro Damásio Ferreira",
+      "lic2": "10375",
+      "pid2": "103782",
+      "club": "AdhocClubCoimbra",
+      "pts1": 1.56,
+      "lvl1": 6,
+      "pts2": 3567.39,
+      "lvl2": 4,
+      "total": 3568.95
+    },
+    {
+      "pos": 3,
       "p1": "Rui Paulo da Silva Machado",
       "lic1": "14616",
       "pid1": "175212",
@@ -18,51 +48,6 @@
       "pts2": 2340.84,
       "lvl2": 4,
       "total": 2348.65
-    },
-    {
-      "pos": 2,
-      "p1": "P. Carvalho",
-      "lic1": "12482",
-      "pid1": "144097",
-      "p2": "Quilho",
-      "lic2": "",
-      "pid2": "",
-      "club": "PRIMEPADEL",
-      "pts1": 949.84,
-      "lvl1": 6,
-      "pts2": 0,
-      "lvl2": 6,
-      "total": 949.84
-    },
-    {
-      "pos": 3,
-      "p1": "Bruno Costa",
-      "lic1": "",
-      "pid1": "",
-      "p2": "Serginho Castanheira",
-      "lic2": "13779",
-      "pid2": "173537",
-      "club": "PRIMEPADEL",
-      "pts1": 0,
-      "lvl1": 6,
-      "pts2": 68.75,
-      "lvl2": 6,
-      "total": 68.75
-    },
-    {
-      "pos": 4,
-      "p1": "Gonçalo Cruz",
-      "lic1": "27389",
-      "pid1": "334986",
-      "p2": "Ricardo Cruz",
-      "lic2": "27900",
-      "pid2": "350420",
-      "club": "CET de Cantanhede",
-      "pts1": 6.25,
-      "lvl1": 6,
-      "pts2": 9.38,
-      "lvl2": 6,
-      "total": 15.63
     }
   ]
 }

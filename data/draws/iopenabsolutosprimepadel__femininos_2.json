@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-15T10:31:18.668Z",
+  "generatedAt": "2026-04-15T22:13:03.071Z",
   "result": [
     {
       "pos": 1,
@@ -18,36 +18,6 @@
       "pts2": 20300,
       "lvl2": 2,
       "total": 30481.25
-    },
-    {
-      "pos": 2,
-      "p1": "Mónica Neves",
-      "lic1": "6431",
-      "pid1": "74066",
-      "p2": "Tata Regêncio",
-      "lic2": "6038",
-      "pid2": "74583",
-      "club": "",
-      "pts1": 2900,
-      "lvl1": 4,
-      "pts2": 3281.25,
-      "lvl2": 4,
-      "total": 6181.25
-    },
-    {
-      "pos": 3,
-      "p1": "Filipa Varandas",
-      "lic1": "13340",
-      "pid1": "167471",
-      "p2": "Andreia Morgado",
-      "lic2": "27015",
-      "pid2": "305436",
-      "club": "PRIMEPADEL",
-      "pts1": 2511.25,
-      "lvl1": 4,
-      "pts2": 2367.25,
-      "lvl2": 4,
-      "total": 4878.5
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Femininos +35 Nível 1",
+  "generatedAt": "2026-04-15T22:14:45.226Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Inês Diogo",
+      "lic1": "2580",
+      "pid1": "4400",
+      "p2": "Joana Telhada",
+      "lic2": "4950",
+      "pid2": "44653",
+      "club": "Padel Factory",
+      "pts1": 5471.25,
+      "lvl1": 3,
+      "pts2": 961.88,
+      "lvl2": 6,
+      "total": 6433.13
+    }
+  ]
+}

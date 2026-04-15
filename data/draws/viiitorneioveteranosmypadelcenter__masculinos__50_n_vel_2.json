@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +50 Nível 2",
-  "generatedAt": "2026-04-15T10:32:50.376Z",
+  "generatedAt": "2026-04-15T22:14:20.897Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Joao Morgado",
+      "lic1": "32763",
+      "pid1": "229544",
+      "p2": "alvaro silva",
+      "lic2": "35237",
+      "pid2": "317364",
+      "club": "Nave",
+      "pts1": 380.53,
+      "lvl1": 6,
+      "pts2": 7.81,
+      "lvl2": 6,
+      "total": 388.34
+    },
+    {
+      "pos": 4,
       "p1": "Pedro Campos",
       "lic1": "9650",
       "pid1": "72710",
@@ -48,6 +63,21 @@
       "pts2": 33.5,
       "lvl2": 6,
       "total": 299.78
+    },
+    {
+      "pos": 5,
+      "p1": "Paulo Santos Silva",
+      "lic1": "2017",
+      "pid1": "35746",
+      "p2": "Diogo Toscano",
+      "lic2": "",
+      "pid2": "",
+      "club": "Capital Padel Academy",
+      "pts1": 60.73,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 60.73
     }
   ]
 }

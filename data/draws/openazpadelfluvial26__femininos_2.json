@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-15T10:29:58.057Z",
+  "generatedAt": "2026-04-15T22:11:54.179Z",
   "result": [
     {
       "pos": 1,
@@ -36,21 +36,6 @@
     },
     {
       "pos": 3,
-      "p1": "Liliana Nicolau",
-      "lic1": "4148",
-      "pid1": "78375",
-      "p2": "Sara Machado",
-      "lic2": "13040",
-      "pid2": "152367",
-      "club": "",
-      "pts1": 1990.63,
-      "lvl1": 4,
-      "pts2": 1847.19,
-      "lvl2": 5,
-      "total": 3837.82
-    },
-    {
-      "pos": 4,
       "p1": "Sancha Fernandes",
       "lic1": "12577",
       "pid1": "144774",
@@ -65,7 +50,7 @@
       "total": 34706.25
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "Sofia Couto",
       "lic1": "15552",
       "pid1": "176508",
@@ -80,7 +65,7 @@
       "total": 31338.13
     },
     {
-      "pos": 6,
+      "pos": 5,
       "p1": "Carolina Melo",
       "lic1": "12363",
       "pid1": "137606",
@@ -95,22 +80,7 @@
       "total": 25068.75
     },
     {
-      "pos": 7,
-      "p1": "Martinha Cruz",
-      "lic1": "10277",
-      "pid1": "101440",
-      "p2": "Inês Sá",
-      "lic2": "21164",
-      "pid2": "237954",
-      "club": "",
-      "pts1": 16406.25,
-      "lvl1": 2,
-      "pts2": 5873.75,
-      "lvl2": 3,
-      "total": 22280
-    },
-    {
-      "pos": 8,
+      "pos": 6,
       "p1": "Susana Rodrigues",
       "lic1": "10998",
       "pid1": "136748",
@@ -125,7 +95,7 @@
       "total": 20543.75
     },
     {
-      "pos": 9,
+      "pos": 7,
       "p1": "Joana Caldas",
       "lic1": "4158",
       "pid1": "74117",
@@ -140,7 +110,7 @@
       "total": 19428.13
     },
     {
-      "pos": 10,
+      "pos": 8,
       "p1": "Leonor Renda",
       "lic1": "9749",
       "pid1": "25030",
@@ -155,7 +125,7 @@
       "total": 17984.690000000002
     },
     {
-      "pos": 11,
+      "pos": 9,
       "p1": "PAULA ARAÚJO",
       "lic1": "7303",
       "pid1": "74740",
@@ -170,7 +140,7 @@
       "total": 17836.44
     },
     {
-      "pos": 12,
+      "pos": 10,
       "p1": "Beatriz Alves",
       "lic1": "23124",
       "pid1": "223955",
@@ -185,7 +155,7 @@
       "total": 17075
     },
     {
-      "pos": 13,
+      "pos": 11,
       "p1": "Joana Melo",
       "lic1": "12350",
       "pid1": "137605",

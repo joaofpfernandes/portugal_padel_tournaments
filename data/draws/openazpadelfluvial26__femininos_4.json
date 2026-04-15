@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-15T10:29:40.060Z",
+  "generatedAt": "2026-04-15T22:11:40.007Z",
   "result": [
     {
       "pos": 1,
@@ -21,66 +21,6 @@
     },
     {
       "pos": 2,
-      "p1": "Inês Bastos",
-      "lic1": "10997",
-      "pid1": "136761",
-      "p2": "Kika Carvalho",
-      "lic2": "21575",
-      "pid2": "246871",
-      "club": "4OURPADELSobrosa",
-      "pts1": 482.47,
-      "lvl1": 6,
-      "pts2": 1461.98,
-      "lvl2": 5,
-      "total": 1944.45
-    },
-    {
-      "pos": 3,
-      "p1": "Joana Casais",
-      "lic1": "25762",
-      "pid1": "304545",
-      "p2": "Leonor Pereira Leite",
-      "lic2": "24339",
-      "pid2": "324722",
-      "club": "QM / SCP",
-      "pts1": 1531.28,
-      "lvl1": 5,
-      "pts2": 188.47,
-      "lvl2": 6,
-      "total": 1719.75
-    },
-    {
-      "pos": 4,
-      "p1": "Luísa Salgueiro",
-      "lic1": "1768",
-      "pid1": "78317",
-      "p2": "Mafalda Cerquinho",
-      "lic2": "30239",
-      "pid2": "400869",
-      "club": "DOuroPadelPasteleira",
-      "pts1": 533.13,
-      "lvl1": 6,
-      "pts2": 535.86,
-      "lvl2": 6,
-      "total": 1068.99
-    },
-    {
-      "pos": 5,
-      "p1": "Goreti Costa",
-      "lic1": "23405",
-      "pid1": "322569",
-      "p2": "Inês Gomes",
-      "lic2": "23413",
-      "pid2": "322593",
-      "club": "4OURPADELSobrosa",
-      "pts1": 12.5,
-      "lvl1": 6,
-      "pts2": 12.5,
-      "lvl2": 6,
-      "total": 25
-    },
-    {
-      "pos": 6,
       "p1": "Alexandra Costa",
       "lic1": "21109",
       "pid1": "237816",
@@ -95,7 +35,22 @@
       "total": 4718.69
     },
     {
-      "pos": 7,
+      "pos": 3,
+      "p1": "Liliana Nicolau",
+      "lic1": "4148",
+      "pid1": "78375",
+      "p2": "Sara Machado",
+      "lic2": "13040",
+      "pid2": "152367",
+      "club": "",
+      "pts1": 1990.63,
+      "lvl1": 4,
+      "pts2": 1847.19,
+      "lvl2": 5,
+      "total": 3837.82
+    },
+    {
+      "pos": 4,
       "p1": "Catarina Lima",
       "lic1": "17053",
       "pid1": "203476",
@@ -110,7 +65,7 @@
       "total": 3505.78
     },
     {
-      "pos": 8,
+      "pos": 5,
       "p1": "Joana Ribeiro",
       "lic1": "10993",
       "pid1": "136424",

@@ -2,10 +2,55 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-15T10:30:24.123Z",
+  "generatedAt": "2026-04-15T22:12:17.793Z",
   "result": [
     {
       "pos": 1,
+      "p1": "Francisco Silva",
+      "lic1": "4047",
+      "pid1": "13312",
+      "p2": "Beni Figueiredo",
+      "lic2": "12962",
+      "pid2": "149120",
+      "club": "PRIMEPADEL",
+      "pts1": 1944.38,
+      "lvl1": 5,
+      "pts2": 245,
+      "lvl2": 6,
+      "total": 2189.38
+    },
+    {
+      "pos": 2,
+      "p1": "Rubinho Correia",
+      "lic1": "",
+      "pid1": "",
+      "p2": "André Castanheira",
+      "lic2": "10462",
+      "pid2": "105647",
+      "club": "PRIMEPADEL",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 1566.84,
+      "lvl2": 5,
+      "total": 1566.84
+    },
+    {
+      "pos": 3,
+      "p1": "P. Carvalho",
+      "lic1": "12482",
+      "pid1": "144097",
+      "p2": "Quilho",
+      "lic2": "",
+      "pid2": "",
+      "club": "PRIMEPADEL",
+      "pts1": 949.84,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 949.84
+    },
+    {
+      "pos": 4,
       "p1": "Hugo Freire",
       "lic1": "20505",
       "pid1": "229700",
@@ -20,7 +65,7 @@
       "total": 468.46000000000004
     },
     {
-      "pos": 2,
+      "pos": 5,
       "p1": "Miguel Pedro",
       "lic1": "9496",
       "pid1": "88771",
@@ -35,7 +80,7 @@
       "total": 404.38
     },
     {
-      "pos": 3,
+      "pos": 6,
       "p1": "RICARDO SUBTIL",
       "lic1": "13319",
       "pid1": "167274",
@@ -50,7 +95,7 @@
       "total": 308.28999999999996
     },
     {
-      "pos": 4,
+      "pos": 7,
       "p1": "João Silva",
       "lic1": "8774",
       "pid1": "82693",
@@ -65,7 +110,7 @@
       "total": 269.32
     },
     {
-      "pos": 5,
+      "pos": 8,
       "p1": "Nuno Filipe Gomes",
       "lic1": "10630",
       "pid1": "79221",
@@ -80,7 +125,7 @@
       "total": 263.05
     },
     {
-      "pos": 6,
+      "pos": 9,
       "p1": "Ricardo Ferreira",
       "lic1": "11218",
       "pid1": "34008",
@@ -95,7 +140,7 @@
       "total": 243.66
     },
     {
-      "pos": 7,
+      "pos": 10,
       "p1": "João José Costa",
       "lic1": "15989",
       "pid1": "33406",
@@ -110,7 +155,7 @@
       "total": 149.01
     },
     {
-      "pos": 8,
+      "pos": 11,
       "p1": "João Mamede",
       "lic1": "12496",
       "pid1": "144237",
@@ -125,7 +170,7 @@
       "total": 140.59
     },
     {
-      "pos": 9,
+      "pos": 12,
       "p1": "Nuno Santos",
       "lic1": "8060",
       "pid1": "81460",
@@ -140,7 +185,22 @@
       "total": 133.75
     },
     {
-      "pos": 10,
+      "pos": 13,
+      "p1": "Artur Rebelo",
+      "lic1": "4980",
+      "pid1": "75865",
+      "p2": "Lui Mende",
+      "lic2": "16396",
+      "pid2": "186509",
+      "club": "AssociacaoAcademicadeCoimbraSe",
+      "pts1": 9.38,
+      "lvl1": 6,
+      "pts2": 118.34,
+      "lvl2": 6,
+      "total": 127.72
+    },
+    {
+      "pos": 14,
       "p1": "Francisco Pires",
       "lic1": "9930",
       "pid1": "93302",
@@ -155,7 +215,7 @@
       "total": 113.61999999999999
     },
     {
-      "pos": 11,
+      "pos": 15,
       "p1": "Tomas Veloso",
       "lic1": "32441",
       "pid1": "323195",
@@ -170,7 +230,7 @@
       "total": 112.97
     },
     {
-      "pos": 12,
+      "pos": 16,
       "p1": "Bernardo Silva",
       "lic1": "37060",
       "pid1": "276702",
@@ -185,7 +245,7 @@
       "total": 97.22
     },
     {
-      "pos": 13,
+      "pos": 17,
       "p1": "Michael Aparício",
       "lic1": "30072",
       "pid1": "348690",
@@ -200,7 +260,7 @@
       "total": 89.1
     },
     {
-      "pos": 14,
+      "pos": 18,
       "p1": "Rodrigo Vaz",
       "lic1": "9929",
       "pid1": "93297",
@@ -215,7 +275,22 @@
       "total": 78.78
     },
     {
-      "pos": 15,
+      "pos": 19,
+      "p1": "Bruno Costa",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Serginho Castanheira",
+      "lic2": "13779",
+      "pid2": "173537",
+      "club": "PRIMEPADEL",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 68.75,
+      "lvl2": 6,
+      "total": 68.75
+    },
+    {
+      "pos": 20,
       "p1": "Rúben Caetano",
       "lic1": "29970",
       "pid1": "235686",
@@ -230,7 +305,7 @@
       "total": 42.800000000000004
     },
     {
-      "pos": 16,
+      "pos": 21,
       "p1": "Rui Arnaud",
       "lic1": "8666",
       "pid1": "81402",
@@ -245,7 +320,7 @@
       "total": 23.44
     },
     {
-      "pos": 17,
+      "pos": 22,
       "p1": "Francisco Ferreira",
       "lic1": "35479",
       "pid1": "273619",
@@ -260,7 +335,37 @@
       "total": 15.63
     },
     {
-      "pos": 18,
+      "pos": 23,
+      "p1": "Gonçalo Cruz",
+      "lic1": "27389",
+      "pid1": "334986",
+      "p2": "Ricardo Cruz",
+      "lic2": "27900",
+      "pid2": "350420",
+      "club": "CET de Cantanhede",
+      "pts1": 6.25,
+      "lvl1": 6,
+      "pts2": 9.38,
+      "lvl2": 6,
+      "total": 15.63
+    },
+    {
+      "pos": 24,
+      "p1": "António Tomás Silva",
+      "lic1": "36452",
+      "pid1": "201015",
+      "p2": "Rafael",
+      "lic2": "36542",
+      "pid2": "469597",
+      "club": "OBAIRROPADEL",
+      "pts1": 7.81,
+      "lvl1": 6,
+      "pts2": 7.81,
+      "lvl2": 6,
+      "total": 15.62
+    },
+    {
+      "pos": 25,
       "p1": "Jorge Góis",
       "lic1": "30393",
       "pid1": "379339",
@@ -275,7 +380,7 @@
       "total": 13.940000000000001
     },
     {
-      "pos": 19,
+      "pos": 26,
       "p1": "Tiago Pratas",
       "lic1": "33656",
       "pid1": "421330",
@@ -290,7 +395,7 @@
       "total": 12.510000000000002
     },
     {
-      "pos": 20,
+      "pos": 27,
       "p1": "Tomás Girão",
       "lic1": "",
       "pid1": "",
@@ -305,7 +410,7 @@
       "total": 9.38
     },
     {
-      "pos": 21,
+      "pos": 28,
       "p1": "Jorge Todo Bom",
       "lic1": "30159",
       "pid1": "286545",
@@ -320,7 +425,7 @@
       "total": 6.26
     },
     {
-      "pos": 22,
+      "pos": 29,
       "p1": "Pedro Violante",
       "lic1": "12967",
       "pid1": "150742",
@@ -335,7 +440,7 @@
       "total": 4.69
     },
     {
-      "pos": 23,
+      "pos": 30,
       "p1": "Eduardo Coutinho",
       "lic1": "",
       "pid1": "",
@@ -350,7 +455,7 @@
       "total": 0
     },
     {
-      "pos": 24,
+      "pos": 31,
       "p1": "João Sismeiro",
       "lic1": "",
       "pid1": "",

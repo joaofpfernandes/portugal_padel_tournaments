@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-15T10:30:51.356Z",
+  "generatedAt": "2026-04-15T22:12:36.107Z",
   "result": [
     {
       "pos": 1,
@@ -33,51 +33,6 @@
       "pts2": 1885.89,
       "lvl2": 5,
       "total": 14997.769999999999
-    },
-    {
-      "pos": 3,
-      "p1": "Joao Facas",
-      "lic1": "6233",
-      "pid1": "74875",
-      "p2": "José Pedro Cavaleiro",
-      "lic2": "9927",
-      "pid2": "93289",
-      "club": "PRIMEPADEL",
-      "pts1": 2852.53,
-      "lvl1": 4,
-      "pts2": 950.97,
-      "lvl2": 6,
-      "total": 3803.5
-    },
-    {
-      "pos": 4,
-      "p1": "Rui António",
-      "lic1": "10724",
-      "pid1": "119458",
-      "p2": "Pedro Damásio Ferreira",
-      "lic2": "10375",
-      "pid2": "103782",
-      "club": "AdhocClubCoimbra",
-      "pts1": 1.56,
-      "lvl1": 6,
-      "pts2": 3567.39,
-      "lvl2": 4,
-      "total": 3568.95
-    },
-    {
-      "pos": 5,
-      "p1": "Rubinho Correia",
-      "lic1": "",
-      "pid1": "",
-      "p2": "André Castanheira",
-      "lic2": "10462",
-      "pid2": "105647",
-      "club": "PRIMEPADEL",
-      "pts1": 0,
-      "lvl1": 6,
-      "pts2": 1566.84,
-      "lvl2": 5,
-      "total": 1566.84
     }
   ]
 }

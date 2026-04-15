@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +45 Nível 1",
-  "generatedAt": "2026-04-15T10:32:33.482Z",
+  "generatedAt": "2026-04-15T22:14:07.857Z",
   "result": [
     {
       "pos": 1,
@@ -51,6 +51,36 @@
     },
     {
       "pos": 4,
+      "p1": "Pedro Nunes Ferreira",
+      "lic1": "2396",
+      "pid1": "44597",
+      "p2": "João Partidário",
+      "lic2": "8470",
+      "pid2": "77145",
+      "club": "BSJoao Padel",
+      "pts1": 1672.81,
+      "lvl1": 5,
+      "pts2": 645,
+      "lvl2": 6,
+      "total": 2317.81
+    },
+    {
+      "pos": 5,
+      "p1": "Daniel Rosário",
+      "lic1": "1240",
+      "pid1": "5463",
+      "p2": "Ricardo Guimarães",
+      "lic2": "1889",
+      "pid2": "32599",
+      "club": "",
+      "pts1": 1471.53,
+      "lvl1": 5,
+      "pts2": 618.75,
+      "lvl2": 6,
+      "total": 2090.2799999999997
+    },
+    {
+      "pos": 6,
       "p1": "Vasco Rocha",
       "lic1": "4188",
       "pid1": "42128",
@@ -65,7 +95,7 @@
       "total": 1168.75
     },
     {
-      "pos": 5,
+      "pos": 7,
       "p1": "Carlos Moreno",
       "lic1": "11990",
       "pid1": "36800",
@@ -80,7 +110,7 @@
       "total": 557.46
     },
     {
-      "pos": 6,
+      "pos": 8,
       "p1": "Tiago Alho",
       "lic1": "",
       "pid1": "",

@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-15T10:29:01.557Z",
+  "generatedAt": "2026-04-15T22:11:08.580Z",
   "result": [
     {
       "pos": 1,
@@ -231,21 +231,6 @@
     },
     {
       "pos": 16,
-      "p1": "Ricardo Coelho",
-      "lic1": "8078",
-      "pid1": "6609",
-      "p2": "Afonso Trigo",
-      "lic2": "20601",
-      "pid2": "224645",
-      "club": "QM / SCP",
-      "pts1": 11475,
-      "lvl1": 2,
-      "pts2": 324.06,
-      "lvl2": 6,
-      "total": 11799.06
-    },
-    {
-      "pos": 17,
       "p1": "Zé Guedes",
       "lic1": "12805",
       "pid1": "148282",
@@ -258,21 +243,6 @@
       "pts2": 5181.25,
       "lvl2": 3,
       "total": 10586.560000000001
-    },
-    {
-      "pos": 18,
-      "p1": "Guigas",
-      "lic1": "11329",
-      "pid1": "137360",
-      "p2": "Lucas Saraiva",
-      "lic2": "20783",
-      "pid2": "236762",
-      "club": "DOuroPadelPasteleira",
-      "pts1": 2218.13,
-      "lvl1": 4,
-      "pts2": 3675.03,
-      "lvl2": 4,
-      "total": 5893.16
     }
   ]
 }

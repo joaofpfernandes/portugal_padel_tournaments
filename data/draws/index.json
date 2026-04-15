@@ -189,7 +189,6 @@
       "Femininos 4",
       "Femininos 5",
       "Masculinos 2",
-      "Masculinos 3",
       "Masculinos 4",
       "Masculinos 5"
     ]
@@ -232,6 +231,7 @@
     "tournament": "VIII Torneio Veteranos My Padel Center",
     "slug": "VIIITorneioVeteranosMyPadelCenter",
     "sections": [
+      "Femininos +35 Nível 1",
       "Femininos +35 Nível 2",
       "Femininos +40 Nível 2",
       "Femininos +45 Nível 1",
