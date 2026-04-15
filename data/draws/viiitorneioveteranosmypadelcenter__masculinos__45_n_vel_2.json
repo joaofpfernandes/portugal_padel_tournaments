@@ -1,0 +1,23 @@
+{
+  "tournament": "VIII Torneio Veteranos My Padel Center",
+  "slug": "VIIITorneioVeteranosMyPadelCenter",
+  "section": "Masculinos +45 Nível 2",
+  "generatedAt": "2026-04-15T10:32:38.459Z",
+  "result": [
+    {
+      "pos": 1,
+      "p1": "Pedro Oliveira",
+      "lic1": "25648",
+      "pid1": "273588",
+      "p2": "João Luz",
+      "lic2": "34202",
+      "pid2": "276144",
+      "club": "My Padel Center",
+      "pts1": 3.13,
+      "lvl1": 6,
+      "pts2": 3.13,
+      "lvl2": 6,
+      "total": 6.26
+    }
+  ]
+}

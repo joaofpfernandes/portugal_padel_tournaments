@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-14T22:18:39.115Z",
+  "generatedAt": "2026-04-15T10:36:22.596Z",
   "result": [
     {
       "pos": 1,
@@ -486,6 +486,21 @@
     },
     {
       "pos": 33,
+      "p1": "Manel Riley",
+      "lic1": "11064",
+      "pid1": "72189",
+      "p2": "Francisco Menezes",
+      "lic2": "",
+      "pid2": "",
+      "club": "Ace Team",
+      "pts1": 22825,
+      "lvl1": 2,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 22825
+    },
+    {
+      "pos": 34,
       "p1": "David Pinto",
       "lic1": "7371",
       "pid1": "81583",
@@ -500,7 +515,7 @@
       "total": 22112.75
     },
     {
-      "pos": 34,
+      "pos": 35,
       "p1": "Tiago Pratas",
       "lic1": "2963",
       "pid1": "23639",
@@ -515,7 +530,7 @@
       "total": 18587.5
     },
     {
-      "pos": 35,
+      "pos": 36,
       "p1": "Paulo Paulos",
       "lic1": "17272",
       "pid1": "183223",
@@ -530,7 +545,7 @@
       "total": 16936.309999999998
     },
     {
-      "pos": 36,
+      "pos": 37,
       "p1": "Nico Amarilla",
       "lic1": "26859",
       "pid1": "337825",
@@ -545,7 +560,7 @@
       "total": 16030.94
     },
     {
-      "pos": 37,
+      "pos": 38,
       "p1": "Rodrigo Confraria",
       "lic1": "11730",
       "pid1": "138061",
@@ -560,7 +575,7 @@
       "total": 15920.630000000001
     },
     {
-      "pos": 38,
+      "pos": 39,
       "p1": "Rui Almada",
       "lic1": "25133",
       "pid1": "18263",
@@ -575,7 +590,7 @@
       "total": 15245.47
     },
     {
-      "pos": 39,
+      "pos": 40,
       "p1": "José Duarte",
       "lic1": "3477",
       "pid1": "27205",
@@ -590,7 +605,7 @@
       "total": 15065.7
     },
     {
-      "pos": 40,
+      "pos": 41,
       "p1": "Gonçalo Guerra",
       "lic1": "817",
       "pid1": "40723",

@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-14T22:19:18.072Z",
+  "generatedAt": "2026-04-15T10:37:04.564Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Catarina Farinha",
+      "lic1": "26588",
+      "pid1": "182090",
+      "p2": "Madalena Lemos Pires",
+      "lic2": "26607",
+      "pid2": "301043",
+      "club": "Lx Indoor Padel",
+      "pts1": 2549.7,
+      "lvl1": 4,
+      "pts2": 1654.92,
+      "lvl2": 5,
+      "total": 4204.62
+    },
+    {
+      "pos": 4,
       "p1": "Nance Sousa",
       "lic1": "27641",
       "pid1": "363",
@@ -50,7 +65,22 @@
       "total": 3715.12
     },
     {
-      "pos": 4,
+      "pos": 5,
+      "p1": "Rita Santiago",
+      "lic1": "16796",
+      "pid1": "198458",
+      "p2": "Sara Pereira",
+      "lic2": "21981",
+      "pid2": "250177",
+      "club": "AlvercaPadelClub",
+      "pts1": 2165.68,
+      "lvl1": 4,
+      "pts2": 1365.3,
+      "lvl2": 5,
+      "total": 3530.9799999999996
+    },
+    {
+      "pos": 6,
       "p1": "Patrícia Veiga",
       "lic1": "17575",
       "pid1": "225925",
@@ -65,7 +95,7 @@
       "total": 3504.52
     },
     {
-      "pos": 5,
+      "pos": 7,
       "p1": "Luzi Reis",
       "lic1": "28438",
       "pid1": "156806",
@@ -80,7 +110,7 @@
       "total": 3350.4800000000005
     },
     {
-      "pos": 6,
+      "pos": 8,
       "p1": "Marisa Revez",
       "lic1": "13285",
       "pid1": "145471",
@@ -95,7 +125,7 @@
       "total": 3145.75
     },
     {
-      "pos": 7,
+      "pos": 9,
       "p1": "Melissa Relva",
       "lic1": "24761",
       "pid1": "119197",
@@ -110,7 +140,7 @@
       "total": 2941.7799999999997
     },
     {
-      "pos": 8,
+      "pos": 10,
       "p1": "Raquel Porteira",
       "lic1": "20389",
       "pid1": "160781",
@@ -125,7 +155,7 @@
       "total": 2925.2
     },
     {
-      "pos": 9,
+      "pos": 11,
       "p1": "Raquel Ramos",
       "lic1": "29674",
       "pid1": "208420",
@@ -140,7 +170,7 @@
       "total": 2873.29
     },
     {
-      "pos": 10,
+      "pos": 12,
       "p1": "Catarina Mata",
       "lic1": "13338",
       "pid1": "104097",
@@ -155,7 +185,7 @@
       "total": 2707.6499999999996
     },
     {
-      "pos": 11,
+      "pos": 13,
       "p1": "Inês Vitorino",
       "lic1": "21433",
       "pid1": "203789",
@@ -170,7 +200,7 @@
       "total": 2636.16
     },
     {
-      "pos": 12,
+      "pos": 14,
       "p1": "Joana Caetano",
       "lic1": "14168",
       "pid1": "174621",

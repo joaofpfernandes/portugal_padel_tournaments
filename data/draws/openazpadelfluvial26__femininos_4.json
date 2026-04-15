@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 4",
-  "generatedAt": "2026-04-14T22:12:43.548Z",
+  "generatedAt": "2026-04-15T10:29:40.060Z",
   "result": [
     {
       "pos": 1,
@@ -66,6 +66,21 @@
     },
     {
       "pos": 5,
+      "p1": "Goreti Costa",
+      "lic1": "23405",
+      "pid1": "322569",
+      "p2": "Inês Gomes",
+      "lic2": "23413",
+      "pid2": "322593",
+      "club": "4OURPADELSobrosa",
+      "pts1": 12.5,
+      "lvl1": 6,
+      "pts2": 12.5,
+      "lvl2": 6,
+      "total": 25
+    },
+    {
+      "pos": 6,
       "p1": "Alexandra Costa",
       "lic1": "21109",
       "pid1": "237816",
@@ -80,7 +95,7 @@
       "total": 4718.69
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Catarina Lima",
       "lic1": "17053",
       "pid1": "203476",
@@ -95,7 +110,7 @@
       "total": 3505.78
     },
     {
-      "pos": 7,
+      "pos": 8,
       "p1": "Joana Ribeiro",
       "lic1": "10993",
       "pid1": "136424",

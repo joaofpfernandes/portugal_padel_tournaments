@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Femininos 1",
-  "generatedAt": "2026-04-14T22:13:04.770Z",
+  "generatedAt": "2026-04-15T10:30:05.723Z",
   "result": [
     {
       "pos": 1,
@@ -66,6 +66,21 @@
     },
     {
       "pos": 5,
+      "p1": "Joana Terceiro Marques",
+      "lic1": "8504",
+      "pid1": "79889",
+      "p2": "Luísa Morais",
+      "lic2": "12537",
+      "pid2": "137770",
+      "club": "Pac-PadelAthleticClub",
+      "pts1": 24537.5,
+      "lvl1": 2,
+      "pts2": 24562.5,
+      "lvl2": 2,
+      "total": 49100
+    },
+    {
+      "pos": 6,
       "p1": "Margarida Leiras",
       "lic1": "19054",
       "pid1": "64622",
@@ -80,7 +95,7 @@
       "total": 47681.25
     },
     {
-      "pos": 6,
+      "pos": 7,
       "p1": "Clara Leite",
       "lic1": "5077",
       "pid1": "74568",

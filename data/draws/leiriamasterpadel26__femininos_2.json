@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Femininos 2",
-  "generatedAt": "2026-04-14T22:19:39.192Z",
+  "generatedAt": "2026-04-15T10:37:25.492Z",
   "result": [
     {
       "pos": 1,
@@ -21,21 +21,6 @@
     },
     {
       "pos": 2,
-      "p1": "Margarida Leiras",
-      "lic1": "19054",
-      "pid1": "64622",
-      "p2": "Florencia Vara",
-      "lic2": "30692",
-      "pid2": "416279",
-      "club": "New Padel - Chão da Fonte",
-      "pts1": 31962.5,
-      "lvl1": 1,
-      "pts2": 10150,
-      "lvl2": 3,
-      "total": 42112.5
-    },
-    {
-      "pos": 3,
       "p1": "Sofia Albuquerque",
       "lic1": "21428",
       "pid1": "243343",
@@ -50,7 +35,7 @@
       "total": 38376.56
     },
     {
-      "pos": 4,
+      "pos": 3,
       "p1": "Sofia Couto",
       "lic1": "15552",
       "pid1": "176508",
@@ -65,7 +50,7 @@
       "total": 30376.56
     },
     {
-      "pos": 5,
+      "pos": 4,
       "p1": "Catarina Pontes",
       "lic1": "17524",
       "pid1": "172563",
@@ -80,7 +65,7 @@
       "total": 25974.690000000002
     },
     {
-      "pos": 6,
+      "pos": 5,
       "p1": "Carolina Reis",
       "lic1": "18637",
       "pid1": "230464",
@@ -95,7 +80,7 @@
       "total": 22872.5
     },
     {
-      "pos": 7,
+      "pos": 6,
       "p1": "Filipa Alveirinho",
       "lic1": "22106",
       "pid1": "173181",
@@ -110,7 +95,7 @@
       "total": 20783.29
     },
     {
-      "pos": 8,
+      "pos": 7,
       "p1": "Maria Rodrigues",
       "lic1": "18004",
       "pid1": "23233",
@@ -125,7 +110,7 @@
       "total": 19700.32
     },
     {
-      "pos": 9,
+      "pos": 8,
       "p1": "Cristina Gomes",
       "lic1": "4603",
       "pid1": "74046",
@@ -140,7 +125,7 @@
       "total": 16097.5
     },
     {
-      "pos": 10,
+      "pos": 9,
       "p1": "Betina Beirão",
       "lic1": "8930",
       "pid1": "75743",
@@ -155,7 +140,7 @@
       "total": 15206.25
     },
     {
-      "pos": 11,
+      "pos": 10,
       "p1": "Tânia Mendes",
       "lic1": "5898",
       "pid1": "74738",

@@ -2,7 +2,7 @@
   "tournament": "FIP Silver Leiria",
   "slug": "LeiriaMasterPadel26",
   "section": "Masculinos 4",
-  "generatedAt": "2026-04-14T22:18:04.347Z",
+  "generatedAt": "2026-04-15T10:35:42.011Z",
   "result": [
     {
       "pos": 1,
@@ -441,6 +441,21 @@
     },
     {
       "pos": 30,
+      "p1": "Jose Marchant",
+      "lic1": "17902",
+      "pid1": "208157",
+      "p2": "Gonçalo Dias",
+      "lic2": "26958",
+      "pid2": "364691",
+      "club": "BSJoao Padel",
+      "pts1": 74.94,
+      "lvl1": 6,
+      "pts2": 1458.85,
+      "lvl2": 5,
+      "total": 1533.79
+    },
+    {
+      "pos": 31,
       "p1": "Manuel Esperto",
       "lic1": "16675",
       "pid1": "169524",
@@ -455,7 +470,7 @@
       "total": 1415.79
     },
     {
-      "pos": 31,
+      "pos": 32,
       "p1": "Diogo Gomes",
       "lic1": "17679",
       "pid1": "146704",
@@ -470,7 +485,7 @@
       "total": 761.8
     },
     {
-      "pos": 32,
+      "pos": 33,
       "p1": "Tiago Gonçalves",
       "lic1": "",
       "pid1": "",
@@ -485,7 +500,7 @@
       "total": 430.84
     },
     {
-      "pos": 33,
+      "pos": 34,
       "p1": "Marco Custódio",
       "lic1": "15168",
       "pid1": "160718",

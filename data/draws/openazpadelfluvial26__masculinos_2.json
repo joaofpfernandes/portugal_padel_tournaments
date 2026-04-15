@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 2",
-  "generatedAt": "2026-04-14T22:12:10.875Z",
+  "generatedAt": "2026-04-15T10:29:01.557Z",
   "result": [
     {
       "pos": 1,
@@ -171,6 +171,36 @@
     },
     {
       "pos": 12,
+      "p1": "Pedro Lisboa",
+      "lic1": "20453",
+      "pid1": "97350",
+      "p2": "Luis Dias",
+      "lic2": "15285",
+      "pid2": "175908",
+      "club": "UrbanPadelTrofa",
+      "pts1": 6252.56,
+      "lvl1": 3,
+      "pts2": 6622.88,
+      "lvl2": 3,
+      "total": 12875.44
+    },
+    {
+      "pos": 13,
+      "p1": "Tomás Matos",
+      "lic1": "2777",
+      "pid1": "74171",
+      "p2": "Rafael Brandão",
+      "lic2": "10928",
+      "pid2": "136558",
+      "club": "Mar Padel",
+      "pts1": 4362.5,
+      "lvl1": 3,
+      "pts2": 8444.06,
+      "lvl2": 3,
+      "total": 12806.56
+    },
+    {
+      "pos": 14,
       "p1": "Duarte Durão",
       "lic1": "26797",
       "pid1": "44115",
@@ -185,7 +215,7 @@
       "total": 12684.38
     },
     {
-      "pos": 13,
+      "pos": 15,
       "p1": "Gustavo Fleming",
       "lic1": "12024",
       "pid1": "31232",
@@ -200,7 +230,7 @@
       "total": 11875
     },
     {
-      "pos": 14,
+      "pos": 16,
       "p1": "Ricardo Coelho",
       "lic1": "8078",
       "pid1": "6609",
@@ -215,7 +245,7 @@
       "total": 11799.06
     },
     {
-      "pos": 15,
+      "pos": 17,
       "p1": "Zé Guedes",
       "lic1": "12805",
       "pid1": "148282",
@@ -230,7 +260,7 @@
       "total": 10586.560000000001
     },
     {
-      "pos": 16,
+      "pos": 18,
       "p1": "Guigas",
       "lic1": "11329",
       "pid1": "137360",

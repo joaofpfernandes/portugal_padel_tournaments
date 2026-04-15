@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-14T22:11:37.703Z",
+  "generatedAt": "2026-04-15T10:28:22.902Z",
   "result": [
     {
       "pos": 1,
@@ -528,6 +528,21 @@
       "pts2": 6.25,
       "lvl2": 6,
       "total": 29.69
+    },
+    {
+      "pos": 36,
+      "p1": "Bruno Filipe",
+      "lic1": "29996",
+      "pid1": "414545",
+      "p2": "Duarte Peixoto",
+      "lic2": "31142",
+      "pid2": "418388",
+      "club": "Top-padelBragaCenter",
+      "pts1": 7.81,
+      "lvl1": 6,
+      "pts2": 6.25,
+      "lvl2": 6,
+      "total": 14.059999999999999
     }
   ]
 }

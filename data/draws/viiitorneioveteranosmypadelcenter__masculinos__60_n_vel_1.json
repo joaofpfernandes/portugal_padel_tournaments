@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +60 Nível 1",
-  "generatedAt": "2026-04-14T22:15:50.567Z",
+  "generatedAt": "2026-04-15T10:33:10.898Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "Paulo Seiça Neves",
+      "lic1": "2473",
+      "pid1": "75207",
+      "p2": "Pedro de Saldanha",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel Factory",
+      "pts1": 153.5,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 153.5
+    },
+    {
+      "pos": 4,
       "p1": "João Nobre",
       "lic1": "",
       "pid1": "",
@@ -50,7 +65,7 @@
       "total": 12.5
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "Mike Jenkins",
       "lic1": "",
       "pid1": "",
@@ -58,6 +73,21 @@
       "lic2": "",
       "pid2": "",
       "club": "Vilamoura Tennis & Padel Acade",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 6,
+      "p1": "Diogo Gaspar Ferreira",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Enrique González Jover",
+      "lic2": "",
+      "pid2": "",
+      "club": "Valténis Country Club",
       "pts1": 0,
       "lvl1": 6,
       "pts2": 0,

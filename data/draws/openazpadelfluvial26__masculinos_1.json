@@ -2,7 +2,7 @@
   "tournament": "Open A-Z Padel Fluvial",
   "slug": "OpenAZPadelFluvial26",
   "section": "Masculinos 1",
-  "generatedAt": "2026-04-14T22:12:21.348Z",
+  "generatedAt": "2026-04-15T10:29:12.017Z",
   "result": [
     {
       "pos": 1,
@@ -21,6 +21,21 @@
     },
     {
       "pos": 2,
+      "p1": "Plínio Ferrão",
+      "lic1": "1883",
+      "pid1": "22651",
+      "p2": "Luís Soares da Veiga",
+      "lic2": "6165",
+      "pid2": "82463",
+      "club": "",
+      "pts1": 99750,
+      "lvl1": 1,
+      "pts2": 85000,
+      "lvl2": 1,
+      "total": 184750
+    },
+    {
+      "pos": 3,
       "p1": "Leo Torres",
       "lic1": "15352",
       "pid1": "176009",
@@ -35,7 +50,22 @@
       "total": 87375
     },
     {
-      "pos": 3,
+      "pos": 4,
+      "p1": "Miguel Ramôa",
+      "lic1": "5808",
+      "pid1": "17154",
+      "p2": "Kiko Gonçalves",
+      "lic2": "16392",
+      "pid2": "186729",
+      "club": "",
+      "pts1": 35625,
+      "lvl1": 2,
+      "pts2": 47425,
+      "lvl2": 1,
+      "total": 83050
+    },
+    {
+      "pos": 5,
       "p1": "Manuel Bragança",
       "lic1": "6324",
       "pid1": "22681",
@@ -50,7 +80,7 @@
       "total": 82450
     },
     {
-      "pos": 4,
+      "pos": 6,
       "p1": "Bernardo Gomes",
       "lic1": "4010",
       "pid1": "74209",
@@ -65,7 +95,7 @@
       "total": 63912.5
     },
     {
-      "pos": 5,
+      "pos": 7,
       "p1": "Henrique Leitao",
       "lic1": "25723",
       "pid1": "67645",
@@ -80,7 +110,22 @@
       "total": 49728.130000000005
     },
     {
-      "pos": 6,
+      "pos": 8,
+      "p1": "António",
+      "lic1": "670",
+      "pid1": "74038",
+      "p2": "Ivo Rodrigues",
+      "lic2": "8733",
+      "pid2": "82081",
+      "club": "DOuroPadelPasteleira",
+      "pts1": 4337.5,
+      "lvl1": 3,
+      "pts2": 45375,
+      "lvl2": 1,
+      "total": 49712.5
+    },
+    {
+      "pos": 9,
       "p1": "Afonso Matos",
       "lic1": "3714",
       "pid1": "74174",
@@ -95,7 +140,7 @@
       "total": 41925
     },
     {
-      "pos": 7,
+      "pos": 10,
       "p1": "Joao Vieira",
       "lic1": "19443",
       "pid1": "182847",
@@ -110,7 +155,7 @@
       "total": 37746.88
     },
     {
-      "pos": 8,
+      "pos": 11,
       "p1": "João Guimarães",
       "lic1": "969",
       "pid1": "33974",
@@ -125,7 +170,7 @@
       "total": 30943.75
     },
     {
-      "pos": 9,
+      "pos": 12,
       "p1": "Lourenço Romão",
       "lic1": "7156",
       "pid1": "79944",

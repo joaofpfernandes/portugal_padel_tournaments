@@ -2,7 +2,7 @@
   "tournament": "VIII Torneio Veteranos My Padel Center",
   "slug": "VIIITorneioVeteranosMyPadelCenter",
   "section": "Masculinos +35 Nível 1",
-  "generatedAt": "2026-04-14T22:15:01.970Z",
+  "generatedAt": "2026-04-15T10:32:13.006Z",
   "result": [
     {
       "pos": 1,
@@ -36,6 +36,21 @@
     },
     {
       "pos": 3,
+      "p1": "John ilies",
+      "lic1": "12019",
+      "pid1": "72517",
+      "p2": "Pedro Rombo",
+      "lic2": "18345",
+      "pid2": "88206",
+      "club": "Vilamoura Tennis & Padel Acade",
+      "pts1": 967.94,
+      "lvl1": 6,
+      "pts2": 2096.67,
+      "lvl2": 4,
+      "total": 3064.61
+    },
+    {
+      "pos": 4,
       "p1": "Rafa",
       "lic1": "15290",
       "pid1": "175916",
@@ -50,7 +65,7 @@
       "total": 1077.05
     },
     {
-      "pos": 4,
+      "pos": 5,
       "p1": "José Melo",
       "lic1": "5670",
       "pid1": "29603",
@@ -63,6 +78,21 @@
       "pts2": 582.81,
       "lvl2": 6,
       "total": 815.4499999999999
+    },
+    {
+      "pos": 6,
+      "p1": "Tomás Pires",
+      "lic1": "227",
+      "pid1": "26266",
+      "p2": "Diogo serras Pereira",
+      "lic2": "223",
+      "pid2": "75946",
+      "club": "BSJoao Padel",
+      "pts1": 37.5,
+      "lvl1": 6,
+      "pts2": 87.5,
+      "lvl2": 6,
+      "total": 125
     }
   ]
 }

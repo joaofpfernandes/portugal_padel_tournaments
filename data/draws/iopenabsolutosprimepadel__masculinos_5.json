@@ -2,7 +2,7 @@
   "tournament": "I Open Absolutos Prime Padel",
   "slug": "IOpenAbsolutosPrimePadel",
   "section": "Masculinos 5",
-  "generatedAt": "2026-04-14T22:13:21.065Z",
+  "generatedAt": "2026-04-15T10:30:24.123Z",
   "result": [
     {
       "pos": 1,
@@ -343,6 +343,21 @@
       "lic2": "",
       "pid2": "",
       "club": "",
+      "pts1": 0,
+      "lvl1": 6,
+      "pts2": 0,
+      "lvl2": 6,
+      "total": 0
+    },
+    {
+      "pos": 24,
+      "p1": "João Sismeiro",
+      "lic1": "",
+      "pid1": "",
+      "p2": "Rafael Caetano",
+      "lic2": "",
+      "pid2": "",
+      "club": "Padel XXL",
       "pts1": 0,
       "lvl1": 6,
       "pts2": 0,
